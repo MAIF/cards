@@ -278,5 +278,6 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   margin-top: 40px;
-  text-align: justify;
+  /*text-align: justify;*/
+  font-size: 17px;
 }
