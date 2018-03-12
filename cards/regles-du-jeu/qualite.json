@@ -1,0 +1,14 @@
+{
+  "id": "qualite",
+  "golden": false,
+  "category": "regles-du-jeu",
+  "title": "QUALITÉ",
+  "abstract": [
+    "La **qualité logicielle** est un **facteur clé**."
+  ],
+  "details": [
+    "Les **revues de code** sont **systématiques**. Elles sont effectuées par des membres de la Feature Team ou d'autres membres de l'organisation, dans le cadre de l'**amélioration continue**.",
+    "Ça **n'est pas vous qu'on audite mais votre code** : \"You are not your code !\".",
+    "La **qualimétrie** peut être en partie automatisée, mais rien ne vaut l'**\"oeil neuf\"**."
+  ]
+}

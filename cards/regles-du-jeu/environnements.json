@@ -1,0 +1,14 @@
+{
+  "id": "environnements",
+  "golden": false,
+  "category": "regles-du-jeu",
+  "title": "ENVIRONNEMENTS",
+  "abstract": [
+    "L'utilisation de **conteneurs** permet de s'affranchir des problèmes d'**environnements techniques**."
+  ],
+  "details": [
+    "Les conteneurs (exemple : **Docker**) permettent de s'**affranchir** des différences d'environnement.",
+    "Le processus de **déploiement** doit être **agnostique** à l'environnement.",
+    "**Certains composants** comme les bases de données ne doivent pas être déployés dans des conteneurs. Leur déploiement est malgré tout automatisé."
+  ]
+}

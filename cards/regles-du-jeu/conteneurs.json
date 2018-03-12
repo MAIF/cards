@@ -1,0 +1,12 @@
+{
+  "id": "conteneurs",
+  "golden": false,
+  "category": "regles-du-jeu",
+  "title": "CONTENEURS",
+  "abstract": [
+    "Les **conteneurs** offrent la souplesse nécessaire à un outillage hétérogène."
+  ],
+  "details": [
+    "Les conteneurs offrent la **souplesse** nécessaire aux Feature Teams pour leur permettre un **outillage hétérogène** dans un **contexte homogène**."
+  ]
+}

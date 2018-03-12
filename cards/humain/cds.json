@@ -1,0 +1,13 @@
+{
+  "id": "cds",
+  "golden": false,
+  "category": "humain",
+  "title": "CDS",
+  "abstract": [
+    "Les centres de services sont difficiles à concilier avec l’**engagement collectif**."
+  ],
+  "details": [
+    "Les Feature Teams sont construites autour de principes qui s'appuient fortement sur la **collaboration** et l’**engagement collectif**.",
+    "Les centres de services tendent vers la rationalisation et le regroupement de l'informatique par métier, ce qui est contraire à cette notion d’engagement collectif."
+  ]
+}

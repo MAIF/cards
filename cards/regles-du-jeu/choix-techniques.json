@@ -1,0 +1,13 @@
+{
+  "id": "choix-techniques",
+  "golden": false,
+  "category": "regles-du-jeu",
+  "title": "CHOIX TECHNIQUES",
+  "abstract": [
+    "Les **choix techniques** sont **effectués** et **assumés** par la **Feature Team**."
+  ],
+  "details": [
+    "La Feature Team doit agir de manière **responsable** afin d'identifier les choix qui l'impactent exclusivement et les choix qui impactent l'organisation.",
+    "Les **choix** qui **dépassent le périmètre** de la Feature Team (exemple : licence, langage de programmation peu répandu) doivent être soumis à **validation** par l'organisation ou par le processus de convergence des pairs."
+  ]
+}

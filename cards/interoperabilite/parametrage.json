@@ -1,0 +1,14 @@
+{
+  "id": "parametrage",
+  "golden": false,
+  "category": "interoperabilite",
+  "title": "PARAMÉTRAGE",
+  "abstract": [
+    "Les systèmes doivent être **nativement paramétrables**."
+  ],
+  "details": [
+    "**Langues, devises, règles métiers, profils de sécurité** doivent êtres simple à paramétrer.",
+    "Attention à l'**hyper-généricité**, elle est souvent inutile et **source de coût**.",
+    "Le **paramétrage** doit être **évolutif** et rapide en fonction des besoins."
+  ]
+}

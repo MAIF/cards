@@ -1,0 +1,14 @@
+{
+  "id": "productivite",
+  "golden": false,
+  "category": "time-to-market",
+  "title": "PRODUCTIVITÉ",
+  "abstract": [
+    "Spécifiez moins, **développez plus**."
+  ],
+  "details": [
+    "Limitez vos spécifications au strict nécessaire, **concentrez vous sur le \"quoi\"** plutôt que sur le \"comment\".",
+    "Le produit doit être le plus **auto-documenté** possible.",
+    "La documentation doit être versionnée au même titre que le code."
+  ]
+}

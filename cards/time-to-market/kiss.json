@@ -1,0 +1,14 @@
+{
+  "id": "kiss",
+  "golden": true,
+  "category": "time-to-market",
+  "title": "KISS",
+  "abstract": [
+    "**K**eep **I**t **S**imple and **S**tupid.",
+    "*Pourquoi faire compliqué quand on peut faire simple ?*"
+  ],
+  "details": [
+    "**Évitez l’over-engineering**, si une maquette \"papier\" ou un Google Form suffit pour éprouver votre concept, n'allez pas plus loin.",
+    "Restez simple ! À la fois sur le plan technique et sur le plan fonctionnel."
+  ]
+}

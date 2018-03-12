@@ -1,0 +1,14 @@
+{
+  "id": "artisan-logiciel",
+  "golden": true,
+  "category": "humain",
+  "title": "ARTISAN LOGICIEL",
+  "abstract": [
+    "Misez sur des personnes polyvalentes qui **savent faire** et qui **aiment faire**."
+  ],
+  "details": [
+    "Le plus important est la **culture du développement**, l'**évolutivité** et la **faculté d'adaptation**.",
+    "Recrutez de **artisans logiciels (software craftsmen) et développeurs full-stack**, ils apportent une vrai plus-value par leur savoir faire et leur vision d'ensemble.",
+    "Néanmoins, les développeurs mobiles - par exemple - sont généralement des **développeurs spécialisés**."
+  ]
+}

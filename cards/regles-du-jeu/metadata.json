@@ -1,0 +1,31 @@
+{
+  "cards": [
+    "title",
+    "choix-techniques",
+    "bon-usage",
+    "build-vs-buy",
+    "open-source",
+    "micro-services",
+    "donnees",
+    "perimetre",
+    "reactif",
+    "async-first",
+    "evenements",
+    "message-broker",
+    "synchronisation",
+    "centralisation",
+    "bac-a-sable",
+    "design-for-failure",
+    "toolkits",
+    "cloud",
+    "infrastructure",
+    "conteneurs",
+    "environnements",
+    "metriques",
+    "qualite",
+    "tests-automatises",
+    "niveaux-de-tests",
+    "couverture",
+    "securite"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "validation",
+  "golden": false,
+  "category": "humain",
+  "title": "VALIDATION",
+  "abstract": [
+    "L'organisation a un **rôle de validation**, sans être dogmatique."
+  ],
+  "details": [
+    "Veillez à ce que l'organisation conserve son **rôle de validation** sur les outils et les usages. En particulier sur les **outils qui touchent le patrimoine** (exemple : gestion du code source).",
+    "**Fournissez** aux Feature Teams les **moyens** d'étayer leurs choix.",
+    "Ne soyez **pas dogmatiques** et veillez à **encourager l'expérimentation**."
+  ]
+}

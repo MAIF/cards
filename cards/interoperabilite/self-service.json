@@ -1,0 +1,14 @@
+{
+  "id": "self-service",
+  "golden": true,
+  "category": "interoperabilite",
+  "title": "SELF SERVICE",
+  "abstract": [
+    "Utiliser une API doit être **simple** et **rapide**."
+  ],
+  "details": [
+    "L'utilisation des APIs doit être la plus simple possible. Pensez à l’**expérience développeur**.",
+    "La meilleure solution pour valider l'adéquation avec le besoin est de **tester l'API rapidement** : quelques minutes doivent suffire !",
+    "La plateforme doit proposer une **interface graphique** permettant de tester l'API simplement."
+  ]
+}

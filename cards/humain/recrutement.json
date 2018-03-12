@@ -1,0 +1,13 @@
+{
+  "id": "recrutement",
+  "golden": false,
+  "category": "humain",
+  "title": "RECRUTEMENT",
+  "abstract": [
+    "Soyez **attractifs** pour recruter les **meilleurs**."
+  ],
+  "details": [
+    "Proposez des modes de fonctionnement adaptés aux collaborateurs : **mobilité**, **home working**, **CYOD** (**C**hoose **Y**our **O**wn **D**evice).",
+    "Laissez du temps pour l’expérimentation et faites en sorte que cela soit **organisé dans le temps de travail**."
+  ]
+}

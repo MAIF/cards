@@ -1,0 +1,14 @@
+{
+  "id": "api-pour-tous",
+  "golden": true,
+  "category": "interoperabilite",
+  "title": "API POUR TOUS",
+  "abstract": [
+    "Des **APIs pour tous les usages** : internes, clients et partenaires, publics."
+  ],
+  "details": [
+    "Ouvrez votre organisation à des nouveaux usages et nouveaux clients grâce aux **APIs publiques**.",
+    "Dans le cadre des **partenariats** commerciaux, **clients** comme **fournisseurs**, les APIs sont le format d'échange standard.",
+    "Les **APIs** ont également vocation à être utilisées pour les **usages internes** à l'organisation."
+  ]
+}

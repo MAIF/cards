@@ -1,0 +1,14 @@
+{
+  "id": "omni-canal",
+  "golden": false,
+  "category": "user-experience",
+  "title": "OMNI-CANAL",
+  "abstract": [
+    "Adaptez-vous aux usages, l’**omni-canal** est la norme."
+  ],
+  "details": [
+    "L'approche omni-canal permet d'offrir à l'utilisateur une **expérience unifiée** (exemple : Netflix).",
+    "Les différents **canaux** sont **synchronisés** et **cohérents** (contrairement aux traitements par batchs).",
+    "Tous les acteurs (clients, conseillers) accèdent aux mêmes informations."
+  ]
+}

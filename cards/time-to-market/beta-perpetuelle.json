@@ -1,0 +1,13 @@
+{
+  "id": "beta-perpetuelle",
+  "golden": false,
+  "category": "time-to-market",
+  "title": "BÊTA PERPÉTUELLE",
+  "abstract": [
+    "L’approche **bêta perpétuelle** permet d’impliquer vos utilisateurs dans le processus de développement."
+  ],
+  "details": [
+    "N'hésitez pas à avoir recours au principe de bêta perpétuelle dans laquelle les **utilisateurs participent au développement**.",
+    "Le terme de bêta perpétuelle désigne une application développée en flux tendu, en **constante évolution**, et non pas un produit inachevé."
+  ]
+}

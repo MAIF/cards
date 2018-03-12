@@ -1,0 +1,14 @@
+{
+  "id": "big-data",
+  "golden": false,
+  "category": "user-experience",
+  "title": "BIG DATA",
+  "abstract": [
+    "La plate-forme Big Data permet de **centraliser** et traiter les données de l’utilisateur pour servir au mieux son **parcours**."
+  ],
+  "details": [
+    "Centralisez les données du **Groupe Maif**, des **partenaires** et des **fournisseurs** dans une logique de **parcours**.",
+    "La \"Data Preparation\" et les traitements permettent de **consolider** les données.",
+    "Les équipes **Big Data collaborent** avec les Feature Teams pour assurer la **gouvernance** des données."
+  ]
+}

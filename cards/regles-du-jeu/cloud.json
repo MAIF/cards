@@ -1,0 +1,14 @@
+{
+  "id": "cloud",
+  "golden": false,
+  "category": "regles-du-jeu",
+  "title": "CLOUD",
+  "abstract": [
+    "Public, privé ou hybride, le **cloud** (**IaaS** ou **PaaS**) est la norme pour la production."
+  ],
+  "details": [
+    "Les services de type **PaaS** sont **à privilégier**, ils sont **simples** et passent rapidement à l'échelle.",
+    "Les services **IaaS** permettent d'adresser les cas demandant une plus grande **souplesse**, mais ils demandent plus de travail opérationnel.",
+    "Un cloud privé n'est pas un environnement de virtualisation traditionnel, il s'appuie sur du **commodity hardware**."
+  ]
+}

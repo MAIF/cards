@@ -1,0 +1,15 @@
+{
+  "id": "tout-mesurer",
+  "golden": true,
+  "category": "user-experience",
+  "title": "TOUT MESURER",
+  "abstract": [
+    "Tout ce qui peut être mesuré doit l'être.",
+    "**Sans mesure, tout n'est qu'opinion**."
+  ],
+  "details": [
+    "Pensez les métriques lors du **développement** de l'application. Les **logs** doivent avoir une dimension **métier autant que technique**.",
+    "Ne négligez pas les **métriques de performances**, elles  sont fondamentales.",
+    "La Feature Team assure l'**exploitation** : charge à elle de rendre l'**application exploitable**."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "cards-generator",
+  "version": "1.0.0",
+  "description": "Generator for https://maif.github.io/cards",
+  "main": "generator.js",
+  "license": "Apache-2",
+  "scripts": {
+    "prettier": "prettier --write --single-quote --trailing-comma es5 --print-width 100 --tab-width 2 --jsx-bracket-same-line \"generator.js\""
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "fs-extra": "^5.0.0",
+    "prettier": "^1.11.1",
+    "rimraf": "^2.6.2",
+    "showdown": "^1.8.6"
+  }
+}

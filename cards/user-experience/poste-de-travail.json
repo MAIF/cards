@@ -1,0 +1,14 @@
+{
+  "id": "poste-de-travail",
+  "golden": false,
+  "category": "user-experience",
+  "title": "POSTE DE TRAVAIL",
+  "abstract": [
+    "Le poste de travail est adapté et adaptable aux **usages** et **canaux modernes**."
+  ],
+  "details": [
+    "Adoptez la **fédération d'identité** pour une expérience unifiée.",
+    "Un **portail** permet d'offrir une **vision d'ensemble**, il ne remplace pas les applications.",
+    "Le poste de travail doit être **mobile**, **multi-canal** et **standard** afin de permettre l'ouverture dans le cadre de l'**entreprise étendue**."
+  ]
+}
