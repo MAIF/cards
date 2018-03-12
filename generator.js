@@ -206,7 +206,7 @@ function basePage(title, content) {
 			<meta charset="utf-8">
 			<meta http-equiv="x-ua-compatible" content="ie=edge">
 			<title>${title}</title>
-			<link rel="shortcut icon" type="image/padding-left" href="/images/icon.png">
+			<link rel="shortcut icon" type="image/padding-left" href="/cards/images/icon.png">
 			<link rel="apple-touch-icon" href="/cards/images/icon.png">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
