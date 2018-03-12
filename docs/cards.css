@@ -31,43 +31,43 @@ body {
 }
 
 .cardback-time-to-market-normal {
-  background-image: url('/images/time-to-market-verso.png');
+  background-image: url('/cards/images/time-to-market-verso.png');
 }
 
 .cardback-user-experience-normal {
-  background-image: url('/images/ux-verso.png');
+  background-image: url('/cards/images/ux-verso.png');
 }
 
 .cardback-humain-normal {
-  background-image: url('/images/human-verso.png');
+  background-image: url('/cards/images/human-verso.png');
 }
 
 .cardback-interoperabilite-normal {
-  background-image: url('/images/interop-verso.png');
+  background-image: url('/cards/images/interop-verso.png');
 }
 
 .cardback-regles-du-jeu-normal {
-  background-image: url('/images/neutre-verso.png');
+  background-image: url('/cards/images/neutre-verso.png');
 }
 
 .cardback-time-to-market-golden {
-  background-image: url('/images/time-to-market-verso.png');
+  background-image: url('/cards/images/time-to-market-verso.png');
 }
 
 .cardback-user-experience-golden {
-  background-image: url('/images/ux-verso.png');
+  background-image: url('/cards/images/ux-verso.png');
 }
 
 .cardback-humain-golden {
-  background-image: url('/images/human-verso.png');
+  background-image: url('/cards/images/human-verso.png');
 }
 
 .cardback-interoperabilite-golden {
-  background-image: url('/images/interop-verso.png');
+  background-image: url('/cards/images/interop-verso.png');
 }
 
 .cardback-regles-du-jeu-golden {
-  background-image: url('/images/neutre-verso.png');
+  background-image: url('/cards/images/neutre-verso.png');
 }
 
 .cardback-details {
@@ -130,43 +130,43 @@ body {
 }
 
 .cardfront-time-to-market-normal {
-  background-image: url('/images/time-to-market-recto.png');
+  background-image: url('/cards/images/time-to-market-recto.png');
 }
 
 .cardfront-user-experience-normal {
-  background-image: url('/images/ux-recto.png');
+  background-image: url('/cards/images/ux-recto.png');
 }
 
 .cardfront-humain-normal {
-  background-image: url('/images/human-recto.png');
+  background-image: url('/cards/images/human-recto.png');
 }
 
 .cardfront-interoperabilite-normal {
-  background-image: url('/images/interop-recto.png');
+  background-image: url('/cards/images/interop-recto.png');
 }
 
 .cardfront-regles-du-jeu-normal {
-  background-image: url('/images/neutre-recto.png');
+  background-image: url('/cards/images/neutre-recto.png');
 }
 
 .cardfront-time-to-market-golden {
-  background-image: url('/images/time-to-market-gold.png');
+  background-image: url('/cards/images/time-to-market-gold.png');
 }
 
 .cardfront-user-experience-golden {
-  background-image: url('/images/ux-gold.png');
+  background-image: url('/cards/images/ux-gold.png');
 }
 
 .cardfront-humain-golden {
-  background-image: url('/images/human-gold.png');
+  background-image: url('/cards/images/human-gold.png');
 }
 
 .cardfront-interoperabilite-golden {
-  background-image: url('/images/interop-gold.png');
+  background-image: url('/cards/images/interop-gold.png');
 }
 
 .cardfront-regles-du-jeu-golden {
-  background-image: url('/images/neutre-gold.png');
+  background-image: url('/cards/images/neutre-gold.png');
 }
 
 .cardfront-abstract-normal {
@@ -250,23 +250,23 @@ body {
 }
 
 .covercard-time-to-market {
-  background-image: url('/images/time-to-market-cover.png');
+  background-image: url('/cards/images/time-to-market-cover.png');
 }
 
 .covercard-humain {
-  background-image: url('/images/human-cover.png');
+  background-image: url('/cards/images/human-cover.png');
 }
 
 .covercard-interoperabilite {
-  background-image: url('/images/interop-cover.png');
+  background-image: url('/cards/images/interop-cover.png');
 }
 
 .covercard-regles-du-jeu {
-  background-image: url('/images/neutre-cover.png');
+  background-image: url('/cards/images/neutre-cover.png');
 }
 
 .covercard-user-experience {
-  background-image: url('/images/ux-cover.png');
+  background-image: url('/cards/images/ux-cover.png');
 }
 
 .cardfront-abstract {
