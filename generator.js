@@ -13,6 +13,18 @@ const categories = {
   'regles-du-jeu': require(`./cards/regles-du-jeu/metadata.json`).cards.map(id => require(`./cards/regles-du-jeu/${id}.json`))
 };
 
+const categoriesTitles = {
+  'time-to-market': categories['time-to-market'][0].title,
+  'user-experience': categories['user-experience'][0].title,
+  'humain': categories['humain'][0].title,
+  'interoperabilite': categories['interoperabilite'][0].title,
+  'regles-du-jeu': categories['regles-du-jeu'][0].title,
+};
+
+function titleOf(cat) {
+	return categoriesTitles[cat] || '';
+}
+
 const allCards = [
   ...categories['time-to-market'],
   ...categories['user-experience'],
@@ -207,18 +219,19 @@ function basePage(title, content) {
 		</head>
 		<body>
 			${content}
-			<ul style="display:flex;flex-direction:column;justify-content:center;align-items:center;margin-top:20px;">
-				<hr/>
+			<ul style="width:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-left:0px;">
+				<hr style="width:100%"/>
 				<li><a href="/cards/all.html">Toutes les cartes</a></li>
-				<hr/>
-				${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html">Catégorie ${c}</a></li>`).join('\n')}
-				<hr/>
-				<li><a href="/cards/golden.html">Toutes les atouts</a></li>
-				<hr/>
-				${Object.keys(categories).map(c => `<li><a href="/cards/${c}-golden/index.html">Atouts ${c}</a></li>`).join('\n')}
-				<hr/>
+				<hr style="width:100%"/>
+				${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html">Catégorie "${titleOf(c).toLowerCase()}"</a></li>`).join('\n')}
+				<hr style="width:100%"/>
+				<li><a href="/cards/golden.html">Tous les atouts</a></li>
+				<hr style="width:100%"/>
+				${Object.keys(categories).map(c => `<li><a href="/cards/${c}-golden/index.html">Les atouts de la catégorie "${titleOf(c).toLowerCase()}"</a></li>`).join('\n')}
+				<hr style="width:100%"/>
 				<li><a href="https://github.com/MAIF/cards">github</a></li>
 				<li><a href="https://maif.github.io">maif oss</a></li>
+				<hr style="width:100%"/>
 				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 			</ul>
 		</body>
