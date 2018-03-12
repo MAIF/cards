@@ -56,7 +56,7 @@ function createIndex(category, card) {
 		${allCards.map(card => createCardFragment(card)).join('\n')}
 	</div>
 	<div id="random"></div>
-	<div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:20px;margin-bottom:20px;">
+	<div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:50px;margin-bottom:50px;">
 	<button id="random-click" type="button" class="btn btn-success">random card</button>
 	</div>
 	<script>
