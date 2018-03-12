@@ -211,7 +211,7 @@ function basePage(title, content) {
 				<hr/>
 				<li><a href="/cards/all.html">Toutes les cartes</a></li>
 				<hr/>
-				${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html">${c}</a></li>`).join('\n')}
+				${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html">Catégorie ${c}</a></li>`).join('\n')}
 				<hr/>
 				<li><a href="/cards/golden.html">Toutes les atouts</a></li>
 				<hr/>
