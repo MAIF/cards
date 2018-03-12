@@ -206,6 +206,7 @@ function basePage(title, content) {
 		<body>
 			${content}
 			<ul>
+				<hr/>
 				<li><a href="/cards/all.html">Toutes les cartes</a></li>
 				<hr/>
 				${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html">${c}</a></li>`).join('\n')}
@@ -213,6 +214,10 @@ function basePage(title, content) {
 				<li><a href="/cards/golden.html">Toutes les atouts</a></li>
 				<hr/>
 				${Object.keys(categories).map(c => `<li><a href="/cards/${c}-golden/index.html">Atouts ${c}</a></li>`).join('\n')}
+				<hr/>
+				<li><a href="https://github.com/MAIF/cards">github</a></li>
+				<li><a href="https://maif.github.io">maif oss</a></li>
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 			</ul>
 		</body>
 	</html>	
