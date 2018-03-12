@@ -63,7 +63,7 @@ function touch(path, content) {
 }
 
 function createIndex(category, card) {
-	const template = basePage('Cards', `
+	const template = basePage("Les cartes d'architecture MAIF", `
 	<div class="hide">
 		${allCards.map(card => createCardFragment(card)).join('\n')}
 	</div>
@@ -99,7 +99,7 @@ function createAllCardsPage() {
 
 function createGoldenCardsPage() {
 	const cards = allCards.filter(c => c.golden).map(card => createCardFragment(card, true));
-	const template = basePage('Toutes les cartes', `
+	const template = basePage('Tous les atouts', `
 	<div class="all">
 		${cards.join('\n')}
 	</div>
@@ -109,7 +109,7 @@ function createGoldenCardsPage() {
 
 function createCategoryIndexPage(category) {
 	const cards = categories[category].map(card => createCardFragment(card, true));
-	const template = basePage(category, `
+	const template = basePage(titleOf(category), `
 	<div class="category">
 		${cards.join('\n')}
 	</div>
@@ -119,7 +119,7 @@ function createCategoryIndexPage(category) {
 
 function createCategoryGoldenIndexPage(category) {
 	const cards = categories[category].filter(c => c.golden).map(card => createCardFragment(card, true));
-	const template = basePage(category, `
+	const template = basePage(titleOf(category), `
 	<div class="category">
 		${cards.join('\n')}
 	</div>
