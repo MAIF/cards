@@ -116,7 +116,7 @@ function createCategoryGoldenIndexPage(category) {
 function createCardFragment(card, link) {
 	if (card.abstract.length === 0 && card.details.length === 0) {
 		return `
-		<a href="/${card.category}/index.html">
+		<a href="/cards/${card.category}/index.html">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 col-lg-4  col-lg-offset-2">
 					<div class="covercard covercard-${card.category}">
@@ -135,7 +135,7 @@ function createCardFragment(card, link) {
 	const abstract = converter.makeHtml(card.abstract.join('\n\n'));
 	const details = converter.makeHtml(card.details.join('\n\n'));
 	return `
-	<a class="complete-card" href="/${card.category}/${card.id}.html">
+	<a class="complete-card" href="/cards/${card.category}/${card.id}.html">
 		<div class="row card">
 			<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2">
 				<div class="cardfront cardfront-${card.category}-${card.golden ? 'golden' : 'normal'}">
@@ -193,7 +193,7 @@ function basePage(title, content) {
 			<meta http-equiv="x-ua-compatible" content="ie=edge">
 			<title>${title}</title>
 			<link rel="shortcut icon" type="image/padding-left" href="/images/icon.png">
-			<link rel="apple-touch-icon" href="/images/icon.png">
+			<link rel="apple-touch-icon" href="/cards/images/icon.png">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 			<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
@@ -201,18 +201,18 @@ function basePage(title, content) {
 			<link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
 			<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-			<link rel="stylesheet" href="/cards.css">
+			<link rel="stylesheet" href="/cards/cards.css">
 		</head>
 		<body>
 			${content}
 			<ul>
-				<li><a href="/all.html">Toutes les cartes</a></li>
+				<li><a href="/cards/all.html">Toutes les cartes</a></li>
 				<hr/>
-				${Object.keys(categories).map(c => `<li><a href="/${c}/index.html">${c}</a></li>`).join('\n')}
+				${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html">${c}</a></li>`).join('\n')}
 				<hr/>
-				<li><a href="/golden.html">Toutes les atouts</a></li>
+				<li><a href="/cards/golden.html">Toutes les atouts</a></li>
 				<hr/>
-				${Object.keys(categories).map(c => `<li><a href="/${c}-golden/index.html">Atouts ${c}</a></li>`).join('\n')}
+				${Object.keys(categories).map(c => `<li><a href="/cards/${c}-golden/index.html">Atouts ${c}</a></li>`).join('\n')}
 			</ul>
 		</body>
 	</html>	
