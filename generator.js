@@ -43,7 +43,7 @@ function rmLastDistribution() {
 	  	}
 	  });
 	});
-  
+
 }
 
 function mkdir(path) {
@@ -67,9 +67,10 @@ function createIndex(category, card) {
 	<div class="hide">
 		${allCards.map(card => createCardFragment(card)).join('\n')}
 	</div>
+  <div class="row"><div class="col-xs-8 col-xs-offset-2"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></div></div>
 	<div id="random"></div>
-	<div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:50px;margin-bottom:50px;">
-	<button id="random-click" type="button" class="btn btn-success">random card</button>
+	<div style="width:100%;display:flex;justify-content:center;align-items:center;margin-bottom:50px;">
+	<span id="random-click" type="button"><img src="/cards/images/random.gif" style="width:100px;height:auto;cursor:pointer"></span>
 	</div>
 	<script>
 		$(function() {
@@ -85,7 +86,7 @@ function createIndex(category, card) {
 	</script>
 	`);
 	touch(target + '/index.html', template);
-}		
+}
 
 function createAllCardsPage() {
 	const cards = allCards.map(card => createCardFragment(card, true));
@@ -129,6 +130,7 @@ function createCategoryGoldenIndexPage(category) {
 
 function createCardFragment(card, link) {
 	if (card.abstract.length === 0 && card.details.length === 0) {
+    // tete de categorie
 		return `
 		<a href="/cards/${card.category}/index.html">
 			<div class="row">
@@ -142,8 +144,8 @@ function createCardFragment(card, link) {
 						<h3 class="covercard-title">${card.title}</h3>
 					</div>
 				</div>
-			</div>	
-		</a>	
+			</div>
+		</a>
 		`;
 	}
 	const abstract = converter.makeHtml(card.abstract.join('\n\n'));
@@ -169,15 +171,15 @@ function createCardFragment(card, link) {
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</a>
 	`;
-}	
+}
 
 function createCardPage(card) {
 	const template = basePage(card.title, createCardFragment(card));
 	touch(target + '/' + card.category + '/' + card.id + '.html', template);
-}		
+}
 
 function generateDistribution() {
 	rmLastDistribution().then(() => {
@@ -213,28 +215,44 @@ function basePage(title, content) {
 			<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 			<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 			<link rel="stylesheet" href="/cards/cards.css">
 		</head>
 		<body>
+
+<nav>
+  <div class="toggleMenu">
+    <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <ul class="menu">
+    <li><a href="/cards/">Accueil</a></li>
+    <li><a href="/cards/all.html">Toutes les cartes</a></li>
+    <hr>
+    ${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html">Catégorie "${titleOf(c).toLowerCase()}"</a></li>`).join('\n')}
+    <li><a href="https://github.com/MAIF/cards">Github</a></li>
+    <li><a href="https://maif.github.io">Maif oss</a></li>
+    </ul>
+  </div>
+</nav>
 			${content}
-			<ul style="width:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-left:0px;">
-				<hr style="width:100%"/>
-				<li><a href="/cards/all.html">Toutes les cartes</a></li>
-				<hr style="width:100%"/>
-				${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html">Catégorie "${titleOf(c).toLowerCase()}"</a></li>`).join('\n')}
-				<hr style="width:100%"/>
-				<li><a href="/cards/golden.html">Tous les atouts</a></li>
-				<hr style="width:100%"/>
-				${Object.keys(categories).map(c => `<li><a href="/cards/${c}-golden/index.html">Les atouts de la catégorie "${titleOf(c).toLowerCase()}"</a></li>`).join('\n')}
-				<hr style="width:100%"/>
-				<li><a href="https://github.com/MAIF/cards">github</a></li>
-				<li><a href="https://maif.github.io">maif oss</a></li>
-				<hr style="width:100%"/>
+			<ul style="width:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-left:0px;margin-top:50px;">
+
 				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 			</ul>
+      <div class="container-fluid">
+    <div class="row">
+      <div class="footer">
+        <img src="/cards/images/header-home.svg">
+      </div>
+    </div>
+	</div>
 		</body>
-	</html>	
+	</html>
 	`;
 }
