@@ -157,7 +157,7 @@ function createCardFragment(card, link) {
 	if (card.abstract.length === 0 && card.details.length === 0) {
     // tete de categorie
 		return `
-		<a href="/cards/${card.category}/index.html">
+		<a class="any-card" href="/cards/${card.category}/index.html">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 col-lg-4  col-lg-offset-2">
 					<div class="covercard covercard-${card.category}">
@@ -176,7 +176,7 @@ function createCardFragment(card, link) {
 	const abstract = converter.makeHtml(card.abstract.join('\n\n'));
 	const details = converter.makeHtml(card.details.join('\n\n'));
 	return `
-	<a class="complete-card" href="/cards/${card.category}/${card.id}.html">
+	<a class="any-card complete-card" href="/cards/${card.category}/${card.id}.html" data-content="${(card.title + ' - ' + card.abstract + ' - ' + card.details).toLowerCase()}">
 		<div class="row card">
 			<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2">
 				<div class="cardfront cardfront-${card.category}-${card.golden ? 'golden' : 'normal'}">
@@ -282,9 +282,6 @@ function basePage(title, content) {
 				</div>
 			</nav>
 			${content}
-			<!--ul style="width:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-left:0px;margin-top:50px;margin-bottom:350px;">
-				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
-			</ul-->
       <div class="container-fluid" style="margin-top: 350px">
 				<div class="row">
 					<div class="footer">
@@ -294,14 +291,25 @@ function basePage(title, content) {
 			</div>
 			<script>
 				$(function() {
-					var cards = ${JSON.stringify(allCards.map(c =>  (c.title + ' - ' + c.abstract + ' - ' + c.details).toLowerCase()))}
-					$('.card-search').on('keypress', function(e) {
+					$('.card-search').on('keyup', function(e) {
 						var value = $(this).val().trim().toLowerCase();
-						var found = cards.filter(function(c) {
-							return c.indexOf(value) > -1;
+						var cards = $('.any-card');
+						console.log('value = "' + value + '"')
+						cards.map(function(i, c) {
+							var card = $(c);
+							var content = card.data('content');
+							if (!content) {
+								card.hide();
+							} else if (value === '') {
+								card.show();
+							} else {
+								if (content.indexOf(value) > -1) {
+									card.show();
+								} else {
+									card.hide();
+								}
+							}
 						});
-						console.log(found);
-						// TODO : display
 					});
 				});
 			</script>
