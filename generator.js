@@ -67,7 +67,11 @@ function createIndex(category, card) {
 	<div class="hide">
 		${allCards.map(card => createCardFragment(card)).join('\n')}
 	</div>
-  <div class="row"><div class="col-xs-8 col-xs-offset-2"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1></div></div>
+	<div class="row">
+		<div class="col-xs-12" style="text-align: center">
+			<h1>Le jeu de cartes des règles de construction des nouveaux projets numérique MAIF</h1>
+		</div>
+	</div>
 	<div id="random"></div>
 	<div style="width:100%;display:flex;justify-content:center;align-items:center;margin-bottom:50px;">
 	<span id="random-click" type="button"><img src="/cards/images/random.gif" style="width:100px;height:auto;cursor:pointer"></span>
@@ -77,7 +81,8 @@ function createIndex(category, card) {
 			function onclickrandom() {
 				var len = $('.complete-card').length;
 				var random = Math.floor( Math.random() * len ) + 1;
-				var html = $('.complete-card').eq(random).html();
+				// var html = $('.complete-card').eq(random).outerHTML();
+				var html = $("<div />").append($('.complete-card').eq(random).clone()).html();
 				$('#random').html(html);
 			}
 			$('#random-click').click(onclickrandom);
@@ -91,6 +96,11 @@ function createIndex(category, card) {
 function createAllCardsPage() {
 	const cards = allCards.map(card => createCardFragment(card, true));
 	const template = basePage('Toutes les cartes', `
+	<div class="row">
+		<div class="col-xs-12" style="text-align: center">
+			<h1>Toutes les cartes</h1>
+		</div>
+	</div>
 	<div class="all">
 		${cards.join('\n')}
 	</div>
@@ -102,6 +112,11 @@ function createGoldenCardsPage() {
 	const cards = allCards.filter(c => c.golden).map(card => createCardFragment(card, true));
 	const template = basePage('Tous les atouts', `
 	<div class="all">
+		<div class="row">
+			<div class="col-xs-12" style="text-align: center">
+				<h1>Tous les atous</h1>
+			</div>
+		</div>
 		${cards.join('\n')}
 	</div>
 	`);
@@ -111,6 +126,11 @@ function createGoldenCardsPage() {
 function createCategoryIndexPage(category) {
 	const cards = categories[category].map(card => createCardFragment(card, true));
 	const template = basePage(titleOf(category), `
+	<div class="row">
+		<div class="col-xs-12" style="text-align: center">
+			<h1>Les cartes de la catégorie "${titleOf(category)}"</h1>
+		</div>
+	</div>
 	<div class="category">
 		${cards.join('\n')}
 	</div>
@@ -121,6 +141,11 @@ function createCategoryIndexPage(category) {
 function createCategoryGoldenIndexPage(category) {
 	const cards = categories[category].filter(c => c.golden).map(card => createCardFragment(card, true));
 	const template = basePage(titleOf(category), `
+	<div class="row">
+		<div class="col-xs-12" style="text-align: center">
+			<h1>Les atouts de la catégorie "${titleOf(category)}"</h1>
+		</div>
+	</div>
 	<div class="category">
 		${cards.join('\n')}
 	</div>
@@ -177,7 +202,13 @@ function createCardFragment(card, link) {
 }
 
 function createCardPage(card) {
-	const template = basePage(card.title, createCardFragment(card));
+	const template = basePage(card.title, `
+	<div class="row">
+		<div class="col-xs-12" style="text-align: center">
+			<h1>Carte "${card.title}"</h1>
+		</div>
+	</div>
+	` + createCardFragment(card));
 	touch(target + '/' + card.category + '/' + card.id + '.html', template);
 }
 
@@ -223,7 +254,7 @@ function basePage(title, content) {
 		<body>
 			<nav>
 				<div class="toggleMenu">
-					<input type="checkbox" />
+					<input type="checkbox" class="menu-input" />
 					<span></span>
 					<span></span>
 					<span></span>
@@ -234,21 +265,46 @@ function basePage(title, content) {
 						${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html">Catégorie "${titleOf(c).toLowerCase()}"</a></li>`).join('\n')}
 						<hr>
 						<li><a href="https://github.com/MAIF/cards">Les cartes sur Github</a></li>
-						<li><a href="https://maif.github.io">Maif oss</a></li>
+						<li><a href="https://maif.github.io">Maif OSS</a></li>
+						<hr/>
+						<li>
+							<input type="text" class="card-search form-control" placeholder="rechercher une carte"></input>
+						</li>
 					</ul>
+				</div>
+				<div class="maifLogo">
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-right: 5px">
+						<img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+					</a>
+					<a href="https://maif.github.io">	
+						<img class="logo" alt="MAIF OSS" src="/cards/images/maif-black.png" />
+					</a>
 				</div>
 			</nav>
 			${content}
-			<ul style="width:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-left:0px;margin-top:50px;">
+			<!--ul style="width:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-left:0px;margin-top:50px;margin-bottom:350px;">
 				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
-			</ul>
-      <div class="container-fluid">
+			</ul-->
+      <div class="container-fluid" style="margin-top: 350px">
 				<div class="row">
 					<div class="footer">
 						<img src="/cards/images/header-home.svg">
 					</div>
 				</div>
 			</div>
+			<script>
+				$(function() {
+					var cards = ${JSON.stringify(allCards.map(c =>  (c.title + ' - ' + c.abstract + ' - ' + c.details).toLowerCase()))}
+					$('.card-search').on('keypress', function(e) {
+						var value = $(this).val().trim().toLowerCase();
+						var found = cards.filter(function(c) {
+							return c.indexOf(value) > -1;
+						});
+						console.log(found);
+						// TODO : display
+					});
+				});
+			</script>
 		</body>
 	</html>
 	`;

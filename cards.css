@@ -5,7 +5,7 @@ body {
 
 .home {
   position: fixed;
-  z-index: 1001;
+  z-index: 0;
   margin-left: 10px;
   margin-top: 10px;
 }
@@ -15,15 +15,22 @@ h1 {
   font-size: 24px;
 }
 
-.footer {
-  margin-left: -5%;
+.footer img {
+  position: fixed;
+  bottom: 10px;
+  width: 1436px;
+  height: 325px;
+  z-index: -1;
 }
 
+#random {
+  margin-bottom: 20px;
+}
 /* MENU */
 
 .toggleMenu {
   display: block;
-  position: relative;
+  position: fixed;
   top: 20px;
   left: 20px;
   z-index: 1;
@@ -31,7 +38,23 @@ h1 {
   user-select: none;
 }
 
-.toggleMenu input {
+.maifLogo {
+  display: flex;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  align-items: center;
+}
+
+.maifLogo .logo {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
+
+.toggleMenu .menu-input {
   display: block;
   width: 40px;
   height: 32px;
