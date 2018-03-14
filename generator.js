@@ -235,7 +235,8 @@ function basePage(title, content) {
     <li><a href="/cards/all.html">Toutes les cartes</a></li>
     <hr>
     ${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html">Catégorie "${titleOf(c).toLowerCase()}"</a></li>`).join('\n')}
-    <li><a href="https://github.com/MAIF/cards">Github</a></li>
+		<hr>
+		<li><a href="https://github.com/MAIF/cards">Les cartes sur Github</a></li>
     <li><a href="https://maif.github.io">Maif oss</a></li>
     </ul>
   </div>
