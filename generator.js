@@ -68,7 +68,7 @@ function createIndex(category, card) {
 		${allCards.map(card => createCardFragment(card)).join('\n')}
 	</div>
 	<div class="row">
-		<div class="col-xs-12" style="text-align: center">
+		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
 			<h1>Le jeu de cartes des règles de construction des nouveaux projets numérique MAIF</h1>
 		</div>
 	</div>
@@ -97,7 +97,7 @@ function createAllCardsPage() {
 	const cards = allCards.map(card => createCardFragment(card, true));
 	const template = basePage('Toutes les cartes', `
 	<div class="row">
-		<div class="col-xs-12" style="text-align: center">
+		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
 			<h1>Toutes les cartes</h1>
 		</div>
 	</div>
@@ -113,7 +113,7 @@ function createGoldenCardsPage() {
 	const template = basePage('Tous les atouts', `
 	<div class="all">
 		<div class="row">
-			<div class="col-xs-12" style="text-align: center">
+			<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
 				<h1>Tous les atous</h1>
 			</div>
 		</div>
@@ -127,7 +127,7 @@ function createCategoryIndexPage(category) {
 	const cards = categories[category].map(card => createCardFragment(card, true));
 	const template = basePage(titleOf(category), `
 	<div class="row">
-		<div class="col-xs-12" style="text-align: center">
+		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
 			<h1>Les cartes de la catégorie "${titleOf(category)}"</h1>
 		</div>
 	</div>
@@ -142,7 +142,7 @@ function createCategoryGoldenIndexPage(category) {
 	const cards = categories[category].filter(c => c.golden).map(card => createCardFragment(card, true));
 	const template = basePage(titleOf(category), `
 	<div class="row">
-		<div class="col-xs-12" style="text-align: center">
+		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
 			<h1>Les atouts de la catégorie "${titleOf(category)}"</h1>
 		</div>
 	</div>
@@ -204,7 +204,7 @@ function createCardFragment(card, link) {
 function createCardPage(card) {
 	const template = basePage(card.title, `
 	<div class="row">
-		<div class="col-xs-12" style="text-align: center">
+		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
 			<h1>Carte "${card.title}"</h1>
 		</div>
 	</div>
