@@ -79,17 +79,24 @@ function createIndex(category, card) {
 	<script>
 		$(function() {
 			function onclickrandom() {
+				if (window.ga) window.ga('send', 'event', 'click', 'random-card');
 				var len = $('.complete-card').length;
 				var random = Math.floor( Math.random() * len ) + 1;
-				// var html = $('.complete-card').eq(random).outerHTML();
 				var html = $("<div />").append($('.complete-card').eq(random).clone()).html();
-				$('#random').html(html);
+				if (html.trim() === '') {
+					console.log('retry');
+					setTimeout(function() {
+						onclickrandom();
+					});
+				} else {
+					$('#random').html(html);
+				}
 			}
 			$('#random-click').click(onclickrandom);
 			onclickrandom();
 		});
 	</script>
-	`);
+	`, false);
 	touch(target + '/index.html', template);
 }
 
@@ -208,7 +215,7 @@ function createCardPage(card) {
 			<h1>Carte "${card.title}"</h1>
 		</div>
 	</div>
-	` + createCardFragment(card));
+	` + createCardFragment(card), false);
 	touch(target + '/' + card.category + '/' + card.id + '.html', template);
 }
 
@@ -232,7 +239,7 @@ function generateDistribution() {
 
 generateDistribution();
 
-function basePage(title, content) {
+function basePage(title, content, search = true) {
 	return `
 	<html lang="fr">
 		<head>
@@ -268,7 +275,7 @@ function basePage(title, content) {
 						<li><a href="https://maif.github.io">Maif OSS</a></li>
 						<hr/>
 						<li>
-							<input type="text" class="card-search form-control" placeholder="rechercher une carte"></input>
+							<input type="text" class="card-search form-control ${search ? '' : 'hide'}" placeholder="rechercher une carte"></input>
 						</li>
 					</ul>
 				</div>
@@ -319,6 +326,7 @@ function basePage(title, content) {
 				function gtag(){dataLayer.push(arguments);}
 				gtag('js', new Date());
 				gtag('config', 'UA-112498312-1');
+				ga('create', 'UA-112498312-1', 'auto');
 			</script>
 		</body>
 	</html>
