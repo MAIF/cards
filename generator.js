@@ -69,7 +69,7 @@ function createIndex(category, card) {
 	</div>
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
-			<h1>Le jeu de cartes des règles de construction des nouveaux projets numérique MAIF</h1>
+			<h1>[ Règles de construction des nouveaux projets numérique MAIF #OSSbyMAIF Rules ]</h1>
 		</div>
 	</div>
 	<div id="random"></div>
@@ -254,7 +254,6 @@ function basePage(title, content, search = true) {
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 			<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
-			<link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
   		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 			<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -271,7 +270,10 @@ function basePage(title, content, search = true) {
 						<li><a href="/cards/">Accueil</a></li>
 						<li><a href="/cards/all.html">Toutes les cartes</a></li>
 						<hr>
-						${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html">Catégorie "${titleOf(c).toLowerCase()}"</a></li>`).join('\n')}
+            <li>Catégories</li>
+            <ul>
+						${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html"> ${titleOf(c).toLowerCase()}</a></li>`).join('\n')}
+            </ul>
 						<hr>
 						<li><a href="https://github.com/MAIF/cards">Les cartes sur Github</a></li>
 						<li><a href="https://maif.github.io">Maif OSS</a></li>

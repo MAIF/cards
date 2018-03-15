@@ -1,6 +1,6 @@
 body {
   background-color: #333333;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .home {
@@ -12,7 +12,7 @@ body {
 
 h1 {
   color: #cdcdcd;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .container-footer{
@@ -145,6 +145,10 @@ h1 {
 .menu li {
   font-size: 15px;
 }
+
+.menu ul li {
+    list-style-type: square;
+  }
 
 .menu a {
   color: #000;
