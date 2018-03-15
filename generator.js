@@ -298,6 +298,7 @@ function basePage(title, content, search = true, reload = false) {
 				</div>
 			</nav>
 			${reload ? '<span id="random-click" type="button" title="random cards"><i class="fas fa-sync fa-2x"></i></span>' : ''}
+			${!reload ? '<a id="home-click" href="/cards/" title="home"><i class="fas fa-home fa-2x"></i></a>' : ''}
 			${content}
       <div class="container-fluid container-footer">
 				<div class="row">

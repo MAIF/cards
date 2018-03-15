@@ -49,6 +49,15 @@ left: 22px;
 top: 60px;
 }
 
+#home-click {
+  color: #cdcdcd;
+  cursor: pointer;
+  width: 20px;
+  position: fixed;
+  left: 22px;
+  top: 60px;
+}
+
 #random-click svg{
   transform: rotateZ(0deg);
   transition: all 0.5s ease-out;
