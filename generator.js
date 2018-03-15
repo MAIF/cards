@@ -74,7 +74,7 @@ function createIndex(category, card) {
 	</div>
 	<div id="random"></div>
 	<div style="width:100%;display:flex;justify-content:center;align-items:center;margin-bottom:50px;">
-	<span id="random-click" type="button"><img src="/cards/images/random.gif" style="width:100px;height:auto;cursor:pointer"></span>
+	<span id="random-click" type="button"><i class="fas fa-sync fa-3x"></i></span>
 	</div>
 	<script>
 		$(function() {
@@ -246,7 +246,7 @@ function basePage(title, content) {
 			<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
-  		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 			<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 			<link rel="stylesheet" href="/cards/cards.css">
@@ -276,7 +276,7 @@ function basePage(title, content) {
 					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-right: 5px">
 						<img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
 					</a>
-					<a href="https://maif.github.io">	
+					<a href="https://maif.github.io">
 						<img class="logo" alt="MAIF OSS" src="/cards/images/maif-black.png" />
 					</a>
 				</div>
