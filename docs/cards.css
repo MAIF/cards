@@ -443,6 +443,10 @@ top: 60px;
 .card .right {
   transform: rotateZ(10deg);
 }
+.all .card .left, .all .card .right {
+  transform: none;
+}
+
 .layer{
   background: -moz-linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 10%);
 background: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 10%);
