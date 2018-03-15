@@ -81,7 +81,6 @@ function createIndex(category, card) {
 			function onclickrandom() {
 				var len = $('.complete-card').length;
 				var random = Math.floor( Math.random() * len ) + 1;
-				// var html = $('.complete-card').eq(random).outerHTML();
 				var html = $("<div />").append($('.complete-card').eq(random).clone()).html();
 				if (html.trim() === '') {
 					setTimeout(function() {
