@@ -96,7 +96,7 @@ function createIndex(category, card) {
 			onclickrandom();
 		});
 	</script>
-	`);
+	`, false);
 	touch(target + '/index.html', template);
 }
 
@@ -215,7 +215,7 @@ function createCardPage(card) {
 			<h1>Carte "${card.title}"</h1>
 		</div>
 	</div>
-	` + createCardFragment(card));
+	` + createCardFragment(card), false);
 	touch(target + '/' + card.category + '/' + card.id + '.html', template);
 }
 
@@ -239,7 +239,7 @@ function generateDistribution() {
 
 generateDistribution();
 
-function basePage(title, content) {
+function basePage(title, content, search = true) {
 	return `
 	<html lang="fr">
 		<head>
@@ -275,7 +275,7 @@ function basePage(title, content) {
 						<li><a href="https://maif.github.io">Maif OSS</a></li>
 						<hr/>
 						<li>
-							<input type="text" class="card-search form-control" placeholder="rechercher une carte"></input>
+							<input type="text" class="card-search form-control ${search ? '' : 'hide'}" placeholder="rechercher une carte"></input>
 						</li>
 					</ul>
 				</div>
