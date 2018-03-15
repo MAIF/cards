@@ -78,7 +78,12 @@ function createIndex(category, card) {
 	</div>
 	<script>
 		$(function() {
+			var done = false;
 			function onclickrandom() {
+				if (window.ga && !done) {
+					ga('create', 'UA-112498312-1', 'auto');
+					done = true;
+				}
 				if (window.ga) window.ga('send', 'event', 'click', 'random-card');
 				var len = $('.complete-card').length;
 				var random = Math.floor( Math.random() * len ) + 1;
@@ -331,7 +336,6 @@ function basePage(title, content, search = true) {
 				function gtag(){dataLayer.push(arguments);}
 				gtag('js', new Date());
 				gtag('config', 'UA-112498312-1');
-				ga('create', 'UA-112498312-1', 'auto');
 			</script>
 		</body>
 	</html>
