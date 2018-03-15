@@ -326,6 +326,7 @@ function basePage(title, content) {
 				function gtag(){dataLayer.push(arguments);}
 				gtag('js', new Date());
 				gtag('config', 'UA-112498312-1');
+				ga('create', 'UA-112498312-1', 'auto');
 			</script>
 		</body>
 	</html>
