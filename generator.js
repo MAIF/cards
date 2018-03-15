@@ -79,6 +79,7 @@ function createIndex(category, card) {
 	<script>
 		$(function() {
 			function onclickrandom() {
+				ga('send', 'event', 'click', 'random-card');
 				var len = $('.complete-card').length;
 				var random = Math.floor( Math.random() * len ) + 1;
 				var html = $("<div />").append($('.complete-card').eq(random).clone()).html();
