@@ -24,7 +24,7 @@ h1 {
 #random {
   margin-bottom: 20px;
 }
-span#random-click {
+#random-click {
     background-image: url('/cards/images/neutre-verso.png');
     -webkit-background-size: cover;
     background-size: cover;
@@ -36,6 +36,15 @@ span#random-click {
     color: #fff;
     cursor: pointer;
 }
+
+#random-click svg{
+  transform: rotateZ(0deg);
+  transition: all 0.5s ease-out;
+}
+#random-click:hover svg{
+  transform: rotateZ(90deg);
+}
+
 /* MENU */
 
 .toggleMenu {
