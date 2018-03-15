@@ -65,7 +65,7 @@ function touch(path, content) {
 function createIndex(category, card) {
 	const template = basePage("Les cartes d'architecture MAIF", `
 	<div class="hide">
-		${allCards.map(card => createCardFragment(card)).join('\n')}
+		${allCards.map(card => createCardFragment(card, true)).join('\n')}
 	</div>
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
@@ -165,7 +165,7 @@ function createCategoryGoldenIndexPage(category) {
 	touch(target + '/' + category + '-golden/index.html', template);
 }
 
-function createCardFragment(card, link) {
+function createCardFragment(card, rotate = false) {
 	if (card.abstract.length === 0 && card.details.length === 0) {
     // tete de categorie
 		return `
@@ -192,7 +192,7 @@ function createCardFragment(card, link) {
 		<div class="row card">
 			<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2 left">
 				<div class="cardfront cardfront-${card.category}-${card.golden ? 'golden' : 'normal'}">
-        <div class="layer"></div>
+        <div class="${rotate ? 'layer' : ''}"></div>
 					<h3 class="cardfront-top-title">${card.category}</h3>
 					<h3 class="cardfront-title">[ ${card.title} ]</h3>
 					<div class="cardfront-abstract cardfront-abstract-${card.golden ? 'golden' : 'normal'}">
@@ -202,7 +202,7 @@ function createCardFragment(card, link) {
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 right">
 				<div class="cardback cardback-${card.category}-${card.golden ? 'golden' : 'normal'}">
-        <div class="layer"></div>
+        <div class="${rotate ? 'layer' : ''}"></div>
 					<h3 class="cardback-top-title">${card.category}</h3>
 					<h3 class="cardback-title">[ ${card.title} ]</h3>
 					<div class="cardback-abstract cardback-abstract-${card.golden ? 'golden' : 'normal'}">
@@ -222,7 +222,7 @@ function createCardPage(card) {
 			<h1>Carte "${card.title}"</h1>
 		</div>
 	</div>
-	` + createCardFragment(card), false, false);
+	` + createCardFragment(card, true), false, false);
 	touch(target + '/' + card.category + '/' + card.id + '.html', template);
 }
 
