@@ -101,7 +101,7 @@ function createIndex(category, card) {
 			onclickrandom();
 		});
 	</script>
-	`, false);
+	`, false, true);
 	touch(target + '/index.html', template);
 }
 
@@ -222,7 +222,7 @@ function createCardPage(card) {
 			<h1>Carte "${card.title}"</h1>
 		</div>
 	</div>
-	` + createCardFragment(card), false);
+	` + createCardFragment(card), false, false);
 	touch(target + '/' + card.category + '/' + card.id + '.html', template);
 }
 
@@ -246,7 +246,7 @@ function generateDistribution() {
 
 generateDistribution();
 
-function basePage(title, content, search = true) {
+function basePage(title, content, search = true, reload = false) {
 	return `
 	<html lang="fr">
 		<head>
@@ -297,7 +297,7 @@ function basePage(title, content, search = true) {
 					</a>
 				</div>
 			</nav>
-      	<span id="random-click" type="button" title="random cards"><i class="fas fa-sync fa-2x"></i></span>
+			${reload ? '<span id="random-click" type="button" title="random cards"><i class="fas fa-sync fa-2x"></i></span>' : ''}
 			${content}
       <div class="container-fluid container-footer">
 				<div class="row">
