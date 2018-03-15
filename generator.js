@@ -187,6 +187,7 @@ function createCardFragment(card, link) {
 		<div class="row card">
 			<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2">
 				<div class="cardfront cardfront-${card.category}-${card.golden ? 'golden' : 'normal'}">
+        <div class="layer"></div>
 					<h3 class="cardfront-top-title">${card.category}</h3>
 					<h3 class="cardfront-title">[ ${card.title} ]</h3>
 					<div class="cardfront-abstract cardfront-abstract-${card.golden ? 'golden' : 'normal'}">
@@ -196,6 +197,7 @@ function createCardFragment(card, link) {
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
 				<div class="cardback cardback-${card.category}-${card.golden ? 'golden' : 'normal'}">
+        <div class="layer"></div>
 					<h3 class="cardback-top-title">${card.category}</h3>
 					<h3 class="cardback-title">[ ${card.title} ]</h3>
 					<div class="cardback-abstract cardback-abstract-${card.golden ? 'golden' : 'normal'}">
