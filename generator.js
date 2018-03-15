@@ -190,7 +190,7 @@ function createCardFragment(card, link) {
 	return `
 	<a class="any-card complete-card" href="/cards/${card.category}/${card.id}.html" data-content="${(card.title + ' - ' + card.abstract + ' - ' + card.details).toLowerCase()}">
 		<div class="row card">
-			<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2">
+			<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2 left">
 				<div class="cardfront cardfront-${card.category}-${card.golden ? 'golden' : 'normal'}">
         <div class="layer"></div>
 					<h3 class="cardfront-top-title">${card.category}</h3>
@@ -200,7 +200,7 @@ function createCardFragment(card, link) {
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+			<div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 right">
 				<div class="cardback cardback-${card.category}-${card.golden ? 'golden' : 'normal'}">
         <div class="layer"></div>
 					<h3 class="cardback-top-title">${card.category}</h3>
