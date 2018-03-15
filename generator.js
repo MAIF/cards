@@ -291,7 +291,7 @@ function basePage(title, content, search = true) {
 				</div>
 			</nav>
 			${content}
-      <div class="container-fluid" style="margin-top: 350px">
+      <div class="container-fluid container-footer">
 				<div class="row">
 					<div class="footer">
 						<img src="/cards/images/header-home.svg">

@@ -15,6 +15,10 @@ h1 {
   font-size: 24px;
 }
 
+.container-footer{
+   margin-top: 350px;
+}
+
 .footer img {
   position: fixed;
   bottom: 0;
@@ -434,3 +438,16 @@ background-color: rgba(89, 89, 89, 0.7);
  z-index: -1;
  border-radius: 20px;
  }
+
+@media screen and (max-width: 640px) {
+  .maifLogo{
+    flex-direction: column-reverse;
+  }
+  .maifLogo a[rel=license] {
+    margin-top: 10px;
+  }
+
+  .container-footer{
+     margin-top: 150px;
+  }
+}
