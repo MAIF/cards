@@ -63,13 +63,13 @@ function touch(path, content) {
 }
 
 function createIndex(category, card) {
-	const template = basePage("Les cartes d'architecture MAIF", `
+	const template = basePage("#OSSbyMAIF - The Rules", `
 	<div class="hide">
 		${allCards.map(card => createCardFragment(card, true)).join('\n')}
 	</div>
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
-			<h1>[ #OSSbyMAIF Rules ]</h1>
+			<h1>[ #OSSbyMAIF - The Rules ]</h1>
 		</div>
 	</div>
 	<div id="random"></div>
