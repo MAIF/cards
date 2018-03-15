@@ -107,7 +107,7 @@ function createIndex(category, card) {
 
 function createAllCardsPage() {
 	const cards = allCards.map(card => createCardFragment(card));
-	const template = basePage('Toutes les cartes', `
+	const template = basePage('#OSSbyMAIF - Toutes les cartes', `
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
 			<h1>Toutes les cartes</h1>
@@ -120,6 +120,7 @@ function createAllCardsPage() {
 	touch(target + '/all.html', template);
 }
 
+/*
 function createGoldenCardsPage() {
 	const cards = allCards.filter(c => c.golden).map(card => createCardFragment(card));
 	const template = basePage('Tous les atouts', `
@@ -134,10 +135,11 @@ function createGoldenCardsPage() {
 	`);
 	touch(target + '/golden.html', template);
 }
+*/
 
 function createCategoryIndexPage(category) {
 	const cards = categories[category].map(card => createCardFragment(card));
-	const template = basePage(titleOf(category), `
+	const template = basePage('#OSSbyMAIF - ' + titleOf(category), `
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
 			<h1>Les cartes de la catégorie "${titleOf(category)}"</h1>
@@ -150,6 +152,7 @@ function createCategoryIndexPage(category) {
 	touch(target + '/' + category + '/index.html', template);
 }
 
+/*
 function createCategoryGoldenIndexPage(category) {
 	const cards = categories[category].filter(c => c.golden).map(card => createCardFragment(card));
 	const template = basePage(titleOf(category), `
@@ -164,6 +167,7 @@ function createCategoryGoldenIndexPage(category) {
 	`);
 	touch(target + '/' + category + '-golden/index.html', template);
 }
+*/
 
 function createCardFragment(card, rotate = false) {
 	if (card.abstract.length === 0 && card.details.length === 0) {
@@ -216,7 +220,7 @@ function createCardFragment(card, rotate = false) {
 }
 
 function createCardPage(card) {
-	const template = basePage(card.title, `
+	const template = basePage('#OSSbyMAIF - ' + card.title, `
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
 			<h1>Carte "${card.title}"</h1>
@@ -234,10 +238,10 @@ function generateDistribution() {
 			fs.copySync('./cards.css', target + '/cards.css');
 			createIndex();
 			createAllCardsPage();
-			createGoldenCardsPage();
+			// createGoldenCardsPage();
 			allCards.forEach(card => createCardPage(card));
 			Object.keys(categories).forEach(category => createCategoryIndexPage(category));
-			Object.keys(categories).forEach(category => createCategoryGoldenIndexPage(category));
+			// Object.keys(categories).forEach(category => createCategoryGoldenIndexPage(category));
 		} catch (e) {
 			console.log(e);
 		}
