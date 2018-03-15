@@ -74,7 +74,7 @@ function createIndex(category, card) {
 	</div>
 	<div id="random"></div>
 	<div style="width:100%;display:flex;justify-content:center;align-items:center;margin-bottom:50px;">
-	<span id="random-click" type="button"><i class="fas fa-sync fa-3x"></i></span>
+
 	</div>
 	<script>
 		$(function() {
@@ -292,6 +292,7 @@ function basePage(title, content, search = true) {
 					</a>
 				</div>
 			</nav>
+      	<span id="random-click" type="button" title="random cards"><i class="fas fa-sync fa-2x"></i></span>
 			${content}
       <div class="container-fluid container-footer">
 				<div class="row">

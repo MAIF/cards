@@ -29,16 +29,20 @@ h1 {
   margin-bottom: 20px;
 }
 #random-click {
-    background-image: url('/cards/images/neutre-verso.png');
+    /* background-image: url('/cards/images/neutre-verso.png');
     -webkit-background-size: cover;
     background-size: cover;
     width: 80px;
     height: 113px;
     align-items: center;
     display: flex;
-    justify-content: center;
-    color: #fff;
+    justify-content: center;*/
+    color: #cdcdcd;
     cursor: pointer;
+    width: 20px;
+position: fixed;
+left: 22px;
+top: 60px;
 }
 
 #random-click svg{
@@ -432,6 +436,7 @@ h1 {
   /*text-align: justify;*/
   font-size: 17px;
 }
+
 .layer{
 background-color: rgba(89, 89, 89, 0.7);
  position: absolute;
