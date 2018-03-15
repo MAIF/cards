@@ -106,7 +106,7 @@ function createIndex(category, card) {
 }
 
 function createAllCardsPage() {
-	const cards = allCards.map(card => createCardFragment(card, true));
+	const cards = allCards.map(card => createCardFragment(card));
 	const template = basePage('Toutes les cartes', `
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
@@ -121,7 +121,7 @@ function createAllCardsPage() {
 }
 
 function createGoldenCardsPage() {
-	const cards = allCards.filter(c => c.golden).map(card => createCardFragment(card, true));
+	const cards = allCards.filter(c => c.golden).map(card => createCardFragment(card));
 	const template = basePage('Tous les atouts', `
 	<div class="all">
 		<div class="row">
@@ -136,7 +136,7 @@ function createGoldenCardsPage() {
 }
 
 function createCategoryIndexPage(category) {
-	const cards = categories[category].map(card => createCardFragment(card, true));
+	const cards = categories[category].map(card => createCardFragment(card));
 	const template = basePage(titleOf(category), `
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
@@ -151,7 +151,7 @@ function createCategoryIndexPage(category) {
 }
 
 function createCategoryGoldenIndexPage(category) {
-	const cards = categories[category].filter(c => c.golden).map(card => createCardFragment(card, true));
+	const cards = categories[category].filter(c => c.golden).map(card => createCardFragment(card));
 	const template = basePage(titleOf(category), `
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
