@@ -3,6 +3,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+body>.row {
+  padding-bottom: 40px;
+}
+
 .home {
   position: fixed;
   z-index: 0;

@@ -69,7 +69,7 @@ function createIndex(category, card) {
 	</div>
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
-			<h1>[ Règles de construction des nouveaux projets numérique MAIF #OSSbyMAIF Rules ]</h1>
+			<h1>[ #OSSbyMAIF Rules ]</h1>
 		</div>
 	</div>
 	<div id="random"></div>
