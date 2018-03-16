@@ -69,7 +69,7 @@ function createIndex(category, card) {
 	</div>
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
-			<h1>[ #OSSbyMAIF - The Rules ]</h1>
+			<h1 id="theTitle" style="cursor:pointer;">[ #OSSbyMAIF - The Rules ]</h1>
 		</div>
 	</div>
 	<div id="random"></div>
@@ -97,6 +97,9 @@ function createIndex(category, card) {
 					$('#random').html(html);
 				}
 			}
+			$('#theTitle').click(function(e) {
+				window.location.reload();
+			});
 			$('#random-click').click(onclickrandom);
 			onclickrandom();
 			var mc = new Hammer(document.body);
