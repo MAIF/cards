@@ -99,6 +99,10 @@ function createIndex(category, card) {
 			}
 			$('#random-click').click(onclickrandom);
 			onclickrandom();
+			var mc = new Hammer(document.body);
+			mc.on("swipeleft swiperight", function(ev) {
+				onclickrandom();
+			});
 		});
 	</script>
 	`, false, true);
@@ -268,6 +272,7 @@ function basePage(title, content, search = true, reload = false) {
   		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 			<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<script src="https://hammerjs.github.io/dist/hammer.js"></script>
 			<link rel="stylesheet" href="/cards/cards.css">
 		</head>
 		<body>
