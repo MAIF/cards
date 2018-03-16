@@ -21,6 +21,14 @@ const categoriesTitles = {
   'regles-du-jeu': categories['regles-du-jeu'][0].title,
 };
 
+const categoriesIcons = {
+  'time-to-market': '/cards/images/time.svg',
+  'user-experience': '/cards/images/ux.svg',
+  'humain': '/cards/images/human.svg',
+  'interoperabilite': '/cards/images/interop.svg',
+  'regles-du-jeu': '/cards/images/neutre.svg',
+};
+
 function titleOf(cat) {
 	return categoriesTitles[cat] || '';
 }
@@ -291,7 +299,7 @@ function basePage(title, content, search = true, reload = false) {
 						<hr>
             <!--li>Catégories</li>
             <ul-->
-						${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html"><i class="far fa-clock"></i> ${titleOf(c).toLowerCase()}</a></li>`).join('\n')}
+						${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html"><img width="16" height="16" src="${categoriesIcons[c]}"/> ${titleOf(c).toLowerCase()}</a></li>`).join('\n')}
             <!--/ul>
 						<hr>
 						<li><a href="https://github.com/MAIF/cards">Les cartes sur Github</a></li>
