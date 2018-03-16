@@ -278,25 +278,28 @@ function basePage(title, content, search = true, reload = false) {
 					<span></span>
 					<span></span>
 					<ul class="menu">
-						<li><a href="/cards/">Accueil</a></li>
+						<!--li><a href="/cards/">Accueil</a></li-->
 						<li><a href="/cards/all.html">Toutes les cartes</a></li>
 						<hr>
-            <li>Catégories</li>
-            <ul>
-						${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html"> ${titleOf(c).toLowerCase()}</a></li>`).join('\n')}
-            </ul>
+            <!--li>Catégories</li>
+            <ul-->
+						${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html"><i class="far fa-clock"></i> ${titleOf(c).toLowerCase()}</a></li>`).join('\n')}
+            <!--/ul>
 						<hr>
 						<li><a href="https://github.com/MAIF/cards">Les cartes sur Github</a></li>
-						<li><a href="https://maif.github.io">Maif OSS</a></li>
+						<li><a href="https://maif.github.io">Maif OSS</a></li-->
 						<hr/>
 						<li>
 							<input type="text" class="card-search form-control ${search ? '' : 'hide'}" placeholder="rechercher une carte"></input>
-						</li>
+						</l>
 					</ul>
 				</div>
 				<div class="maifLogo">
 					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-right: 20px">
 						<img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
+					</a>
+					<a href="https://github.com/MAIF/cards">
+						<img class="logoGithub" alt="MAIF cards" src="/cards/images/GitHub-Mark-Light-64px.png" />
 					</a>
 					<a href="https://maif.github.io">
 						<img class="logo" alt="MAIF OSS" src="/cards/images/maif-black.png" />
