@@ -1,6 +1,6 @@
 body {
   background-color: #333333;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 body>.row {
@@ -149,7 +149,7 @@ top: 60px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  background: #ededed;
+  background: #a6bc99;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
@@ -173,6 +173,10 @@ top: 60px;
 
 .toggleMenu input:checked~ul {
   transform: none;
+}
+
+.menu hr {
+  border-top: none;
 }
 
 /* FIN MENU */
@@ -258,7 +262,7 @@ top: 60px;
   padding-left: 85px;
   padding-right: 20px;
   margin-top: 26px;
-  font-family: 'Roboto';
+  font-family: 'Raleway';
   font-size: 20px;
 }
 
@@ -267,7 +271,7 @@ top: 60px;
   padding-right: 80px;
   padding-top: 30px;
   margin-top: 30px;
-  font-family: 'Roboto';
+  font-family: 'Raleway';
   font-size: 16px;
 }
 
@@ -349,7 +353,7 @@ top: 60px;
   margin-top: 80px;
   text-align: center;
   font-size: 22px;
-  font-family: 'Roboto';
+  font-family: 'Raleway';
 }
 
 .cardfront-abstract-golden {
@@ -358,7 +362,7 @@ top: 60px;
   margin-top: 100px;
   text-align: center;
   font-size: 22px;
-  font-family: 'Roboto';
+  font-family: 'Raleway';
 }
 
 .cardfront-time-to-market-golden>.cardfront-abstract-golden strong, .cardfront-time-to-market-normal>.cardfront-abstract-normal strong {
@@ -386,7 +390,7 @@ top: 60px;
   padding-right: 20px;
   margin-top: 26px;
   color: white;
-  font-family: 'Roboto';
+  font-family: 'Raleway';
   font-size: 20px;
 }
 
@@ -396,7 +400,7 @@ top: 60px;
   padding-top: 30px;
   margin-top: 30px;
   color: white;
-  font-family: 'Roboto';
+  font-family: 'Raleway';
   font-size: 16px;
 }
 
@@ -404,7 +408,7 @@ top: 60px;
   padding-top: 286px;
   margin-top: 33px;
   color: white;
-  font-family: 'Roboto';
+  font-family: 'Raleway';
   font-size: 26px;
   text-align: center;
 }
