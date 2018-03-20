@@ -83,7 +83,7 @@ function createIndex(category, card) {
   	</div>
   </div>
     <div class="container-fluid">
-	<div id="random"></div>
+	<div id="random" class="row"></div>
 	<div style="margin-bottom:50px;">
 </div>
 	</div>
@@ -196,7 +196,7 @@ function createCardFragment(card, rotate = false) {
     // tete de categorie
 		return `
 		<a class="any-card" href="/cards/${card.category}/index.html">
-			<div class="row">
+			<div class="row categ-card">
 				<div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-4  col-lg-offset-2 categ-left">
 					<div class="covercard covercard-${card.category}">
 						<h3 class="covercard-title">${card.title}</h3>

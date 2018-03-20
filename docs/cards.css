@@ -551,6 +551,12 @@ body .header {
   transform: none;
 }
 
+
+  .card,.categ-card{
+    margin-right: 0px;
+  }
+
+  
 .layer {
   background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 10%);
   background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 10%);
@@ -594,6 +600,10 @@ body .header {
   .card .right {
     transform: none;
   }
+  .categ-card{
+  display: none;
+  }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 850px) {
