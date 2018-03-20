@@ -77,7 +77,7 @@ function createIndex(category, card) {
 	</div>
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
-			<h1 id="theTitle" style="cursor:pointer;">[ #OSSbyMAIF - The Rules ]</h1>
+			<h1 id="theTitle" style="cursor:pointer;"> #OSSbyMAIF - The Rules </h1>
 		</div>
 	</div>
 	<div id="random"></div>
@@ -125,7 +125,7 @@ function createAllCardsPage() {
 	const template = basePage('#OSSbyMAIF - Toutes les cartes', `
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
-			<h1>Toutes les cartes</h1>
+			<h1> Toutes les cartes </h1>
 		</div>
 	</div>
 	<div class="all">
@@ -157,7 +157,7 @@ function createCategoryIndexPage(category) {
 	const template = basePage('#OSSbyMAIF - ' + titleOf(category), `
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
-			<h1>Les cartes de la catégorie "${titleOf(category)}"</h1>
+			<h1> Les cartes de la catégorie "${titleOf(category)}" </h1>
 		</div>
 	</div>
 	<div class="category">
@@ -238,7 +238,7 @@ function createCardPage(card) {
 	const template = basePage('#OSSbyMAIF - ' + card.title, `
 	<div class="row">
 		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
-			<h1>Carte "${card.title}"</h1>
+			<h1> Carte "${card.title}" </h1>
 		</div>
 	</div>
 	` + createCardFragment(card, true), false, false);
@@ -294,16 +294,9 @@ function basePage(title, content, search = true, reload = false) {
 					<span></span>
 					<span></span>
 					<ul class="menu">
-						<!--li><a href="/cards/">Accueil</a></li-->
 						<li><a href="/cards/all.html">Toutes les cartes</a></li>
 						<hr>
-            <!--li>Catégories</li>
-            <ul-->
-						${Object.keys(categories).map(c => `<li><a href="/cards/${c}/index.html"><img width="16" height="16" src="${categoriesIcons[c]}"/> ${titleOf(c).toLowerCase()}</a></li>`).join('\n')}
-            <!--/ul>
-						<hr>
-						<li><a href="https://github.com/MAIF/cards">Les cartes sur Github</a></li>
-						<li><a href="https://maif.github.io">Maif OSS</a></li-->
+						${Object.keys(categories).map(c => `<li><img width="16" height="16" src="${categoriesIcons[c]}"/><a href="/cards/${c}/index.html">${titleOf(c).toLowerCase()}</a></li>`).join('\n')}
 						<hr/>
 						<li>
 							<input type="text" class="card-search form-control ${search ? '' : 'hide'}" placeholder="rechercher une carte"></input>
@@ -311,8 +304,8 @@ function basePage(title, content, search = true, reload = false) {
 					</ul>
 				</div>
 				<div class="maifLogo">
-					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-right: 20px">
-						<img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+						<img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
 					</a>
 					<a href="https://github.com/MAIF/cards">
 						<img class="logoGithub" alt="MAIF cards" src="/cards/images/GitHub-Mark-Light-64px.png" />
