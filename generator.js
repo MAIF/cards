@@ -283,20 +283,19 @@ function basePage(title, content, search = true, reload = false) {
 			<meta http-equiv="x-ua-compatible" content="ie=edge">
 			<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
 			<title>${title}</title>
-      <meta name="description" content="${title}" />
-      <meta property="og:url" content="https://maif.github.io/cards/" />
-      <meta property="og:type" content="article" />
-      <meta property="og:title" content="${title}" />
-      <meta property="og:description" content="${title}" />
-      <meta property="og:image" content="https://maif.github.io/cards/images/maif-black.png" />
-
+		    <meta name="description" content="${title}" />
+		    <meta property="og:url" content="https://maif.github.io/cards/" />
+		    <meta property="og:type" content="article" />
+		    <meta property="og:title" content="${title}" />
+		    <meta property="og:description" content="${title}" />
+		    <meta property="og:image" content="https://maif.github.io/cards/images/maif-black.png" />
 			<link rel="shortcut icon" type="image/padding-left" href="/cards/images/icon.png">
 			<link rel="apple-touch-icon" href="/cards/images/icon.png">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 			<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i" rel="stylesheet">
-  		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  		    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 			<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 			<script src="https://hammerjs.github.io/dist/hammer.js"></script>
@@ -332,7 +331,7 @@ function basePage(title, content, search = true, reload = false) {
 			${reload ? '<span id="random-click" type="button" title="random cards"><i class="fas fa-sync fa-2x"></i></span>' : ''}
 			${!reload ? '<a id="home-click" href="/cards/" title="home"><i class="fas fa-home fa-2x"></i></a>' : ''}
 			${content}
-      <div class="container-fluid container-footer">
+            <div class="container-fluid container-footer">
 				<div class="row">
 					<div class="footer">
 						<img src="/cards/images/header-home.svg" alt="décoration du bas de page">
