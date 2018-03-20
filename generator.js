@@ -75,8 +75,8 @@ function createIndex(category, card) {
 	<div class="hide">
 		${allCards.map(card => createCardFragment(card, true)).join('\n')}
 	</div>
-	<div class="row">
-		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
+	<div class="row header">
+		<div class="col-xs-6 col-xs-offset-3 text-center">
 			<h1 id="theTitle" style="cursor:pointer;"> #OSSbyMAIF - The Rules </h1>
 		</div>
 	</div>
@@ -123,8 +123,8 @@ function createIndex(category, card) {
 function createAllCardsPage() {
 	const cards = allCards.map(card => createCardFragment(card));
 	const template = basePage('#OSSbyMAIF - Toutes les cartes', `
-	<div class="row">
-		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
+	<div class="row header">
+		<div class="col-xs-6 col-xs-offset-3 text-center">
 			<h1> Toutes les cartes </h1>
 		</div>
 	</div>
@@ -155,8 +155,8 @@ function createGoldenCardsPage() {
 function createCategoryIndexPage(category) {
 	const cards = categories[category].map(card => createCardFragment(card));
 	const template = basePage('#OSSbyMAIF - ' + titleOf(category), `
-	<div class="row">
-		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
+	<div class="row header">
+		<div class="col-xs-6 col-xs-offset-3 text-center">
 			<h1> Les cartes de la catégorie "${titleOf(category)}" </h1>
 		</div>
 	</div>
@@ -236,8 +236,8 @@ function createCardFragment(card, rotate = false) {
 
 function createCardPage(card) {
 	const template = basePage('#OSSbyMAIF - ' + card.title, `
-	<div class="row">
-		<div class="col-xs-6 col-xs-offset-3" style="text-align: center">
+	<div class="row header">
+		<div class="col-xs-6 col-xs-offset-3 text-center">
 			<h1> Carte "${card.title}" </h1>
 		</div>
 	</div>
@@ -273,12 +273,18 @@ function basePage(title, content, search = true, reload = false) {
 			<meta http-equiv="x-ua-compatible" content="ie=edge">
 			<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
 			<title>${title}</title>
+      <meta name="description" content="${title}" />
+      <meta property="og:url" content="URL FINALE" />
+      <meta property="og:type" ontent="article" />
+      <meta property="og:title" content="${title}" />
+      <meta property="og:description" content="${title}" />
+      <meta property="og:image" content="https://maif.github.io/cards/images/maif-black.png" />
+
 			<link rel="shortcut icon" type="image/padding-left" href="/cards/images/icon.png">
 			<link rel="apple-touch-icon" href="/cards/images/icon.png">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 			<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-			<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i" rel="stylesheet">
   		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 			<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
