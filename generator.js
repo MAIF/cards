@@ -75,14 +75,17 @@ function createIndex(category, card) {
 	<div class="hide">
 		${allCards.map(card => createCardFragment(card, true)).join('\n')}
 	</div>
-	<div class="row header">
-		<div class="col-xs-6 col-xs-offset-3 text-center">
-			<h1 id="theTitle" style="cursor:pointer;"> #OSSbyMAIF - The Rules </h1>
-		</div>
-	</div>
+  <div class="container-fluid">
+  	<div class="row header">
+  		<div class="col-xs-6 col-xs-offset-3 text-center">
+  			<h1 id="theTitle" style="cursor:pointer;"> #OSSbyMAIF - The Rules </h1>
+  		</div>
+  	</div>
+  </div>
+    <div class="container-fluid">
 	<div id="random"></div>
-	<div style="width:100%;display:flex;justify-content:center;align-items:center;margin-bottom:50px;">
-
+	<div style="margin-bottom:50px;">
+</div>
 	</div>
 	<script>
 		$(function() {
@@ -123,11 +126,13 @@ function createIndex(category, card) {
 function createAllCardsPage() {
 	const cards = allCards.map(card => createCardFragment(card));
 	const template = basePage('#OSSbyMAIF - Toutes les cartes', `
-	<div class="row header">
-		<div class="col-xs-6 col-xs-offset-3 text-center">
-			<h1> Toutes les cartes </h1>
-		</div>
-	</div>
+  <div class="container-fluid">
+  	<div class="row header">
+  		<div class="col-xs-6 col-xs-offset-3 text-center">
+  			<h1> Toutes les cartes </h1>
+  		</div>
+  	</div>
+  </div>
 	<div class="all">
 		${cards.join('\n')}
 	</div>
@@ -155,11 +160,13 @@ function createGoldenCardsPage() {
 function createCategoryIndexPage(category) {
 	const cards = categories[category].map(card => createCardFragment(card));
 	const template = basePage(titleOf(category) + ' - #OSSbyMAIF', `
-	<div class="row header">
-		<div class="col-xs-6 col-xs-offset-3 text-center">
-			<h1> Les cartes de la catégorie "${titleOf(category)}" </h1>
-		</div>
-	</div>
+  <div class="container-fluid">
+  	<div class="row header">
+  		<div class="col-xs-6 col-xs-offset-3 text-center">
+  			<h1> Les cartes de la catégorie "${titleOf(category)}" </h1>
+  		</div>
+  	</div>
+  </div>
 	<div class="category">
 		${cards.join('\n')}
 	</div>
@@ -190,12 +197,12 @@ function createCardFragment(card, rotate = false) {
 		return `
 		<a class="any-card" href="/cards/${card.category}/index.html">
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 col-lg-4  col-lg-offset-2">
+				<div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-4  col-lg-offset-2 categ-left">
 					<div class="covercard covercard-${card.category}">
 						<h3 class="covercard-title">${card.title}</h3>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-5  col-lg-4">
+				<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
 					<div class="covercard covercard-${card.category}">
 						<h3 class="covercard-title">${card.title}</h3>
 					</div>
@@ -207,9 +214,9 @@ function createCardFragment(card, rotate = false) {
 	const abstract = converter.makeHtml(card.abstract.join('\n\n'));
 	const details = converter.makeHtml(card.details.join('\n\n'));
 	return `
-	<a class="any-card complete-card" href="/cards/${card.category}/${card.id}.html" data-content="${(card.title + ' - ' + card.abstract + ' - ' + card.details).toLowerCase()}">
+	<a class="any-card complete-card container-fluid" href="/cards/${card.category}/${card.id}.html" data-content="${(card.title + ' - ' + card.abstract + ' - ' + card.details).toLowerCase()}">
 		<div class="row card">
-			<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2 ${rotate ? 'left' : ''}">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 ${rotate ? 'left' : 'categ-left'}">
 				<div class="cardfront cardfront-${card.category}-${card.golden ? 'golden' : 'normal'}">
         <div class="layer"></div>
 					<h3 class="cardfront-top-title">${card.category}</h3>
@@ -219,7 +226,7 @@ function createCardFragment(card, rotate = false) {
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 ${rotate ? 'right' : ''}">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 ${rotate ? 'right' : 'categ-right'}">
 				<div class="cardback cardback-${card.category}-${card.golden ? 'golden' : 'normal'}">
         <div class="layer"></div>
 					<h3 class="cardback-top-title">${card.category}</h3>
@@ -236,11 +243,13 @@ function createCardFragment(card, rotate = false) {
 
 function createCardPage(card) {
 	const template = basePage(card.title+' - #OSSbyMAIF' , `
-	<div class="row header">
-		<div class="col-xs-6 col-xs-offset-3 text-center">
-			<h1> Carte "${card.title}" </h1>
-		</div>
-	</div>
+  <div class="container-fluid">
+  	<div class="row header">
+  		<div class="col-xs-6 col-xs-offset-3 text-center">
+  			<h1> Carte "${card.title}" </h1>
+  		</div>
+  	</div>
+  </div>
 	` + createCardFragment(card, true), false, false);
 	touch(target + '/' + card.category + '/' + card.id + '.html', template);
 }

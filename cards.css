@@ -3,7 +3,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-body>.row {
+body .header {
   padding-bottom: 50px;
 }
 
@@ -275,7 +275,7 @@ body>.row {
 
 .cardback {
   margin-top: 30px;
-  width: 358px;
+   width: 358px;
   height: 498px;
   color: white;
   margin: auto;
@@ -593,5 +593,15 @@ body>.row {
   }
   .card .right {
     transform: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+  .card .left,  .categ-left {
+    margin-left: 5%;
+  }
+
+  .categ-right{
+    transform: translateX(20px);
   }
 }
