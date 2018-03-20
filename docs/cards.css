@@ -260,6 +260,9 @@ body>.row {
   color: #000;
 }
 
+.menu .li-allCards {
+  margin-bottom: 20px;
+}
 .toggleMenu input:checked~ul {
   transform: none;
 }

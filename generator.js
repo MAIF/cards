@@ -154,7 +154,7 @@ function createGoldenCardsPage() {
 
 function createCategoryIndexPage(category) {
 	const cards = categories[category].map(card => createCardFragment(card));
-	const template = basePage('#OSSbyMAIF - ' + titleOf(category), `
+	const template = basePage(titleOf(category) + ' - #OSSbyMAIF', `
 	<div class="row header">
 		<div class="col-xs-6 col-xs-offset-3 text-center">
 			<h1> Les cartes de la catégorie "${titleOf(category)}" </h1>
@@ -235,7 +235,7 @@ function createCardFragment(card, rotate = false) {
 }
 
 function createCardPage(card) {
-	const template = basePage('#OSSbyMAIF - ' + card.title, `
+	const template = basePage(card.title+' - #OSSbyMAIF' , `
 	<div class="row header">
 		<div class="col-xs-6 col-xs-offset-3 text-center">
 			<h1> Carte "${card.title}" </h1>
@@ -267,6 +267,7 @@ generateDistribution();
 
 function basePage(title, content, search = true, reload = false) {
 	return `
+  <!DOCTYPE html>
 	<html lang="fr">
 		<head>
 			<meta charset="utf-8">
@@ -275,7 +276,7 @@ function basePage(title, content, search = true, reload = false) {
 			<title>${title}</title>
       <meta name="description" content="${title}" />
       <meta property="og:url" content="URL FINALE" />
-      <meta property="og:type" ontent="article" />
+      <meta property="og:type" content="article" />
       <meta property="og:title" content="${title}" />
       <meta property="og:description" content="${title}" />
       <meta property="og:image" content="https://maif.github.io/cards/images/maif-black.png" />
@@ -300,13 +301,11 @@ function basePage(title, content, search = true, reload = false) {
 					<span></span>
 					<span></span>
 					<ul class="menu">
-						<li><a href="/cards/all.html">Toutes les cartes</a></li>
-						<hr>
-						${Object.keys(categories).map(c => `<li><img width="16" height="16" src="${categoriesIcons[c]}"/><a href="/cards/${c}/index.html">${titleOf(c).toLowerCase()}</a></li>`).join('\n')}
-						<hr/>
+						<li class="li-allCards"><a href="/cards/all.html">Toutes les cartes</a></li>
+						${Object.keys(categories).map(c => `<li><img width="16" height="16" src="${categoriesIcons[c]}" alt="Catégorie ${titleOf(c).toLowerCase()}"/><a href="/cards/${c}/index.html">${titleOf(c).toLowerCase()}</a></li>`).join('\n')}
 						<li>
-							<input type="text" class="card-search form-control ${search ? '' : 'hide'}" placeholder="rechercher une carte"></input>
-						</l>
+							<input type="text" class="card-search form-control ${search ? '' : 'hide'}" placeholder="rechercher une carte">
+						</li>
 					</ul>
 				</div>
 				<div class="maifLogo">
@@ -327,7 +326,7 @@ function basePage(title, content, search = true, reload = false) {
       <div class="container-fluid container-footer">
 				<div class="row">
 					<div class="footer">
-						<img src="/cards/images/header-home.svg">
+						<img src="/cards/images/header-home.svg" alt="décoration du bas de page">
 					</div>
 				</div>
 			</div>
