@@ -329,8 +329,9 @@ function basePage(title, content, search = true, reload = false) {
 					</a>
 				</div>
 			</nav>
-			${reload ? '<span id="random-click" type="button" title="random cards"><i class="fas fa-sync fa-2x"></i></span>' : ''}
+			${reload ? '<span id="random-click" type="button" data-toggle="tooltip-random" title="" data-original-title="Tirer une nouvelle carte aléatoirement" data-placement="right"><i class="fas fa-sync fa-2x"></i></span>' : ''}
 			${!reload ? '<a id="home-click" href="/cards/" title="home"><i class="fas fa-home fa-2x"></i></a>' : ''}
+      <a href="#" data-toggle="tooltip" title="" data-original-title="Le jeu de cartes MAIF des principes de conception des nouveaux produits numériques de sa plateforme de services" data-placement="right" id="info-click"><i class="fas fa-question fa-2x"></i></a>
 			${content}
       <div class="container-fluid container-footer">
 				<div class="row">
@@ -362,7 +363,11 @@ function basePage(title, content, search = true, reload = false) {
 						});
 					});
 				});
-			</script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+          $('[data-toggle="tooltip-random"]').tooltip();
+      });
+      </script>
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112498312-1"></script>
 			<script>
 				window.dataLayer = window.dataLayer || [];

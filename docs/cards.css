@@ -116,8 +116,8 @@ body .header {
   margin-bottom: 20px;
 }
 
-#random-click {
-  color: #cdcdcd;
+#random-click,#home-click {
+  color: #999;
   cursor: pointer;
   width: 20px;
   position: fixed;
@@ -126,14 +126,17 @@ body .header {
   z-index: 1;
 }
 
-#home-click {
-  color: #cdcdcd;
-  cursor: pointer;
-  width: 20px;
-  position: fixed;
-  left: 22px;
-  top: 60px;
+#info-click {
+    color: #999;
+    cursor: pointer;
+    width: 20px;
+    position: fixed;
+    left: 27px;
+    top: 105px;
 }
+
+.tooltip > .tooltip-inner {background-color: #a6bc99;}
+.tooltip > .tooltip-arrow { border-right-color:#a6bc99 !important; }
 
 #random-click svg {
   transform: rotateZ(0deg);
@@ -198,7 +201,7 @@ body .header {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #cdcdcd;
+  background: #999;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -263,6 +266,11 @@ body .header {
 .menu .li-allCards {
   margin-bottom: 20px;
 }
+
+.card-search {
+    margin-top: 20px;
+}
+
 .toggleMenu input:checked~ul {
   transform: none;
 }
@@ -556,7 +564,7 @@ body .header {
     margin-right: 0px;
   }
 
-  
+
 .layer {
   background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 10%);
   background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 10%);

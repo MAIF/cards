@@ -58,6 +58,7 @@
 			</nav>
 			
 			<a id="home-click" href="/cards/" title="home"><i class="fas fa-home fa-2x"></i></a>
+      <a href="#" data-toggle="tooltip" title="" data-original-title="Le jeu de cartes MAIF des principes de conception des nouveaux produits numériques de sa plateforme de services" data-placement="right" id="info-click"><i class="fas fa-question fa-2x"></i></a>
 			
   <div class="container-fluid">
   	<div class="row header">
@@ -421,7 +422,11 @@
 						});
 					});
 				});
-			</script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+          $('[data-toggle="tooltip-random"]').tooltip();
+      });
+      </script>
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112498312-1"></script>
 			<script>
 				window.dataLayer = window.dataLayer || [];
