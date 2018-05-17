@@ -259,6 +259,7 @@ function generateDistribution() {
 		try {
 			mkdirs();
 			fs.copySync('./images', target + '/images');
+			fs.copySync('./js/tarteaucitron', target + '/js/tarteaucitron');
 			fs.copySync('./cards.css', target + '/cards.css');
 			createIndex();
 			createAllCardsPage();
@@ -300,6 +301,18 @@ function basePage(title, content, search = true, reload = false) {
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 			<script src="https://hammerjs.github.io/dist/hammer.js"></script>
 			<link rel="stylesheet" href="/cards/cards.css">
+      <script type="text/javascript" src="/cards/js/tarteaucitron/tarteaucitron.js"></script>
+      <script type="text/javascript">
+      tarteaucitron.init({
+          "hashtag": "#tarteaucitron", /* Ouverture automatique du panel avec le hashtag */
+          "highPrivacy": false, /* désactiver le consentement implicite (en naviguant) ? */
+          "orientation": "bottom", /* le bandeau doit être en haut (top) ou en bas (bottom) ? */
+          "adblocker": false, /* Afficher un message si un adblocker est détecté */
+          "showAlertSmall": false, /* afficher le petit bandeau en bas à droite ? */
+          "cookieslist": true, /* Afficher la liste des cookies installés ? */
+          "removeCredit": false /* supprimer le lien vers la source ? */
+      });
+      </script>
 		</head>
 		<body>
 			<nav>
@@ -367,13 +380,11 @@ function basePage(title, content, search = true, reload = false) {
           $('[data-toggle="tooltip-random"]').tooltip();
       });
       </script>
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112498312-1"></script>
-			<script>
-				window.dataLayer = window.dataLayer || [];
-				function gtag(){dataLayer.push(arguments);}
-				gtag('js', new Date());
-				gtag('config', 'UA-112498312-1');
-			</script>
+      <script type="text/javascript">
+    tarteaucitron.user.analyticsUa = 'UA-112498312-1';
+    tarteaucitron.user.analyticsMore = function () {};
+    (tarteaucitron.job = tarteaucitron.job || []).push('analytics');
+</script>
 		</body>
 	</html>
 	`;
