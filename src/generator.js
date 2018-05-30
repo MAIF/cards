@@ -5,6 +5,8 @@ const fs = require('fs-extra');
 const target = './docs';
 const converter = new showdown.Converter();
 
+const langs = require('./cards/lang.json').map(i => i.lang);
+
 const categories = {
   'time-to-market': require(`./cards/time-to-market/metadata.json`).cards.map(id => require(`./cards/time-to-market/${id}.json`)),
   'user-experience': require(`./cards/user-experience/metadata.json`).cards.map(id => require(`./cards/user-experience/${id}.json`)),
@@ -23,11 +25,11 @@ const categoriesIcons = {
 
 function titleOf(lang, cat) {
 	const categoriesTitles = {
-		'time-to-market': categories['time-to-market'][0][lang].title,
-		'user-experience': categories['user-experience'][0][lang].title,
-		'human': categories['human'][0][lang].title,
-		'interoperability': categories['interoperability'][0][lang].title,
-		'rules': categories.rules[0][lang].title,
+		'time-to-market': categories['time-to-market'][0].lang[lang].title,
+		'user-experience': categories['user-experience'][0].lang[lang].title,
+		'human': categories['human'][0].lang[lang].title,
+		'interoperability': categories['interoperability'][0].lang[lang].title,
+		'rules': categories.rules[0].lang[lang].title,
 	};
 	return categoriesTitles[cat] || '';
 }
@@ -41,31 +43,34 @@ const allCards = [
 ];
 
 function rmLastDistribution() {
-	return new Promise((success, failure) => {
-	  rimraf(target, {}, (err, s) => {
-	  	if (err) {
-				failure(err);
-	  	} else {
-				success(s);
-	  	}
-	  });
-	});
+	fs.removeSync(target);
+	fs.ensureDirSync(target);
+	//return new Promise((success, failure) => {
+	//  rimraf(target, {}, (err, s) => {
+	//  	if (err) {
+	//			failure(err);
+	//  	} else {
+	//			success(s);
+	//  	}
+	//  });
+	//});
 
 }
 
-function mkdir(path) {
-	fs.mkdirSync(target + '/' + path);
+function mkdir(lang, path) {
+	fs.ensureDirSync(target + '/' + lang + '/' + path);
 }
 
-function mkdirs() {
-	fs.mkdirSync(target);
+function mkdirs(lang) {
+	// fs.mkdirSync(target);
+	fs.ensureDirSync(target + '/' + lang);
 	Object.keys(categories).forEach(category => {
-		mkdir(category);
+		mkdir(lang, category);
 	});
 }
 
 function touch(path, content) {
-	fs.writeFileSync(path, content);
+	fs.outputFileSync(path, content);
 }
 
 function createIndex(lang, category, card) {
@@ -219,20 +224,18 @@ function createCardPage(lang, card) {
 }
 
 function generateDistribution(lang) {
-	rmLastDistribution().then(() => {
-		try {
-			mkdirs();
-			fs.copySync('./src/images', target + '/images');
-			fs.copySync('./src/js/tarteaucitron', target + '/js/tarteaucitron');
-			fs.copySync('./src/cards.css', target + '/cards.css');
-			createIndex(lang);
-			createAllCardsPage(lang);
-			allCards.forEach(card => createCardPage(lang, card));
-			Object.keys(categories).forEach(category => createCategoryIndexPage(lang, category));
-		} catch (e) {
-			console.log(e);
-		}
-	});
+	try {
+		mkdirs(lang);
+		fs.copySync('./src/images', target + '/' + lang + '/images');
+		fs.copySync('./src/js/tarteaucitron', target + '/' + lang + '/js/tarteaucitron');
+		fs.copySync('./src/cards.css', target + '/' + lang + '/cards.css');
+		createIndex(lang);
+		createAllCardsPage(lang);
+		allCards.forEach(card => createCardPage(lang, card));
+		Object.keys(categories).forEach(category => createCategoryIndexPage(lang, category));
+	} catch (e) {
+		console.log(e);
+	}
 }
 
 function basePage(lang, title, content, search = true, reload = false) {
@@ -283,7 +286,7 @@ function basePage(lang, title, content, search = true, reload = false) {
 					<span></span>
 					<ul class="menu">
 						<li class="li-allCards"><a href="/cards/all.html">Toutes les cartes</a></li>
-						${Object.keys(categories).map(c => `<li><img width="16" height="16" src="${categoriesIcons[c]}" alt="Catégorie ${titleOf(lang, c).toLowerCase()}"/><a href="/cards/${c}/index.html">${titleOf(c).toLowerCase()}</a></li>`).join('\n')}
+						${Object.keys(categories).map(c => `<li><img width="16" height="16" src="${categoriesIcons[c]}" alt="Catégorie ${titleOf(lang, c).toLowerCase()}"/><a href="/cards/${c}/index.html">${titleOf(lang, c).toLowerCase()}</a></li>`).join('\n')}
 						<li>
 							<input type="text" class="card-search form-control ${search ? '' : 'hide'}" placeholder="rechercher une carte">
 						</li>
@@ -350,4 +353,23 @@ function basePage(lang, title, content, search = true, reload = false) {
 	`;
 }
 
-generateDistribution('fr');
+function generateRootIndex() {
+	const code = `<html>
+		<body>
+			<ul>
+			${langs.map(l => `<li><a href="/cards/${l}/index.html">${l}</a></li>`)}
+			</ul>
+			<script type="text/javascript">
+				var userLang = navigator.language || navigator.userLanguage; 
+				console.log ("The language is: " + userLang);
+			</script>		
+		</body>
+	</html>`;
+	touch(target + '/index.html', code);
+}
+
+
+rmLastDistribution();
+generateRootIndex();
+langs.forEach(l => generateDistribution(l));
+
