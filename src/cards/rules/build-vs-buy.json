@@ -6,12 +6,45 @@
     "fr": {
       "title": "BUILD VS. BUY",
       "abstract": [
-        "Privilégiez le **Build** pour le coeur de métier.",
-        "Envisagez le **Buy** pour le reste, au cas par cas."
+        "Privilégiez le**Build**pour le coeur de métier.",
+        "Envisagez le**Buy**pour le reste, au cas par cas."
       ],
       "details": [
-        "Plus un outil porte une fonctionnalité apportant un **caractère différenciant** pour l'organisation, plus il a vocation à être **construit**. Le coeur de métier doit permettre la **spécificité** et **s'adapter souvent et rapidement**. Certains **progiciels** sont **parfois adaptés** à ce besoin.",
-        "Pour **le reste** : SaaS, Open Source, Build ou Propriétaire sont à étudier au **cas par cas**."
+        "Plus un outil porte une fonctionnalité apportant un**caractère différenciant**pour l'organisation, plus il a vocation à être**construit**. Le coeur de métier doit permettre la**spécificité**et**s'adapter souvent et rapidement**. Certains**progiciels**sont**parfois adaptés**à ce besoin.",
+        "Pour**le reste**: SaaS, Open Source, Build ou Propriétaire sont à étudier au**cas par cas**."
+      ]
+    },
+    "en": {
+      "title": "BUILD VS. BUY",
+      "abstract": [
+        "Privilege**Build**for the core business.",
+        "Consider**Buy**for the rest, case by case."
+      ],
+      "details": [
+        "The more a tool carries a**feature differentiating**feature for the organization, the more it is intended to be**built**. The core business must allow**specificity**and**adapt quickly and often**. Some**software packages**are**sometimes adapted**to this need.",
+        "For**the rest**: SaaS, Open Source, Build or Owner are to be studied**case by case**."
+      ]
+    },
+    "de": {
+      "title": "BUILD VS. KAUFEN",
+      "abstract": [
+        "Privileg**Build**für das Kerngeschäft.",
+        "Betrachten Sie**Buy**für den Rest, von Fall zu Fall."
+      ],
+      "details": [
+        "Je mehr ein Tool eine**Funktion zur Differenzierung**für die Organisation aufweist, desto mehr soll es**gebaut**werden. Das Kerngeschäft muss**Spezifität**ermöglichen und**sich schnell und oft anpassen**. Einige**Softwarepakete**werden**manchmal an diesen Bedarf angepasst**.",
+        "Für**den Rest**: SaaS, Open Source, Build oder Owner sind von Fall zu Fall zu untersuchen**."
+      ]
+    },
+    "es": {
+      "title": "CONSTRUIR VS. COMPRAR",
+      "abstract": [
+        "Privilege**Build**para el negocio principal.",
+        "Considere**Comprar**para el resto, caso por caso."
+      ],
+      "details": [
+        "Cuanto más una herramienta tenga una función de**característica diferenciadora**para la organización, más se pretende**que se cree**. El negocio principal debe permitir**la especificidad**y**adaptarse rápidamente ya menudo**. Algunos**paquetes de software****a veces se adaptan**a esta necesidad.",
+        "Para**el resto**: SaaS, Open Source, Build o Owner se estudiarán**caso por caso**."
       ]
     }
   }

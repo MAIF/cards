@@ -10,9 +10,45 @@
         "**Sans mesure, tout n'est qu'opinion**."
       ],
       "details": [
-        "Pensez les métriques lors du **développement** de l'application. Les **logs** doivent avoir une dimension **métier autant que technique**.",
-        "Ne négligez pas les **métriques de performances**, elles  sont fondamentales.",
-        "La Feature Team assure l'**exploitation** : charge à elle de rendre l'**application exploitable**."
+        "Pensez les métriques lors du**développement**de l'application. Les**logs**doivent avoir une dimension**métier autant que technique**.",
+        "Ne négligez pas les**métriques de performances**, elles  sont fondamentales.",
+        "La Feature Team assure l'**exploitation**: charge à elle de rendre l'**application exploitable**."
+      ]
+    },
+    "en": {
+      "title": "ALL MEASURING",
+      "abstract": [
+        "Everything that can be measured must be.",
+        "**Without measure, everything is only opinion**."
+      ],
+      "details": [
+        "Think of the metrics during the**development**of the application.**logs**must have a**business as well as technical**dimension.",
+        "Do not neglect the**performance metrics**, they are fundamental.",
+        "The Feature Team provides**operation**: it is responsible for making the**application usable**."
+      ]
+    },
+    "de": {
+      "title": "ALLE MESSUNGEN",
+      "abstract": [
+        "Alles was gemessen werden kann muss sein.",
+        "**Ohne Maß, alles ist nur Meinung**."
+      ],
+      "details": [
+        "Denken Sie an die Metriken während der**Entwicklung**der Anwendung.**Logs**müssen sowohl eine geschäftliche als auch eine technische**Dimension aufweisen.",
+        "Vernachlässige nicht die**Leistungsmetriken**, sie sind fundamental.",
+        "Das Feature-Team stellt**Operation**zur Verfügung: Es ist dafür verantwortlich,**die**Anwendung nutzbar zu machen**."
+      ]
+    },
+    "es": {
+      "title": "TODA LA MEDIDA",
+      "abstract": [
+        "Todo lo que se puede medir debe ser.",
+        "**Sin medida, todo es solo opinión**."
+      ],
+      "details": [
+        "Piense en las métricas durante el**desarrollo**de la aplicación.**logs**debe tener una dimensión**comercial así como técnica**.",
+        "No descuides las**métricas de rendimiento**, son fundamentales.",
+        "El equipo de características proporciona**operación**: es responsable de hacer**la aplicación utilizable**."
       ]
     }
   }

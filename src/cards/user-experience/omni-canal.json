@@ -6,12 +6,45 @@
     "fr": {
       "title": "OMNI-CANAL",
       "abstract": [
-        "Adaptez-vous aux usages, l’**omni-canal** est la norme."
+        "Adaptez-vous aux usages, l’**omni-canal**est la norme."
       ],
       "details": [
-        "L'approche omni-canal permet d'offrir à l'utilisateur une **expérience unifiée** (exemple : Netflix).",
-        "Les différents **canaux** sont **synchronisés** et **cohérents** (contrairement aux traitements par batchs).",
+        "L'approche omni-canal permet d'offrir à l'utilisateur une**expérience unifiée**(exemple : Netflix).",
+        "Les différents**canaux**sont**synchronisés**et**cohérents**(contrairement aux traitements par batchs).",
         "Tous les acteurs (clients, conseillers) accèdent aux mêmes informations."
+      ]
+    },
+    "en": {
+      "title": "OMNI-CANAL",
+      "abstract": [
+        "Adapt to uses, the**omni-channel**is the norm."
+      ],
+      "details": [
+        "The omni-channel approach provides the user with a**unified experience**(example: Netflix).",
+        "The different**channels**are**synchronized**and**coherent**(unlike batch processes).",
+        "All actors (clients, advisers) access the same information."
+      ]
+    },
+    "de": {
+      "title": "OMNI-KANAL",
+      "abstract": [
+        "Anpassung an Nutzungen, der**Omni-Channel**ist die Norm."
+      ],
+      "details": [
+        "Der Omni-Channel-Ansatz bietet dem Benutzer eine**einheitliche Erfahrung**(Beispiel: Netflix).",
+        "Die verschiedenen**Kanäle**sind**synchronisiert**und**kohärent**(im Gegensatz zu Batch-Prozessen).",
+        "Alle Akteure (Kunden, Berater) greifen auf dieselben Informationen zu."
+      ]
+    },
+    "es": {
+      "title": "OMNI-CANAL",
+      "abstract": [
+        "Adáptate a los usos, el**omni-canal**es la norma."
+      ],
+      "details": [
+        "El enfoque omnicanal proporciona al usuario una**experiencia unificada**(ejemplo: Netflix).",
+        "Los diferentes**canales**están**sincronizados**y**coherentes**(a diferencia de los procesos por lotes).",
+        "Todos los actores (clientes, asesores) tienen acceso a la misma información."
       ]
     }
   }

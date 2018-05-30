@@ -6,11 +6,41 @@
     "fr": {
       "title": "ÉVÉNEMENTS",
       "abstract": [
-        "Le système d'informations doit être orienté **événements**."
+        "Le système d'informations doit être orienté**événements**."
       ],
       "details": [
-        "Les **processus** fonctionnels **orientés \"événements\"** sont **naturellement** implémentés de manière **asynchrone**.",
-        "L'**orientation événements** permet de favoriser la mise en place d'approches telles que **C**ommand **Q**uery **R**esponsibility **S**egregation (**CQRS**) et **Event Sourcing**."
+        "Les**processus**fonctionnels**orientés \"événements\"**sont**naturellement**implémentés de manière**asynchrone**.",
+        "L'**orientation événements**permet de favoriser la mise en place d'approches telles que**C**ommand**Q**uery**R**esponsibility**S**egregation (**CQRS**) et**Event Sourcing**."
+      ]
+    },
+    "en": {
+      "title": "EVENTS",
+      "abstract": [
+        "The information system must be oriented**events**."
+      ],
+      "details": [
+        "The****event-driven**functional**processes**are**naturally****asynchronously**implemented.",
+        "The**event orientation**allows to favor the implementation of approaches such as**C**ommand**Q**uery**R**esponsibility**S**egregation (**CQRS**) and**Event Sourcing**."
+      ]
+    },
+    "de": {
+      "title": "EVENTS",
+      "abstract": [
+        "Das Informationssystem muss**Ereignisse**orientiert sein."
+      ],
+      "details": [
+        "Die****ereignisgesteuerten**funktionalen**Prozesse**sind**natürlich****asynchron**implementiert.",
+        "Die**Event Orientation**ermöglicht die Implementierung von Ansätzen wie**C**ommand**Q**sehr**R**Verantwortlichkeit**S**egregation (**CQRS**) und**Event Sourcing**."
+      ]
+    },
+    "es": {
+      "title": "EVENTOS",
+      "abstract": [
+        "El sistema de información debe estar orientado**eventos**."
+      ],
+      "details": [
+        "Los procesos******de**procesos impulsados ​​por eventos**están**naturalmente**implementados de forma asincrónica**.",
+        "La**orientación del evento**permite favorecer la implementación de enfoques tales como**C**ommand**Q**uery**R**sponsibility**S**egregation (**CQRS**) y**Event Sourcing**."
       ]
     }
   }

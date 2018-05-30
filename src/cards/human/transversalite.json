@@ -6,12 +6,45 @@
     "fr": {
       "title": "TRANSVERSALITÉ",
       "abstract": [
-        "Les Feature Teams sont amenées à **communiquer** et à partager leurs **expériences** et **compétences**."
+        "Les Feature Teams sont amenées à**communiquer**et à partager leurs**expériences**et**compétences**."
       ],
       "details": [
-        "Ne créez pas de barrières entre les **Feature Teams**.",
-        "Mettez en place une **organisation** et l’**agilité** nécessaire afin que les Feature Teams communiquent entre elles et partagent leurs compétences et expériences.",
-        "L'organisation de la transversalité chez **Spotify** (Tribus, Chapters et Guildes) est un **exemple éloquent**."
+        "Ne créez pas de barrières entre les**Feature Teams**.",
+        "Mettez en place une**organisation**et l’**agilité**nécessaire afin que les Feature Teams communiquent entre elles et partagent leurs compétences et expériences.",
+        "L'organisation de la transversalité chez**Spotify**(Tribus, Chapters et Guildes) est un**exemple éloquent**."
+      ]
+    },
+    "en": {
+      "title": "TRANSVERSALITY",
+      "abstract": [
+        "Feature Teams are expected to**communicate**and share their**experience**and**skills**."
+      ],
+      "details": [
+        "Do not create barriers between**Feature Teams**.",
+        "Set up an**organization**and the**agility**needed for Feature Teams to communicate with each other and share their skills and experiences.",
+        "The organization of transversality at**Spotify**(Tribes, Chapters and Guilds) is an eloquent**example."
+      ]
+    },
+    "de": {
+      "title": "Transversalitätsbedingung",
+      "abstract": [
+        "Von den Feature Teams wird erwartet, dass sie**kommunizieren**und ihre**Erfahrung**und**Fähigkeiten**teilen."
+      ],
+      "details": [
+        "Schaffe keine Barrieren zwischen**Feature Teams**.",
+        "Richten Sie eine**Organisation**und die**Agilität**ein, die für Feature-Teams erforderlich ist, um miteinander zu kommunizieren und ihre Fähigkeiten und Erfahrungen zu teilen.",
+        "Die Organisation der Transversalität in**Spotify**(Stämme, Kapitel und Gilden) ist ein beredtes Beispiel."
+      ]
+    },
+    "es": {
+      "title": "TRANSVERSALIDAD",
+      "abstract": [
+        "Se espera que los equipos especiales**se comuniquen**y compartan sus**experiencias**y**habilidades**."
+      ],
+      "details": [
+        "No cree barreras entre**Equipos destacados**.",
+        "Configure una**organización**y la**agilidad**necesaria para que los equipos de características se comuniquen entre sí y compartan sus habilidades y experiencias.",
+        "La organización de la transversalidad en**Spotify**(Tribus, Capítulos y Gremios) es un**ejemplo elocuente."
       ]
     }
   }

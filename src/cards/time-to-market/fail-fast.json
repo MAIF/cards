@@ -6,12 +6,45 @@
     "fr": {
       "title": "FAIL-FAST",
       "abstract": [
-        "**Échouer** vite c’est **apprendre** vite."
+        "**Échouer**vite c’est**apprendre**vite."
       ],
       "details": [
-        "**Éprouvez rapidement** la solution (quelques semaines), récoltez le **feedback** de vos utilisateurs et apprenez de vos erreurs.",
-        "N'ayez pas peur de tout **changer**.",
-        "Ne l'oubliez pas, **vous allez échouer !**"
+        "**Éprouvez rapidement**la solution (quelques semaines), récoltez le**feedback**de vos utilisateurs et apprenez de vos erreurs.",
+        "N'ayez pas peur de tout**changer**.",
+        "Ne l'oubliez pas,**vous allez échouer !**"
+      ]
+    },
+    "en": {
+      "title": "FAIL-FAST",
+      "abstract": [
+        "**Fail**fast is**learn**fast."
+      ],
+      "details": [
+        "**Quickly experience**the solution (a few weeks), collect**feedback**from your users and learn from your mistakes.",
+        "Do not be afraid to change everything**.",
+        "Do not forget,**you will fail!**"
+      ]
+    },
+    "de": {
+      "title": "FAIL-SCHNELL",
+      "abstract": [
+        "**Fail**Fast ist**learn**schnell."
+      ],
+      "details": [
+        "**Erleben Sie schnell**die Lösung (ein paar Wochen), sammeln Sie**Feedback**von Ihren Benutzern und lernen Sie aus Ihren Fehlern.",
+        "Hab keine Angst, alles zu ändern**.",
+        "Vergiss nicht,**du wirst scheitern!**"
+      ]
+    },
+    "es": {
+      "title": "FALLAR RAPIDO",
+      "abstract": [
+        "**Fail**fast es**learn**fast."
+      ],
+      "details": [
+        "**Experimente rápidamente**la solución (unas semanas), reúna**comentarios**de sus usuarios y aprenda de sus errores.",
+        "No tengas miedo de cambiar todo**.",
+        "No lo olvides,**¡fallarás!**"
       ]
     }
   }

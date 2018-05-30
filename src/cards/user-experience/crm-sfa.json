@@ -6,12 +6,45 @@
     "fr": {
       "title": "CRM/SFA",
       "abstract": [
-        "La relation client doit être unifiée et contextualisée grâce à un  **CRM / SFA souple, fédérateur et orienté événements.**"
+        "La relation client doit être unifiée et contextualisée grâce à un **CRM / SFA souple, fédérateur et orienté événements.**"
       ],
       "details": [
-        "Optez pour un **CRM** qui gère à la fois la relation client et l'animation de la force de vente (**SFA** : **S**ales **F**orce **A**utomation).",
-        "Le **CRM** doit être **ouvert** aux nouvelles opportunités.",
-        "Le **CRM** produit des **événements** correspondant aux actes de gestion pour s'inscrire dans la logique **Event-Driven** de la plateforme."
+        "Optez pour un**CRM**qui gère à la fois la relation client et l'animation de la force de vente (**SFA**:**S**ales**F**orce**A**utomation).",
+        "Le**CRM**doit être**ouvert**aux nouvelles opportunités.",
+        "Le**CRM**produit des**événements**correspondant aux actes de gestion pour s'inscrire dans la logique**Event-Driven**de la plateforme."
+      ]
+    },
+    "en": {
+      "title": "CRM/SFA",
+      "abstract": [
+        "Customer relationship needs to be unified and contextualized with a flexible, unifying and event-driven**CRM / SFA.**"
+      ],
+      "details": [
+        "Opt for a**CRM**that manages both customer relationship and sales force leadership (**SFA**:**S**ales**F**orce**A**utomation ).",
+        "**CRM**must be**open**to new opportunities.",
+        "**CRM**produces**events**corresponding to management actions to fit into the**Event-Driven**logic of the platform."
+      ]
+    },
+    "de": {
+      "title": "CRM / SFA",
+      "abstract": [
+        "Die Kundenbeziehung muss mit einem flexiblen, einheitlichen und ereignisgesteuerten**CRM / SFA vereinheitlicht und kontextualisiert werden.**"
+      ],
+      "details": [
+        "Entscheiden Sie sich für ein**CRM**, das sowohl die Kundenbeziehung als auch die Führung des Verkaufspersonals verwaltet (**SFA**:**S**ales**F**orce**A**utomation) ).",
+        "**CRM**muss**offen**für neue Möglichkeiten sein.",
+        "**CRM**erzeugt**Ereignisse**, die Verwaltungsaktionen entsprechen, die in die**ereignisgesteuerte**Logik der Plattform passen."
+      ]
+    },
+    "es": {
+      "title": "CRM / SFA",
+      "abstract": [
+        "La relación con el cliente debe unificarse y contextualizarse con un**CRM / SFA**flexible, unificador y orientado a eventos**."
+      ],
+      "details": [
+        "Opte por**CRM**que gestione tanto la relación con el cliente como el liderazgo de la fuerza de ventas (**SFA**:**S**ales**F**orce**A**utomation ).",
+        "**CRM**debe estar**abierto**para nuevas oportunidades.",
+        "**CRM**produce**eventos**correspondientes a las acciones de gestión para ajustarse a la lógica**de la plataforma orientada a eventos**."
       ]
     }
   }

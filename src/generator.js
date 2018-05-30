@@ -270,6 +270,8 @@ function basePage(language, title, content, search = true, reload = false) {
 						<li>
 							<input type="text" class="card-search form-control ${search ? '' : 'hide'}" placeholder="rechercher une carte">
 						</li>
+						<div style="margin-top: 30px;"></div>
+						${langs.map(l => `<li><img width="16" height="16" src="${l.icon}"/><a href="/cards/${l.lang}/index.html">${l.lang.toUpperCase()}</a></li>`).join('\n')}
 					</ul>
 				</div>
 				<div class="maifLogo">

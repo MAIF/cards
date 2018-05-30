@@ -1,12 +1,46 @@
 [
   {
     "lang": "fr",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-france2x.png",
     "menu": {
       "allCards": "Toutes les cartes"
     },
     "tooltips": {
       "newCard": "Tirer une nouvelle carte aléatoirement",
       "help": "Le jeu de cartes MAIF des principes de conception des nouveaux produits numériques de sa plateforme de services"
+    }
+  },
+  {
+    "lang": "en",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-united-kingdom2x.png",
+    "menu": {
+      "allCards": "All cards"
+    },
+    "tooltips": {
+      "newCard": "Draw a new card randomly",
+      "help": "The MAIF card game of the design principles of the new digital products of its service platform"
+    }
+  },
+  {
+    "lang": "de",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-germany2x.png",
+    "menu": {
+      "allCards": "Alle Karten"
+    },
+    "tooltips": {
+      "newCard": "Ziehe zufällig eine neue Karte",
+      "help": "Das MAIF-Kartenspiel der Designprinzipien der neuen digitalen Produkte seiner Service-Plattform"
+    }
+  },
+  {
+    "lang": "es",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-spain2x.png",
+    "menu": {
+      "allCards": "Todas las cartas"
+    },
+    "tooltips": {
+      "newCard": "Dibuja una nueva carta al azar",
+      "help": "El juego de cartas MAIF de los principios de diseño de los nuevos productos digitales de su plataforma de servicios"
     }
   }
 ]

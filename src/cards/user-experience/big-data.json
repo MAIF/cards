@@ -6,12 +6,45 @@
     "fr": {
       "title": "BIG DATA",
       "abstract": [
-        "La plate-forme Big Data permet de **centraliser** et traiter les données de l’utilisateur pour servir au mieux son **parcours**."
+        "La plate-forme Big Data permet de**centraliser**et traiter les données de l’utilisateur pour servir au mieux son**parcours**."
       ],
       "details": [
-        "Centralisez les données du **Groupe Maif**, des **partenaires** et des **fournisseurs** dans une logique de **parcours**.",
-        "La \"Data Preparation\" et les traitements permettent de **consolider** les données.",
-        "Les équipes **Big Data collaborent** avec les Feature Teams pour assurer la **gouvernance** des données."
+        "Centralisez les données du**Groupe Maif**, des**partenaires**et des**fournisseurs**dans une logique de**parcours**.",
+        "La \"Data Preparation\" et les traitements permettent de**consolider**les données.",
+        "Les équipes**Big Data collaborent**avec les Feature Teams pour assurer la**gouvernance**des données."
+      ]
+    },
+    "en": {
+      "title": "BIG DATA",
+      "abstract": [
+        "The Big Data platform allows you to centralize**and process user data to best serve your**journey**."
+      ],
+      "details": [
+        "Centralize**Maif Group**,**Partner**and**Vendor**data in a**pathway**logic.",
+        "\"Data Preparation\" and processing can**consolidate**the data.",
+        "**Big Data teams collaborate**with Feature Teams to ensure**data**governance."
+      ]
+    },
+    "de": {
+      "title": "GROSSE DATEN",
+      "abstract": [
+        "Die Big Data-Plattform ermöglicht Ihnen die Zentralisierung**und die Verarbeitung von Benutzerdaten, um Ihre**Reise**optimal zu unterstützen."
+      ],
+      "details": [
+        "Zentralisieren Sie die**Maif Group**-,**Partner**- und**Vendor**-Daten in einer**Pathway**-Logik.",
+        "\"Datenvorbereitung\" und Verarbeitung können die Daten**konsolidieren.",
+        "**Big Data-Teams kooperieren**mit Feature-Teams, um**Daten**-Governance sicherzustellen."
+      ]
+    },
+    "es": {
+      "title": "BIG DATA",
+      "abstract": [
+        "La plataforma Big Data le permite centralizar**y procesar datos de usuario para servir mejor su**viaje**."
+      ],
+      "details": [
+        "Centralice los datos****Maif Group**,**Partner**y**Vendor**en una lógica**pathway**.",
+        "La \"preparación de datos\" y el procesamiento pueden**consolidar**los datos.",
+        "**Los equipos de Big Data colaboran**con los equipos de características para garantizar el gobierno de**datos**."
       ]
     }
   }

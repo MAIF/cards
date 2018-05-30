@@ -6,12 +6,45 @@
     "fr": {
       "title": "COEUR DE MÉTIER",
       "abstract": [
-        "Le **coeur de métier** ne doit pas être un frein à la construction de nouveaux services et applications."
+        "Le**coeur de métier**ne doit pas être un frein à la construction de nouveaux services et applications."
       ],
       "details": [
-        "Le rythme d'évolution et de livraison du coeur de métier doit être **compatible avec l'agilité** des services qui le consomment.",
-        "Le coeur de métier doit **exposer des services**.",
-        "Le coeur de métier doit adopter un principe **Event-Driven**, il rend compte des actes de gestion sous la forme d'événements."
+        "Le rythme d'évolution et de livraison du coeur de métier doit être**compatible avec l'agilité**des services qui le consomment.",
+        "Le coeur de métier doit**exposer des services**.",
+        "Le coeur de métier doit adopter un principe**Event-Driven**, il rend compte des actes de gestion sous la forme d'événements."
+      ]
+    },
+    "en": {
+      "title": "CORE BUSINESS",
+      "abstract": [
+        "The**core business**should not be a hindrance to the construction of new services and applications."
+      ],
+      "details": [
+        "The pace of evolution and delivery of the core business must be**compatible with the agility**of the services that consume it.",
+        "The core business must**expose services**.",
+        "The core business must adopt a**Event-Driven**principle, it reports management actions in the form of events."
+      ]
+    },
+    "de": {
+      "title": "Herz des Geschäfts",
+      "abstract": [
+        "Das**Kerngeschäft**sollte den Aufbau neuer Dienste und Anwendungen nicht behindern."
+      ],
+      "details": [
+        "Das Tempo der Entwicklung und Lieferung des Kerngeschäfts muss**mit der Agilität**der Dienste, die es verbrauchen, vereinbar sein.",
+        "Das Kerngeschäft muss**Dienstleistungen anbieten**.",
+        "Das Kerngeschäft muss das**Event-Driven**-Prinzip übernehmen, es berichtet über Management-Aktionen in Form von Events."
+      ]
+    },
+    "es": {
+      "title": "CORAZÓN DE NEGOCIOS",
+      "abstract": [
+        "El**negocio principal**no debe ser un obstáculo para la construcción de nuevos servicios y aplicaciones."
+      ],
+      "details": [
+        "El ritmo de evolución y entrega del negocio central debe ser**compatible con la agilidad**de los servicios que lo consumen.",
+        "El negocio principal debe**exponer servicios**.",
+        "El negocio principal debe adoptar un principio**orientado al evento**, informa acciones de gestión en forma de eventos."
       ]
     }
   }

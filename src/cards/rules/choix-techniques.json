@@ -6,11 +6,41 @@
     "fr": {
       "title": "CHOIX TECHNIQUES",
       "abstract": [
-        "Les **choix techniques** sont **effectués** et **assumés** par la **Feature Team**."
+        "Les**choix techniques**sont**effectués**et**assumés**par la**Feature Team**."
       ],
       "details": [
-        "La Feature Team doit agir de manière **responsable** afin d'identifier les choix qui l'impactent exclusivement et les choix qui impactent l'organisation.",
-        "Les **choix** qui **dépassent le périmètre** de la Feature Team (exemple : licence, langage de programmation peu répandu) doivent être soumis à **validation** par l'organisation ou par le processus de convergence des pairs."
+        "La Feature Team doit agir de manière**responsable**afin d'identifier les choix qui l'impactent exclusivement et les choix qui impactent l'organisation.",
+        "Les**choix**qui**dépassent le périmètre**de la Feature Team (exemple : licence, langage de programmation peu répandu) doivent être soumis à**validation**par l'organisation ou par le processus de convergence des pairs."
+      ]
+    },
+    "en": {
+      "title": "TECHNICAL CHOICES",
+      "abstract": [
+        "The**technical choices**are**made**and**assumed**by the**Feature Team**."
+      ],
+      "details": [
+        "The Feature Team must act**responsibly**to identify the choices that impact it exclusively and the choices that impact the organization.",
+        "The**choices**that**exceed the scope**of the Feature Team (eg, license, infrequent programming language) must be**validated**by the organization or by the peer convergence process ."
+      ]
+    },
+    "de": {
+      "title": "TECHNISCHE WAHLEN",
+      "abstract": [
+        "Die**technischen Entscheidungen**werden vom**Feature-Team****getroffen**und**angenommen."
+      ],
+      "details": [
+        "Das Feature-Team muss**verantwortungsvoll handeln**, um die Auswahlmöglichkeiten zu identifizieren, die sich ausschließlich auf das Feature-Team auswirken, sowie die Auswahlmöglichkeiten, die sich auf das Unternehmen auswirken.",
+        "Die**Optionen**, die**den Umfang**des Feature-Teams überschreiten (z. B. Lizenz, seltene Programmiersprache), müssen**von der Organisation oder durch den Peer-Konvergenzprozess**validiert werden ."
+      ]
+    },
+    "es": {
+      "title": "OPCIONES TÉCNICAS",
+      "abstract": [
+        "Las**opciones técnicas**están**realizadas**y**asumidas**por**Equipo de características**."
+      ],
+      "details": [
+        "El Equipo de características debe actuar**responsablemente**para identificar las opciones que lo afectan exclusivamente y las elecciones que impactan a la organización.",
+        "Las**opciones**que**exceden el alcance**del Equipo de características (por ejemplo, licencia, lenguaje de programación infrecuente) deben**validarse**por la organización o por el proceso de convergencia entre pares ."
       ]
     }
   }

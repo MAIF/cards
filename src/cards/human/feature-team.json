@@ -6,12 +6,45 @@
     "fr": {
       "title": "FEATURE TEAM",
       "abstract": [
-        "L'équipe est organisée autour d'un **produit** ou d'un **service** rendu."
+        "L'équipe est organisée autour d'un**produit**ou d'un**service**rendu."
       ],
       "details": [
-        "Les équipes sont des **Feature Teams**, organisées autour d’un ensemble fonctionnel cohérent, et composées de l’ensemble des **compétences** nécessaires à cet ensemble.",
+        "Les équipes sont des**Feature Teams**, organisées autour d’un ensemble fonctionnel cohérent, et composées de l’ensemble des**compétences**nécessaires à cet ensemble.",
         "Par exemple : Expert Métier + Développeur Web + Développeur Java + Architecte + DBA + Opérationnel.",
-        "La **responsabilité** est **collective**, la Feature Team jouit du pouvoir nécessaire à cette responsabilité."
+        "La**responsabilité**est**collective**, la Feature Team jouit du pouvoir nécessaire à cette responsabilité."
+      ]
+    },
+    "en": {
+      "title": "FEATURE TEAM",
+      "abstract": [
+        "The team is organized around a**product**or a**service**rendered."
+      ],
+      "details": [
+        "Teams are**Feature Teams**, organized around a coherent functional set, and composed of all the**skills**necessary for this set.",
+        "For example: Business Expert + Web Developer + Java Developer + Architect + DBA + Operational.",
+        "The**responsibility**is**collective**, the Feature Team has the power necessary for this responsibility."
+      ]
+    },
+    "de": {
+      "title": "FEATURE TEAM",
+      "abstract": [
+        "Das Team ist um ein**Produkt**oder einen**Service**herum organisiert."
+      ],
+      "details": [
+        "Teams sind**Feature Teams**, die um einen zusammenhängenden Funktionssatz herum organisiert sind und aus all den**Fertigkeiten**bestehen, die für diesen Satz notwendig sind.",
+        "Zum Beispiel: Business Expert + Webentwickler + Java Developer + Architect + DBA + Operational.",
+        "Die**Verantwortung**ist**kollektiv**, das Feature-Team hat die Macht, die für diese Verantwortung notwendig ist."
+      ]
+    },
+    "es": {
+      "title": "EQUIPO PRINCIPAL",
+      "abstract": [
+        "El equipo está organizado en torno a**productos**o**servicios prestados**."
+      ],
+      "details": [
+        "Los equipos son**Equipos destacados**, organizados en torno a un conjunto funcional coherente, y compuestos por todas las**habilidades**necesarias para este conjunto.",
+        "Por ejemplo: Business Expert + Web Developer + Java Developer + Architect + DBA + Operational.",
+        "La**responsabilidad**es**colectiva**, el Equipo de funciones tiene el poder necesario para esta responsabilidad."
       ]
     }
   }

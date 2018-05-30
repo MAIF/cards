@@ -6,12 +6,45 @@
     "fr": {
       "title": "EXIGENCES",
       "abstract": [
-        "Fixez des **exigences** aux **systèmes et services extérieurs** intégrés à la plateforme."
+        "Fixez des**exigences**aux**systèmes et services extérieurs**intégrés à la plateforme."
       ],
       "details": [
-        "Exigez que les **systèmes externes** répondent aux **mêmes exigences** que les **systèmes internes**.",
-        "Les systèmes externes doivent publier des **événements** et permettre le **monitoring** technique.",
-        "Dans le cas où les données des systèmes extérieurs doivent être intégrées, la **synchronisation** totale doit être **possible**."
+        "Exigez que les**systèmes externes**répondent aux**mêmes exigences**que les**systèmes internes**.",
+        "Les systèmes externes doivent publier des**événements**et permettre le**monitoring**technique.",
+        "Dans le cas où les données des systèmes extérieurs doivent être intégrées, la**synchronisation**totale doit être**possible**."
+      ]
+    },
+    "en": {
+      "title": "REQUIREMENTS",
+      "abstract": [
+        "Set**requirements**for**external systems and services**built into the platform."
+      ],
+      "details": [
+        "Require**external systems**to meet the same**requirements**as**internal systems**.",
+        "External systems must publish**events**and allow**technical**monitoring.",
+        "In the case where the external systems data must be integrated, the**total**synchronization must be**possible**."
+      ]
+    },
+    "de": {
+      "title": "ANFORDERUNGEN",
+      "abstract": [
+        "Legen Sie**Anforderungen**für**externe Systeme und Dienste**fest, die in die Plattform integriert sind."
+      ],
+      "details": [
+        "Erfordern**externe Systeme**erfüllen die gleichen**Anforderungen**wie**interne Systeme**.",
+        "Externe Systeme müssen**Ereignisse**veröffentlichen und**technische**Überwachung zulassen.",
+        "Für den Fall, dass die externen Systemdaten integriert werden müssen, muss die**Gesamt**Synchronisation**möglich sein**."
+      ]
+    },
+    "es": {
+      "title": "REQUISITOS",
+      "abstract": [
+        "Establezca**requisitos**para**sistemas y servicios externos**integrados en la plataforma."
+      ],
+      "details": [
+        "Requerir que**sistemas externos**cumplan los mismos**requisitos**que**sistemas internos**.",
+        "Los sistemas externos deben publicar**eventos**y permitir la supervisión**técnica**.",
+        "En el caso donde los datos del sistema externo deben integrarse, la sincronización**total**debe ser**posible**."
       ]
     }
   }

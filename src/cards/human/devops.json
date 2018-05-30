@@ -6,11 +6,41 @@
     "fr": {
       "title": "DEVOPS",
       "abstract": [
-        "Les pratiques **DevOps** permettent de faire tomber les murs entre Build et Run."
+        "Les pratiques**DevOps**permettent de faire tomber les murs entre Build et Run."
       ],
       "details": [
-        "Adoptez **DevOps** pour faire converger **Dev** et **Ops** vers un objectif commun : **servir l'organisation**.",
-        "**Les métiers restent différents** ! DevOps ne veut pas dire qu'une même personne effectue les tâches de Dev et d'Ops. **Développeurs** et **Opérationnels** sont amenés à **collaborer** afin de **bénéficier** des **compétences** de chacun et améliorer l'**empathie**."
+        "Adoptez**DevOps**pour faire converger**Dev**et**Ops**vers un objectif commun :**servir l'organisation**.",
+        "**Les métiers restent différents**! DevOps ne veut pas dire qu'une même personne effectue les tâches de Dev et d'Ops.**Développeurs**et**Opérationnels**sont amenés à**collaborer**afin de**bénéficier**des**compétences**de chacun et améliorer l'**empathie**."
+      ]
+    },
+    "en": {
+      "title": "DEVOPS",
+      "abstract": [
+        "**DevOps**practices allow walls to fall between Build and Run."
+      ],
+      "details": [
+        "Adopt**DevOps**to converge**Dev**and**Ops**towards a common goal:**serve the organization**.",
+        "**The trades remain different**! DevOps does not mean that the same person performs the tasks of Dev and Ops.**Developers**and**Operational**are required to**collaborate**in order to**benefit**from****skills**and to improve**empathy**."
+      ]
+    },
+    "de": {
+      "title": "DEVOPS",
+      "abstract": [
+        "**DevOps**-Praktiken ermöglichen es Wänden, zwischen Build und Run zu fallen."
+      ],
+      "details": [
+        "Adoptiere**DevOps**, um**Dev**und**Ops**zu einem gemeinsamen Ziel zusammenzuführen:**Diene der Organisation**.",
+        "**Die Trades bleiben anders**! DevOps bedeutet nicht, dass dieselbe Person die Aufgaben von Dev und Ops ausführt.**Entwickler**und**Operational**müssen zusammenarbeiten**, um**von****Skills**profitieren**und**Empathie**zu verbessern."
+      ]
+    },
+    "es": {
+      "title": "DEVOPS",
+      "abstract": [
+        "Las prácticas**DevOps**permiten que las paredes caigan entre Build y Run."
+      ],
+      "details": [
+        "Adoptar**DevOps**para converger**Dev**y**Ops**hacia un objetivo común:**servir a la organización**.",
+        "**¡Los intercambios siguen siendo diferentes**! DevOps no significa que la misma persona realiza las tareas de Dev y Ops.**Los desarrolladores**y**Operativo**deben**colaborar**para**beneficiarse**de****habilidades**y para mejorar**empatía**."
       ]
     }
   }

@@ -6,12 +6,45 @@
     "fr": {
       "title": "DONNÉES",
       "abstract": [
-        "Chaque service possède son **propre système** de stockage de données."
+        "Chaque service possède son**propre système**de stockage de données."
       ],
       "details": [
-        "Un **Data Store** n'a vocation à être **couplé** qu'avec **un seul micro-service**.",
-        "L'**accès aux données** d'un micro-service à un autre est effectué **exclusivement via son interface**.",
-        "Ce design implique la **cohérence à terme** à l'échelle de la plateforme. Elle doit être **appréhendée à tous les niveaux**, y compris UX."
+        "Un**Data Store**n'a vocation à être**couplé**qu'avec**un seul micro-service**.",
+        "L'**accès aux données**d'un micro-service à un autre est effectué**exclusivement via son interface**.",
+        "Ce design implique la**cohérence à terme**à l'échelle de la plateforme. Elle doit être**appréhendée à tous les niveaux**, y compris UX."
+      ]
+    },
+    "en": {
+      "title": "DATA",
+      "abstract": [
+        "Each service has its own**data storage system."
+      ],
+      "details": [
+        "A**Data Store**is intended to be**coupled**only with**a single micro-service**.",
+        "The**access to data**from one micro-service to another is done**exclusively via its interface**.",
+        "This design implies**consistency over time**across the platform. It must be**apprehended at all levels**, including UX."
+      ]
+    },
+    "de": {
+      "title": "DATA",
+      "abstract": [
+        "Jeder Dienst hat sein eigenes**Datenspeichersystem."
+      ],
+      "details": [
+        "Ein**Data Store**soll**nur**mit**einem einzigen Micro-Service****gekoppelt sein.",
+        "Der**Zugriff auf Daten**von einem Micro-Service zu einem anderen**erfolgt ausschließlich über seine Schnittstelle**.",
+        "Dieses Design bedeutet**Konsistenz über die Zeit hinweg**auf der gesamten Plattform. Es muss**auf allen Ebenen**einschließlich UX aufgegriffen werden."
+      ]
+    },
+    "es": {
+      "title": "DATOS",
+      "abstract": [
+        "Cada servicio tiene su propio**sistema de almacenamiento de datos."
+      ],
+      "details": [
+        "Un**Data Store**está destinado**a ser acoplado**solo con**un solo micro-servicio**.",
+        "El**acceso a los datos**de un micro-servicio a otro se hace**exclusivamente a través de su interfaz**.",
+        "Este diseño implica**consistencia en el tiempo**en toda la plataforma. Debe ser**aprehendido en todos los niveles**, incluido UX."
       ]
     }
   }

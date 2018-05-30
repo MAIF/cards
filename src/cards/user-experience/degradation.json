@@ -6,11 +6,41 @@
     "fr": {
       "title": "DÉGRADATION",
       "abstract": [
-        "**Envisagez la dégradation** plutôt que l'interruption du service en cas de panne."
+        "**Envisagez la dégradation**plutôt que l'interruption du service en cas de panne."
       ],
       "details": [
-        "En **cas de panne** d'un des sous-systèmes, **une version dégradée** du service doit être **envisagée** en premier lieu plutôt qu'une interruption.",
-        "Grâce aux **Circuit Breakers**, **isolez une panne** afin d'**éviter** son **impact** et sa **propagation** sur l'ensemble du **système**."
+        "En**cas de panne**d'un des sous-systèmes,**une version dégradée**du service doit être**envisagée**en premier lieu plutôt qu'une interruption.",
+        "Grâce aux**Circuit Breakers**,**isolez une panne**afin d'**éviter**son**impact**et sa**propagation**sur l'ensemble du**système**."
+      ]
+    },
+    "en": {
+      "title": "DEGRADATION",
+      "abstract": [
+        "**Consider degradation**rather than service interruption in the event of a failure."
+      ],
+      "details": [
+        "In**failure**of one of the subsystems,**a degraded**version of the service must**be considered**in the first place rather than an interruption.",
+        "With**Circuit Breakers**,**isolate a breakdown**to**avoid**its**impact**and**spread**over the entire**system**."
+      ]
+    },
+    "de": {
+      "title": "VERSCHLECHTERUNG",
+      "abstract": [
+        "**Berücksichtigen Sie die Verschlechterung**und nicht die Betriebsunterbrechung im Falle eines Fehlers."
+      ],
+      "details": [
+        "Bei**Ausfall**eines der Subsysteme**muss eine degradierte**Version des Services**in erster Linie als eine Unterbrechung angesehen werden.",
+        "Mit**Circuit Breakers**,**Isolieren Sie eine Aufschlüsselung**bis**Vermeiden Sie**ihre**Auswirkung**und**Aufspreizung**über das gesamte**System**."
+      ]
+    },
+    "es": {
+      "title": "DETERIORO",
+      "abstract": [
+        "**Considere la degradación**en lugar de la interrupción del servicio en caso de falla."
+      ],
+      "details": [
+        "En**falla**de uno de los subsistemas,**una versión degradada**del servicio**debe considerarse**en primer lugar en lugar de una interrupción.",
+        "Con**Disyuntores**,**aísle un desglose**para**evitar**su**impacto**y**propagación**en todo el**sistema**."
       ]
     }
   }

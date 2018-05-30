@@ -1,6 +1,11 @@
-const googleTranslate = require('google-translate')(process.env.GOOGLE_TRANSLATE_KEY);
+const Translate = require('@google-cloud/translate'); // require('google-translate')('AIzaSyAdDBFXWwFc4j59PXXj2ePOtnLBPUp_Nnw') //(process.env.GOOGLE_TRANSLATE_KEY);
 const fs = require('fs-extra');
 
+const translate = new Translate({
+  projectId: process.env.GOOGLE_TRANSLATE_PROJECT
+});
+
+const langs = require('./cards/lang.json');
 const categories = {
   'time-to-market': require(`./cards/time-to-market/metadata.json`).cards.map(id => require(`./cards/time-to-market/${id}.json`)),
   'user-experience': require(`./cards/user-experience/metadata.json`).cards.map(id => require(`./cards/user-experience/${id}.json`)),
@@ -17,35 +22,36 @@ const allCards = [
 ];
 
 function translateOne(lang, text) {
-  return new Promise((success, failure) => {
-    googleTranslate.translate(text, lang, (err, translation) => {
-      if (err) {
-        failure(err);
-      } else {
-        success(translation.translatedText);
-      }
-    });
-  });
-  
+  return translate.translate(text, lang).then(r => {
+    return r[0]
+  }); 
 }
 
 function translateAll(lang, card) {
-  return Promise.all(
-    translateOne(card.title),
+  return Promise.all([
+    translateOne(lang, card.lang.fr.title),
     Promise.all(
-      card.abstract.map(i => translateOne(i))
+      card.lang.fr.abstract.map(i => translateOne(lang, i))
     ),
     Promise.all(
-      card.details.map(i => translateOne(i))
+      card.lang.fr.details.map(i => translateOne(lang, i))
     )
-  )
+  ])
+}
+
+function translateAllRoot(lang, root) {
+  return Promise.all([
+    translateOne(lang, root.menu.allCards),
+    translateOne(lang, root.tooltips.newCard),
+    translateOne(lang, root.tooltips.help),
+  ])
 }
 
 function translateCard(lang, tasks) {
   const card = tasks.pop();
   if (!card) return;
   let path = `./src/cards/${card.category}/${card.id}.json`;
-  if (card.fr.details.length === 0 && card.fr.abstract.length === 0) {
+  if (card.lang.fr.details.length === 0 && card.lang.fr.abstract.length === 0) {
     path = `./src/cards/${card.category}/title.json`;
   }
   const newCard = { ...card };
@@ -53,18 +59,47 @@ function translateCard(lang, tasks) {
     title: '',
     abstract: [],
     details: [],
-  }
-
+  };
   translateAll(lang, card).then(translated => {
     newCard.lang[lang].title = translated[0];
     newCard.lang[lang].abstract = translated[1];
     newCard.lang[lang].details = translated[2];
     const code = JSON.stringify(newCard, null, 2);
     fs.outputFileSync(path, code);
+    console.log(code)
     setTimeout(() => translateCard(lang, tasks));
-  });
+  }, e => console.log(e));
 }
 
-translateCard('en', [...allCards]);
-//translateCard('de', [...allCards]);
-//translateCard('es', [...allCards]);
+function translateRoot(lang) {
+  const fr = langs.filter(l => l.lang === 'fr')[0];
+  const newLang = {
+    "lang": lang,
+    "menu": {
+      "allCards": ""
+    },
+    "tooltips": {
+      "newCard": "",
+      "help": ""
+    }
+  };
+  translateAllRoot(lang, fr).then(res => {
+    newLang.menu.allCards = res[0];
+    newLang.tooltips.newCard = res[1];
+    newLang.tooltips.help = res[2];
+    const newLangs = [...langs, newLang];
+    const code = JSON.stringify(newLangs, null, 2);
+    fs.outputFileSync('./src/cards/lang.json', code);
+    console.log(code)
+  }, e => console.log(e));
+  
+}
+
+// translateCard('en', [...allCards]);
+// translateRoot('en');
+// 
+// translateCard('de', [...allCards]);
+// translateRoot('de');
+
+translateCard('es', [...allCards]);
+translateRoot('es');

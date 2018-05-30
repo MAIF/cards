@@ -6,12 +6,45 @@
     "fr": {
       "title": "ARTISAN LOGICIEL",
       "abstract": [
-        "Misez sur des personnes polyvalentes qui **savent faire** et qui **aiment faire**."
+        "Misez sur des personnes polyvalentes qui**savent faire**et qui**aiment faire**."
       ],
       "details": [
-        "Le plus important est la **culture du développement**, l'**évolutivité** et la **faculté d'adaptation**.",
-        "Recrutez de **artisans logiciels (software craftsmen) et développeurs full-stack**, ils apportent une vrai plus-value par leur savoir faire et leur vision d'ensemble.",
-        "Néanmoins, les développeurs mobiles - par exemple - sont généralement des **développeurs spécialisés**."
+        "Le plus important est la**culture du développement**, l'**évolutivité**et la**faculté d'adaptation**.",
+        "Recrutez de**artisans logiciels (software craftsmen) et développeurs full-stack**, ils apportent une vrai plus-value par leur savoir faire et leur vision d'ensemble.",
+        "Néanmoins, les développeurs mobiles - par exemple - sont généralement des**développeurs spécialisés**."
+      ]
+    },
+    "en": {
+      "title": "ARTISAN SOFTWARE",
+      "abstract": [
+        "Bet on versatile people who**know how to do**and who**like to do**."
+      ],
+      "details": [
+        "The most important is the**culture of development**,**scalability**and**adaptability**.",
+        "Recruiting**software craftsmen and full-stack developers**, they bring a real added value through their know-how and their overall vision.",
+        "Nevertheless, mobile developers - for example - are usually**specialized developers**."
+      ]
+    },
+    "de": {
+      "title": "Künstliche Software",
+      "abstract": [
+        "Wetten Sie auf vielseitige Leute, die**wissen**und wer**gerne tun**."
+      ],
+      "details": [
+        "Am wichtigsten ist die**Kultur der Entwicklung**,**Skalierbarkeit**und**Anpassungsfähigkeit**.",
+        "Recruiting**Software-Handwerker und Full-Stack-Entwickler**, bringen sie einen echten Mehrwert durch ihr Know-how und ihre allgemeine Vision.",
+        "Mobile Entwickler sind zum Beispiel in der Regel**spezialisierte Entwickler**."
+      ]
+    },
+    "es": {
+      "title": "SOFTWARE ARTESANAL",
+      "abstract": [
+        "Apuesta a personas versátiles que**saben cómo hacer**y a quienes**les gusta hacer**."
+      ],
+      "details": [
+        "Lo más importante es la**cultura de desarrollo**,**escalabilidad**y**adaptabilidad**.",
+        "Reclutando**artesanos de software y desarrolladores de software completo**, aportan un valor agregado real a través de su conocimiento y su visión general.",
+        "Sin embargo, los desarrolladores móviles, por ejemplo, suelen ser**desarrolladores especializados**."
       ]
     }
   }

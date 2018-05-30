@@ -6,11 +6,41 @@
     "fr": {
       "title": "A/B Testing",
       "abstract": [
-        "L'**A/B Testing** vous permet de gagner du temps en laissant le **feedback** trancher."
+        "L' **A/B Testing** vous permet de gagner du temps en laissant le**feedback**trancher."
       ],
       "details": [
-        "Plutôt que de trancher arbitrairement entre deux solutions, n'hésitez pas à mettre en place l'**A/B testing**.",
-        "Ce pattern consiste à présenter **deux versions différentes** d'une même application et à choisir l'une d'entre elles sur la base de **mesures objectives** de l'activité des utilisateurs."
+        "Plutôt que de trancher arbitrairement entre deux solutions, n'hésitez pas à mettre en place l' **A/B testing**.",
+        "Ce pattern consiste à présenter **deux versions différentes** d'une même application et à choisir l'une d'entre elles sur la base de **mesures objectives**de l'activité des utilisateurs."
+      ]
+    },
+    "en": {
+      "title": "A/B Testing",
+      "abstract": [
+        "**A / B Testing**saves you time by allowing**feedback**to be decided."
+      ],
+      "details": [
+        "Rather than arbitrarily deciding between two solutions, do not hesitate to set up**A / B testing**.",
+        "This pattern consists of presenting**two different versions**of the same application and choosing one of them based on**objective measures**of user activity."
+      ]
+    },
+    "de": {
+      "title": "A / B-Prüfung",
+      "abstract": [
+        "**A / B Testing**spart Ihnen Zeit, indem Sie**Feedback**entscheiden lassen."
+      ],
+      "details": [
+        "Anstatt zwischen zwei Lösungen willkürlich zu entscheiden, zögern Sie nicht,**A / B-Tests**einzurichten.",
+        "Dieses Muster besteht aus der Darstellung von**zwei verschiedenen Versionen**derselben Anwendung und der Auswahl einer davon basierend auf**objektiven Kennzahlen**der Benutzeraktivität."
+      ]
+    },
+    "es": {
+      "title": "Prueba A / B",
+      "abstract": [
+        "**A / B Testing**le ahorra tiempo al permitir que se decida**feedback**."
+      ],
+      "details": [
+        "En lugar de decidir arbitrariamente entre dos soluciones, no dude en configurar**pruebas A / B**.",
+        "Este patrón consiste en presentar**dos versiones diferentes**de la misma aplicación y elegir una de ellas en función de**medidas objetivas**de la actividad del usuario."
       ]
     }
   }

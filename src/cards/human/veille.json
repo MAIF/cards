@@ -6,12 +6,45 @@
     "fr": {
       "title": "VEILLE",
       "abstract": [
-        "L’organisation doit être un moteur de **veille**",
+        "L’organisation doit être un moteur de**veille**",
         "La veille fait partie du métier."
       ],
       "details": [
-        "L’organisation doit être un moteur de **veille** en mettant en place des dispositifs tels que la **formation continue** ou les **Universités d’entreprise**.",
-        "N'hésitez pas à les combiner avec d’autres moyens plus **informels** tels que : **Coding Dojos**, **Brown Bag Lunchs**, **Conférences** externes."
+        "L’organisation doit être un moteur de**veille**en mettant en place des dispositifs tels que la**formation continue**ou les**Universités d’entreprise**.",
+        "N'hésitez pas à les combiner avec d’autres moyens plus**informels**tels que :**Coding Dojos**,**Brown Bag Lunchs**,**Conférences**externes."
+      ]
+    },
+    "en": {
+      "title": "EVE",
+      "abstract": [
+        "The organization must be a**sleep engine**",
+        "The day before is part of the job."
+      ],
+      "details": [
+        "The organization must be a**day-care**engine by setting up systems such as**continuing education**or**business universities**.",
+        "Feel free to combine them with other more**informal**ways such as:**Coding Dojos**,**Brown Bag Lunchs**,**External**Conferences."
+      ]
+    },
+    "de": {
+      "title": "EVE",
+      "abstract": [
+        "Die Organisation muss eine**Schlafmaschine sein**",
+        "Der Tag davor ist Teil des Jobs."
+      ],
+      "details": [
+        "Die Organisation muss eine**Tagespflege**-Maschine sein, indem sie Systeme wie**Weiterbildung**oder**Business-Universitäten**einrichtet.",
+        "Fühlen Sie sich frei, sie mit anderen**informellen**Möglichkeiten zu kombinieren, wie:**Coding Dojos**,**Brown Bag Lunchs**,**externe**Konferenzen."
+      ]
+    },
+    "es": {
+      "title": "EVE",
+      "abstract": [
+        "La organización debe ser un**motor de sueño**",
+        "El día anterior es parte del trabajo."
+      ],
+      "details": [
+        "La organización debe ser un motor**de cuidado diurno**mediante el establecimiento de sistemas como**educación continua**o**universidades empresariales**.",
+        "Siéntase libre de combinarlos con otras formas**más informales como:**Codificación de Dojos**,**Almuerzos de Brown Bag**,**Conferencias**Externas."
       ]
     }
   }

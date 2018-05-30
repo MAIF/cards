@@ -6,13 +6,49 @@
     "fr": {
       "title": "DOULEUR",
       "abstract": [
-        "Les **tâches pénibles** sont effectuées **par la Feature Team**.",
+        "Les**tâches pénibles**sont effectuées**par la Feature Team**.",
         "L'automatisation en découle."
       ],
       "details": [
-        "Dans une organisation traditionnelle, le **manque de compréhension** entre les équipes est généralement lié à la distance et au **manque de communication**.",
-        "Les **membres d'une Feature Team** sont **co-responsables** et **solidaires** faces à toutes les tâches.",
-        "La **douleur** est un facteur clé de l'**amélioration continue**."
+        "Dans une organisation traditionnelle, le**manque de compréhension**entre les équipes est généralement lié à la distance et au**manque de communication**.",
+        "Les**membres d'une Feature Team**sont**co-responsables**et**solidaires**faces à toutes les tâches.",
+        "La**douleur**est un facteur clé de l'**amélioration continue**."
+      ]
+    },
+    "en": {
+      "title": "PAIN",
+      "abstract": [
+        "**Tough tasks**are performed**by the Feature Team**.",
+        "Automation follows."
+      ],
+      "details": [
+        "In a traditional organization,**lack of understanding**between teams is usually related to distance and**lack of communication**.",
+        "The**members of a Feature Team**are**co-responsible**and**solidary**for all tasks.",
+        "**Pain**is a key factor in**Continuous Improvement**."
+      ]
+    },
+    "de": {
+      "title": "PAIN",
+      "abstract": [
+        "**Schwierige Aufgaben**werden**vom Feature-Team**durchgeführt.",
+        "Die Automatisierung folgt."
+      ],
+      "details": [
+        "In einer traditionellen Organisation hängt**mangelndes Verständnis**zwischen Teams normalerweise mit Entfernung und**mangelnder Kommunikation zusammen.",
+        "Die**Mitglieder eines Feature-Teams**sind**mitverantwortlich**und**solidarisch**für alle Aufgaben.",
+        "**Schmerz**ist ein Schlüsselfaktor für**Kontinuierliche Verbesserung**."
+      ]
+    },
+    "es": {
+      "title": "DOLOR",
+      "abstract": [
+        "**Las tareas difíciles**se realizan**por el equipo de características**.",
+        "La automatización sigue."
+      ],
+      "details": [
+        "En una organización tradicional,**la falta de comprensión**entre los equipos suele estar relacionada con la distancia y**la falta de comunicación**.",
+        "Los**miembros de un equipo de características**son**co-responsables**y**solidarios**para todas las tareas.",
+        "**Dolor**es un factor clave en**Mejora continua**."
       ]
     }
   }

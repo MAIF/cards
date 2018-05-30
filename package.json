@@ -8,12 +8,13 @@
     "server": "node src/server.js",
     "generator": "node src/generator.js",
     "migrate": "node src/migrate.js",
+    "translate": "node src/translate.js",
     "prettier": "prettier --write --single-quote --trailing-comma es5 --print-width 100 --tab-width 2 --jsx-bracket-same-line \"*.js\""
   },
   "dependencies": {
+    "@google-cloud/translate": "1.1.0",
     "express": "4.16.2",
     "fs-extra": "5.0.0",
-    "google-translate": "^2.1.0",
     "prettier": "1.11.1",
     "rimraf": "2.6.2",
     "showdown": "1.8.6"
