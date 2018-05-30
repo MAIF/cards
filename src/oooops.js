@@ -24,7 +24,9 @@ function ooops(card) {
     .replace(/\*\* (.*? \*\*)/g, '**$1')
     .replace(/(\*\*.*?) \*\*/g, '$1**')
     .replace('" **', '"**')
-    .replace('** .', '**.');
+    .replace('** .', '**.')
+    .replace('( **', '(**')
+    .replace('** )', '**)')
   fs.outputFileSync(path, code);
 }
 
