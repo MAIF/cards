@@ -15,9 +15,11 @@
   },
   {
     "lang": "en",
-    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-united-kingdom2x.png",
     "menu": {
-      "allCards": "All cards"
+      "allCards": "All cards",
+      "card": "Map",
+      "search": "search a card",
+      "cardsOf": "Category cards"
     },
     "tooltips": {
       "newCard": "Draw a new card randomly",
@@ -26,9 +28,11 @@
   },
   {
     "lang": "de",
-    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-germany2x.png",
     "menu": {
-      "allCards": "Alle Karten"
+      "allCards": "Alle Karten",
+      "card": "Karte",
+      "search": "suche eine Karte",
+      "cardsOf": "Kategoriekarten"
     },
     "tooltips": {
       "newCard": "Ziehe zufällig eine neue Karte",
@@ -37,9 +41,11 @@
   },
   {
     "lang": "es",
-    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-spain2x.png",
     "menu": {
-      "allCards": "Todas las cartas"
+      "allCards": "Todas las cartas",
+      "card": "Mapa",
+      "search": "buscar un mapa",
+      "cardsOf": "Cartas de categoría"
     },
     "tooltips": {
       "newCard": "Dibuja una nueva carta al azar",
@@ -48,9 +54,11 @@
   },
   {
     "lang": "zh-CN",
-    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-china2x.png",
     "menu": {
-      "allCards": "所有卡片"
+      "allCards": "所有卡片",
+      "card": "地图",
+      "search": "搜索地图",
+      "cardsOf": "类别卡片"
     },
     "tooltips": {
       "newCard": "随机画一张新卡",
@@ -59,9 +67,11 @@
   },
   {
     "lang": "ja",
-    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-japan2x.png",
     "menu": {
-      "allCards": "すべてのカード"
+      "allCards": "すべてのカード",
+      "card": "マップ",
+      "search": "地図を検索する",
+      "cardsOf": "カテゴリカード"
     },
     "tooltips": {
       "newCard": "新しいカードをランダムに描く",
@@ -70,9 +80,11 @@
   },
   {
     "lang": "ru",
-    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-russia2x.png",
     "menu": {
-      "allCards": "Все карты"
+      "allCards": "Все карты",
+      "card": "карта",
+      "search": "Найти карту",
+      "cardsOf": "Карты категорий"
     },
     "tooltips": {
       "newCard": "Нарисуйте новую карту случайно",
@@ -81,26 +93,15 @@
   },
   {
     "lang": "ar",
-    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-saudi-arabia2x.png",
     "menu": {
-      "allCards": "كل البطاقات"
+      "allCards": "كل البطاقات",
+      "card": "خريطة",
+      "search": "ابحث عن الخريطة",
+      "cardsOf": "بطاقات الفئة"
     },
     "tooltips": {
       "newCard": "ارسم بطاقة جديدة بشكل عشوائي",
       "help": "لعبة بطاقة MAIF من مبادئ التصميم للمنتجات الرقمية الجديدة لمنصة الخدمة الخاصة بها"
-    }
-  },
-  {
-    "lang": "en",
-    "menu": {
-      "allCards": "All cards",
-      "card": "Map",
-      "search": "search a map",
-      "cardsOf": "Category cards"
-    },
-    "tooltips": {
-      "newCard": "Draw a new card randomly",
-      "help": "The MAIF card game of the design principles of the new digital products of its service platform"
     }
   }
 ]

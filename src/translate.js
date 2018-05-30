@@ -105,7 +105,7 @@ function translateRoot(lang) {
 }
 
 // translateCard('en', [...allCards]);
-translateRoot('en');
+// translateRoot('en');
 // translateCard('de', [...allCards]);
 // translateRoot('de');
 // translateCard('es', [...allCards]);
