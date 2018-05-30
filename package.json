@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Generator for https://maif.github.io/cards",
   "main": "generator.js",
-  "license": "Apache2",
+  "license": "Apache-2.0",
   "scripts": {
     "server": "node src/server.js",
     "generator": "node src/generator.js",
