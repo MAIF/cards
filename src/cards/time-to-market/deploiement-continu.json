@@ -6,41 +6,41 @@
     "fr": {
       "title": "DÉPLOIEMENT CONTINU",
       "abstract": [
-        "Le**déploiement en production**est un non-événement."
+        "Le ** déploiement en production ** est un non-événement."
       ],
       "details": [
-        "Misez sur le**déploiement continu**afin d'**adapter le déploiement**en**production**aux contraintes et besoins**business**et non l'inverse.",
-        "Les**déploiements**à travers les environnements, jusqu'en**production**, doivent être**automatisés**et**fréquents**."
+        "Misez sur le ** déploiement continu ** afin d' ** adapter le déploiement ** en ** production ** aux contraintes et besoins ** business ** et non l'inverse.",
+        "Les ** déploiements ** à travers les environnements, jusqu'en ** production ** , doivent être ** automatisés ** et ** fréquents ** ."
       ]
     },
     "en": {
       "title": "CONTINUOUS DEPLOYMENT",
       "abstract": [
-        "**Deployment in production**is a non-event."
+        " ** Deployment in production ** is a non-event."
       ],
       "details": [
-        "Take advantage of**continuous deployment**to adapt****production**to**business**requirements and not the other way around.",
-        "**Deployments**across environments, up to**production**, must be**automated**and**frequent**."
+        "Take advantage of ** continuous deployment ** to adapt **  ** production ** to ** business ** requirements and not the other way around.",
+        " ** Deployments ** across environments, up to ** production ** , must be ** automated ** and ** frequent ** ."
       ]
     },
     "de": {
       "title": "KONTINUIERLICHE VERWENDUNG",
       "abstract": [
-        "**Bereitstellung in Produktion**ist ein Nicht-Ereignis."
+        " ** Bereitstellung in Produktion ** ist ein Nicht-Ereignis."
       ],
       "details": [
-        "Profitieren Sie von der**kontinuierlichen Bereitstellung**, um die****Produktion**an**geschäftliche**Anforderungen anzupassen und nicht umgekehrt.",
-        "**Bereitstellungen**in Umgebungen, bis zu**Produktion**, müssen**automatisiert**und**häufig**sein."
+        "Profitieren Sie von der ** kontinuierlichen Bereitstellung ** , um die **  ** Produktion ** an ** geschäftliche ** Anforderungen anzupassen und nicht umgekehrt.",
+        " ** Bereitstellungen ** in Umgebungen, bis zu ** Produktion ** , müssen ** automatisiert ** und ** häufig ** sein."
       ]
     },
     "es": {
       "title": "DESPLIEGUE CONTINUO",
       "abstract": [
-        "**Despliegue en producción**no es un evento."
+        " ** Despliegue en producción ** no es un evento."
       ],
       "details": [
-        "Aproveche**la implementación continua**para adaptar****producción**a los requisitos**comerciales**y no al revés.",
-        "**Las implementaciones**en todos los entornos, hasta**producción**, deben ser**automáticas**y**frecuentes**."
+        "Aproveche ** la implementación continua ** para adaptar **  ** producción ** a los requisitos ** comerciales ** y no al revés.",
+        " ** Las implementaciones ** en todos los entornos, hasta ** producción ** , deben ser ** automáticas ** y ** frecuentes ** ."
       ]
     }
   }

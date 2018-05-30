@@ -6,44 +6,44 @@
     "fr": {
       "title": "KISS",
       "abstract": [
-        "**K**eep**I**t**S**imple and**S**tupid.",
+        " ** K ** eep ** I ** t ** S ** imple and ** S ** tupid.",
         "*Pourquoi faire compliqué quand on peut faire simple ?*"
       ],
       "details": [
-        "**Évitez l’over-engineering**, si une maquette \"papier\" ou un Google Form suffit pour éprouver votre concept, n'allez pas plus loin.",
+        " ** Évitez l’over-engineering ** , si une maquette \"papier\" ou un Google Form suffit pour éprouver votre concept, n'allez pas plus loin.",
         "Restez simple ! À la fois sur le plan technique et sur le plan fonctionnel."
       ]
     },
     "en": {
       "title": "KISS",
       "abstract": [
-        "**K**eep**I**t**S**imple and**S**tupid.",
+        " ** K ** eep ** I ** t ** S ** imple and ** S ** tupid.",
         "*Why make it complicated when it can be simple ?*"
       ],
       "details": [
-        "**Avoid over-engineering**, if a \"paper\" model or a Google Form is enough to test your concept, do not go further.",
+        " ** Avoid over-engineering ** , if a \"paper\" model or a Google Form is enough to test your concept, do not go further.",
         "Stay simple! Both technically and functionally."
       ]
     },
     "de": {
       "title": "KUSS",
       "abstract": [
-        "**Halten Sie es einfach und dumm.",
+        " ** Halten Sie es einfach und dumm.",
         "* Warum kompliziert, wenn es einfach sein kann? *"
       ],
       "details": [
-        "**Vermeiden Sie zu viel Technik**, wenn ein \"Papier\" -Modell oder ein Google-Formular ausreicht, um Ihr Konzept zu testen, gehen Sie nicht weiter.",
+        " ** Vermeiden Sie zu viel Technik ** , wenn ein \"Papier\" -Modell oder ein Google-Formular ausreicht, um Ihr Konzept zu testen, gehen Sie nicht weiter.",
         "Bleib einfach! Sowohl technisch als auch funktional."
       ]
     },
     "es": {
       "title": "BESO",
       "abstract": [
-        "**Mantenlo simple y estúpido.",
+        " ** Mantenlo simple y estúpido.",
         "* ¿Por qué complicarse cuando puede ser simple? *"
       ],
       "details": [
-        "**Evite la sobreingeniería**, si un modelo de \"papel\" o un Formulario de Google es suficiente para probar su concepto, no vaya más allá.",
+        " ** Evite la sobreingeniería ** , si un modelo de \"papel\" o un Formulario de Google es suficiente para probar su concepto, no vaya más allá.",
         "¡Mantente simple! Tanto técnica como funcionalmente."
       ]
     }

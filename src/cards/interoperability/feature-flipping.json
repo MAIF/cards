@@ -6,45 +6,45 @@
     "fr": {
       "title": "FEATURE FLIPPING",
       "abstract": [
-        "Créez des systèmes souples et génériques en utilisant le**feature flipping**."
+        "Créez des systèmes souples et génériques en utilisant le ** feature flipping ** ."
       ],
       "details": [
-        "Le**feature flipping**consiste à concevoir une application comme un ensemble de**fonctionnalités**qui peuvent être**activées**ou**désactivées**à chaud, en**production**.",
-        "Dans une application**multi-tenant**, le feature flipping permet de**personnaliser**les tenants.",
-        "Le feature flipping**simplifie l'A/B testing**."
+        "Le ** feature flipping ** consiste à concevoir une application comme un ensemble de ** fonctionnalités ** qui peuvent être ** activées ** ou ** désactivées ** à chaud, en ** production ** .",
+        "Dans une application ** multi-tenant ** , le feature flipping permet de ** personnaliser ** les tenants.",
+        "Le feature flipping ** simplifie l'A/B testing ** ."
       ]
     },
     "en": {
       "title": "FEATURE FLIPPING",
       "abstract": [
-        "Create flexible and generic systems using**feature flipping**."
+        "Create flexible and generic systems using ** feature flipping ** ."
       ],
       "details": [
-        "**feature flipping**is about designing an app as a set of**features**that can be**enabled**or**disabled**hot,**production**.",
-        "In a**multi-tenant**application, feature flipping allows you to**customize**supporters.",
-        "Le feature flipping**simplifie l'A/B testing**."
+        " ** feature flipping ** is about designing an app as a set of ** features ** that can be ** enabled ** or ** disabled ** hot, ** production ** .",
+        "In a ** multi-tenant ** application, feature flipping allows you to ** customize ** supporters.",
+        "Le feature flipping ** simplifie l'A/B testing ** ."
       ]
     },
     "de": {
       "title": "FEATURE FLIPPING",
       "abstract": [
-        "Erstellen Sie flexible und generische Systeme mit**Feature-Flipping**."
+        "Erstellen Sie flexible und generische Systeme mit ** Feature-Flipping ** ."
       ],
       "details": [
-        "**Feature Flipping**bedeutet, eine App als eine Reihe von**Funktionen**zu gestalten, die**aktiviert**oder**deaktiviert**heiß,**Produktion**sein können.",
-        "In einer**Multi-Tenant**-Anwendung ermöglicht das Feature-Flipping**das Anpassen von Unterstützern.",
-        "Das Feature flip**vereinfacht die A / B-Prüfung**."
+        " ** Feature Flipping ** bedeutet, eine App als eine Reihe von ** Funktionen ** zu gestalten, die ** aktiviert ** oder ** deaktiviert ** heiß, ** Produktion ** sein können.",
+        "In einer ** Multi-Tenant ** -Anwendung ermöglicht das Feature-Flipping ** das Anpassen von Unterstützern.",
+        "Das Feature flip ** vereinfacht die A / B-Prüfung ** ."
       ]
     },
     "es": {
       "title": "FLIPPING DE CARACTERÍSTICAS",
       "abstract": [
-        "Cree sistemas flexibles y genéricos usando**función voltear**."
+        "Cree sistemas flexibles y genéricos usando ** función voltear ** ."
       ],
       "details": [
-        "**la función voltear**se trata de diseñar una aplicación como un conjunto de**funciones**que se pueden**habilitar**o**desactivar**caliente,**producción**.",
-        "En una aplicación**multi-tenant**, la función flipping le permite**personalizar**a los seguidores.",
-        "Le función voltear**simplifie l'A / B testing**."
+        " ** la función voltear ** se trata de diseñar una aplicación como un conjunto de ** funciones ** que se pueden ** habilitar ** o ** desactivar ** caliente, ** producción ** .",
+        "En una aplicación ** multi-tenant ** , la función flipping le permite ** personalizar ** a los seguidores.",
+        "Le función voltear ** simplifie l'A / B testing ** ."
       ]
     }
   }

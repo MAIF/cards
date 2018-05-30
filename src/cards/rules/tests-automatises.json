@@ -6,45 +6,45 @@
     "fr": {
       "title": "TEST AUTOMATISÉS",
       "abstract": [
-        "Le**testing automatisé**est un prérequis non négociable au déploiement continu."
+        "Le ** testing automatisé ** est un prérequis non négociable au déploiement continu."
       ],
       "details": [
-        "Le**testing**automatisé permet d'assurer la**qualité**du produit**dans le temps**.",
-        "Il est un**prérequis**au déploiement continu, il permet**changements**et**déploiements fréquents**.",
-        "Le**déploiement en production**devient un événement**anecdotique**!"
+        "Le ** testing ** automatisé permet d'assurer la ** qualité ** du produit ** dans le temps ** .",
+        "Il est un ** prérequis ** au déploiement continu, il permet ** changements ** et ** déploiements fréquents ** .",
+        "Le ** déploiement en production ** devient un événement ** anecdotique ** !"
       ]
     },
     "en": {
       "title": "AUTOMATED TESTING",
       "abstract": [
-        "**automated testing**is a non-negotiable prerequisite for continuous deployment."
+        " ** automated testing ** is a non-negotiable prerequisite for continuous deployment."
       ],
       "details": [
-        "Automated**testing**ensures**quality**of the product**over time**.",
-        "It is a**prerequisite**to continuous deployment, it allows****changes**and**frequent deployments**.",
-        "The**production rollout**becomes an**anecdotal**event!"
+        "Automated ** testing ** ensures ** quality ** of the product ** over time ** .",
+        "It is a ** prerequisite ** to continuous deployment, it allows **  ** changes ** and ** frequent deployments ** .",
+        "The ** production rollout ** becomes an ** anecdotal ** event!"
       ]
     },
     "de": {
       "title": "AUTOMATISIERTE TESTS",
       "abstract": [
-        "**automatisiertes Testen**ist eine nicht verhandelbare Voraussetzung für die kontinuierliche Bereitstellung."
+        " ** automatisiertes Testen ** ist eine nicht verhandelbare Voraussetzung für die kontinuierliche Bereitstellung."
       ],
       "details": [
-        "Automatisierte**Tests**gewährleisten die**Qualität**des Produkts**im Laufe der Zeit**.",
-        "Es ist eine**Voraussetzung**für die kontinuierliche Bereitstellung, es****Änderungen**und**häufige Bereitstellungen**ermöglicht.",
-        "Der**Production Rollout**wird zu einem**anekdotischen**Event!"
+        "Automatisierte ** Tests ** gewährleisten die ** Qualität ** des Produkts ** im Laufe der Zeit ** .",
+        "Es ist eine ** Voraussetzung ** für die kontinuierliche Bereitstellung, es **  ** Änderungen ** und ** häufige Bereitstellungen ** ermöglicht.",
+        "Der ** Production Rollout ** wird zu einem ** anekdotischen ** Event!"
       ]
     },
     "es": {
       "title": "PRUEBAS AUTOMATIZADAS",
       "abstract": [
-        "**Pruebas automatizadas**es un requisito previo no negociable para la implementación continua."
+        " ** Pruebas automatizadas ** es un requisito previo no negociable para la implementación continua."
       ],
       "details": [
-        "**Pruebas**automatizadas asegura**calidad**del producto**a lo largo del tiempo**.",
-        "Es**un prerrequisito**para la implementación continua, permite****cambios**y**implementaciones frecuentes**.",
-        "¡El**lanzamiento de la producción**se convierte en un evento**anecdótico**!"
+        " ** Pruebas ** automatizadas asegura ** calidad ** del producto ** a lo largo del tiempo ** .",
+        "Es ** un prerrequisito ** para la implementación continua, permite **  ** cambios ** y ** implementaciones frecuentes ** .",
+        "¡El ** lanzamiento de la producción ** se convierte en un evento ** anecdótico ** !"
       ]
     }
   }

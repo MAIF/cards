@@ -6,45 +6,45 @@
     "fr": {
       "title": "PÉRIMÈTRE",
       "abstract": [
-        "Chaque micro-service doit avoir un périmètre fonctionnel raisonnable, qui**\"loge dans la tête\"**."
+        "Chaque micro-service doit avoir un périmètre fonctionnel raisonnable, qui ** \"loge dans la tête\" ** ."
       ],
       "details": [
-        "Un micro-service propose un**nombre raisonnable de fonctionnalités**.",
-        "**N'hésitez pas à découper**un micro-service lorsque celui-ci commence à grossir.",
-        "Un service de taille raisonnable permet d'**envisager**sereinement la**réécriture**, si le besoin se présente."
+        "Un micro-service propose un ** nombre raisonnable de fonctionnalités ** .",
+        " ** N'hésitez pas à découper ** un micro-service lorsque celui-ci commence à grossir.",
+        "Un service de taille raisonnable permet d' ** envisager ** sereinement la ** réécriture ** , si le besoin se présente."
       ]
     },
     "en": {
       "title": "PERIMETER",
       "abstract": [
-        "Each micro-service must have a reasonable functional perimeter, which**\"fits in the head\"**."
+        "Each micro-service must have a reasonable functional perimeter, which ** \"fits in the head\" ** ."
       ],
       "details": [
-        "A micro-service offers a**reasonable number of features**.",
-        "**Do not hesitate to cut**a micro-service when it begins to grow.",
-        "A service of reasonable size makes it possible to**consider**serenely the**rewriting**, if the need arises."
+        "A micro-service offers a ** reasonable number of features ** .",
+        " ** Do not hesitate to cut ** a micro-service when it begins to grow.",
+        "A service of reasonable size makes it possible to ** consider ** serenely the ** rewriting ** , if the need arises."
       ]
     },
     "de": {
       "title": "SCOPE",
       "abstract": [
-        "Jeder Micro-Service muss einen angemessenen Funktionsumfang haben, der**\"in den Kopf passt\"**."
+        "Jeder Micro-Service muss einen angemessenen Funktionsumfang haben, der ** \"in den Kopf passt\" ** ."
       ],
       "details": [
-        "Ein Micro-Service bietet eine**angemessene Anzahl von Funktionen**.",
-        "**Zögere nicht,**einen Micro-Service zu schneiden, wenn es anfängt zu wachsen.",
-        "Ein Dienst von angemessener Größe macht es möglich,**das**Umschreiben**gelassen zu betrachten, wenn die Notwendigkeit besteht."
+        "Ein Micro-Service bietet eine ** angemessene Anzahl von Funktionen ** .",
+        " ** Zögere nicht, ** einen Micro-Service zu schneiden, wenn es anfängt zu wachsen.",
+        "Ein Dienst von angemessener Größe macht es möglich, ** das ** Umschreiben ** gelassen zu betrachten, wenn die Notwendigkeit besteht."
       ]
     },
     "es": {
       "title": "ÁMBITO",
       "abstract": [
-        "Cada micro-servicio debe tener un perímetro funcional razonable, que**\"cabe en la cabeza\"**."
+        "Cada micro-servicio debe tener un perímetro funcional razonable, que ** \"cabe en la cabeza\" ** ."
       ],
       "details": [
-        "Un micro-servicio ofrece**un número razonable de funciones**.",
-        "**No dude en cortar**un micro-servicio cuando este empiece a crecer.",
-        "Un servicio de tamaño razonable permite**considerar**serenamente**la reescritura**, si surge la necesidad."
+        "Un micro-servicio ofrece ** un número razonable de funciones ** .",
+        " ** No dude en cortar ** un micro-servicio cuando este empiece a crecer.",
+        "Un servicio de tamaño razonable permite ** considerar ** serenamente ** la reescritura ** , si surge la necesidad."
       ]
     }
   }

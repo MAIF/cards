@@ -6,41 +6,41 @@
     "fr": {
       "title": "BAC À SABLE",
       "abstract": [
-        "Les Feature Teams fournissent un**environnement \"bac à sable\"**."
+        "Les Feature Teams fournissent un ** environnement \"bac à sable\" ** ."
       ],
       "details": [
-        "Les Feature Teams maintiennent un**environnement \"bac à sable\"**(version actuelle et version à venir) afin de permettre aux autres équipes de**développer à l'échelle**.",
-        "Dans**certains cas**non nominaux, des**features**peuvent être**désactivées**dans l'environnement de**développement**."
+        "Les Feature Teams maintiennent un ** environnement \"bac à sable\" ** (version actuelle et version à venir) afin de permettre aux autres équipes de ** développer à l'échelle ** .",
+        "Dans ** certains cas ** non nominaux, des ** features ** peuvent être ** désactivées ** dans l'environnement de ** développement ** ."
       ]
     },
     "en": {
       "title": "SANDBOX",
       "abstract": [
-        "Feature Teams provide a**sandboxed**environment."
+        "Feature Teams provide a ** sandboxed ** environment."
       ],
       "details": [
-        "Feature Teams maintain a**sandbox**environment (current version and upcoming release) to allow other**teams to scale up**.",
-        "In**some non-nominal**cases,**features**may be**disabled**in the**development**environment."
+        "Feature Teams maintain a ** sandbox ** environment (current version and upcoming release) to allow other ** teams to scale up ** .",
+        "In ** some non-nominal ** cases, ** features ** may be ** disabled ** in the ** development ** environment."
       ]
     },
     "de": {
       "title": "SAND-FACH",
       "abstract": [
-        "Feature-Teams bieten eine**Sandbox-Umgebung**."
+        "Feature-Teams bieten eine ** Sandbox-Umgebung ** ."
       ],
       "details": [
-        "Feature Teams unterhalten eine**Sandbox**-Umgebung (aktuelle Version und bevorstehende Version), um anderen**Teams das Scale-up**zu ermöglichen.",
-        "In**einigen nicht-nominalen**Fällen**können**Funktionen**in der**Entwicklungsumgebung****deaktiviert sein."
+        "Feature Teams unterhalten eine ** Sandbox ** -Umgebung (aktuelle Version und bevorstehende Version), um anderen ** Teams das Scale-up ** zu ermöglichen.",
+        "In ** einigen nicht-nominalen ** Fällen ** können ** Funktionen ** in der ** Entwicklungsumgebung **  ** deaktiviert sein."
       ]
     },
     "es": {
       "title": "CAJÓN DE ARENA",
       "abstract": [
-        "Los equipos especiales proporcionan un entorno**de espacio aislado."
+        "Los equipos especiales proporcionan un entorno ** de espacio aislado."
       ],
       "details": [
-        "Los equipos especiales mantienen un entorno de**recinto de seguridad**(versión actual y próximo lanzamiento) para permitir que otros**equipos amplíen**.",
-        "En**algunos casos**no nominales,**funciones**pueden**estar inhabilitados**en el entorno**de desarrollo**."
+        "Los equipos especiales mantienen un entorno de ** recinto de seguridad ** (versión actual y próximo lanzamiento) para permitir que otros ** equipos amplíen ** .",
+        "En ** algunos casos ** no nominales, ** funciones ** pueden ** estar inhabilitados ** en el entorno ** de desarrollo ** ."
       ]
     }
   }

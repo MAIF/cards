@@ -6,45 +6,45 @@
     "fr": {
       "title": "POSTE DE TRAVAIL",
       "abstract": [
-        "Le poste de travail est adapté et adaptable aux**usages**et**canaux modernes**."
+        "Le poste de travail est adapté et adaptable aux ** usages ** et ** canaux modernes ** ."
       ],
       "details": [
-        "Adoptez la**fédération d'identité**pour une expérience unifiée.",
-        "Un**portail**permet d'offrir une**vision d'ensemble**, il ne remplace pas les applications.",
-        "Le poste de travail doit être**mobile**,**multi-canal**et**standard**afin de permettre l'ouverture dans le cadre de l'**entreprise étendue**."
+        "Adoptez la ** fédération d'identité ** pour une expérience unifiée.",
+        "Un ** portail ** permet d'offrir une ** vision d'ensemble ** , il ne remplace pas les applications.",
+        "Le poste de travail doit être ** mobile ** , ** multi-canal ** et ** standard ** afin de permettre l'ouverture dans le cadre de l' ** entreprise étendue ** ."
       ]
     },
     "en": {
       "title": "WORKPLACE",
       "abstract": [
-        "The workstation is adapted and adaptable to**uses**and**modern channels**."
+        "The workstation is adapted and adaptable to ** uses ** and ** modern channels ** ."
       ],
       "details": [
-        "Adopt the**identity federation**for a unified experience.",
-        "A**portal**allows to offer a**overview**, it does not replace applications.",
-        "The workstation must be**mobile**,**multi-channel**and**standard**to allow opening within the**extended enterprise**."
+        "Adopt the ** identity federation ** for a unified experience.",
+        "A ** portal ** allows to offer a ** overview ** , it does not replace applications.",
+        "The workstation must be ** mobile ** , ** multi-channel ** and ** standard ** to allow opening within the ** extended enterprise ** ."
       ]
     },
     "de": {
       "title": "Arbeitsplatz",
       "abstract": [
-        "Die Workstation ist angepasst und an**Anwendungen**und**moderne Kanäle**anpassbar."
+        "Die Workstation ist angepasst und an ** Anwendungen ** und ** moderne Kanäle ** anpassbar."
       ],
       "details": [
-        "Übernehmen Sie den**Identity Federation**für eine einheitliche Erfahrung.",
-        "Ein**Portal**ermöglicht eine**Übersicht**, es ersetzt keine Anwendungen.",
-        "Die Workstation muss**mobil**,**Mehrkanal**und**Standard**sein, um das Öffnen innerhalb des**erweiterten Unternehmens**zu ermöglichen."
+        "Übernehmen Sie den ** Identity Federation ** für eine einheitliche Erfahrung.",
+        "Ein ** Portal ** ermöglicht eine ** Übersicht ** , es ersetzt keine Anwendungen.",
+        "Die Workstation muss ** mobil ** , ** Mehrkanal ** und ** Standard ** sein, um das Öffnen innerhalb des ** erweiterten Unternehmens ** zu ermöglichen."
       ]
     },
     "es": {
       "title": "PUESTO DE TRABAJO",
       "abstract": [
-        "La estación de trabajo está adaptada y se puede adaptar a**usos**y**canales modernos**."
+        "La estación de trabajo está adaptada y se puede adaptar a ** usos ** y ** canales modernos ** ."
       ],
       "details": [
-        "Adopte la**federación de identidades**para una experiencia unificada.",
-        "Un**portal**permite ofrecer**una descripción general**, no reemplaza las aplicaciones.",
-        "La estación de trabajo debe ser**móvil**,**multicanal**y**estándar**para permitir la apertura dentro de**empresa extendida**."
+        "Adopte la ** federación de identidades ** para una experiencia unificada.",
+        "Un ** portal ** permite ofrecer ** una descripción general ** , no reemplaza las aplicaciones.",
+        "La estación de trabajo debe ser ** móvil ** , ** multicanal ** y ** estándar ** para permitir la apertura dentro de ** empresa extendida ** ."
       ]
     }
   }

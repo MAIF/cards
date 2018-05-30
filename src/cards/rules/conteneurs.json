@@ -6,37 +6,37 @@
     "fr": {
       "title": "CONTENEURS",
       "abstract": [
-        "Les**conteneurs**offrent la souplesse nécessaire à un outillage hétérogène."
+        "Les ** conteneurs ** offrent la souplesse nécessaire à un outillage hétérogène."
       ],
       "details": [
-        "Les conteneurs offrent la**souplesse**nécessaire aux Feature Teams pour leur permettre un**outillage hétérogène**dans un**contexte homogène**."
+        "Les conteneurs offrent la ** souplesse ** nécessaire aux Feature Teams pour leur permettre un ** outillage hétérogène ** dans un ** contexte homogène ** ."
       ]
     },
     "en": {
       "title": "CONTAINERS",
       "abstract": [
-        "**Containers**provide the flexibility needed for heterogeneous tooling."
+        " ** Containers ** provide the flexibility needed for heterogeneous tooling."
       ],
       "details": [
-        "Containers provide the**flexibility**needed by Feature Teams to enable**heterogeneous tooling**in a**homogeneous context**."
+        "Containers provide the ** flexibility ** needed by Feature Teams to enable ** heterogeneous tooling ** in a ** homogeneous context ** ."
       ]
     },
     "de": {
       "title": "CONTAINER",
       "abstract": [
-        "**Container**bieten die Flexibilität, die für heterogene Werkzeuge benötigt wird."
+        " ** Container ** bieten die Flexibilität, die für heterogene Werkzeuge benötigt wird."
       ],
       "details": [
-        "Container bieten die**Flexibilität**, die Feature Teams benötigen, um**heterogene Werkzeuge**in einem**homogenen Kontext**zu aktivieren."
+        "Container bieten die ** Flexibilität ** , die Feature Teams benötigen, um ** heterogene Werkzeuge ** in einem ** homogenen Kontext ** zu aktivieren."
       ]
     },
     "es": {
       "title": "ENVASES",
       "abstract": [
-        "**Los contenedores**brindan la flexibilidad necesaria para herramientas heterogéneas."
+        " ** Los contenedores ** brindan la flexibilidad necesaria para herramientas heterogéneas."
       ],
       "details": [
-        "Los contenedores proporcionan la**flexibilidad**que necesitan los equipos de características para habilitar**herramientas heterogéneas**en**un contexto homogéneo**."
+        "Los contenedores proporcionan la ** flexibilidad ** que necesitan los equipos de características para habilitar ** herramientas heterogéneas ** en ** un contexto homogéneo ** ."
       ]
     }
   }

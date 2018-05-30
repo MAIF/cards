@@ -6,45 +6,45 @@
     "fr": {
       "title": "PARAMÉTRAGE",
       "abstract": [
-        "Les systèmes doivent être**nativement paramétrables**."
+        "Les systèmes doivent être ** nativement paramétrables ** ."
       ],
       "details": [
-        "**Langues, devises, règles métiers, profils de sécurité**doivent êtres simple à paramétrer.",
-        "Attention à l'**hyper-généricité**, elle est souvent inutile et**source de coût**.",
-        "Le**paramétrage**doit être**évolutif**et rapide en fonction des besoins."
+        " ** Langues, devises, règles métiers, profils de sécurité ** doivent êtres simple à paramétrer.",
+        "Attention à l' ** hyper-généricité ** , elle est souvent inutile et ** source de coût ** .",
+        "Le ** paramétrage ** doit être ** évolutif ** et rapide en fonction des besoins."
       ]
     },
     "en": {
       "title": "SETTING",
       "abstract": [
-        "The systems must be**natively configurable**."
+        "The systems must be ** natively configurable ** ."
       ],
       "details": [
-        "**Languages, currencies, business rules, security profiles**must be simple to set.",
-        "Beware of**hyper-genericity**, it is often useless and**cost source**.",
-        "The**setup**must be**scalable**and fast as needed."
+        " ** Languages, currencies, business rules, security profiles ** must be simple to set.",
+        "Beware of ** hyper-genericity ** , it is often useless and ** cost source ** .",
+        "The ** setup ** must be ** scalable ** and fast as needed."
       ]
     },
     "de": {
       "title": "EINSTELLUNG",
       "abstract": [
-        "Die Systeme müssen**nativ konfigurierbar sein**."
+        "Die Systeme müssen ** nativ konfigurierbar sein ** ."
       ],
       "details": [
-        "**Sprachen, Währungen, Geschäftsregeln, Sicherheitsprofile**müssen einfach einzustellen sein.",
-        "Vorsicht vor**Hyper-Generizität**, es ist oft nutzlos und**Kostenquelle**.",
-        "Das**Setup**muss**skalierbar**und schnell wie erforderlich sein."
+        " ** Sprachen, Währungen, Geschäftsregeln, Sicherheitsprofile ** müssen einfach einzustellen sein.",
+        "Vorsicht vor ** Hyper-Generizität ** , es ist oft nutzlos und ** Kostenquelle ** .",
+        "Das ** Setup ** muss ** skalierbar ** und schnell wie erforderlich sein."
       ]
     },
     "es": {
       "title": "AJUSTE",
       "abstract": [
-        "Los sistemas deben ser**nativamente configurables**."
+        "Los sistemas deben ser ** nativamente configurables ** ."
       ],
       "details": [
-        "**Los idiomas, las monedas, las reglas comerciales, los perfiles de seguridad**deben ser fáciles de configurar.",
-        "Tenga cuidado con**hipergenericidad**, a menudo es inútil y**fuente de costo**.",
-        "**la configuración**debe ser**escalable**y rápida según sea necesario."
+        " ** Los idiomas, las monedas, las reglas comerciales, los perfiles de seguridad ** deben ser fáciles de configurar.",
+        "Tenga cuidado con ** hipergenericidad ** , a menudo es inútil y ** fuente de costo ** .",
+        " ** la configuración ** debe ser ** escalable ** y rápida según sea necesario."
       ]
     }
   }

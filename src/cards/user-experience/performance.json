@@ -6,41 +6,41 @@
     "fr": {
       "title": "PERFORMANCE",
       "abstract": [
-        "Misez sur des**interfaces performantes**, tant pour les usages internes que pour les usages externes."
+        "Misez sur des ** interfaces performantes ** , tant pour les usages internes que pour les usages externes."
       ],
       "details": [
-        "Les interfaces sont tournées vers l'**efficacité**.",
-        "La**performance**d'une interface permet de**gagner du temps**, d’augmenter la**satisfaction**des utilisateurs et donc de**ménager leur frustration**."
+        "Les interfaces sont tournées vers l' ** efficacité ** .",
+        "La ** performance ** d'une interface permet de ** gagner du temps ** , d’augmenter la ** satisfaction ** des utilisateurs et donc de ** ménager leur frustration ** ."
       ]
     },
     "en": {
       "title": "PERFORMANCE",
       "abstract": [
-        "Use**powerful interfaces**for both internal and external uses."
+        "Use ** powerful interfaces ** for both internal and external uses."
       ],
       "details": [
-        "The interfaces are geared towards**efficiency**.",
-        "The**performance**of an interface saves time**, increases users'**satisfaction**and therefore**saves their frustration**."
+        "The interfaces are geared towards ** efficiency ** .",
+        "The ** performance ** of an interface saves time ** , increases users' ** satisfaction ** and therefore ** saves their frustration ** ."
       ]
     },
     "de": {
       "title": "PERFORMANCE",
       "abstract": [
-        "Verwenden Sie**leistungsfähige Schnittstellen**für interne und externe Anwendungen."
+        "Verwenden Sie ** leistungsfähige Schnittstellen ** für interne und externe Anwendungen."
       ],
       "details": [
-        "Die Schnittstellen sind auf**Effizienz**ausgerichtet.",
-        "Die**Leistung**einer Schnittstelle spart Zeit**, erhöht**die Benutzerzufriedenheit**und spart somit Frustration**."
+        "Die Schnittstellen sind auf ** Effizienz ** ausgerichtet.",
+        "Die ** Leistung ** einer Schnittstelle spart Zeit ** , erhöht ** die Benutzerzufriedenheit ** und spart somit Frustration ** ."
       ]
     },
     "es": {
       "title": "ACTUACIÓN",
       "abstract": [
-        "Utilice**potentes interfaces**para usos internos y externos."
+        "Utilice ** potentes interfaces ** para usos internos y externos."
       ],
       "details": [
-        "Las interfaces están orientadas a**eficiencia**.",
-        "El**rendimiento**de una interfaz ahorra tiempo**, aumenta la**satisfacción de los usuarios**y por lo tanto**guarda su frustración**."
+        "Las interfaces están orientadas a ** eficiencia ** .",
+        "El ** rendimiento ** de una interfaz ahorra tiempo ** , aumenta la ** satisfacción de los usuarios ** y por lo tanto ** guarda su frustración ** ."
       ]
     }
   }

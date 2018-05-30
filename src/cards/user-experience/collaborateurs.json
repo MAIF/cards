@@ -6,41 +6,41 @@
     "fr": {
       "title": "COLLABORATEURS",
       "abstract": [
-        "N’oubliez pas que vos**collaborateurs**utilisent à la maison des applications modernes à l’UX aboutie."
+        "N’oubliez pas que vos ** collaborateurs ** utilisent à la maison des applications modernes à l’UX aboutie."
       ],
       "details": [
-        "Traitez**tous vos utilisateurs comme des \"clients\"**: internautes, gestionnaires, opérationnels, développeurs, etc ...",
-        "Ne sous-estimez pas l'**effort d'UX**à mettre en oeuvre pour les applications de gestion à usage interne."
+        "Traitez ** tous vos utilisateurs comme des \"clients\" ** : internautes, gestionnaires, opérationnels, développeurs, etc ...",
+        "Ne sous-estimez pas l' ** effort d'UX ** à mettre en oeuvre pour les applications de gestion à usage interne."
       ]
     },
     "en": {
       "title": "CONTRIBUTORS",
       "abstract": [
-        "Do not forget that your**associates**are using modern applications at home in UX."
+        "Do not forget that your ** associates ** are using modern applications at home in UX."
       ],
       "details": [
-        "Treat**all your users as \"customers\"**: Internet users, managers, operational, developers, etc ...",
-        "Do not underestimate the**UX effort**to implement for internal-use management applications."
+        "Treat ** all your users as \"customers\" ** : Internet users, managers, operational, developers, etc ...",
+        "Do not underestimate the ** UX effort ** to implement for internal-use management applications."
       ]
     },
     "de": {
       "title": "MITWIRKENDEN",
       "abstract": [
-        "Vergiss nicht, dass deine**Mitarbeiter**moderne Anwendungen zu Hause in UX verwenden."
+        "Vergiss nicht, dass deine ** Mitarbeiter ** moderne Anwendungen zu Hause in UX verwenden."
       ],
       "details": [
-        "Behandle**all deine Nutzer als \"Kunden\"**: Internetnutzer, Manager, Betreiber, Entwickler, etc ...",
-        "Unterschätzen Sie den**UX-Aufwand**nicht, den Sie für interne Verwaltungsanwendungen implementieren müssen."
+        "Behandle ** all deine Nutzer als \"Kunden\" ** : Internetnutzer, Manager, Betreiber, Entwickler, etc ...",
+        "Unterschätzen Sie den ** UX-Aufwand ** nicht, den Sie für interne Verwaltungsanwendungen implementieren müssen."
       ]
     },
     "es": {
       "title": "COLABORADORES",
       "abstract": [
-        "No olvide que sus**asociados**están utilizando aplicaciones modernas en su hogar en UX."
+        "No olvide que sus ** asociados ** están utilizando aplicaciones modernas en su hogar en UX."
       ],
       "details": [
-        "Trate a**todos sus usuarios como \"clientes\"**: usuarios de Internet, gerentes, operadores, desarrolladores, etc.",
-        "No subestime el**esfuerzo de UX**para implementar aplicaciones de administración de uso interno."
+        "Trate a ** todos sus usuarios como \"clientes\" ** : usuarios de Internet, gerentes, operadores, desarrolladores, etc.",
+        "No subestime el ** esfuerzo de UX ** para implementar aplicaciones de administración de uso interno."
       ]
     }
   }

@@ -6,44 +6,44 @@
     "fr": {
       "title": "PRODUCTIVITÉ",
       "abstract": [
-        "Spécifiez moins,**développez plus**."
+        "Spécifiez moins, ** développez plus ** ."
       ],
       "details": [
-        "Limitez vos spécifications au strict nécessaire,**concentrez vous sur le \"quoi\"**plutôt que sur le \"comment\".",
-        "Le produit doit être le plus**auto-documenté**possible.",
+        "Limitez vos spécifications au strict nécessaire, ** concentrez vous sur le \"quoi\" ** plutôt que sur le \"comment\".",
+        "Le produit doit être le plus ** auto-documenté ** possible.",
         "La documentation doit être versionnée au même titre que le code."
       ]
     },
     "en": {
       "title": "PRODUCTIVITY",
       "abstract": [
-        "Specify less,**expand more**."
+        "Specify less, ** expand more ** ."
       ],
       "details": [
-        "Limit your specifications to the bare essentials,**focus on the \"what\"**rather than the \"how\".",
-        "The product must be the most**self-documented**possible.",
+        "Limit your specifications to the bare essentials, ** focus on the \"what\" ** rather than the \"how\".",
+        "The product must be the most ** self-documented ** possible.",
         "The documentation must be versioned in the same way as the code."
       ]
     },
     "de": {
       "title": "PRODUCTIVITY",
       "abstract": [
-        "Geben Sie weniger an,**erweitern Sie mehr**."
+        "Geben Sie weniger an, ** erweitern Sie mehr ** ."
       ],
       "details": [
-        "Begrenzen Sie Ihre Spezifikationen auf das Wesentliche,**konzentrieren Sie sich auf das \"Was\"**und nicht auf das \"Wie\".",
-        "Das Produkt muss möglichst**selbst-dokumentiert**sein.",
+        "Begrenzen Sie Ihre Spezifikationen auf das Wesentliche, ** konzentrieren Sie sich auf das \"Was\" ** und nicht auf das \"Wie\".",
+        "Das Produkt muss möglichst ** selbst-dokumentiert ** sein.",
         "Die Dokumentation muss genauso wie der Code versioniert werden."
       ]
     },
     "es": {
       "title": "PRODUCTIVIDAD",
       "abstract": [
-        "Especifique menos,**expanda más**."
+        "Especifique menos, ** expanda más ** ."
       ],
       "details": [
-        "Limite sus especificaciones a lo esencial,**concéntrese en el \"qué\"**en lugar del \"cómo\".",
-        "El producto debe ser**lo más**auto-documentado posible.",
+        "Limite sus especificaciones a lo esencial, ** concéntrese en el \"qué\" ** en lugar del \"cómo\".",
+        "El producto debe ser ** lo más ** auto-documentado posible.",
         "La documentación debe estar versionada de la misma manera que el código."
       ]
     }

@@ -6,45 +6,45 @@
     "fr": {
       "title": "SELF-DATA",
       "abstract": [
-        "Les**utilisateurs**sont**propriétaires**de leurs données et de leur parcours."
+        "Les ** utilisateurs ** sont ** propriétaires ** de leurs données et de leur parcours."
       ],
       "details": [
-        "Laissez aux**individus**, à tout moment, le**contrôle**sur leurs**données**personnelles.",
-        "Établissez un**climat de confiance**en permettant aux utilisateurs traçabilité et contrôle en temps-réel.",
-        "Les**sous-systèmes**doivent répondre aux mêmes exigences."
+        "Laissez aux ** individus ** , à tout moment, le ** contrôle ** sur leurs ** données ** personnelles.",
+        "Établissez un ** climat de confiance ** en permettant aux utilisateurs traçabilité et contrôle en temps-réel.",
+        "Les ** sous-systèmes ** doivent répondre aux mêmes exigences."
       ]
     },
     "en": {
       "title": "SELF-DATA",
       "abstract": [
-        "****users**are**owners**of their data and their course."
+        " **  ** users ** are ** owners ** of their data and their course."
       ],
       "details": [
-        "Leave**individuals**, at any time,**control**on their**personal**data.",
-        "Establish a**confidence**by allowing users traceability and control in real time.",
-        "**subsystems**must meet the same requirements."
+        "Leave ** individuals ** , at any time, ** control ** on their ** personal ** data.",
+        "Establish a ** confidence ** by allowing users traceability and control in real time.",
+        " ** subsystems ** must meet the same requirements."
       ]
     },
     "de": {
       "title": "SELBST-DATEN",
       "abstract": [
-        "****Benutzer**sind**Besitzer**ihrer Daten und ihres Kurses."
+        " **  ** Benutzer ** sind ** Besitzer ** ihrer Daten und ihres Kurses."
       ],
       "details": [
-        "Lassen Sie**Personen****jederzeit**ihre**persönlichen**Daten**kontrollieren.",
-        "Stellen Sie ein**Vertrauen**her, indem Sie Benutzern die Rückverfolgbarkeit und Kontrolle in Echtzeit ermöglichen.",
-        "**Subsysteme**müssen die gleichen Anforderungen erfüllen."
+        "Lassen Sie ** Personen **  ** jederzeit ** ihre ** persönlichen ** Daten ** kontrollieren.",
+        "Stellen Sie ein ** Vertrauen ** her, indem Sie Benutzern die Rückverfolgbarkeit und Kontrolle in Echtzeit ermöglichen.",
+        " ** Subsysteme ** müssen die gleichen Anforderungen erfüllen."
       ]
     },
     "es": {
       "title": "AUTODATOS",
       "abstract": [
-        "****usuarios**son**propietarios**de sus datos y su curso."
+        " **  ** usuarios ** son ** propietarios ** de sus datos y su curso."
       ],
       "details": [
-        "Deje**personas**, en cualquier momento,**control**en sus datos**personales**.",
-        "Establezca una**confianza**al permitir a los usuarios la trazabilidad y el control en tiempo real.",
-        "**subsistemas**deben cumplir los mismos requisitos."
+        "Deje ** personas ** , en cualquier momento, ** control ** en sus datos ** personales ** .",
+        "Establezca una ** confianza ** al permitir a los usuarios la trazabilidad y el control en tiempo real.",
+        " ** subsistemas ** deben cumplir los mismos requisitos."
       ]
     }
   }

@@ -6,45 +6,45 @@
     "fr": {
       "title": "QUALITÉ",
       "abstract": [
-        "La**qualité logicielle**est un**facteur clé**."
+        "La ** qualité logicielle ** est un ** facteur clé ** ."
       ],
       "details": [
-        "Les**revues de code**sont**systématiques**. Elles sont effectuées par des membres de la Feature Team ou d'autres membres de l'organisation, dans le cadre de l'**amélioration continue**.",
-        "Ça**n'est pas vous qu'on audite mais votre code**: \"You are not your code !\".",
-        "La**qualimétrie**peut être en partie automatisée, mais rien ne vaut l'**\"oeil neuf\"**."
+        "Les ** revues de code ** sont ** systématiques ** . Elles sont effectuées par des membres de la Feature Team ou d'autres membres de l'organisation, dans le cadre de l' ** amélioration continue ** .",
+        "Ça ** n'est pas vous qu'on audite mais votre code ** : \"You are not your code !\".",
+        "La ** qualimétrie ** peut être en partie automatisée, mais rien ne vaut l' ** \"oeil neuf\" ** ."
       ]
     },
     "en": {
       "title": "QUALITY",
       "abstract": [
-        "**software quality**is a**key factor**."
+        " ** software quality ** is a ** key factor ** ."
       ],
       "details": [
-        "**code reviews**are**systematic**. They are conducted by members of the Feature Team or other members of the organization, as part of**Continuous Improvement**.",
-        "That**is not you being audited but your code**: \"You are not your code!\".",
-        "The**qualimetry**can be partly automated, but nothing beats the**\"new eye\"**."
+        " ** code reviews ** are ** systematic ** . They are conducted by members of the Feature Team or other members of the organization, as part of ** Continuous Improvement ** .",
+        "That ** is not you being audited but your code ** : \"You are not your code!\".",
+        "The ** qualimetry ** can be partly automated, but nothing beats the ** \"new eye\" ** ."
       ]
     },
     "de": {
       "title": "QUALITÄT",
       "abstract": [
-        "**Softwarequalität**ist ein**Schlüsselfaktor**."
+        " ** Softwarequalität ** ist ein ** Schlüsselfaktor ** ."
       ],
       "details": [
-        "**Code Reviews**sind**systematisch**. Sie werden von Mitgliedern des Feature Teams oder anderen Mitgliedern der Organisation im Rahmen von**Continuous Improvement**durchgeführt.",
-        "Das**ist nicht auditiert, aber dein Code**: \"Du bist nicht dein Code!\".",
-        "Die**Qualimetrie**kann teilweise automatisiert werden, aber nichts schlägt das**neue Auge**."
+        " ** Code Reviews ** sind ** systematisch ** . Sie werden von Mitgliedern des Feature Teams oder anderen Mitgliedern der Organisation im Rahmen von ** Continuous Improvement ** durchgeführt.",
+        "Das ** ist nicht auditiert, aber dein Code ** : \"Du bist nicht dein Code!\".",
+        "Die ** Qualimetrie ** kann teilweise automatisiert werden, aber nichts schlägt das ** neue Auge ** ."
       ]
     },
     "es": {
       "title": "CALIDAD",
       "abstract": [
-        "**la calidad del software**es un**factor clave**."
+        " ** la calidad del software ** es un ** factor clave ** ."
       ],
       "details": [
-        "**las revisiones de los códigos**son**sistemáticas**. Son dirigidos por miembros del Equipo de funciones u otros miembros de la organización, como parte de**Continuous Improvement**.",
-        "Eso**no está siendo auditado sino su código**: \"¡Usted no es su código!\".",
-        "El**qualimetry**puede ser parcialmente automatizado, pero nada supera al**\"nuevo ojo\"**."
+        " ** las revisiones de los códigos ** son ** sistemáticas ** . Son dirigidos por miembros del Equipo de funciones u otros miembros de la organización, como parte de ** Continuous Improvement ** .",
+        "Eso ** no está siendo auditado sino su código ** : \"¡Usted no es su código!\".",
+        "El ** qualimetry ** puede ser parcialmente automatizado, pero nada supera al ** \"nuevo ojo\" ** ."
       ]
     }
   }
