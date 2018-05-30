@@ -22,6 +22,26 @@
       "title": "HUMANO",
       "abstract": [],
       "details": []
+    },
+    "ru": {
+      "title": "ЧЕЛОВЕЧЕСКИЙ",
+      "abstract": [],
+      "details": []
+    },
+    "ja": {
+      "title": "HUMAN",
+      "abstract": [],
+      "details": []
+    },
+    "ar": {
+      "title": "HUMAN",
+      "abstract": [],
+      "details": []
+    },
+    "zh-CN": {
+      "title": "人类",
+      "abstract": [],
+      "details": []
     }
   }
 }

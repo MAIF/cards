@@ -1,0 +1,870 @@
+
+  <!DOCTYPE html>
+	<html lang="fr">
+		<head>
+			<meta charset="utf-8">
+			<meta http-equiv="x-ua-compatible" content="ie=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+			<title>ПРАВИЛА ИГРЫ - #OSSbyMAIF</title>
+			<meta name="description" content="ПРАВИЛА ИГРЫ - #OSSbyMAIF" />
+			<meta property="og:url" content="https://maif.github.io/cards/" />
+			<meta property="og:type" content="article" />
+			<meta property="og:title" content="ПРАВИЛА ИГРЫ - #OSSbyMAIF" />
+			<meta property="og:description" content="ПРАВИЛА ИГРЫ - #OSSbyMAIF" />
+			<meta property="og:image" content="https://maif.github.io/cards/images/maif-black.png" />
+			<link rel="shortcut icon" type="image/padding-left" href="/cards/images/icon.png">
+			<link rel="apple-touch-icon" href="/cards/images/icon.png">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+			<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i" rel="stylesheet">
+			<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+			<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<script src="https://hammerjs.github.io/dist/hammer.js"></script>
+			<link rel="stylesheet" href="/cards/cards.css">
+      <script type="text/javascript" src="/cards/js/tarteaucitron/tarteaucitron.js"></script>
+      <script type="text/javascript">
+				tarteaucitron.init({
+					"hashtag": "#tarteaucitron", /* Ouverture automatique du panel avec le hashtag */
+					"highPrivacy": false, /* désactiver le consentement implicite (en naviguant) ? */
+					"orientation": "bottom", /* le bandeau doit être en haut (top) ou en bas (bottom) ? */
+					"adblocker": false, /* Afficher un message si un adblocker est détecté */
+					"showAlertSmall": false, /* afficher le petit bandeau en bas à droite ? */
+					"cookieslist": true, /* Afficher la liste des cookies installés ? */
+					"removeCredit": false /* supprimer le lien vers la source ? */
+				});
+      </script>
+		</head>
+		<body>
+			<nav>
+				<div class="toggleMenu">
+					<input type="checkbox" class="menu-input" />
+					<span></span>
+					<span></span>
+					<span></span>
+					<ul class="menu">
+						<li class="li-allCards"><a href="/cards/ru/all.html">Все карты</a></li>
+						<li><img width="16" height="16" src="/cards/images/time.svg" alt="Catégorie пора торговать"/><a href="/cards/ru/time-to-market/index.html">пора торговать</a></li>
+<li><img width="16" height="16" src="/cards/images/ux.svg" alt="Catégorie пользовательский опыт"/><a href="/cards/ru/user-experience/index.html">пользовательский опыт</a></li>
+<li><img width="16" height="16" src="/cards/images/human.svg" alt="Catégorie человеческий"/><a href="/cards/ru/human/index.html">человеческий</a></li>
+<li><img width="16" height="16" src="/cards/images/interop.svg" alt="Catégorie совместимость"/><a href="/cards/ru/interoperability/index.html">совместимость</a></li>
+<li><img width="16" height="16" src="/cards/images/neutre.svg" alt="Catégorie правила игры"/><a href="/cards/ru/rules/index.html">правила игры</a></li>
+						<li>
+							<input type="text" class="card-search form-control " placeholder="rechercher une carte">
+						</li>
+						<div style="margin-top: 30px;"></div>
+						<li><img width="16" height="16" src="https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-france2x.png"/><a href="/cards/fr/index.html">FR</a></li>
+<li><img width="16" height="16" src="https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-united-kingdom2x.png"/><a href="/cards/en/index.html">EN</a></li>
+<li><img width="16" height="16" src="https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-germany2x.png"/><a href="/cards/de/index.html">DE</a></li>
+<li><img width="16" height="16" src="https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-spain2x.png"/><a href="/cards/es/index.html">ES</a></li>
+<li><img width="16" height="16" src="https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-china2x.png"/><a href="/cards/zh-CN/index.html">ZH-CN</a></li>
+<li><img width="16" height="16" src="https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-japan2x.png"/><a href="/cards/ja/index.html">JA</a></li>
+<li><img width="16" height="16" src="https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-russia2x.png"/><a href="/cards/ru/index.html">RU</a></li>
+<li><img width="16" height="16" src="https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-saudi-arabia2x.png"/><a href="/cards/ar/index.html">AR</a></li>
+					</ul>
+				</div>
+				<div class="maifLogo">
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+						<img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+					</a>
+					<a href="https://github.com/MAIF/cards">
+						<img class="logoGithub" alt="MAIF cards" src="/cards/images/GitHub-Mark-Light-64px.png" />
+					</a>
+					<a href="https://maif.github.io">
+						<img class="logo" alt="MAIF OSS" src="/cards/images/maif-black.png" />
+					</a>
+				</div>
+			</nav>
+			
+			<a id="home-click" href="/cards/ru/" title="home"><i class="fas fa-home fa-2x"></i></a>
+      <a href="#" data-toggle="tooltip" title="" data-original-title="Карточная игра MAIF о принципах разработки новых цифровых продуктов своей сервисной платформы" data-placement="right" id="info-click"><i class="fas fa-question fa-2x"></i></a>
+			
+  <div class="container-fluid">
+  	<div class="row header">
+  		<div class="col-xs-6 col-xs-offset-3 text-center">
+  			<h1> Les cartes de la catégorie "ПРАВИЛА ИГРЫ" </h1>
+  		</div>
+  	</div>
+  </div>
+	<div class="category">
+		
+		<a class="any-card" href="/cards/ru/rules/index.html">
+			<div class="row categ-card">
+				<div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-4  col-lg-offset-2 categ-left">
+					<div class="covercard covercard-rules">
+						<h3 class="covercard-title">ПРАВИЛА ИГРЫ</h3>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+					<div class="covercard covercard-rules">
+						<h3 class="covercard-title">ПРАВИЛА ИГРЫ</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+		
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/choix-techniques.html" data-content="технические выборы - ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** - функциональная группа должна действовать ** ответственно **, чтобы определить варианты, которые влияют на нее исключительно, и варианты, влияющие на организацию.,** выбор **, который ** превышает объем ** функциональной группы (например, лицензия, нечастый язык программирования), должен быть ** подтвержден ** организацией или процессом конвергенции сверстников ,">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ ТЕХНИЧЕСКИЕ ВЫБОРЫ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<hr />
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ ТЕХНИЧЕСКИЕ ВЫБОРЫ ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>Функциональная группа должна действовать ** ответственно **, чтобы определить варианты, которые влияют на нее исключительно, и варианты, влияющие на организацию.</p>
+<p>** выбор **, который ** превышает объем ** функциональной группы (например, лицензия, нечастый язык программирования), должен быть ** подтвержден ** организацией или процессом конвергенции сверстников ,</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/bon-usage.html" data-content="хорошее использование - ** правильный инструмент ** для ** хорошего использования ** является источником экономии. - ** плохой инструмент **, наложенный на каждого, является ** риском **. ** неправильное использование ** хорошего инструмента может иметь ** очень ** ущерб ** последствия **. например, опасные методы agile опасны.,** инструменты ** должны быть поставлены под сомнение **.,** excel ** часто является рациональным выбором **, но это не ** инструмент для выполнения всего ** (crm, erp, datamart, ...)">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ Хорошее использование ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>** Правильный инструмент ** для ** хорошего использования ** является источником экономии.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ Хорошее использование ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>** Плохой инструмент **, наложенный на каждого, является ** риском **. ** неправильное использование ** хорошего инструмента может иметь ** очень ** ущерб ** последствия **. Например, опасные методы Agile опасны.</p>
+<p>** Инструменты ** должны быть поставлены под сомнение **.</p>
+<p>** Excel ** часто является рациональным выбором **, но это не ** инструмент для выполнения всего ** (CRM, ERP, Datamart, …)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/build-vs-buy.html" data-content="строй вс. купить - привилегия ** сборка ** для основного бизнеса.,рассмотрим ** купить ** для остальных, в каждом конкретном случае. - чем больше инструмент использует ** функцию, отличающую ** функцию для организации, тем больше она должна быть построена **. основной бизнес должен позволять ** специфика ** и ** быстро и часто адаптироваться **. некоторые ** программные пакеты ** ** иногда адаптируются ** к этой потребности.,для ** остальное **: saas, open source, build или owner должны быть изучены ** в каждом случае **.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ СТРОЙ ВС. КУПИТЬ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>Привилегия ** Сборка ** для основного бизнеса.</p>
+<p>Рассмотрим ** Купить ** для остальных, в каждом конкретном случае.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ СТРОЙ ВС. КУПИТЬ ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>Чем больше инструмент использует ** функцию, отличающую ** функцию для организации, тем больше она должна быть построена **. Основной бизнес должен позволять ** специфика ** и ** быстро и часто адаптироваться **. Некоторые ** программные пакеты ** ** иногда адаптируются ** к этой потребности.</p>
+<p>Для ** остальное **: SaaS, Open Source, Build или Owner должны быть изучены ** в каждом случае **.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/open-source.html" data-content="открытый исходный код - ** максимально используйте open source **.,альтернативные варианты должны поддерживаться. - ** запатентованные решения ** являются ** риском ** для организации, которая должна иметь возможность возобновить обслуживание, если это необходимо.,существует несколько проприетарных инструментов, которые не имеют ** альтернатив с открытым исходным кодом **.,организация ** извлекает выгоду ** из ** сообщества с открытым исходным кодом ** и может ** выплатить свои взносы **.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ ОТКРЫТЫЙ ИСХОДНЫЙ КОД ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>** Максимально используйте Open Source **.</p>
+<p>Альтернативные варианты должны поддерживаться.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ ОТКРЫТЫЙ ИСХОДНЫЙ КОД ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>** Запатентованные решения ** являются ** риском ** для организации, которая должна иметь возможность возобновить обслуживание, если это необходимо.</p>
+<p>Существует несколько проприетарных инструментов, которые не имеют ** альтернатив с открытым исходным кодом **.</p>
+<p>Организация ** извлекает выгоду ** из ** Сообщества с открытым исходным кодом ** и может ** выплатить свои взносы **.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/micro-services.html" data-content="micro-услуги - разработка ** автономных ** и ** слабо связанных ** услуг. - ** слабая связь ** должна быть нормой.,каждая микросервис имеет ** четко определенный интерфейс **.,этот ** интерфейс ** определяет ** ссылку ** между ** микросервисами **.,** domain driven design ** позволяет, особенно с ** ограниченными контекстами **, предвидеть эту проблему.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-golden">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ MICRO-УСЛУГИ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-golden">
+						<p>Разработка ** автономных ** и ** слабо связанных ** услуг.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-golden">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ MICRO-УСЛУГИ ]</h3>
+					<div class="cardback-abstract cardback-abstract-golden">
+						<p>** слабая связь ** должна быть нормой.</p>
+<p>Каждая микросервис имеет ** четко определенный интерфейс **.</p>
+<p>Этот ** интерфейс ** определяет ** ссылку ** между ** микросервисами **.</p>
+<p>** Domain Driven Design ** позволяет, особенно с ** Ограниченными контекстами **, предвидеть эту проблему.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/donnees.html" data-content="data - у каждой службы есть своя система хранения данных **. - ** ** хранилище данных ** должно быть ** соединено ** только с ** одним микросервисом **.,** доступ к данным ** с одного микросервиса на другой осуществляется ** исключительно через его интерфейс **.,этот дизайн подразумевает ** согласованность во времени ** по всей платформе. он должен быть воспринят на всех уровнях **, включая ux.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ DATA ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>У каждой службы есть своя система хранения данных **.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ DATA ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>** ** Хранилище данных ** должно быть ** соединено ** только с ** одним микросервисом **.</p>
+<p>** Доступ к данным ** с одного микросервиса на другой осуществляется ** исключительно через его интерфейс **.</p>
+<p>Этот дизайн подразумевает ** согласованность во времени ** по всей платформе. Он должен быть воспринят на всех уровнях **, включая UX.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/perimetre.html" data-content="область применения - каждое микросервис должно иметь разумный функциональный периметр, который ** «вписывается в голову» **. - микросервис предлагает ** разумное количество функций **.,** не стесняйтесь сокращать ** микросервис, когда он начинает расти.,услуга разумного размера позволяет ** спокойно рассмотреть ** переписывание **, если возникнет такая необходимость.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ ОБЛАСТЬ ПРИМЕНЕНИЯ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>Каждое микросервис должно иметь разумный функциональный периметр, который ** «вписывается в голову» **.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ ОБЛАСТЬ ПРИМЕНЕНИЯ ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>Микросервис предлагает ** разумное количество функций **.</p>
+<p>** Не стесняйтесь сокращать ** микросервис, когда он начинает расти.</p>
+<p>Услуга разумного размера позволяет ** спокойно рассмотреть ** переписывание **, если возникнет такая необходимость.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/reactif.html" data-content="отзывчивый - ** reactive manifesto ** открывает путь к дизайну реактивных архитектур. - ** отзывчивое ** программирование фокусируется на потоке данных и распространении изменений. он основан на схеме «** наблюдатель **», противоречащей подходу «** итератор **», более традиционному.,реактивный манифест устанавливает основные оси: ** доступность ** и скорость, ** устойчивость к ошибкам, ** гибкость **, ** эластичность ** и ** ориентация сообщения **.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ отзывчивый ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>** Reactive Manifesto ** открывает путь к дизайну реактивных архитектур.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ отзывчивый ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>** Отзывчивое ** программирование фокусируется на потоке данных и распространении изменений. Он основан на схеме «** Наблюдатель <strong>», противоречащей подходу «</strong> Итератор **», более традиционному.</p>
+<p>Реактивный манифест устанавливает основные оси: ** доступность ** и скорость, ** устойчивость к ошибкам, ** гибкость **, ** эластичность ** и ** ориентация сообщения **.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/async-first.html" data-content="асинхронный первая - ** асинхронные ** процессы предпочитают ** развязку ** и ** масштабируемость ** в пользу ** производительности **. - сначала обмен между приложениями должен быть ** асинхронным **.,асинхронные обмены естественно ** позволяют ** слабую ** связь, ** изоляцию ** и ** управление потоком ** (** обратное давление **).,** синхронная связь ** следует рассматривать только **, когда действие требует этого **.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ АСИНХРОННЫЙ ПЕРВАЯ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>** асинхронные ** процессы предпочитают ** развязку ** и ** масштабируемость ** в пользу ** производительности **.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ АСИНХРОННЫЙ ПЕРВАЯ ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>Сначала обмен между приложениями должен быть ** асинхронным **.</p>
+<p>Асинхронные обмены естественно ** позволяют ** слабую ** связь, ** изоляцию ** и ** управление потоком ** (** обратное давление **).</p>
+<p>** синхронная связь ** следует рассматривать только **, когда действие требует этого **.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/evenements.html" data-content="события - информационная система должна быть ориентирована на ** события **. - ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **,ориентация ** ** позволяет поддерживать реализацию таких подходов, как ** c ** ommand ** q ** uery ** r ** ответственность ** s ** egregation (** cqrs ** ) и ** event sourcing **.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-golden">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ СОБЫТИЯ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-golden">
+						<p>Информационная система должна быть ориентирована на ** события **.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-golden">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ СОБЫТИЯ ]</h3>
+					<div class="cardback-abstract cardback-abstract-golden">
+						<hr />
+<p>Ориентация ** ** позволяет поддерживать реализацию таких подходов, как ** C ** ommand ** Q ** uery ** R ** Ответственность ** S ** egregation (** CQRS ** ) и ** Event Sourcing **.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/message-broker.html" data-content="брокер сообщения - привилегия ** простого, надежного и мощного ** брокер-сообщения для «умной трубы». - ** esb ** показал ** пределы **: ** масштабируемое обслуживание ** является критическим **, как с ** технической **, так и с ** организационной ** точки зрения.,** ** брокер ** сообщения, такие как ** kafka ** предлагают простые **, ** прочные ** и ** упругие ** решения.,** умные конечные точки ** и ** простые трубы ** - это архитектура, которая работает в масштабе: это ** интернет **.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-golden">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ БРОКЕР СООБЩЕНИЯ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-golden">
+						<p>Привилегия ** простого, надежного и мощного ** брокер-сообщения для «умной трубы».</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-golden">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ БРОКЕР СООБЩЕНИЯ ]</h3>
+					<div class="cardback-abstract cardback-abstract-golden">
+						<p>** ESB ** показал ** пределы **: ** масштабируемое обслуживание ** является критическим **, как с ** технической **, так и с ** организационной ** точки зрения.</p>
+<p>** ** Брокер ** сообщения, такие как ** Kafka ** предлагают простые **, ** прочные ** и ** упругие ** решения.</p>
+<p>** Умные конечные точки ** и ** Простые трубы ** - это архитектура, которая работает в масштабе: это ** Интернет **.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/synchronisation.html" data-content="сроки - ** полная синхронизация ** системы должна учитываться, как только она ** разработана **. - если ** синхронизация ** между двумя системами обеспечивается ** потоком событий **, общая ** пересинхронизация ** этих систем должна быть запланирована ** во время разработки **.,автоматический ** ** ** синхронный аудит ** (пример: с помощью выборок) позволяет ** измерять ** и ** обнаруживать ** любые возможные ** ошибки синхронизации **.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ СРОКИ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>** Полная синхронизация ** системы должна учитываться, как только она ** разработана **.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ СРОКИ ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>Если ** синхронизация ** между двумя системами обеспечивается ** потоком событий **, общая ** пересинхронизация ** этих систем должна быть запланирована ** во время разработки **.</p>
+<p>Автоматический ** ** ** синхронный аудит ** (пример: с помощью выборок) позволяет ** измерять ** и ** обнаруживать ** любые возможные ** ошибки синхронизации **.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/centralisation.html" data-content="централизация - ** конфигурация ** услуг ** централизована **, их ** открытие ** обеспечивается ** справочником **. - ** ** ** ** ** ** ** централизованная ** ** для всех ** окружения **.,центральный справочник ** обеспечивает ** динамическое открытие ** ** микро-услуг **.,** ** глобальная ** масштабируемость ** зависит от этого ** каталога **.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ ЦЕНТРАЛИЗАЦИЯ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>** Конфигурация ** услуг ** централизована **, их ** открытие ** обеспечивается ** справочником **.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ ЦЕНТРАЛИЗАЦИЯ ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>** ** ** ** ** ** ** централизованная ** ** для всех ** окружения **.</p>
+<p>Центральный справочник ** обеспечивает ** динамическое открытие ** ** микро-услуг **.</p>
+<p>** ** глобальная ** масштабируемость ** зависит от этого ** каталога **.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/bac-a-sable.html" data-content="пески лоток - группы функций предоставляют ** изолированную среду **. - группы функций поддерживают среду ** sandbox ** (текущая версия и предстоящий выпуск), чтобы другие ** команды расширялись **.,в ** некоторых не номинальных ** случаях ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ ПЕСКИ ЛОТОК ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>Группы функций предоставляют ** изолированную среду **.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ ПЕСКИ ЛОТОК ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>Группы функций поддерживают среду ** sandbox ** (текущая версия и предстоящий выпуск), чтобы другие ** команды расширялись **.</p>
+<p>В ** некоторых не номинальных ** случаях ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/design-for-failure.html" data-content="дизайн для неисправности - ** ваша система сработает! **,создайте его так, чтобы он был терпимым. - ваша ** система не сработает **, это неизбежно. он должен быть разработан для этого (** design for failure **).,предсказывать ** избыточность ** на всех уровнях: ** аппаратное обеспечение ** (сеть, диск и т. д.), ** приложения ** (несколько экземпляров приложений), ** географические ** зоны, ** провайдеры ** (пример: aws + ovh).">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-golden">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ ДИЗАЙН ДЛЯ НЕИСПРАВНОСТИ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-golden">
+						<p>** Ваша система сработает! **</p>
+<p>Создайте его так, чтобы он был терпимым.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-golden">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ ДИЗАЙН ДЛЯ НЕИСПРАВНОСТИ ]</h3>
+					<div class="cardback-abstract cardback-abstract-golden">
+						<p>Ваша ** система не сработает <strong>, это неизбежно. Он должен быть разработан для этого (</strong> Design For Failure **).</p>
+<p>Предсказывать ** избыточность ** на всех уровнях: ** аппаратное обеспечение ** (сеть, диск и т. Д.), ** приложения ** (несколько экземпляров приложений), ** географические ** зоны, ** провайдеры ** (пример: AWS + OVH).</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/toolkits.html" data-content="toolkits - предоставьте ** набор инструментов **, не налагайте строгие рамки. - ** внимание к техническим компонентам домов и поперечным **! они являются ограничительными, дорогими и сложными в обслуживании.,** ускорители **, ** набор инструментов **, ** технические стеки ** могут быть объединены **, ** бесплатно ** команды функций, избегая догматического подхода.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ ToolKits ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>Предоставьте ** набор инструментов **, не налагайте строгие рамки.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ ToolKits ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>** Внимание к техническим компонентам домов и поперечным **! Они являются ограничительными, дорогими и сложными в обслуживании.</p>
+<p>** ускорители **, ** набор инструментов **, ** технические стеки ** могут быть объединены **, ** бесплатно ** Команды функций, избегая догматического подхода.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/cloud.html" data-content="cloud - общественный, частный или гибридный, ** облако ** (** iaas ** или ** paas **) является стандартом для производства. - ** услуги paas ** ** предпочтительны **, ** простые ** и быстро масштабируются.,** услуги iaas ** позволяют решать случаи, требующие большей ** гибкости **, но требуют более оперативной работы.,частное облако не является традиционной средой виртуализации, она полагается на ** товарное оборудование **.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ CLOUD ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>Общественный, частный или гибридный, ** облако ** (** IaaS ** или ** PaaS **) является стандартом для производства.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ CLOUD ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>** Услуги PaaS ** ** предпочтительны **, ** простые ** и быстро масштабируются.</p>
+<p>** Услуги IaaS ** позволяют решать случаи, требующие большей ** гибкости **, но требуют более оперативной работы.</p>
+<p>Частное облако не является традиционной средой виртуализации, она полагается на ** товарное оборудование **.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/infrastructure.html" data-content="инфраструктура - функциональные группы не управляют инфраструктурой, она ** предоставляется и поддерживается организацией **. - проблемы с инфраструктурой не входят в ** функциональные группы **. инфраструктура должна быть ** предоставлена ​​** и ** поддерживается ** ** кросс-функциональной ** услугой.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ ИНФРАСТРУКТУРА ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>Функциональные группы не управляют инфраструктурой, она ** предоставляется и поддерживается организацией **.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ ИНФРАСТРУКТУРА ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>Проблемы с инфраструктурой не входят в ** Функциональные группы **. Инфраструктура должна быть ** предоставлена ​​** и ** поддерживается ** ** кросс-функциональной ** услугой.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/conteneurs.html" data-content="контейнеры - ** контейнеры ** обеспечивают гибкость, необходимую для гетерогенной оснастки. - контейнеры обеспечивают ** гибкость **, необходимую функциональным группам для включения ** гетерогенной оснастки ** в ** однородном контексте **.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ КОНТЕЙНЕРЫ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>** Контейнеры ** обеспечивают гибкость, необходимую для гетерогенной оснастки.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ КОНТЕЙНЕРЫ ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>Контейнеры обеспечивают ** гибкость **, необходимую функциональным группам для включения ** гетерогенной оснастки ** в ** однородном контексте **.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/environnements.html" data-content="окружение - использование ** контейнеров ** позволяет преодолеть проблемы ** технических условий **. - контейнеры (пример: ** docker **) позволяют ** освобождаться ** от различий в окружающей среде.,процесс ** развертывания ** должен быть ** агностиком ** для среды.,** некоторые компоненты **, такие как базы данных, не должны развертываться в контейнерах. их развертывание по-прежнему автоматизировано.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ ОКРУЖЕНИЕ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>Использование ** контейнеров ** позволяет преодолеть проблемы ** технических условий **.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ ОКРУЖЕНИЕ ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>Контейнеры (пример: ** Docker **) позволяют ** освобождаться ** от различий в окружающей среде.</p>
+<p>Процесс ** развертывания ** должен быть ** агностиком ** для среды.</p>
+<p>** Некоторые компоненты **, такие как базы данных, не должны развертываться в контейнерах. Их развертывание по-прежнему автоматизировано.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/metriques.html" data-content="метрическая - меры должны быть ** централизованы ** и ** доступны ** всем. - ** ** ** ** доступны ** для всех с разным уровнем детализации: подробное представление для соответствующей функции команды, скопления для других членов организации.,доступ к ** метрикам не подразумевает доступ к данным о единице **, он должен контролироваться для обеспечения конфиденциальности.,** все среды ** затронуты.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ метрическая ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>Меры должны быть ** централизованы ** и ** доступны ** всем.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ метрическая ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>** ** ** ** доступны ** для всех с разным уровнем детализации: подробное представление для соответствующей функции команды, скопления для других членов организации.</p>
+<p>Доступ к ** метрикам не подразумевает доступ к данным о единице **, он должен контролироваться для обеспечения конфиденциальности.</p>
+<p>** Все среды ** затронуты.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/qualite.html" data-content="качество - ** качество программного обеспечения ** является ** ключевым фактором **. - ** обзоры кода ** являются ** систематическими **. они проводятся членами функциональной группы или другими членами организации в рамках ** постоянного совершенствования **.,это ** вы не проверяетесь, а ваш код **: «вы не ваш код!».,** qualimetry ** может быть частично автоматизирован, но ничто не сравнится с ** «новым глазом» **.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ КАЧЕСТВО ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>** качество программного обеспечения ** является ** ключевым фактором **.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ КАЧЕСТВО ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>** обзоры кода ** являются ** систематическими **. Они проводятся членами функциональной группы или другими членами организации в рамках ** Постоянного совершенствования **.</p>
+<p>Это ** вы не проверяетесь, а ваш код **: «Вы не ваш код!».</p>
+<p>** qualimetry ** может быть частично автоматизирован, но ничто не сравнится с ** «новым глазом» **.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/tests-automatises.html" data-content="автоматизация - ** автоматическое тестирование ** является необратимым предварительным условием для непрерывного развертывания. - автоматизированное ** тестирование ** гарантирует ** качество ** продукта ** со временем **.,это ** предварительное условие ** для непрерывного развертывания, оно позволяет ** ** изменения ** и ** частое развертывание **.,** производственный свиток ** становится ** анекдотическим ** событием!">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ АВТОМАТИЗАЦИЯ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>** автоматическое тестирование ** является необратимым предварительным условием для непрерывного развертывания.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ АВТОМАТИЗАЦИЯ ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>Автоматизированное ** тестирование ** гарантирует ** качество ** продукта ** со временем **.</p>
+<p>Это ** предварительное условие ** для непрерывного развертывания, оно позволяет ** ** изменения ** и ** частое развертывание **.</p>
+<p>** Производственный свиток ** становится ** анекдотическим ** событием!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/niveaux-de-tests.html" data-content="уровни теста - ** тесты на всех уровнях **: единица, интеграция, функциональность, устойчивость, производительность. - ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **,** ** тесты ** подходят для ** разработки **.,** выступление ** тест измерение работоспособность ** со временем **.,** устойчивость ** тесты помогают прогнозировать ** сбои **.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ УРОВНИ ТЕСТА ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>** Тесты на всех уровнях **: единица, интеграция, функциональность, устойчивость, производительность.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ УРОВНИ ТЕСТА ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<hr />
+<p>** ** тесты ** подходят для ** разработки **.</p>
+<p>** выступление ** тест измерение работоспособность ** со временем **.</p>
+<p>** Устойчивость ** тесты помогают прогнозировать ** сбои **.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/couverture.html" data-content="покров - ** обложка ** является основным объективным показателем качества теста. - ** кодирование ** в тестах является ** хорошим ** метрикой качества кода.,это ** необходимое условие **, но ** недостаточно **, охват ** плохой тест-теста может быть высоким, не гарантируя хорошего качества кода.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ ПОКРОВ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>** Обложка ** является основным объективным показателем качества теста.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ ПОКРОВ ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>** Кодирование ** в тестах является ** хорошим ** метрикой качества кода.</p>
+<p>Это ** необходимое условие **, но ** недостаточно **, охват ** плохой тест-теста может быть высоким, не гарантируя хорошего качества кода.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+
+	<a class="any-card complete-card container-fluid" href="/cards/ru/rules/securite.html" data-content="безопасность - ** security ** - это ** процесс **, он не должен рассматриваться в ответ на проблемы. - ** эксперты по безопасности ** могут быть ** интегрированы ** непосредственно в группы функций ** при необходимости **.,** эксперты по безопасности ** доступны в организации для ** аудита **, ** осведомленности ** и ** вперед **.">
+		<div class="row card">
+			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 categ-left">
+				<div class="cardfront cardfront-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardfront-top-title">rules</h3>
+					<h3 class="cardfront-title">[ БЕЗОПАСНОСТЬ ]</h3>
+					<div class="cardfront-abstract cardfront-abstract-normal">
+						<p>** security ** - это ** процесс **, он не должен рассматриваться в ответ на проблемы.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
+				<div class="cardback cardback-rules-normal">
+        <div class="layer"></div>
+					<h3 class="cardback-top-title">rules</h3>
+					<h3 class="cardback-title">[ БЕЗОПАСНОСТЬ ]</h3>
+					<div class="cardback-abstract cardback-abstract-normal">
+						<p>** эксперты по безопасности ** могут быть ** интегрированы ** непосредственно в группы функций ** при необходимости **.</p>
+<p>** эксперты по безопасности ** доступны в организации для ** аудита **, ** осведомленности ** и ** вперед **.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	
+	</div>
+	
+			<div class="container-fluid container-footer">
+				<div class="row">
+					<div class="footer">
+						<img src="/cards/images/header-home.svg" alt="décoration du bas de page">
+					</div>
+				</div>
+			</div>
+			<script>
+				$(function() {
+					$('.card-search').on('keyup', function(e) {
+						var value = $(this).val().trim().toLowerCase();
+						var cards = $('.any-card');
+						console.log('value = "' + value + '"')
+						cards.map(function(i, c) {
+							var card = $(c);
+							var content = card.data('content');
+							if (!content) {
+								card.hide();
+							} else if (value === '') {
+								card.show();
+							} else {
+								if (content.indexOf(value) > -1) {
+									card.show();
+								} else {
+									card.hide();
+								}
+							}
+						});
+					});
+				});
+				$(document).ready(function(){
+					$('[data-toggle="tooltip"]').tooltip();
+					$('[data-toggle="tooltip-random"]').tooltip();
+				});
+      </script>
+      <script type="text/javascript">
+				tarteaucitron.user.analyticsUa = 'UA-112498312-1';
+				tarteaucitron.user.analyticsMore = function () {};
+				(tarteaucitron.job = tarteaucitron.job || []).push('analytics');
+			</script>
+		</body>
+	</html>
+	

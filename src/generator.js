@@ -119,11 +119,11 @@ function createIndex(language, category, card) {
 function createAllCardsPage(language) {
 	const lang = language.lang;
 	const cards = allCards.map(card => createCardFragment(language, card));
-	const template = basePage(language, '#OSSbyMAIF - Toutes les cartes', `
+	const template = basePage(language, `#OSSbyMAIF - ${language.menu.allCards}`, `
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
-  			<h1> Toutes les cartes </h1>
+  			<h1> ${language.menu.allCards} </h1>
   		</div>
   	</div>
   </div>
@@ -141,7 +141,7 @@ function createCategoryIndexPage(language, category) {
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
-  			<h1> Les cartes de la catégorie "${titleOf(lang, category)}" </h1>
+  			<h1> ${language.menu.cardsOf} "${titleOf(lang, category)}" </h1>
   		</div>
   	</div>
   </div>
@@ -209,7 +209,7 @@ function createCardPage(language, card) {
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
-  			<h1> Carte "${card.lang[lang].title}" </h1>
+  			<h1> ${language.menu.card} "${card.lang[lang].title}" </h1>
   		</div>
   	</div>
   </div>
@@ -268,7 +268,7 @@ function basePage(language, title, content, search = true, reload = false) {
 						<li class="li-allCards"><a href="/cards/${lang}/all.html">${language.menu.allCards}</a></li>
 						${Object.keys(categories).map(c => `<li><img width="16" height="16" src="${categoriesIcons[c]}" alt="Catégorie ${titleOf(lang, c).toLowerCase()}"/><a href="/cards/${lang}/${c}/index.html">${titleOf(lang, c).toLowerCase()}</a></li>`).join('\n')}
 						<li>
-							<input type="text" class="card-search form-control ${search ? '' : 'hide'}" placeholder="rechercher une carte">
+							<input type="text" class="card-search form-control ${search ? '' : 'hide'}" placeholder="${language.menu.search}">
 						</li>
 						<div style="margin-top: 30px;"></div>
 						${langs.map(l => `<li><img width="16" height="16" src="${l.icon}"/><a href="/cards/${l.lang}/index.html">${l.lang.toUpperCase()}</a></li>`).join('\n')}

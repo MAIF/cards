@@ -22,6 +22,26 @@
       "title": "INTEROPERABILIDAD",
       "abstract": [],
       "details": []
+    },
+    "ru": {
+      "title": "СОВМЕСТИМОСТЬ",
+      "abstract": [],
+      "details": []
+    },
+    "ja": {
+      "title": "相互運用性",
+      "abstract": [],
+      "details": []
+    },
+    "ar": {
+      "title": "التوافقية",
+      "abstract": [],
+      "details": []
+    },
+    "zh-CN": {
+      "title": "互操作性",
+      "abstract": [],
+      "details": []
     }
   }
 }

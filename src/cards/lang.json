@@ -3,7 +3,10 @@
     "lang": "fr",
     "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-france2x.png",
     "menu": {
-      "allCards": "Toutes les cartes"
+      "allCards": "Toutes les cartes",
+      "card": "Carte",
+      "search": "rechercher une carte",
+      "cardsOf": "Les cartes de la catégorie"
     },
     "tooltips": {
       "newCard": "Tirer une nouvelle carte aléatoirement",
@@ -41,6 +44,63 @@
     "tooltips": {
       "newCard": "Dibuja una nueva carta al azar",
       "help": "El juego de cartas MAIF de los principios de diseño de los nuevos productos digitales de su plataforma de servicios"
+    }
+  },
+  {
+    "lang": "zh-CN",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-china2x.png",
+    "menu": {
+      "allCards": "所有卡片"
+    },
+    "tooltips": {
+      "newCard": "随机画一张新卡",
+      "help": "其MAIF卡游戏服务平台新数字产品的设计原则"
+    }
+  },
+  {
+    "lang": "ja",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-japan2x.png",
+    "menu": {
+      "allCards": "すべてのカード"
+    },
+    "tooltips": {
+      "newCard": "新しいカードをランダムに描く",
+      "help": "そのサービスプラットフォームの新しいデジタル製品の設計原則のMAIFカードゲーム"
+    }
+  },
+  {
+    "lang": "ru",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-russia2x.png",
+    "menu": {
+      "allCards": "Все карты"
+    },
+    "tooltips": {
+      "newCard": "Нарисуйте новую карту случайно",
+      "help": "Карточная игра MAIF о принципах разработки новых цифровых продуктов своей сервисной платформы"
+    }
+  },
+  {
+    "lang": "ar",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-saudi-arabia2x.png",
+    "menu": {
+      "allCards": "كل البطاقات"
+    },
+    "tooltips": {
+      "newCard": "ارسم بطاقة جديدة بشكل عشوائي",
+      "help": "لعبة بطاقة MAIF من مبادئ التصميم للمنتجات الرقمية الجديدة لمنصة الخدمة الخاصة بها"
+    }
+  },
+  {
+    "lang": "en",
+    "menu": {
+      "allCards": "All cards",
+      "card": "Map",
+      "search": "search a map",
+      "cardsOf": "Category cards"
+    },
+    "tooltips": {
+      "newCard": "Draw a new card randomly",
+      "help": "The MAIF card game of the design principles of the new digital products of its service platform"
     }
   }
 ]

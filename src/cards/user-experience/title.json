@@ -22,6 +22,26 @@
       "title": "EXPERIENCIA DE USUARIO",
       "abstract": [],
       "details": []
+    },
+    "ru": {
+      "title": "ПОЛЬЗОВАТЕЛЬСКИЙ ОПЫТ",
+      "abstract": [],
+      "details": []
+    },
+    "ja": {
+      "title": "ユーザー体験",
+      "abstract": [],
+      "details": []
+    },
+    "ar": {
+      "title": "تجربة المستخدم",
+      "abstract": [],
+      "details": []
+    },
+    "zh-CN": {
+      "title": "用户体验",
+      "abstract": [],
+      "details": []
     }
   }
 }

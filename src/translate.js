@@ -42,6 +42,9 @@ function translateAll(lang, card) {
 function translateAllRoot(lang, root) {
   return Promise.all([
     translateOne(lang, root.menu.allCards),
+    translateOne(lang, root.menu.card),
+    translateOne(lang, root.menu.search),
+    translateOne(lang, root.menu.cardsOf),
     translateOne(lang, root.tooltips.newCard),
     translateOne(lang, root.tooltips.help),
   ])
@@ -76,7 +79,10 @@ function translateRoot(lang) {
   const newLang = {
     "lang": lang,
     "menu": {
-      "allCards": ""
+      "allCards": "",
+      "card": "",
+      "search": "",
+      "cardsOf": ""
     },
     "tooltips": {
       "newCard": "",
@@ -85,8 +91,11 @@ function translateRoot(lang) {
   };
   translateAllRoot(lang, fr).then(res => {
     newLang.menu.allCards = res[0];
-    newLang.tooltips.newCard = res[1];
-    newLang.tooltips.help = res[2];
+    newLang.menu.card = res[1];
+    newLang.menu.search = res[2];
+    newLang.menu.cardsOf = res[3];
+    newLang.tooltips.newCard = res[4];
+    newLang.tooltips.help = res[5];
     const newLangs = [...langs, newLang];
     const code = JSON.stringify(newLangs, null, 2);
     fs.outputFileSync('./src/cards/lang.json', code);
@@ -96,16 +105,16 @@ function translateRoot(lang) {
 }
 
 // translateCard('en', [...allCards]);
-// translateRoot('en');
+translateRoot('en');
 // translateCard('de', [...allCards]);
 // translateRoot('de');
 // translateCard('es', [...allCards]);
 // translateRoot('es');
-translateCard('zh-CN', [...allCards]);
-translateRoot('zh-CN');
-translateCard('ja', [...allCards]);
-translateRoot('ja');
-translateCard('ru', [...allCards]);
-translateRoot('ru');
-translateCard('ar', [...allCards]);
-translateRoot('ar');
+// translateCard('zh-CN', [...allCards]);
+// translateRoot('zh-CN');
+// translateCard('ja', [...allCards]);
+// translateRoot('ja');
+// translateCard('ru', [...allCards]);
+// translateRoot('ru');
+// translateCard('ar', [...allCards]);
+// translateRoot('ar');

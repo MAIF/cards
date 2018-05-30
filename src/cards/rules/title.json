@@ -22,6 +22,26 @@
       "title": "REGLAS DEL JUEGO",
       "abstract": [],
       "details": []
+    },
+    "ru": {
+      "title": "ПРАВИЛА ИГРЫ",
+      "abstract": [],
+      "details": []
+    },
+    "ja": {
+      "title": "ゲームのルール",
+      "abstract": [],
+      "details": []
+    },
+    "ar": {
+      "title": "قواعد اللعبة",
+      "abstract": [],
+      "details": []
+    },
+    "zh-CN": {
+      "title": "游戏规则",
+      "abstract": [],
+      "details": []
     }
   }
 }

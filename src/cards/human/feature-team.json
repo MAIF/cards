@@ -46,6 +46,50 @@
         "Por ejemplo: Business Expert + Web Developer + Java Developer + Architect + DBA + Operational.",
         "La **responsabilidad** es **colectiva** , el Equipo de funciones tiene el poder necesario para esta responsabilidad."
       ]
+    },
+    "ru": {
+      "title": "КОММЕНТАРИЙ FEATURE",
+      "abstract": [
+        "Команда организована вокруг ** продукта ** или ** услуги **, оказанной."
+      ],
+      "details": [
+        "Команды - ** Feature Feature **, организованные вокруг согласованного функционального набора и состоящие из всех ** навыков **, необходимых для этого набора.",
+        "Например: Business Expert + Web Developer + Java Developer + Architect + DBA + Operational.",
+        "** Ответственность ** является ** коллективной **, функциональная группа обладает полномочиями, необходимыми для этой ответственности."
+      ]
+    },
+    "ja": {
+      "title": "フィーチャーチーム",
+      "abstract": [
+        "チームは、**製品**または**サービス**の周りに編成されています。"
+      ],
+      "details": [
+        "チームはコヒーレントな機能セットを中心に構成された** Feature Teams **であり、このセットに必要なすべての**スキル**で構成されています。",
+        "たとえば、Business Expert + Web Developer + Java Developer + Architect + DBA + Operationalなどです。",
+        "**責任**は**集団**です。機能チームはこの責任のために必要な力を持っています。"
+      ]
+    },
+    "ar": {
+      "title": "فريق الميزه",
+      "abstract": [
+        "يتم تنظيم الفريق حول ** product ** أو ** service ** تم تقديمه."
+      ],
+      "details": [
+        "الفرق هي ** فرق عمل ** ، منظمة حول مجموعة وظيفية متماسكة ، وتتألف من جميع المهارات ** الضرورية لهذه المجموعة.",
+        "على سبيل المثال: Business Expert + Web Developer + Java Developer + Architect + DBA + Operational.",
+        "** المسؤولية ** هي ** جماعية ** ، يمتلك فريق الميزة القدرة اللازمة لهذه المسؤولية."
+      ]
+    },
+    "zh-CN": {
+      "title": "特色团队",
+      "abstract": [
+        "团队围绕**产品**或**服务**进行组织。"
+      ],
+      "details": [
+        "团队是**特征团队**，围绕一个连贯的功能集合进行组织，并由该集合所需的所有**技能**组成。",
+        "例如：业务专家+ Web开发人员+ Java开发人员+架构师+ DBA +运营。",
+        "**职责**是**集体**，特征团队有责任履行这项责任。"
+      ]
     }
   }
 }
