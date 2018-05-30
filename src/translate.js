@@ -16,6 +16,31 @@ const allCards = [
   ...categories.rules
 ];
 
+function translateOne(lang, text) {
+  return new Promise((success, failure) => {
+    googleTranslate.translate(text, lang, (err, translation) => {
+      if (err) {
+        failure(err);
+      } else {
+        success(translation.translatedText);
+      }
+    });
+  });
+  
+}
+
+function translateAll(lang, card) {
+  return Promise.all(
+    translateOne(card.title),
+    Promise.all(
+      card.abstract.map(i => translateOne(i))
+    ),
+    Promise.all(
+      card.details.map(i => translateOne(i))
+    )
+  )
+}
+
 function translateCard(lang, tasks) {
   const card = tasks.pop();
   if (!card) return;
@@ -30,12 +55,16 @@ function translateCard(lang, tasks) {
     details: [],
   }
 
-  googleTranslate.translate(card.title, lang, (err, translation) => {
-    newCard.lang[lang].title = translation.translatedText;
+  translateAll(lang, card).then(translated => {
+    newCard.lang[lang].title = translated[0];
+    newCard.lang[lang].abstract = translated[1];
+    newCard.lang[lang].details = translated[2];
+    const code = JSON.stringify(newCard, null, 2);
+    fs.outputFileSync(path, code);
     setTimeout(() => translateCard(lang, tasks));
   });
 }
 
 translateCard('en', [...allCards]);
-translateCard('de', [...allCards]);
-translateCard('es', [...allCards]);
+//translateCard('de', [...allCards]);
+//translateCard('es', [...allCards]);
