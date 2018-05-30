@@ -97,9 +97,15 @@ function translateRoot(lang) {
 
 // translateCard('en', [...allCards]);
 // translateRoot('en');
-// 
 // translateCard('de', [...allCards]);
 // translateRoot('de');
-
-translateCard('es', [...allCards]);
-translateRoot('es');
+// translateCard('es', [...allCards]);
+// translateRoot('es');
+translateCard('zh-CN', [...allCards]);
+translateRoot('zh-CN');
+translateCard('ja', [...allCards]);
+translateRoot('ja');
+translateCard('ru', [...allCards]);
+translateRoot('ru');
+translateCard('ar', [...allCards]);
+translateRoot('ar');
