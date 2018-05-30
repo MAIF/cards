@@ -1,0 +1,13 @@
+{
+  "id": "securite",
+  "golden": false,
+  "category": "rules",
+  "title": "SÉCURITÉ",
+  "abstract": [
+    "La **sécurité** est un **processus**, elle ne doit pas être traitée en réaction aux problèmes."
+  ],
+  "details": [
+    "Des **experts sécurité** peuvent être **intégrés** directement aux Feature Teams **si nécessaire**.",
+    "Des **experts sécurité** sont disponibles dans l'organisation pour **auditer**, **sensibiliser** et **transmettre**."
+  ]
+}

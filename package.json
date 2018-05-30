@@ -5,13 +5,15 @@
   "main": "generator.js",
   "license": "Apache-2",
   "scripts": {
-    "prettier": "prettier --write --single-quote --trailing-comma es5 --print-width 100 --tab-width 2 --jsx-bracket-same-line \"generator.js\""
+    "server": "node src/server.js",
+    "generator": "node src/generator.js",
+    "prettier": "prettier --write --single-quote --trailing-comma es5 --print-width 100 --tab-width 2 --jsx-bracket-same-line \"*.js\""
   },
   "dependencies": {
-    "express": "^4.16.2",
-    "fs-extra": "^5.0.0",
-    "prettier": "^1.11.1",
-    "rimraf": "^2.6.2",
-    "showdown": "^1.8.6"
+    "express": "4.16.2",
+    "fs-extra": "5.0.0",
+    "prettier": "1.11.1",
+    "rimraf": "2.6.2",
+    "showdown": "1.8.6"
   }
 }

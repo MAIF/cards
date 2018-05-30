@@ -1,0 +1,14 @@
+{
+  "id": "build-vs-buy",
+  "golden": false,
+  "category": "rules",
+  "title": "BUILD VS. BUY",
+  "abstract": [
+    "Privilégiez le **Build** pour le coeur de métier.",
+    "Envisagez le **Buy** pour le reste, au cas par cas."
+  ],
+  "details": [
+    "Plus un outil porte une fonctionnalité apportant un **caractère différenciant** pour l'organisation, plus il a vocation à être **construit**. Le coeur de métier doit permettre la **spécificité** et **s'adapter souvent et rapidement**. Certains **progiciels** sont **parfois adaptés** à ce besoin.",
+    "Pour **le reste** : SaaS, Open Source, Build ou Propriétaire sont à étudier au **cas par cas**."
+  ]
+}

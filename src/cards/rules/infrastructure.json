@@ -1,0 +1,12 @@
+{
+  "id": "infrastructure",
+  "golden": false,
+  "category": "rules",
+  "title": "INFRASTRUCTURE",
+  "abstract": [
+    "Les Feature Teams ne gèrent pas l'infrastructure, elle est **fournie et maintenue par l'organisation**."
+  ],
+  "details": [
+    "Les problèmes d'infrastructure ne sont **pas du ressort des Feature Teams**. L'infrastructure doit leur être **fournie** et **maintenue** par un **service transverse**."
+  ]
+}

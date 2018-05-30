@@ -1,0 +1,13 @@
+{
+  "id": "couverture",
+  "golden": false,
+  "category": "rules",
+  "title": "COUVERTURE",
+  "abstract": [
+    "La **couverture** est le principal indicateur objectif de qualité des tests."
+  ],
+  "details": [
+    "La **couverture** de code par les tests est une **bonne métrique** de la qualité du code.",
+    "C'est une **condition nécessaire** mais **pas suffisante**, la couverture d'une **mauvaise stratégie** de tests peut être élevée sans être garante de la bonne qualité du code."
+  ]
+}

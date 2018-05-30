@@ -1,0 +1,14 @@
+{
+  "id": "centralisation",
+  "golden": false,
+  "category": "rules",
+  "title": "CENTRALISATION",
+  "abstract": [
+    "La **configuration** des services est **centralisée**, leur **découverte** est assurée par un **annuaire**."
+  ],
+  "details": [
+    "La **configuration** des **micro-services** est **centralisée** pour l'ensemble des **environnements**.",
+    "Un **annuaire** centralisé permet d'assurer la **découverte dynamique** des **micro-services**.",
+    "La **scalabilité** globale du **SI** dépend de cet **annuaire**."
+  ]
+}

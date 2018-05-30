@@ -1,0 +1,13 @@
+{
+  "id": "bac-a-sable",
+  "golden": false,
+  "category": "rules",
+  "title": "BAC À SABLE",
+  "abstract": [
+    "Les Feature Teams fournissent un **environnement \"bac à sable\"**."
+  ],
+  "details": [
+    "Les Feature Teams maintiennent un **environnement \"bac à sable\"** (version actuelle et version à venir) afin de permettre aux autres équipes de **développer à l'échelle**.",
+    "Dans **certains cas** non nominaux, des **features** peuvent être **désactivées** dans l'environnement de **développement**."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "douleur",
+  "golden": true,
+  "category": "human",
+  "title": "DOULEUR",
+  "abstract": [
+    "Les **tâches pénibles** sont effectuées **par la Feature Team**.",
+    "L'automatisation en découle."
+  ],
+  "details": [
+    "Dans une organisation traditionnelle, le **manque de compréhension** entre les équipes est généralement lié à la distance et au **manque de communication**.",
+    "Les **membres d'une Feature Team** sont **co-responsables** et **solidaires** faces à toutes les tâches.",
+    "La **douleur** est un facteur clé de l'**amélioration continue**."
+  ]
+}
