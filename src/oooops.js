@@ -21,8 +21,8 @@ function ooops(card) {
     path = `./src/cards/${card.category}/title.json`;
   }
   const code = JSON.stringify(card, null, 2)
-    .replace(/\*\* (.*?)/g, '**$1')
-    .replace(/(.*?) \*\*/g, '$1**');
+    .replace(/\*\* (.*? \*\*)/g, '**$1')
+    .replace(/\*\*(.*?) \*\*/g, '$1**');
   fs.outputFileSync(path, code);
 }
 
