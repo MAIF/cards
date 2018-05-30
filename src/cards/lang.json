@@ -15,6 +15,7 @@
   },
   {
     "lang": "en",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-united-kingdom2x.png",
     "menu": {
       "allCards": "All cards",
       "card": "Map",
@@ -28,6 +29,7 @@
   },
   {
     "lang": "de",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-germany2x.png",
     "menu": {
       "allCards": "Alle Karten",
       "card": "Karte",
@@ -41,6 +43,7 @@
   },
   {
     "lang": "es",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-spain2x.png",
     "menu": {
       "allCards": "Todas las cartas",
       "card": "Mapa",
@@ -54,6 +57,7 @@
   },
   {
     "lang": "zh-CN",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-china2x.png",
     "menu": {
       "allCards": "所有卡片",
       "card": "地图",
@@ -67,6 +71,7 @@
   },
   {
     "lang": "ja",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-japan2x.png",
     "menu": {
       "allCards": "すべてのカード",
       "card": "マップ",
@@ -80,6 +85,7 @@
   },
   {
     "lang": "ru",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-russia2x.png",
     "menu": {
       "allCards": "Все карты",
       "card": "карта",
@@ -93,6 +99,7 @@
   },
   {
     "lang": "ar",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-saudi-arabia2x.png",
     "menu": {
       "allCards": "كل البطاقات",
       "card": "خريطة",
