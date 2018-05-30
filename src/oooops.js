@@ -15,15 +15,15 @@ const allCards = [
   ...categories.rules
 ];
 
-function ooops(tasks) {
-  const card = tasks.pop();
-  if (!card) return;
+function ooops(card) {
   let path = `./src/cards/${card.category}/${card.id}.json`;
   if (card.lang.fr.details.length === 0 && card.lang.fr.abstract.length === 0) {
     path = `./src/cards/${card.category}/title.json`;
   }
-  const code = JSON.stringify(card, null, 2).replace(/(\*\*.*?) \*\*/g, '$1**');
+  const code = JSON.stringify(card, null, 2)
+    .replace(/\*\* (.*?)/g, '**$1')
+    .replace(/(.*?) \*\*/g, '$1**');
   fs.outputFileSync(path, code);
 }
 
-ooops([...allCards]);
+allCards.forEach(c => ooops(c));
