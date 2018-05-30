@@ -156,35 +156,35 @@ function createCategoryIndexPage(lang, category) {
 }
 
 function createCardFragment(lang, card, rotate = false) {
-	if (card[lang].abstract.length === 0 && card[lang].details.length === 0) {
+	if (card.lang[lang].abstract.length === 0 && card.lang[lang].details.length === 0) {
     // tete de categorie
 		return `
 		<a class="any-card" href="/cards/${card.category}/index.html">
 			<div class="row categ-card">
 				<div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-4  col-lg-offset-2 categ-left">
 					<div class="covercard covercard-${card.category}">
-						<h3 class="covercard-title">${card[lang].title}</h3>
+						<h3 class="covercard-title">${card.lang[lang].title}</h3>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
 					<div class="covercard covercard-${card.category}">
-						<h3 class="covercard-title">${card[lang].title}</h3>
+						<h3 class="covercard-title">${card.lang[lang].title}</h3>
 					</div>
 				</div>
 			</div>
 		</a>
 		`;
 	}
-	const abstract = converter.makeHtml(card[lang].abstract.join('\n\n'));
-	const details = converter.makeHtml(card[lang].details.join('\n\n'));
+	const abstract = converter.makeHtml(card.lang[lang].abstract.join('\n\n'));
+	const details = converter.makeHtml(card.lang[lang].details.join('\n\n'));
 	return `
-	<a class="any-card complete-card container-fluid" href="/cards/${card.category}/${card.id}.html" data-content="${(card[lang].title + ' - ' + card[lang].abstract + ' - ' + card[lang].details).toLowerCase()}">
+	<a class="any-card complete-card container-fluid" href="/cards/${card.category}/${card.id}.html" data-content="${(card.lang[lang].title + ' - ' + card.lang[lang].abstract + ' - ' + card.lang[lang].details).toLowerCase()}">
 		<div class="row card">
 			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 ${rotate ? 'left' : 'categ-left'}">
 				<div class="cardfront cardfront-${card.category}-${card.golden ? 'golden' : 'normal'}">
         <div class="layer"></div>
 					<h3 class="cardfront-top-title">${card.category}</h3>
-					<h3 class="cardfront-title">[ ${card[lang].title} ]</h3>
+					<h3 class="cardfront-title">[ ${card.lang[lang].title} ]</h3>
 					<div class="cardfront-abstract cardfront-abstract-${card.golden ? 'golden' : 'normal'}">
 						${abstract}
 					</div>
@@ -194,7 +194,7 @@ function createCardFragment(lang, card, rotate = false) {
 				<div class="cardback cardback-${card.category}-${card.golden ? 'golden' : 'normal'}">
         <div class="layer"></div>
 					<h3 class="cardback-top-title">${card.category}</h3>
-					<h3 class="cardback-title">[ ${card[lang].title} ]</h3>
+					<h3 class="cardback-title">[ ${card.lang[lang].title} ]</h3>
 					<div class="cardback-abstract cardback-abstract-${card.golden ? 'golden' : 'normal'}">
 						${details}
 					</div>
@@ -210,7 +210,7 @@ function createCardPage(lang, card) {
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
-  			<h1> Carte "${card[lang].title}" </h1>
+  			<h1> Carte "${card.lang[lang].title}" </h1>
   		</div>
   	</div>
   </div>
