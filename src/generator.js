@@ -13,14 +13,6 @@ const categories = {
   'rules': require(`./cards/rules/metadata.json`).cards.map(id => require(`./cards/rules/${id}.json`))
 };
 
-const categoriesTitles = {
-  'time-to-market': categories['time-to-market'][0].title,
-  'user-experience': categories['user-experience'][0].title,
-  'human': categories['human'][0].title,
-  'interoperability': categories['interoperability'][0].title,
-  'rules': categories.rules[0].title,
-};
-
 const categoriesIcons = {
   'time-to-market': '/cards/images/time.svg',
   'user-experience': '/cards/images/ux.svg',
@@ -29,7 +21,14 @@ const categoriesIcons = {
   'rules': '/cards/images/neutre.svg',
 };
 
-function titleOf(cat) {
+function titleOf(lang, cat) {
+	const categoriesTitles = {
+		'time-to-market': categories['time-to-market'][0][lang].title,
+		'user-experience': categories['user-experience'][0][lang].title,
+		'human': categories['human'][0][lang].title,
+		'interoperability': categories['interoperability'][0][lang].title,
+		'rules': categories.rules[0][lang].title,
+	};
 	return categoriesTitles[cat] || '';
 }
 
@@ -69,10 +68,10 @@ function touch(path, content) {
 	fs.writeFileSync(path, content);
 }
 
-function createIndex(category, card) {
-	const template = basePage("#OSSbyMAIF - The Rules", `
+function createIndex(lang, category, card) {
+	const template = basePage(lang, "#OSSbyMAIF - The Rules", `
 	<div class="hide">
-		${allCards.map(card => createCardFragment(card, true)).join('\n')}
+		${allCards.map(card => createCardFragment(lang, card, true)).join('\n')}
 	</div>
   <div class="container-fluid">
   	<div class="row header">
@@ -119,12 +118,12 @@ function createIndex(category, card) {
 		});
 	</script>
 	`, false, true);
-	touch(target + '/index.html', template);
+	touch(target + '/' + lang + '/index.html', template);
 }
 
-function createAllCardsPage() {
-	const cards = allCards.map(card => createCardFragment(card));
-	const template = basePage('#OSSbyMAIF - Toutes les cartes', `
+function createAllCardsPage(lang) {
+	const cards = allCards.map(card => createCardFragment(lang, card));
+	const template = basePage(lang, '#OSSbyMAIF - Toutes les cartes', `
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
@@ -136,16 +135,16 @@ function createAllCardsPage() {
 		${cards.join('\n')}
 	</div>
 	`);
-	touch(target + '/all.html', template);
+	touch(target + '/' + lang + '/all.html', template);
 }
 
-function createCategoryIndexPage(category) {
-	const cards = categories[category].map(card => createCardFragment(card));
-	const template = basePage(titleOf(category) + ' - #OSSbyMAIF', `
+function createCategoryIndexPage(lang, category) {
+	const cards = categories[category].map(card => createCardFragment(lang, card));
+	const template = basePage(lang, titleOf(lang, category) + ' - #OSSbyMAIF', `
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
-  			<h1> Les cartes de la catégorie "${titleOf(category)}" </h1>
+  			<h1> Les cartes de la catégorie "${titleOf(lang, category)}" </h1>
   		</div>
   	</div>
   </div>
@@ -153,39 +152,39 @@ function createCategoryIndexPage(category) {
 		${cards.join('\n')}
 	</div>
 	`);
-	touch(target + '/' + category + '/index.html', template);
+	touch(target + '/' + lang + '/' + category + '/index.html', template);
 }
 
-function createCardFragment(card, rotate = false) {
-	if (card.abstract.length === 0 && card.details.length === 0) {
+function createCardFragment(lang, card, rotate = false) {
+	if (card[lang].abstract.length === 0 && card[lang].details.length === 0) {
     // tete de categorie
 		return `
 		<a class="any-card" href="/cards/${card.category}/index.html">
 			<div class="row categ-card">
 				<div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-4  col-lg-offset-2 categ-left">
 					<div class="covercard covercard-${card.category}">
-						<h3 class="covercard-title">${card.title}</h3>
+						<h3 class="covercard-title">${card[lang].title}</h3>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
 					<div class="covercard covercard-${card.category}">
-						<h3 class="covercard-title">${card.title}</h3>
+						<h3 class="covercard-title">${card[lang].title}</h3>
 					</div>
 				</div>
 			</div>
 		</a>
 		`;
 	}
-	const abstract = converter.makeHtml(card.abstract.join('\n\n'));
-	const details = converter.makeHtml(card.details.join('\n\n'));
+	const abstract = converter.makeHtml(card[lang].abstract.join('\n\n'));
+	const details = converter.makeHtml(card[lang].details.join('\n\n'));
 	return `
-	<a class="any-card complete-card container-fluid" href="/cards/${card.category}/${card.id}.html" data-content="${(card.title + ' - ' + card.abstract + ' - ' + card.details).toLowerCase()}">
+	<a class="any-card complete-card container-fluid" href="/cards/${card.category}/${card.id}.html" data-content="${(card[lang].title + ' - ' + card[lang].abstract + ' - ' + card[lang].details).toLowerCase()}">
 		<div class="row card">
 			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 ${rotate ? 'left' : 'categ-left'}">
 				<div class="cardfront cardfront-${card.category}-${card.golden ? 'golden' : 'normal'}">
         <div class="layer"></div>
 					<h3 class="cardfront-top-title">${card.category}</h3>
-					<h3 class="cardfront-title">[ ${card.title} ]</h3>
+					<h3 class="cardfront-title">[ ${card[lang].title} ]</h3>
 					<div class="cardfront-abstract cardfront-abstract-${card.golden ? 'golden' : 'normal'}">
 						${abstract}
 					</div>
@@ -195,7 +194,7 @@ function createCardFragment(card, rotate = false) {
 				<div class="cardback cardback-${card.category}-${card.golden ? 'golden' : 'normal'}">
         <div class="layer"></div>
 					<h3 class="cardback-top-title">${card.category}</h3>
-					<h3 class="cardback-title">[ ${card.title} ]</h3>
+					<h3 class="cardback-title">[ ${card[lang].title} ]</h3>
 					<div class="cardback-abstract cardback-abstract-${card.golden ? 'golden' : 'normal'}">
 						${details}
 					</div>
@@ -206,37 +205,37 @@ function createCardFragment(card, rotate = false) {
 	`;
 }
 
-function createCardPage(card) {
-	const template = basePage(card.title+' - #OSSbyMAIF' , `
+function createCardPage(lang, card) {
+	const template = basePage(lang, card.title+' - #OSSbyMAIF' , `
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
-  			<h1> Carte "${card.title}" </h1>
+  			<h1> Carte "${card[lang].title}" </h1>
   		</div>
   	</div>
   </div>
-	` + createCardFragment(card, true), false, false);
-	touch(target + '/' + card.category + '/' + card.id + '.html', template);
+	` + createCardFragment(lang, card, true), false, false);
+	touch(target + '/' + lang + '/' + card.category + '/' + card.id + '.html', template);
 }
 
-function generateDistribution() {
+function generateDistribution(lang) {
 	rmLastDistribution().then(() => {
 		try {
 			mkdirs();
 			fs.copySync('./src/images', target + '/images');
 			fs.copySync('./src/js/tarteaucitron', target + '/js/tarteaucitron');
 			fs.copySync('./src/cards.css', target + '/cards.css');
-			createIndex();
-			createAllCardsPage();
-			allCards.forEach(card => createCardPage(card));
-			Object.keys(categories).forEach(category => createCategoryIndexPage(category));
+			createIndex(lang);
+			createAllCardsPage(lang);
+			allCards.forEach(card => createCardPage(lang, card));
+			Object.keys(categories).forEach(category => createCategoryIndexPage(lang, category));
 		} catch (e) {
 			console.log(e);
 		}
 	});
 }
 
-function basePage(title, content, search = true, reload = false) {
+function basePage(lang, title, content, search = true, reload = false) {
 	return `
   <!DOCTYPE html>
 	<html lang="fr">
@@ -245,34 +244,34 @@ function basePage(title, content, search = true, reload = false) {
 			<meta http-equiv="x-ua-compatible" content="ie=edge">
 			<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
 			<title>${title}</title>
-		    <meta name="description" content="${title}" />
-		    <meta property="og:url" content="https://maif.github.io/cards/" />
-		    <meta property="og:type" content="article" />
-		    <meta property="og:title" content="${title}" />
-		    <meta property="og:description" content="${title}" />
-		    <meta property="og:image" content="https://maif.github.io/cards/images/maif-black.png" />
+			<meta name="description" content="${title}" />
+			<meta property="og:url" content="https://maif.github.io/cards/" />
+			<meta property="og:type" content="article" />
+			<meta property="og:title" content="${title}" />
+			<meta property="og:description" content="${title}" />
+			<meta property="og:image" content="https://maif.github.io/cards/images/maif-black.png" />
 			<link rel="shortcut icon" type="image/padding-left" href="/cards/images/icon.png">
 			<link rel="apple-touch-icon" href="/cards/images/icon.png">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 			<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i" rel="stylesheet">
-  		    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+			<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 			<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 			<script src="https://hammerjs.github.io/dist/hammer.js"></script>
 			<link rel="stylesheet" href="/cards/cards.css">
       <script type="text/javascript" src="/cards/js/tarteaucitron/tarteaucitron.js"></script>
       <script type="text/javascript">
-      tarteaucitron.init({
-          "hashtag": "#tarteaucitron", /* Ouverture automatique du panel avec le hashtag */
-          "highPrivacy": false, /* désactiver le consentement implicite (en naviguant) ? */
-          "orientation": "bottom", /* le bandeau doit être en haut (top) ou en bas (bottom) ? */
-          "adblocker": false, /* Afficher un message si un adblocker est détecté */
-          "showAlertSmall": false, /* afficher le petit bandeau en bas à droite ? */
-          "cookieslist": true, /* Afficher la liste des cookies installés ? */
-          "removeCredit": false /* supprimer le lien vers la source ? */
-      });
+				tarteaucitron.init({
+					"hashtag": "#tarteaucitron", /* Ouverture automatique du panel avec le hashtag */
+					"highPrivacy": false, /* désactiver le consentement implicite (en naviguant) ? */
+					"orientation": "bottom", /* le bandeau doit être en haut (top) ou en bas (bottom) ? */
+					"adblocker": false, /* Afficher un message si un adblocker est détecté */
+					"showAlertSmall": false, /* afficher le petit bandeau en bas à droite ? */
+					"cookieslist": true, /* Afficher la liste des cookies installés ? */
+					"removeCredit": false /* supprimer le lien vers la source ? */
+				});
       </script>
 		</head>
 		<body>
@@ -284,7 +283,7 @@ function basePage(title, content, search = true, reload = false) {
 					<span></span>
 					<ul class="menu">
 						<li class="li-allCards"><a href="/cards/all.html">Toutes les cartes</a></li>
-						${Object.keys(categories).map(c => `<li><img width="16" height="16" src="${categoriesIcons[c]}" alt="Catégorie ${titleOf(c).toLowerCase()}"/><a href="/cards/${c}/index.html">${titleOf(c).toLowerCase()}</a></li>`).join('\n')}
+						${Object.keys(categories).map(c => `<li><img width="16" height="16" src="${categoriesIcons[c]}" alt="Catégorie ${titleOf(lang, c).toLowerCase()}"/><a href="/cards/${c}/index.html">${titleOf(c).toLowerCase()}</a></li>`).join('\n')}
 						<li>
 							<input type="text" class="card-search form-control ${search ? '' : 'hide'}" placeholder="rechercher une carte">
 						</li>
@@ -306,7 +305,7 @@ function basePage(title, content, search = true, reload = false) {
 			${!reload ? '<a id="home-click" href="/cards/" title="home"><i class="fas fa-home fa-2x"></i></a>' : ''}
       <a href="#" data-toggle="tooltip" title="" data-original-title="Le jeu de cartes MAIF des principes de conception des nouveaux produits numériques de sa plateforme de services" data-placement="right" id="info-click"><i class="fas fa-question fa-2x"></i></a>
 			${content}
-            <div class="container-fluid container-footer">
+			<div class="container-fluid container-footer">
 				<div class="row">
 					<div class="footer">
 						<img src="/cards/images/header-home.svg" alt="décoration du bas de page">
@@ -336,19 +335,19 @@ function basePage(title, content, search = true, reload = false) {
 						});
 					});
 				});
-      $(document).ready(function(){
-          $('[data-toggle="tooltip"]').tooltip();
-          $('[data-toggle="tooltip-random"]').tooltip();
-      });
+				$(document).ready(function(){
+					$('[data-toggle="tooltip"]').tooltip();
+					$('[data-toggle="tooltip-random"]').tooltip();
+				});
       </script>
       <script type="text/javascript">
-    tarteaucitron.user.analyticsUa = 'UA-112498312-1';
-    tarteaucitron.user.analyticsMore = function () {};
-    (tarteaucitron.job = tarteaucitron.job || []).push('analytics');
-</script>
+				tarteaucitron.user.analyticsUa = 'UA-112498312-1';
+				tarteaucitron.user.analyticsMore = function () {};
+				(tarteaucitron.job = tarteaucitron.job || []).push('analytics');
+			</script>
 		</body>
 	</html>
 	`;
 }
 
-generateDistribution();
+generateDistribution('fr');
