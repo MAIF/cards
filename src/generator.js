@@ -337,11 +337,10 @@ function basePage(language, title, content, search = true, reload = false) {
 
 function generateRootIndex() {
 	const code = `<html>
-		<body>
-			<h3>Languages</h3>
-			<ul>
+		<body style="background-color: #333333;">
+			<!--ul>
 			${langs.map(l => `<li><a href="/cards/${l.lang}/index.html">${l.lang}</a></li>`)}
-			</ul>
+			</ul-->
 			<script type="text/javascript">
 			  var langs = ${JSON.stringify(langs.map(l => l.lang))};
 				var userLang = (navigator.language || navigator.userLanguage).split('-')[0]; 
