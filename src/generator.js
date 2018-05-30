@@ -2,7 +2,7 @@ const showdown = require('showdown');
 const rimraf = require('rimraf');
 const fs = require('fs-extra');
 
-const target = '../docs';
+const target = './docs';
 const converter = new showdown.Converter();
 
 const categories = {
@@ -62,7 +62,6 @@ function mkdirs() {
 	fs.mkdirSync(target);
 	Object.keys(categories).forEach(category => {
 		mkdir(category);
-		mkdir(category + '-golden');
 	});
 }
 
@@ -229,17 +228,13 @@ function generateDistribution() {
 			fs.copySync('./src/cards.css', target + '/cards.css');
 			createIndex();
 			createAllCardsPage();
-			// createGoldenCardsPage();
 			allCards.forEach(card => createCardPage(card));
 			Object.keys(categories).forEach(category => createCategoryIndexPage(category));
-			// Object.keys(categories).forEach(category => createCategoryGoldenIndexPage(category));
 		} catch (e) {
 			console.log(e);
 		}
 	});
 }
-
-generateDistribution();
 
 function basePage(title, content, search = true, reload = false) {
 	return `
@@ -355,3 +350,5 @@ function basePage(title, content, search = true, reload = false) {
 	</html>
 	`;
 }
+
+generateDistribution();
