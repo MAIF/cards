@@ -9,6 +9,7 @@
     "generator": "node src/generator.js",
     "migrate": "node src/migrate.js",
     "translate": "node src/translate.js",
+    "ooops": "node src/oooops.js",
     "prettier": "prettier --write --single-quote --trailing-comma es5 --print-width 100 --tab-width 2 --jsx-bracket-same-line \"*.js\""
   },
   "dependencies": {
