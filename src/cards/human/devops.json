@@ -2,12 +2,16 @@
   "id": "devops",
   "golden": false,
   "category": "human",
-  "title": "DEVOPS",
-  "abstract": [
-    "Les pratiques **DevOps** permettent de faire tomber les murs entre Build et Run."
-  ],
-  "details": [
-    "Adoptez **DevOps** pour faire converger **Dev** et **Ops** vers un objectif commun : **servir l'organisation**.",
-    "**Les métiers restent différents** ! DevOps ne veut pas dire qu'une même personne effectue les tâches de Dev et d'Ops. **Développeurs** et **Opérationnels** sont amenés à **collaborer** afin de **bénéficier** des **compétences** de chacun et améliorer l'**empathie**."
-  ]
+  "lang": {
+    "fr": {
+      "title": "DEVOPS",
+      "abstract": [
+        "Les pratiques **DevOps** permettent de faire tomber les murs entre Build et Run."
+      ],
+      "details": [
+        "Adoptez **DevOps** pour faire converger **Dev** et **Ops** vers un objectif commun : **servir l'organisation**.",
+        "**Les métiers restent différents** ! DevOps ne veut pas dire qu'une même personne effectue les tâches de Dev et d'Ops. **Développeurs** et **Opérationnels** sont amenés à **collaborer** afin de **bénéficier** des **compétences** de chacun et améliorer l'**empathie**."
+      ]
+    }
+  }
 }

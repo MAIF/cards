@@ -2,12 +2,16 @@
   "id": "reactif",
   "golden": false,
   "category": "rules",
-  "title": "RÉACTIF",
-  "abstract": [
-    "Le **Reactive Manifesto** ouvre la voie vers la conception d'architectures réactives."
-  ],
-  "details": [
-    "La programmation **réactive** se concentre sur le flux de données et la propagation du changement. Elle s'appuie sur le pattern \"**Observer**\" contrairement à l'approche \"**Iterator**\", plus classique.",
-    "Le Reactive Manifesto fixe des axes fondamentaux : **disponibilité** et rapidité, **résilience** aux pannes, **souplesse**, **élasticité** et **orientation messages**."
-  ]
+  "lang": {
+    "fr": {
+      "title": "RÉACTIF",
+      "abstract": [
+        "Le **Reactive Manifesto** ouvre la voie vers la conception d'architectures réactives."
+      ],
+      "details": [
+        "La programmation **réactive** se concentre sur le flux de données et la propagation du changement. Elle s'appuie sur le pattern \"**Observer**\" contrairement à l'approche \"**Iterator**\", plus classique.",
+        "Le Reactive Manifesto fixe des axes fondamentaux : **disponibilité** et rapidité, **résilience** aux pannes, **souplesse**, **élasticité** et **orientation messages**."
+      ]
+    }
+  }
 }

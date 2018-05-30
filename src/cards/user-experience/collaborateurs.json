@@ -2,12 +2,16 @@
   "id": "collaborateurs",
   "golden": false,
   "category": "user-experience",
-  "title": "COLLABORATEURS",
-  "abstract": [
-    "N’oubliez pas que vos **collaborateurs** utilisent à la maison des applications modernes à l’UX aboutie."
-  ],
-  "details": [
-    "Traitez **tous vos utilisateurs comme des \"clients\"** : internautes, gestionnaires, opérationnels, développeurs, etc ...",
-    "Ne sous-estimez pas l'**effort d'UX** à mettre en oeuvre pour les applications de gestion à usage interne."
-  ]
+  "lang": {
+    "fr": {
+      "title": "COLLABORATEURS",
+      "abstract": [
+        "N’oubliez pas que vos **collaborateurs** utilisent à la maison des applications modernes à l’UX aboutie."
+      ],
+      "details": [
+        "Traitez **tous vos utilisateurs comme des \"clients\"** : internautes, gestionnaires, opérationnels, développeurs, etc ...",
+        "Ne sous-estimez pas l'**effort d'UX** à mettre en oeuvre pour les applications de gestion à usage interne."
+      ]
+    }
+  }
 }

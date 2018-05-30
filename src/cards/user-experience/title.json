@@ -2,7 +2,11 @@
   "id": "user-experience",
   "golden": false,
   "category": "user-experience",
-  "title": "USER EXPERIENCE",
-  "abstract": [],
-  "details": []
+  "lang": {
+    "fr": {
+      "title": "USER EXPERIENCE",
+      "abstract": [],
+      "details": []
+    }
+  }
 }

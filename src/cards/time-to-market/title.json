@@ -2,7 +2,11 @@
   "id": "time-to-market",
   "golden": false,
   "category": "time-to-market",
-  "title": "TIME TO MARKET",
-  "abstract": [],
-  "details": []
+  "lang": {
+    "fr": {
+      "title": "TIME TO MARKET",
+      "abstract": [],
+      "details": []
+    }
+  }
 }

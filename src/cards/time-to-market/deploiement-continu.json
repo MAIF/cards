@@ -2,12 +2,16 @@
   "id": "deploiement-continu",
   "golden": false,
   "category": "time-to-market",
-  "title": "DÉPLOIEMENT CONTINU",
-  "abstract": [
-    "Le **déploiement en production** est un non-événement."
-  ],
-  "details": [
-    "Misez sur le **déploiement continu** afin d'**adapter le déploiement** en **production** aux contraintes et besoins **business** et non l'inverse.",
-    "Les **déploiements** à travers les environnements, jusqu'en **production**, doivent être **automatisés** et **fréquents**."
-  ]
+  "lang": {
+    "fr": {
+      "title": "DÉPLOIEMENT CONTINU",
+      "abstract": [
+        "Le **déploiement en production** est un non-événement."
+      ],
+      "details": [
+        "Misez sur le **déploiement continu** afin d'**adapter le déploiement** en **production** aux contraintes et besoins **business** et non l'inverse.",
+        "Les **déploiements** à travers les environnements, jusqu'en **production**, doivent être **automatisés** et **fréquents**."
+      ]
+    }
+  }
 }

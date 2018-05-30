@@ -2,12 +2,16 @@
   "id": "performance",
   "golden": false,
   "category": "user-experience",
-  "title": "PERFORMANCE",
-  "abstract": [
-    "Misez sur des **interfaces performantes**, tant pour les usages internes que pour les usages externes."
-  ],
-  "details": [
-    "Les interfaces sont tournées vers l'**efficacité**.",
-    "La **performance** d'une interface permet de **gagner du temps**, d’augmenter la **satisfaction** des utilisateurs et donc de **ménager leur frustration**."
-  ]
+  "lang": {
+    "fr": {
+      "title": "PERFORMANCE",
+      "abstract": [
+        "Misez sur des **interfaces performantes**, tant pour les usages internes que pour les usages externes."
+      ],
+      "details": [
+        "Les interfaces sont tournées vers l'**efficacité**.",
+        "La **performance** d'une interface permet de **gagner du temps**, d’augmenter la **satisfaction** des utilisateurs et donc de **ménager leur frustration**."
+      ]
+    }
+  }
 }

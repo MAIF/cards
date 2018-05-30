@@ -2,12 +2,16 @@
   "id": "degradation",
   "golden": true,
   "category": "user-experience",
-  "title": "DÉGRADATION",
-  "abstract": [
-    "**Envisagez la dégradation** plutôt que l'interruption du service en cas de panne."
-  ],
-  "details": [
-    "En **cas de panne** d'un des sous-systèmes, **une version dégradée** du service doit être **envisagée** en premier lieu plutôt qu'une interruption.",
-    "Grâce aux **Circuit Breakers**, **isolez une panne** afin d'**éviter** son **impact** et sa **propagation** sur l'ensemble du **système**."
-  ]
+  "lang": {
+    "fr": {
+      "title": "DÉGRADATION",
+      "abstract": [
+        "**Envisagez la dégradation** plutôt que l'interruption du service en cas de panne."
+      ],
+      "details": [
+        "En **cas de panne** d'un des sous-systèmes, **une version dégradée** du service doit être **envisagée** en premier lieu plutôt qu'une interruption.",
+        "Grâce aux **Circuit Breakers**, **isolez une panne** afin d'**éviter** son **impact** et sa **propagation** sur l'ensemble du **système**."
+      ]
+    }
+  }
 }

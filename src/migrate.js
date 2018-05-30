@@ -16,27 +16,27 @@ const allCards = [
 ];
 
 allCards.forEach(card => {
-  const path = `./cards/${card.category}/${card.id}.json`;
-  const newCard = { ...card };
-  newCard.lang = {
-    fr: {
-      title: card.title,
-      abstract: card.abstract,
-      details: card.details,
+  const path = `./src/cards/${card.category}/${card.id}.json`;
+  if (!card.lang) {
+    const newCard = { ...card };
+    newCard.lang = {
+      fr: {
+        title: card.title,
+        abstract: card.abstract,
+        details: card.details,
+      }
     }
-  }
-  delete newCard.title;
-  delete newCard.abstract;
-  delete newCard.details;
-  const code = JSON.stringify(newCard, null, 2);
-  fs.outputFile(path, 'code!', err => {
-    if (err) {
-      console.log('[KO] ' + path)
-      console.log(err) // => null
-    } else {
-      console.log('[OK] ' + path)
-    }
-  })
-  
-  console.log(code);
+    delete newCard.title;
+    delete newCard.abstract;
+    delete newCard.details;
+    const code = JSON.stringify(newCard, null, 2);
+    fs.outputFile(path, code, err => {
+      if (err) {
+        console.log('[KO] ' + path)
+        console.log(err) // => null
+      } else {
+        console.log('[OK] ' + path)
+      }
+    })
+  }  
 });

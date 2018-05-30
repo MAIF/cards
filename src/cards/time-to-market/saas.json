@@ -2,13 +2,17 @@
   "id": "saas",
   "golden": false,
   "category": "time-to-market",
-  "title": "SAAS",
-  "abstract": [
-    "Étudiez systématiquement les solutions **SaaS**."
-  ],
-  "details": [
-    "Les solutions **SaaS** sont **pérennes et économiques**.",
-    "Dans certains cas, le **SaaS** permet d'**accélérer** la mise en oeuvre d'un **MVP**.",
-    "Pensez la vision **économique à terme** vis à vis des alternatives en terme de **coût total** (**TCO** : **T**otal **C**ost of **O**wnership) et non uniquement en terme de coût de licence."
-  ]
+  "lang": {
+    "fr": {
+      "title": "SAAS",
+      "abstract": [
+        "Étudiez systématiquement les solutions **SaaS**."
+      ],
+      "details": [
+        "Les solutions **SaaS** sont **pérennes et économiques**.",
+        "Dans certains cas, le **SaaS** permet d'**accélérer** la mise en oeuvre d'un **MVP**.",
+        "Pensez la vision **économique à terme** vis à vis des alternatives en terme de **coût total** (**TCO** : **T**otal **C**ost of **O**wnership) et non uniquement en terme de coût de licence."
+      ]
+    }
+  }
 }

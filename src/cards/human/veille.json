@@ -2,13 +2,17 @@
   "id": "veille",
   "golden": false,
   "category": "human",
-  "title": "VEILLE",
-  "abstract": [
-    "L’organisation doit être un moteur de **veille**",
-    "La veille fait partie du métier."
-  ],
-  "details": [
-    "L’organisation doit être un moteur de **veille** en mettant en place des dispositifs tels que la **formation continue** ou les **Universités d’entreprise**.",
-    "N'hésitez pas à les combiner avec d’autres moyens plus **informels** tels que : **Coding Dojos**, **Brown Bag Lunchs**, **Conférences** externes."
-  ]
+  "lang": {
+    "fr": {
+      "title": "VEILLE",
+      "abstract": [
+        "L’organisation doit être un moteur de **veille**",
+        "La veille fait partie du métier."
+      ],
+      "details": [
+        "L’organisation doit être un moteur de **veille** en mettant en place des dispositifs tels que la **formation continue** ou les **Universités d’entreprise**.",
+        "N'hésitez pas à les combiner avec d’autres moyens plus **informels** tels que : **Coding Dojos**, **Brown Bag Lunchs**, **Conférences** externes."
+      ]
+    }
+  }
 }

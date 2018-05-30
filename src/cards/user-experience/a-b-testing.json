@@ -2,12 +2,16 @@
   "id": "a-b-testing",
   "golden": false,
   "category": "user-experience",
-  "title": "A/B Testing",
-  "abstract": [
-    "L'**A/B Testing** vous permet de gagner du temps en laissant le **feedback** trancher."
-  ],
-  "details": [
-    "Plutôt que de trancher arbitrairement entre deux solutions, n'hésitez pas à mettre en place l'**A/B testing**.",
-    "Ce pattern consiste à présenter **deux versions différentes** d'une même application et à choisir l'une d'entre elles sur la base de **mesures objectives** de l'activité des utilisateurs."
-  ]
+  "lang": {
+    "fr": {
+      "title": "A/B Testing",
+      "abstract": [
+        "L'**A/B Testing** vous permet de gagner du temps en laissant le **feedback** trancher."
+      ],
+      "details": [
+        "Plutôt que de trancher arbitrairement entre deux solutions, n'hésitez pas à mettre en place l'**A/B testing**.",
+        "Ce pattern consiste à présenter **deux versions différentes** d'une même application et à choisir l'une d'entre elles sur la base de **mesures objectives** de l'activité des utilisateurs."
+      ]
+    }
+  }
 }

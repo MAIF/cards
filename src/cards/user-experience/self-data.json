@@ -2,13 +2,17 @@
   "id": "self-data",
   "golden": false,
   "category": "user-experience",
-  "title": "SELF-DATA",
-  "abstract": [
-    "Les **utilisateurs** sont **propriétaires** de leurs données et de leur parcours."
-  ],
-  "details": [
-    "Laissez aux **individus**, à tout moment, le **contrôle** sur leurs **données** personnelles.",
-    "Établissez un **climat de confiance** en permettant aux utilisateurs traçabilité et contrôle en temps-réel.",
-    "Les **sous-systèmes** doivent répondre aux mêmes exigences."
-  ]
+  "lang": {
+    "fr": {
+      "title": "SELF-DATA",
+      "abstract": [
+        "Les **utilisateurs** sont **propriétaires** de leurs données et de leur parcours."
+      ],
+      "details": [
+        "Laissez aux **individus**, à tout moment, le **contrôle** sur leurs **données** personnelles.",
+        "Établissez un **climat de confiance** en permettant aux utilisateurs traçabilité et contrôle en temps-réel.",
+        "Les **sous-systèmes** doivent répondre aux mêmes exigences."
+      ]
+    }
+  }
 }

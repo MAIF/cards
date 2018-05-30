@@ -2,13 +2,17 @@
   "id": "perception",
   "golden": true,
   "category": "user-experience",
-  "title": "PERCEPTION",
-  "abstract": [
-    "L’**expérience perçue** par l’utilisateur est fondamentale.",
-    "L’**ergonomie** n’est pas négociable."
-  ],
-  "details": [
-    "Ne négligez pas le travail des **designers UX**, il est fondamental dans le développement d'une application.",
-    "Intégrez le **feedback** de vos utilisateurs, celui-ci est essentiel."
-  ]
+  "lang": {
+    "fr": {
+      "title": "PERCEPTION",
+      "abstract": [
+        "L’**expérience perçue** par l’utilisateur est fondamentale.",
+        "L’**ergonomie** n’est pas négociable."
+      ],
+      "details": [
+        "Ne négligez pas le travail des **designers UX**, il est fondamental dans le développement d'une application.",
+        "Intégrez le **feedback** de vos utilisateurs, celui-ci est essentiel."
+      ]
+    }
+  }
 }

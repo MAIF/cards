@@ -2,13 +2,17 @@
   "id": "feature-flipping",
   "golden": true,
   "category": "interoperability",
-  "title": "FEATURE FLIPPING",
-  "abstract": [
-    "Créez des systèmes souples et génériques en utilisant le **feature flipping**."
-  ],
-  "details": [
-    "Le **feature flipping** consiste à concevoir une application comme un ensemble de **fonctionnalités** qui peuvent être **activées** ou **désactivées** à chaud, en **production**.",
-    "Dans une application **multi-tenant**, le feature flipping permet de **personnaliser** les tenants.",
-    "Le feature flipping **simplifie l'A/B testing**."
-  ]
+  "lang": {
+    "fr": {
+      "title": "FEATURE FLIPPING",
+      "abstract": [
+        "Créez des systèmes souples et génériques en utilisant le **feature flipping**."
+      ],
+      "details": [
+        "Le **feature flipping** consiste à concevoir une application comme un ensemble de **fonctionnalités** qui peuvent être **activées** ou **désactivées** à chaud, en **production**.",
+        "Dans une application **multi-tenant**, le feature flipping permet de **personnaliser** les tenants.",
+        "Le feature flipping **simplifie l'A/B testing**."
+      ]
+    }
+  }
 }

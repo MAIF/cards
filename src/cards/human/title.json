@@ -2,7 +2,11 @@
   "id": "humain",
   "golden": false,
   "category": "human",
-  "title": "HUMAIN",
-  "abstract": [],
-  "details": []
+  "lang": {
+    "fr": {
+      "title": "HUMAIN",
+      "abstract": [],
+      "details": []
+    }
+  }
 }

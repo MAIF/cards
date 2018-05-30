@@ -2,13 +2,17 @@
   "id": "mvp",
   "golden": true,
   "category": "time-to-market",
-  "title": "MVP",
-  "abstract": [
-    "Réalisez votre **Minimum Viable Product** pour éprouver votre concept."
-  ],
-  "details": [
-    "Le **périmètre** de votre MVP doit être **réduit** tout en permettant de marketer votre produit.",
-    "Misez sur les **Early Adopters** et récoltez un maximum de **feedback**.",
-    "Votre MVP est déployé et exploitable en **production**."
-  ]
+  "lang": {
+    "fr": {
+      "title": "MVP",
+      "abstract": [
+        "Réalisez votre **Minimum Viable Product** pour éprouver votre concept."
+      ],
+      "details": [
+        "Le **périmètre** de votre MVP doit être **réduit** tout en permettant de marketer votre produit.",
+        "Misez sur les **Early Adopters** et récoltez un maximum de **feedback**.",
+        "Votre MVP est déployé et exploitable en **production**."
+      ]
+    }
+  }
 }

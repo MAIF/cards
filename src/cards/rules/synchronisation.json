@@ -2,12 +2,16 @@
   "id": "synchronisation",
   "golden": false,
   "category": "rules",
-  "title": "SYNCHRONISATION",
-  "abstract": [
-    "La **synchronisation totale** du système doit être pensée dès sa **conception**."
-  ],
-  "details": [
-    "Si la **synchronisation** entre deux systèmes est assurée par un **flux d'événements**, la **resynchronisation** totale de ces systèmes doit être **prévue dès la conception**.",
-    "Un **audit** automatique de la **synchronisation** (exemple : par échantillons) permet de **mesurer** et **détecter** les éventuelles **erreurs** de synchronisation."
-  ]
+  "lang": {
+    "fr": {
+      "title": "SYNCHRONISATION",
+      "abstract": [
+        "La **synchronisation totale** du système doit être pensée dès sa **conception**."
+      ],
+      "details": [
+        "Si la **synchronisation** entre deux systèmes est assurée par un **flux d'événements**, la **resynchronisation** totale de ces systèmes doit être **prévue dès la conception**.",
+        "Un **audit** automatique de la **synchronisation** (exemple : par échantillons) permet de **mesurer** et **détecter** les éventuelles **erreurs** de synchronisation."
+      ]
+    }
+  }
 }

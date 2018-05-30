@@ -2,13 +2,17 @@
   "id": "fail-fast",
   "golden": true,
   "category": "time-to-market",
-  "title": "FAIL-FAST",
-  "abstract": [
-    "**Échouer** vite c’est **apprendre** vite."
-  ],
-  "details": [
-    "**Éprouvez rapidement** la solution (quelques semaines), récoltez le **feedback** de vos utilisateurs et apprenez de vos erreurs.",
-    "N'ayez pas peur de tout **changer**.",
-    "Ne l'oubliez pas, **vous allez échouer !**"
-  ]
+  "lang": {
+    "fr": {
+      "title": "FAIL-FAST",
+      "abstract": [
+        "**Échouer** vite c’est **apprendre** vite."
+      ],
+      "details": [
+        "**Éprouvez rapidement** la solution (quelques semaines), récoltez le **feedback** de vos utilisateurs et apprenez de vos erreurs.",
+        "N'ayez pas peur de tout **changer**.",
+        "Ne l'oubliez pas, **vous allez échouer !**"
+      ]
+    }
+  }
 }

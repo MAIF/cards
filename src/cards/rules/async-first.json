@@ -2,13 +2,17 @@
   "id": "async-first",
   "golden": false,
   "category": "rules",
-  "title": "ASYNC-FIRST",
-  "abstract": [
-    "Les processus **asynchrones** favorisent le **découplage** et la **scalabilité** au profit des **performances**."
-  ],
-  "details": [
-    "Les échanges entre applications doivent être **en premier lieu asynchrones**.",
-    "Les échanges asynchrones permettent **naturellement** le **couplage faible**, l'**isolation** et le **contrôle** des flux (**back-pressure**).",
-    "La **communication synchrone** ne doit être envisagée **que lorsque l'action l'impose**."
-  ]
+  "lang": {
+    "fr": {
+      "title": "ASYNC-FIRST",
+      "abstract": [
+        "Les processus **asynchrones** favorisent le **découplage** et la **scalabilité** au profit des **performances**."
+      ],
+      "details": [
+        "Les échanges entre applications doivent être **en premier lieu asynchrones**.",
+        "Les échanges asynchrones permettent **naturellement** le **couplage faible**, l'**isolation** et le **contrôle** des flux (**back-pressure**).",
+        "La **communication synchrone** ne doit être envisagée **que lorsque l'action l'impose**."
+      ]
+    }
+  }
 }

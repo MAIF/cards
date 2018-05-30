@@ -2,7 +2,11 @@
   "id": "interoperabilite",
   "golden": false,
   "category": "interoperability",
-  "title": "INTÉROPÉRABILITÉ",
-  "abstract": [],
-  "details": []
+  "lang": {
+    "fr": {
+      "title": "INTÉROPÉRABILITÉ",
+      "abstract": [],
+      "details": []
+    }
+  }
 }

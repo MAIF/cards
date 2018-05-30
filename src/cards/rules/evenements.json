@@ -1,13 +1,17 @@
 {
-  "id": "evenement",
+  "id": "evenements",
   "golden": true,
   "category": "rules",
-  "title": "ÉVÉNEMENTS",
-  "abstract": [
-    "Le système d'informations doit être orienté **événements**."
-  ],
-  "details": [
-    "Les **processus** fonctionnels **orientés \"événements\"** sont **naturellement** implémentés de manière **asynchrone**.",
-    "L'**orientation événements** permet de favoriser la mise en place d'approches telles que **C**ommand **Q**uery **R**esponsibility **S**egregation (**CQRS**) et **Event Sourcing**."
-  ]
+  "lang": {
+    "fr": {
+      "title": "ÉVÉNEMENTS",
+      "abstract": [
+        "Le système d'informations doit être orienté **événements**."
+      ],
+      "details": [
+        "Les **processus** fonctionnels **orientés \"événements\"** sont **naturellement** implémentés de manière **asynchrone**.",
+        "L'**orientation événements** permet de favoriser la mise en place d'approches telles que **C**ommand **Q**uery **R**esponsibility **S**egregation (**CQRS**) et **Event Sourcing**."
+      ]
+    }
+  }
 }

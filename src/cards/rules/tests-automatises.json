@@ -2,13 +2,17 @@
   "id": "tests-automatises",
   "golden": false,
   "category": "rules",
-  "title": "TEST AUTOMATISÉS",
-  "abstract": [
-    "Le **testing automatisé** est un prérequis non négociable au déploiement continu."
-  ],
-  "details": [
-    "Le **testing** automatisé permet d'assurer la **qualité** du produit **dans le temps**.",
-    "Il est un **prérequis** au déploiement continu, il permet **changements** et **déploiements fréquents**.",
-    "Le **déploiement en production** devient un événement **anecdotique** !"
-  ]
+  "lang": {
+    "fr": {
+      "title": "TEST AUTOMATISÉS",
+      "abstract": [
+        "Le **testing automatisé** est un prérequis non négociable au déploiement continu."
+      ],
+      "details": [
+        "Le **testing** automatisé permet d'assurer la **qualité** du produit **dans le temps**.",
+        "Il est un **prérequis** au déploiement continu, il permet **changements** et **déploiements fréquents**.",
+        "Le **déploiement en production** devient un événement **anecdotique** !"
+      ]
+    }
+  }
 }

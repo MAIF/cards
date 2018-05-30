@@ -2,13 +2,17 @@
   "id": "donnees",
   "golden": false,
   "category": "rules",
-  "title": "DONNÉES",
-  "abstract": [
-    "Chaque service possède son **propre système** de stockage de données."
-  ],
-  "details": [
-    "Un **Data Store** n'a vocation à être **couplé** qu'avec **un seul micro-service**.",
-    "L'**accès aux données** d'un micro-service à un autre est effectué **exclusivement via son interface**.",
-    "Ce design implique la **cohérence à terme** à l'échelle de la plateforme. Elle doit être **appréhendée à tous les niveaux**, y compris UX."
-  ]
+  "lang": {
+    "fr": {
+      "title": "DONNÉES",
+      "abstract": [
+        "Chaque service possède son **propre système** de stockage de données."
+      ],
+      "details": [
+        "Un **Data Store** n'a vocation à être **couplé** qu'avec **un seul micro-service**.",
+        "L'**accès aux données** d'un micro-service à un autre est effectué **exclusivement via son interface**.",
+        "Ce design implique la **cohérence à terme** à l'échelle de la plateforme. Elle doit être **appréhendée à tous les niveaux**, y compris UX."
+      ]
+    }
+  }
 }

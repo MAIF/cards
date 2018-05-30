@@ -2,12 +2,16 @@
   "id": "toolkits",
   "golden": false,
   "category": "rules",
-  "title": "TOOLKITS",
-  "abstract": [
-    "Fournissez des **toolkits**, n’imposez pas de cadres stricts."
-  ],
-  "details": [
-    "**Attention aux composants techniques maisons et transverses** ! Ils sont contraignants, coûteux et difficiles à maintenir.",
-    "Des **accélérateurs**, **toolkits**, **stacks techniques** peuvent être **mis en commun**, au **libre choix** des Feature Teams, en évitant une approche dogmatique."
-  ]
+  "lang": {
+    "fr": {
+      "title": "TOOLKITS",
+      "abstract": [
+        "Fournissez des **toolkits**, n’imposez pas de cadres stricts."
+      ],
+      "details": [
+        "**Attention aux composants techniques maisons et transverses** ! Ils sont contraignants, coûteux et difficiles à maintenir.",
+        "Des **accélérateurs**, **toolkits**, **stacks techniques** peuvent être **mis en commun**, au **libre choix** des Feature Teams, en évitant une approche dogmatique."
+      ]
+    }
+  }
 }

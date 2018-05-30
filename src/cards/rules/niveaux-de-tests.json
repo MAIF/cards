@@ -2,14 +2,18 @@
   "id": "niveaux-de-tests",
   "golden": false,
   "category": "rules",
-  "title": "NIVEAUX DE TESTS",
-  "abstract": [
-    "Des **tests à tous les niveaux** : unitaires, intégration, fonctionnels, résilience, performance."
-  ],
-  "details": [
-    "Les tests d'**intégration** et **fonctionnels** sont les plus importants, ce sont eux qui **garantissent** le bon **fonctionnement** du **produit**.",
-    "Les tests **unitaires** sont adaptés au **développement**.",
-    "Les tests de **performance** permettent de mesurer la performance **dans le temps**.",
-    "Les tests de **résilience** permettent d'anticiper les **pannes**."
-  ]
+  "lang": {
+    "fr": {
+      "title": "NIVEAUX DE TESTS",
+      "abstract": [
+        "Des **tests à tous les niveaux** : unitaires, intégration, fonctionnels, résilience, performance."
+      ],
+      "details": [
+        "Les tests d'**intégration** et **fonctionnels** sont les plus importants, ce sont eux qui **garantissent** le bon **fonctionnement** du **produit**.",
+        "Les tests **unitaires** sont adaptés au **développement**.",
+        "Les tests de **performance** permettent de mesurer la performance **dans le temps**.",
+        "Les tests de **résilience** permettent d'anticiper les **pannes**."
+      ]
+    }
+  }
 }

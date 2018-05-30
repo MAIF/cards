@@ -2,13 +2,17 @@
   "id": "mobile-first",
   "golden": false,
   "category": "user-experience",
-  "title": "MOBILE FIRST",
-  "abstract": [
-    "Adoptez une stratégie **Mobile First**."
-  ],
-  "details": [
-    "Les terminaux mobiles représentent la **part la plus importante** du **marché**.",
-    "Penser mobile, c'est penser à l'**essentiel**.",
-    "Le **Responsive Design** est la norme, c'est une source d'économies (**MVP**)."
-  ]
+  "lang": {
+    "fr": {
+      "title": "MOBILE FIRST",
+      "abstract": [
+        "Adoptez une stratégie **Mobile First**."
+      ],
+      "details": [
+        "Les terminaux mobiles représentent la **part la plus importante** du **marché**.",
+        "Penser mobile, c'est penser à l'**essentiel**.",
+        "Le **Responsive Design** est la norme, c'est une source d'économies (**MVP**)."
+      ]
+    }
+  }
 }

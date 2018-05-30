@@ -2,13 +2,17 @@
   "id": "coeur-de-metier",
   "golden": false,
   "category": "time-to-market",
-  "title": "COEUR DE MÉTIER",
-  "abstract": [
-    "Le **coeur de métier** ne doit pas être un frein à la construction de nouveaux services et applications."
-  ],
-  "details": [
-    "Le rythme d'évolution et de livraison du coeur de métier doit être **compatible avec l'agilité** des services qui le consomment.",
-    "Le coeur de métier doit **exposer des services**.",
-    "Le coeur de métier doit adopter un principe **Event-Driven**, il rend compte des actes de gestion sous la forme d'événements."
-  ]
+  "lang": {
+    "fr": {
+      "title": "COEUR DE MÉTIER",
+      "abstract": [
+        "Le **coeur de métier** ne doit pas être un frein à la construction de nouveaux services et applications."
+      ],
+      "details": [
+        "Le rythme d'évolution et de livraison du coeur de métier doit être **compatible avec l'agilité** des services qui le consomment.",
+        "Le coeur de métier doit **exposer des services**.",
+        "Le coeur de métier doit adopter un principe **Event-Driven**, il rend compte des actes de gestion sous la forme d'événements."
+      ]
+    }
+  }
 }
