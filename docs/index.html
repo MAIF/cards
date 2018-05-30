@@ -1,0 +1,14 @@
+<html>
+		<body>
+			<h3>Languages</h3>
+			<ul>
+			<li><a href="/cards/fr/index.html">fr</a></li>
+			</ul>
+			<script type="text/javascript">
+			  var langs = ["fr"];
+				var userLang = (navigator.language || navigator.userLanguage).split('-')[0]; 
+				var lang = langs.filter(l => l === userLang)[0] || "fr";
+				window.location = "/cards/" + lang + "/index.html";
+			</script>		
+		</body>
+	</html>

@@ -1,3 +1,4 @@
+const googleTranslate = require('google-translate')(process.env.GOOGLE_TRANSLATE_KEY);
 const fs = require('fs-extra');
 
 const categories = {
@@ -15,28 +16,26 @@ const allCards = [
   ...categories.rules
 ];
 
-allCards.forEach(card => {
-  const path = `./src/cards/${card.category}/${card.id}.json`;
-  if (!card.lang) {
-    const newCard = { ...card };
-    newCard.lang = {
-      fr: {
-        title: card.title,
-        abstract: card.abstract,
-        details: card.details,
-      }
-    }
-    delete newCard.title;
-    delete newCard.abstract;
-    delete newCard.details;
-    const code = JSON.stringify(newCard, null, 2);
-    fs.outputFile(path, code, err => {
-      if (err) {
-        console.log('[KO] ' + path)
-        console.log(err) // => null
-      } else {
-        console.log('[OK] ' + path)
-      }
-    })
+function translateCard(lang, tasks) {
+  const card = tasks.pop();
+  if (!card) return;
+  let path = `./src/cards/${card.category}/${card.id}.json`;
+  if (card.fr.details.length === 0 && card.fr.abstract.length === 0) {
+    path = `./src/cards/${card.category}/title.json`;
   }
-});
+  const newCard = { ...card };
+  newCard.lang[lang] = {
+    title: '',
+    abstract: [],
+    details: [],
+  }
+
+  googleTranslate.translate(card.title, lang, (err, translation) => {
+    newCard.lang[lang].title = translation.translatedText;
+    setTimeout(() => translateCard(lang, tasks));
+  });
+}
+
+translateCard('en', [...allCards]);
+translateCard('de', [...allCards]);
+translateCard('es', [...allCards]);

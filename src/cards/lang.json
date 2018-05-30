@@ -1,0 +1,12 @@
+[
+  {
+    "lang": "fr",
+    "menu": {
+      "allCards": "Toutes les cartes"
+    },
+    "tooltips": {
+      "newCard": "Tirer une nouvelle carte aléatoirement",
+      "help": "Le jeu de cartes MAIF des principes de conception des nouveaux produits numériques de sa plateforme de services"
+    }
+  }
+]

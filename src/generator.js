@@ -5,7 +5,7 @@ const fs = require('fs-extra');
 const target = './docs';
 const converter = new showdown.Converter();
 
-const langs = require('./cards/lang.json').map(i => i.lang);
+const langs = require('./cards/lang.json');
 
 const categories = {
   'time-to-market': require(`./cards/time-to-market/metadata.json`).cards.map(id => require(`./cards/time-to-market/${id}.json`)),
@@ -45,16 +45,6 @@ const allCards = [
 function rmLastDistribution() {
 	fs.removeSync(target);
 	fs.ensureDirSync(target);
-	//return new Promise((success, failure) => {
-	//  rimraf(target, {}, (err, s) => {
-	//  	if (err) {
-	//			failure(err);
-	//  	} else {
-	//			success(s);
-	//  	}
-	//  });
-	//});
-
 }
 
 function mkdir(lang, path) {
@@ -62,7 +52,6 @@ function mkdir(lang, path) {
 }
 
 function mkdirs(lang) {
-	// fs.mkdirSync(target);
 	fs.ensureDirSync(target + '/' + lang);
 	Object.keys(categories).forEach(category => {
 		mkdir(lang, category);
@@ -73,10 +62,11 @@ function touch(path, content) {
 	fs.outputFileSync(path, content);
 }
 
-function createIndex(lang, category, card) {
-	const template = basePage(lang, "#OSSbyMAIF - The Rules", `
+function createIndex(language, category, card) {
+	const lang = language.lang;
+	const template = basePage(language, "#OSSbyMAIF - The Rules", `
 	<div class="hide">
-		${allCards.map(card => createCardFragment(lang, card, true)).join('\n')}
+		${allCards.map(card => createCardFragment(language, card, true)).join('\n')}
 	</div>
   <div class="container-fluid">
   	<div class="row header">
@@ -126,9 +116,10 @@ function createIndex(lang, category, card) {
 	touch(target + '/' + lang + '/index.html', template);
 }
 
-function createAllCardsPage(lang) {
-	const cards = allCards.map(card => createCardFragment(lang, card));
-	const template = basePage(lang, '#OSSbyMAIF - Toutes les cartes', `
+function createAllCardsPage(language) {
+	const lang = language.lang;
+	const cards = allCards.map(card => createCardFragment(language, card));
+	const template = basePage(language, '#OSSbyMAIF - Toutes les cartes', `
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
@@ -143,9 +134,10 @@ function createAllCardsPage(lang) {
 	touch(target + '/' + lang + '/all.html', template);
 }
 
-function createCategoryIndexPage(lang, category) {
-	const cards = categories[category].map(card => createCardFragment(lang, card));
-	const template = basePage(lang, titleOf(lang, category) + ' - #OSSbyMAIF', `
+function createCategoryIndexPage(language, category) {
+	const lang = language.lang;
+	const cards = categories[category].map(card => createCardFragment(language, card));
+	const template = basePage(language, titleOf(lang, category) + ' - #OSSbyMAIF', `
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
@@ -160,7 +152,8 @@ function createCategoryIndexPage(lang, category) {
 	touch(target + '/' + lang + '/' + category + '/index.html', template);
 }
 
-function createCardFragment(lang, card, rotate = false) {
+function createCardFragment(language, card, rotate = false) {
+	const lang = language.lang;
 	if (card.lang[lang].abstract.length === 0 && card.lang[lang].details.length === 0) {
     // tete de categorie
 		return `
@@ -210,8 +203,9 @@ function createCardFragment(lang, card, rotate = false) {
 	`;
 }
 
-function createCardPage(lang, card) {
-	const template = basePage(lang, card.title+' - #OSSbyMAIF' , `
+function createCardPage(language, card) {
+	const lang = language.lang;
+	const template = basePage(language, card.title+' - #OSSbyMAIF' , `
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
@@ -219,26 +213,12 @@ function createCardPage(lang, card) {
   		</div>
   	</div>
   </div>
-	` + createCardFragment(lang, card, true), false, false);
+	` + createCardFragment(language, card, true), false, false);
 	touch(target + '/' + lang + '/' + card.category + '/' + card.id + '.html', template);
 }
 
-function generateDistribution(lang) {
-	try {
-		mkdirs(lang);
-		fs.copySync('./src/images', target + '/' + lang + '/images');
-		fs.copySync('./src/js/tarteaucitron', target + '/' + lang + '/js/tarteaucitron');
-		fs.copySync('./src/cards.css', target + '/' + lang + '/cards.css');
-		createIndex(lang);
-		createAllCardsPage(lang);
-		allCards.forEach(card => createCardPage(lang, card));
-		Object.keys(categories).forEach(category => createCategoryIndexPage(lang, category));
-	} catch (e) {
-		console.log(e);
-	}
-}
-
-function basePage(lang, title, content, search = true, reload = false) {
+function basePage(language, title, content, search = true, reload = false) {
+	const lang = language.lang;
 	return `
   <!DOCTYPE html>
 	<html lang="fr">
@@ -285,8 +265,8 @@ function basePage(lang, title, content, search = true, reload = false) {
 					<span></span>
 					<span></span>
 					<ul class="menu">
-						<li class="li-allCards"><a href="/cards/all.html">Toutes les cartes</a></li>
-						${Object.keys(categories).map(c => `<li><img width="16" height="16" src="${categoriesIcons[c]}" alt="Catégorie ${titleOf(lang, c).toLowerCase()}"/><a href="/cards/${c}/index.html">${titleOf(lang, c).toLowerCase()}</a></li>`).join('\n')}
+						<li class="li-allCards"><a href="/cards/${lang}/all.html">${language.menu.allCards}</a></li>
+						${Object.keys(categories).map(c => `<li><img width="16" height="16" src="${categoriesIcons[c]}" alt="Catégorie ${titleOf(lang, c).toLowerCase()}"/><a href="/cards/${lang}/${c}/index.html">${titleOf(lang, c).toLowerCase()}</a></li>`).join('\n')}
 						<li>
 							<input type="text" class="card-search form-control ${search ? '' : 'hide'}" placeholder="rechercher une carte">
 						</li>
@@ -304,9 +284,9 @@ function basePage(lang, title, content, search = true, reload = false) {
 					</a>
 				</div>
 			</nav>
-			${reload ? '<span id="random-click" type="button" data-toggle="tooltip-random" title="" data-original-title="Tirer une nouvelle carte aléatoirement" data-placement="right"><i class="fas fa-sync fa-2x"></i></span>' : ''}
+			${reload ? `<span id="random-click" type="button" data-toggle="tooltip-random" title="" data-original-title="${language.tooltips.newCard}" data-placement="right"><i class="fas fa-sync fa-2x"></i></span>` : ''}
 			${!reload ? '<a id="home-click" href="/cards/" title="home"><i class="fas fa-home fa-2x"></i></a>' : ''}
-      <a href="#" data-toggle="tooltip" title="" data-original-title="Le jeu de cartes MAIF des principes de conception des nouveaux produits numériques de sa plateforme de services" data-placement="right" id="info-click"><i class="fas fa-question fa-2x"></i></a>
+      <a href="#" data-toggle="tooltip" title="" data-original-title="${language.tooltips.help}" data-placement="right" id="info-click"><i class="fas fa-question fa-2x"></i></a>
 			${content}
 			<div class="container-fluid container-footer">
 				<div class="row">
@@ -356,18 +336,35 @@ function basePage(lang, title, content, search = true, reload = false) {
 function generateRootIndex() {
 	const code = `<html>
 		<body>
+			<h3>Languages</h3>
 			<ul>
-			${langs.map(l => `<li><a href="/cards/${l}/index.html">${l}</a></li>`)}
+			${langs.map(l => `<li><a href="/cards/${l.lang}/index.html">${l.lang}</a></li>`)}
 			</ul>
 			<script type="text/javascript">
-				var userLang = navigator.language || navigator.userLanguage; 
-				console.log ("The language is: " + userLang);
+			  var langs = ${JSON.stringify(langs.map(l => l.lang))};
+				var userLang = (navigator.language || navigator.userLanguage).split('-')[0]; 
+				var lang = langs.filter(l => l === userLang)[0] || "fr";
+				window.location = "/cards/" + lang + "/index.html";
 			</script>		
 		</body>
 	</html>`;
 	touch(target + '/index.html', code);
 }
 
+function generateDistribution(language) {
+	try {
+		mkdirs(language.lang);
+		fs.copySync('./src/images', target + '/images');
+		fs.copySync('./src/js/tarteaucitron', target + '/js/tarteaucitron');
+		fs.copySync('./src/cards.css', target + '/cards.css');
+		createIndex(language);
+		createAllCardsPage(language);
+		allCards.forEach(card => createCardPage(language, card));
+		Object.keys(categories).forEach(category => createCategoryIndexPage(language, category));
+	} catch (e) {
+		console.log(e);
+	}
+}
 
 rmLastDistribution();
 generateRootIndex();
