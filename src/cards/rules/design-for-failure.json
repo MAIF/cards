@@ -6,45 +6,45 @@
     "fr": {
       "title": "DESIGN FOR FAILURE",
       "abstract": [
-        " ** Votre système tombera en panne ! ** ",
+        "**Votre système tombera en panne !** ",
         "Concevez-le afin qu’il y soit tolérant."
       ],
       "details": [
-        "Votre système ** tombera en panne ** , c'est inévitable. Il doit être conçu pour cela ( ** Design For Failure ** ).",
-        "Prévoir la ** redondance ** à tous les niveaux : ** matériel ** (réseau, disque, etc...), ** applicatifs ** (plusieurs instances des applications), ** zones ** géographiques, ** providers ** (exemple : AWS + OVH)."
+        "Votre système **tombera en panne** , c'est inévitable. Il doit être conçu pour cela (**Design For Failure**).",
+        "Prévoir la **redondance** à tous les niveaux : **matériel** (réseau, disque, etc...), **applicatifs** (plusieurs instances des applications), **zones** géographiques, **providers** (exemple : AWS + OVH)."
       ]
     },
     "en": {
       "title": "DESIGN FOR FAILURE",
       "abstract": [
-        " ** Your system will crash! ** ",
+        " **Your system will crash!** ",
         "Design it so that it is tolerant."
       ],
       "details": [
-        "Your ** system will fail ** , it's inevitable. It must be designed for this ( ** Design For Failure ** ).",
-        "Predict ** redundancy ** at all levels: ** hardware ** (network, disk, etc ...), ** applications ** (multiple instances of applications), ** geographical ** zones, ** providers ** (example: AWS + OVH)."
+        "Your **system will fail** , it's inevitable. It must be designed for this (**Design For Failure**).",
+        "Predict **redundancy** at all levels: **hardware** (network, disk, etc ...), **applications** (multiple instances of applications), **geographical** zones, **providers** (example: AWS + OVH)."
       ]
     },
     "de": {
       "title": "Design für Fehler",
       "abstract": [
-        " ** Ihr System wird abstürzen! ** ",
+        " **Ihr System wird abstürzen!** ",
         "Entwerfen Sie es so, dass es tolerant ist."
       ],
       "details": [
-        "Ihr ** System wird abstürzen ** , es ist unvermeidlich. Es muss dafür ausgelegt sein ( ** Design For Failure ** ).",
-        "Predict ** Redundanz ** auf allen Ebenen: ** Hardware ** (Netzwerk, Festplatte, etc ...), ** Anwendungen ** (mehrere Instanzen von Anwendungen), ** geographische ** Zonen, ** Anbieter ** (Beispiel: AWS + OVH)"
+        "Ihr **System wird abstürzen** , es ist unvermeidlich. Es muss dafür ausgelegt sein (**Design For Failure**).",
+        "Predict **Redundanz** auf allen Ebenen: **Hardware** (Netzwerk, Festplatte, etc ...), **Anwendungen** (mehrere Instanzen von Anwendungen), **geographische** Zonen, **Anbieter** (Beispiel: AWS + OVH)"
       ]
     },
     "es": {
       "title": "DISEÑO PARA FALLAS",
       "abstract": [
-        " ** ¡Tu sistema se bloqueará! ** ",
+        " **¡Tu sistema se bloqueará!** ",
         "Diseñarlo para que sea tolerante."
       ],
       "details": [
-        "Tu ** sistema fallará ** , es inevitable. Debe estar diseñado para esto ( ** Design For Failure ** ).",
-        "Predecir ** redundancia ** en todos los niveles: ** hardware ** (red, disco, etc ...), ** aplicaciones ** (instancias múltiples de aplicaciones), ** zonas ** geográficas, ** proveedores ** (ejemplo: AWS + OVH)."
+        "Tu **sistema fallará** , es inevitable. Debe estar diseñado para esto (**Design For Failure**).",
+        "Predecir **redundancia** en todos los niveles: **hardware** (red, disco, etc ...), **aplicaciones** (instancias múltiples de aplicaciones), **zonas** geográficas, **proveedores** (ejemplo: AWS + OVH)."
       ]
     }
   }

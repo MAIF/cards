@@ -6,45 +6,45 @@
     "fr": {
       "title": "SELF SERVICE",
       "abstract": [
-        "Utiliser une API doit être ** simple ** et ** rapide ** ."
+        "Utiliser une API doit être **simple** et **rapide**."
       ],
       "details": [
-        "L'utilisation des APIs doit être la plus simple possible. Pensez à l’ ** expérience développeur ** .",
-        "La meilleure solution pour valider l'adéquation avec le besoin est de ** tester l'API rapidement ** : quelques minutes doivent suffire !",
-        "La plateforme doit proposer une ** interface graphique ** permettant de tester l'API simplement."
+        "L'utilisation des APIs doit être la plus simple possible. Pensez à l’ **expérience développeur**.",
+        "La meilleure solution pour valider l'adéquation avec le besoin est de **tester l'API rapidement** : quelques minutes doivent suffire !",
+        "La plateforme doit proposer une **interface graphique** permettant de tester l'API simplement."
       ]
     },
     "en": {
       "title": "SELF SERVICE",
       "abstract": [
-        "Use an API must be ** simple ** and ** fast ** ."
+        "Use an API must be **simple** and **fast**."
       ],
       "details": [
-        "The use of APIs should be as simple as possible. Think about the ** developer experience ** .",
-        "The best solution to validate the adequacy with the need is to ** test the API quickly ** : a few minutes must suffice!",
-        "The platform must offer a ** graphical interface ** to test the API simply."
+        "The use of APIs should be as simple as possible. Think about the **developer experience**.",
+        "The best solution to validate the adequacy with the need is to **test the API quickly** : a few minutes must suffice!",
+        "The platform must offer a **graphical interface** to test the API simply."
       ]
     },
     "de": {
       "title": "SELBSTBEDIENUNG",
       "abstract": [
-        "Verwenden Sie eine API muss ** einfach ** und ** schnell ** sein."
+        "Verwenden Sie eine API muss **einfach** und **schnell** sein."
       ],
       "details": [
-        "Die Verwendung von APIs sollte so einfach wie möglich sein. Denken Sie an die ** Entwicklererfahrung ** .",
-        "Die beste Lösung, um die Angemessenheit mit der Notwendigkeit zu überprüfen, ist, ** die API schnell zu testen ** : ein paar Minuten müssen genügen!",
-        "Die Plattform muss eine ** grafische Schnittstelle ** bieten, um die API einfach zu testen."
+        "Die Verwendung von APIs sollte so einfach wie möglich sein. Denken Sie an die **Entwicklererfahrung**.",
+        "Die beste Lösung, um die Angemessenheit mit der Notwendigkeit zu überprüfen, ist, **die API schnell zu testen** : ein paar Minuten müssen genügen!",
+        "Die Plattform muss eine **grafische Schnittstelle** bieten, um die API einfach zu testen."
       ]
     },
     "es": {
       "title": "AUTOSERVICIO",
       "abstract": [
-        "El uso de una API debe ser ** simple ** y ** rápido ** ."
+        "El uso de una API debe ser **simple** y **rápido**."
       ],
       "details": [
-        "El uso de API debe ser lo más simple posible. Piensa en ** la experiencia del desarrollador ** .",
-        "La mejor solución para validar la adecuación con la necesidad es ** probar la API rápidamente ** : ¡unos pocos minutos deben bastar!",
-        "La plataforma debe ofrecer una ** interfaz gráfica ** para probar la API simplemente."
+        "El uso de API debe ser lo más simple posible. Piensa en **la experiencia del desarrollador**.",
+        "La mejor solución para validar la adecuación con la necesidad es **probar la API rápidamente** : ¡unos pocos minutos deben bastar!",
+        "La plataforma debe ofrecer una **interfaz gráfica** para probar la API simplemente."
       ]
     }
   }

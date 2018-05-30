@@ -6,45 +6,45 @@
     "fr": {
       "title": "MESSAGE BROKER",
       "abstract": [
-        "Privilégiez un ** message-broker simple ** , robuste et performant à un \"tuyau intelligent\"."
+        "Privilégiez un **message-broker simple** , robuste et performant à un \"tuyau intelligent\"."
       ],
       "details": [
-        "Les ** ESB ** ont montré leurs ** limites ** : la ** maintenance évolutive ** est ** critique ** , aussi bien d'un point de vue ** technique ** qu' ** organisationnel ** .",
-        "Les ** messages brokers ** comme ** Kafka ** offrent une solution ** simple ** , ** durable ** et ** résiliente ** .",
-        "Des ** endpoints intelligents ** et des ** tuyaux simples ** est une architecture qui fonctionne à l'échelle : c'est ** Internet ** ."
+        "Les **ESB** ont montré leurs **limites** : la **maintenance évolutive** est **critique** , aussi bien d'un point de vue **technique** qu' **organisationnel**.",
+        "Les **messages brokers** comme **Kafka** offrent une solution **simple** , **durable** et **résiliente**.",
+        "Des **endpoints intelligents** et des **tuyaux simples** est une architecture qui fonctionne à l'échelle : c'est **Internet**."
       ]
     },
     "en": {
       "title": "MESSAGE BROKER",
       "abstract": [
-        "Privilege a ** simple, robust and powerful ** message-broker to a \"smart pipe\"."
+        "Privilege a **simple, robust and powerful** message-broker to a \"smart pipe\"."
       ],
       "details": [
-        " ** ESB ** showed ** limits ** : ** scalable maintenance ** is ** critical ** , both from a ** technical ** and ** organizational ** point of view.",
-        " **  ** Broker ** messages like ** Kafka ** offer a simple ** , ** durable ** and ** resilient ** solution.",
-        " ** Smart endpoints ** and ** Simple pipes ** is an architecture that works at scale: it's ** Internet ** ."
+        "**ESB** showed **limits** : **scalable maintenance** is **critical** , both from a **technical** and **organizational** point of view.",
+        " **** Broker **messages like** Kafka **offer a simple** , **durable** and **resilient** solution.",
+        " **Smart endpoints** and **Simple pipes** is an architecture that works at scale: it's **Internet**."
       ]
     },
     "de": {
       "title": "Nachrichtenbroker",
       "abstract": [
-        "Privilegieren Sie einen ** einfachen, robusten und leistungsfähigen ** Message-Broker zu einer \"Smart Pipe\"."
+        "Privilegieren Sie einen **einfachen, robusten und leistungsfähigen** Message-Broker zu einer \"Smart Pipe\"."
       ],
       "details": [
-        " ** ESB ** zeigte ** Grenzwerte ** : ** Skalierbare Wartung ** ist ** kritisch ** , sowohl von ** technischer ** als auch ** organisatorischer ** Sichtweise.",
-        " **  ** Broker ** -Nachrichten wie ** Kafka ** bieten eine einfache ** , ** dauerhafte ** und ** belastbare ** Lösung.",
-        " ** Intelligente Endpunkte ** und ** Einfache Pipes ** ist eine Architektur, die im Maßstab funktioniert: es ist ** Internet ** ."
+        " **ESB** zeigte **Grenzwerte** : **Skalierbare Wartung** ist **kritisch** , sowohl von **technischer** als auch **organisatorischer** Sichtweise.",
+        " **** Broker **-Nachrichten wie** Kafka **bieten eine einfache** , **dauerhafte** und **belastbare** Lösung.",
+        " **Intelligente Endpunkte** und **Einfache Pipes** ist eine Architektur, die im Maßstab funktioniert: es ist **Internet**."
       ]
     },
     "es": {
       "title": "AGENTE DE MENSAJES",
       "abstract": [
-        "Privilege a ** agente de mensajería ** simple, robusto y poderoso a un \"conducto inteligente\"."
+        "Privilege a **agente de mensajería** simple, robusto y poderoso a un \"conducto inteligente\"."
       ],
       "details": [
-        " ** ESB ** mostró ** límites ** : ** el mantenimiento escalable ** es ** crítico ** , tanto desde el punto de vista ** técnico ** como ** organizacional ** .",
-        " ** Los mensajes de ** Broker ** como ** Kafka ** ofrecen una solución simple ** , ** duradera ** y ** flexible ** .",
-        " ** Puntos finales inteligentes ** y ** Tuberías simples ** es una arquitectura que funciona a escala: es ** Internet ** ."
+        " **ESB** mostró **límites** : **el mantenimiento escalable** es **crítico** , tanto desde el punto de vista **técnico** como **organizacional**.",
+        " **Los mensajes de** Broker **como** Kafka **ofrecen una solución simple** , **duradera** y **flexible**.",
+        " **Puntos finales inteligentes** y **Tuberías simples** es una arquitectura que funciona a escala: es **Internet**."
       ]
     }
   }

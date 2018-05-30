@@ -6,37 +6,37 @@
     "fr": {
       "title": "INFRASTRUCTURE",
       "abstract": [
-        "Les Feature Teams ne gèrent pas l'infrastructure, elle est ** fournie et maintenue par l'organisation ** ."
+        "Les Feature Teams ne gèrent pas l'infrastructure, elle est **fournie et maintenue par l'organisation**."
       ],
       "details": [
-        "Les problèmes d'infrastructure ne sont ** pas du ressort des Feature Teams ** . L'infrastructure doit leur être ** fournie ** et ** maintenue ** par un ** service transverse ** ."
+        "Les problèmes d'infrastructure ne sont **pas du ressort des Feature Teams**. L'infrastructure doit leur être **fournie** et **maintenue** par un **service transverse**."
       ]
     },
     "en": {
       "title": "INFRASTRUCTURE",
       "abstract": [
-        "Feature Teams do not manage the infrastructure, it is ** provided and maintained by the organization ** ."
+        "Feature Teams do not manage the infrastructure, it is **provided and maintained by the organization**."
       ],
       "details": [
-        "Infrastructure issues are not within ** Feature Teams ** . Infrastructure must be ** provided ** and ** maintained ** by a ** cross-functional ** service."
+        "Infrastructure issues are not within **Feature Teams**. Infrastructure must be **provided** and **maintained** by a **cross-functional** service."
       ]
     },
     "de": {
       "title": "INFRASTRUKTUR",
       "abstract": [
-        "Feature Teams verwalten die Infrastruktur nicht, sie wird ** von der Organisation ** bereitgestellt und verwaltet."
+        "Feature Teams verwalten die Infrastruktur nicht, sie wird **von der Organisation** bereitgestellt und verwaltet."
       ],
       "details": [
-        "Infrastrukturprobleme gehören nicht zu ** Feature Teams ** . Die Infrastruktur muss durch einen ** funktionsübergreifenden ** Dienst ** bereitgestellt ** und ** gewartet werden."
+        "Infrastrukturprobleme gehören nicht zu **Feature Teams**. Die Infrastruktur muss durch einen **funktionsübergreifenden** Dienst **bereitgestellt** und ** gewartet werden."
       ]
     },
     "es": {
       "title": "INFRAESTRUCTURA",
       "abstract": [
-        "Los equipos especiales no administran la infraestructura, ** la organiza y la mantiene ** ."
+        "Los equipos especiales no administran la infraestructura, **la organiza y la mantiene**."
       ],
       "details": [
-        "Los problemas de infraestructura no están dentro de ** Equipos destacados ** . La infraestructura debe ** proporcionarse ** y ** mantenerse ** mediante un servicio ** con funciones cruzadas."
+        "Los problemas de infraestructura no están dentro de **Equipos destacados**. La infraestructura debe **proporcionarse** y **mantenerse** mediante un servicio ** con funciones cruzadas."
       ]
     }
   }

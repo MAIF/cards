@@ -9,7 +9,7 @@
         "Limitez la **taille des Feature Teams** (de 5 à 12 personnes)."
       ],
       "details": [
-        "Limitez la taille d’une Feature Team : **entre 5 et 12 personnes** .",
+        "Limitez la taille d’une Feature Team : **entre 5 et 12 personnes**.",
         "En dessous de 5, elle est trop sensible aux événements extérieurs et manque de créativité. Au dessus de 12, elle perd en productivité.",
         "Le terme **\"2-Pizza Team\"** indique que la taille de la Feature Team ne doit pas dépasser le nombre de personnes que l’on peut nourrir avec deux pizzas."
       ]
@@ -20,31 +20,31 @@
         "Limit the **size of Feature Teams** (from 5 to 12 people)."
       ],
       "details": [
-        "Limit the size of a Feature Team: **between 5 and 12 people** .",
+        "Limit the size of a Feature Team: **between 5 and 12 people**.",
         "Below 5, she is too sensitive to external events and lacks creativity. Above 12, it loses productivity.",
-        "The term ** \"2-Pizza Team\" ** indicates that the size of the Feature Team should not exceed the number of people that can be fed with two pizzas."
+        "The term **\"2-Pizza Team\"** indicates that the size of the Feature Team should not exceed the number of people that can be fed with two pizzas."
       ]
     },
     "de": {
       "title": "2-PIZZA TEAM",
       "abstract": [
-        "Begrenzen Sie die ** Größe von Feature Teams ** (von 5 bis 12 Personen)."
+        "Begrenzen Sie die **Größe von Feature Teams** (von 5 bis 12 Personen)."
       ],
       "details": [
-        "Begrenzen Sie die Größe eines Feature-Teams: ** zwischen 5 und 12 Personen ** .",
+        "Begrenzen Sie die Größe eines Feature-Teams: **zwischen 5 und 12 Personen**.",
         "Unter 5 ist sie zu empfindlich für externe Ereignisse und es fehlt ihr an Kreativität. Über 12 verliert es an Produktivität.",
-        "Der Begriff ** \"2-Pizza-Team\" ** zeigt an, dass die Größe des Feature-Teams die Anzahl der Personen, die mit zwei Pizzen gefüttert werden können, nicht überschreiten sollte."
+        "Der Begriff **\"2-Pizza-Team\"** zeigt an, dass die Größe des Feature-Teams die Anzahl der Personen, die mit zwei Pizzen gefüttert werden können, nicht überschreiten sollte."
       ]
     },
     "es": {
       "title": "EQUIPO 2-PIZZA",
       "abstract": [
-        "Limite el ** tamaño de los equipos especiales ** (de 5 a 12 personas)."
+        "Limite el **tamaño de los equipos especiales** (de 5 a 12 personas)."
       ],
       "details": [
-        "Limite el tamaño de un equipo de características: ** entre 5 y 12 personas ** .",
+        "Limite el tamaño de un equipo de características: **entre 5 y 12 personas**.",
         "Por debajo de 5, ella es demasiado sensible a los eventos externos y carece de creatividad. Por encima de 12, pierde productividad.",
-        "El término ** \"Equipo de 2 pizzas\" ** indica que el tamaño del equipo de características no debe exceder el número de personas que pueden ser alimentadas con dos pizzas."
+        "El término **\"Equipo de 2 pizzas\"** indica que el tamaño del equipo de características no debe exceder el número de personas que pueden ser alimentadas con dos pizzas."
       ]
     }
   }

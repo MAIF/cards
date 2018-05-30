@@ -6,45 +6,45 @@
     "fr": {
       "title": "MVP",
       "abstract": [
-        "Réalisez votre ** Minimum Viable Product ** pour éprouver votre concept."
+        "Réalisez votre **Minimum Viable Product** pour éprouver votre concept."
       ],
       "details": [
-        "Le ** périmètre ** de votre MVP doit être ** réduit ** tout en permettant de marketer votre produit.",
-        "Misez sur les ** Early Adopters ** et récoltez un maximum de ** feedback ** .",
-        "Votre MVP est déployé et exploitable en ** production ** ."
+        "Le **périmètre** de votre MVP doit être **réduit** tout en permettant de marketer votre produit.",
+        "Misez sur les **Early Adopters** et récoltez un maximum de **feedback**.",
+        "Votre MVP est déployé et exploitable en **production**."
       ]
     },
     "en": {
       "title": "MVP",
       "abstract": [
-        "Achieve your ** Minimum Viable Product ** to test your concept."
+        "Achieve your **Minimum Viable Product** to test your concept."
       ],
       "details": [
-        "The ** perimeter ** of your MVP must be ** reduced ** while allowing you to market your product.",
-        "Bet on ** Early Adopters ** and get a maximum of ** feedback ** .",
-        "Your MVP is deployed and usable in ** production ** ."
+        "The **perimeter** of your MVP must be **reduced** while allowing you to market your product.",
+        "Bet on **Early Adopters** and get a maximum of **feedback**.",
+        "Your MVP is deployed and usable in **production**."
       ]
     },
     "de": {
       "title": "MVP",
       "abstract": [
-        "Erreichen Sie Ihr ** Minimum Viable Product ** , um Ihr Konzept zu testen."
+        "Erreichen Sie Ihr **Minimum Viable Product** , um Ihr Konzept zu testen."
       ],
       "details": [
-        "Der ** Umfang ** deines MVP muss ** reduziert ** sein, während du dein Produkt vermarkten kannst.",
-        "Setzen Sie auf ** Early Adopters ** und erhalten Sie ein Maximum an ** Feedback ** .",
-        "Ihr MVP ist in ** Produktion ** implementiert und verwendbar."
+        "Der **Umfang** deines MVP muss **reduziert** sein, während du dein Produkt vermarkten kannst.",
+        "Setzen Sie auf **Early Adopters** und erhalten Sie ein Maximum an **Feedback**.",
+        "Ihr MVP ist in **Produktion** implementiert und verwendbar."
       ]
     },
     "es": {
       "title": "MVP",
       "abstract": [
-        "Logre su ** Producto Mínimo Viable ** para probar su concepto."
+        "Logre su **Producto Mínimo Viable** para probar su concepto."
       ],
       "details": [
-        "El ** perímetro ** de su MVP debe ** reducirse ** mientras le permite comercializar su producto.",
-        "Apuesta a ** Early Adopters ** y recibe un máximo de ** feedback ** .",
-        "Su MVP está implementado y puede utilizarse en ** producción ** ."
+        "El **perímetro** de su MVP debe **reducirse** mientras le permite comercializar su producto.",
+        "Apuesta a **Early Adopters** y recibe un máximo de **feedback**.",
+        "Su MVP está implementado y puede utilizarse en **producción**."
       ]
     }
   }

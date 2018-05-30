@@ -6,45 +6,45 @@
     "fr": {
       "title": "MOBILE FIRST",
       "abstract": [
-        "Adoptez une stratégie ** Mobile First ** ."
+        "Adoptez une stratégie **Mobile First**."
       ],
       "details": [
-        "Les terminaux mobiles représentent la ** part la plus importante ** du ** marché ** .",
-        "Penser mobile, c'est penser à l' ** essentiel ** .",
-        "Le ** Responsive Design ** est la norme, c'est une source d'économies ( ** MVP ** )."
+        "Les terminaux mobiles représentent la **part la plus importante** du **marché**.",
+        "Penser mobile, c'est penser à l' **essentiel**.",
+        "Le **Responsive Design** est la norme, c'est une source d'économies (**MVP**)."
       ]
     },
     "en": {
       "title": "MOBILE FIRST",
       "abstract": [
-        "Adopt a ** Mobile First ** strategy."
+        "Adopt a **Mobile First** strategy."
       ],
       "details": [
-        "Mobile devices are the ** most important ** part of the ** market ** .",
-        "Thinking mobile is thinking of the ** essential ** .",
-        " ** Responsive Design ** is the norm, it is a source of savings ( ** MVP ** )."
+        "Mobile devices are the **most important** part of the **market**.",
+        "Thinking mobile is thinking of the **essential**.",
+        "**Responsive Design** is the norm, it is a source of savings (**MVP**)."
       ]
     },
     "de": {
       "title": "MOBILE ZUERST",
       "abstract": [
-        "Verabschiedung einer ** Mobile First ** Strategie."
+        "Verabschiedung einer **Mobile First** Strategie."
       ],
       "details": [
-        "Mobile Geräte sind der ** wichtigste ** Teil des ** Marktes ** .",
-        "Mobile Denken denkt an das ** Wesentliche ** .",
-        " ** Responsive Design ** ist die Norm, es ist eine Quelle der Einsparungen ( ** MVP ** )."
+        "Mobile Geräte sind der **wichtigste** Teil des **Marktes**.",
+        "Mobile Denken denkt an das **Wesentliche**.",
+        " **Responsive Design** ist die Norm, es ist eine Quelle der Einsparungen (**MVP**)."
       ]
     },
     "es": {
       "title": "MÓVIL PRIMERO",
       "abstract": [
-        "Adopte una estrategia ** Mobile First ** ."
+        "Adopte una estrategia **Mobile First**."
       ],
       "details": [
-        "Los dispositivos móviles son la ** parte más importante ** del ** mercado ** .",
-        "Pensar en dispositivos móviles es pensar en lo ** esencial ** .",
-        " ** Diseño receptivo ** es la norma, es una fuente de ahorro ( ** MVP ** )."
+        "Los dispositivos móviles son la **parte más importante** del **mercado**.",
+        "Pensar en dispositivos móviles es pensar en lo **esencial**.",
+        " **Diseño receptivo** es la norma, es una fuente de ahorro (**MVP**)."
       ]
     }
   }

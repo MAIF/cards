@@ -6,45 +6,45 @@
     "fr": {
       "title": "VALIDATION",
       "abstract": [
-        "L'organisation a un ** rôle de validation ** , sans être dogmatique."
+        "L'organisation a un **rôle de validation** , sans être dogmatique."
       ],
       "details": [
-        "Veillez à ce que l'organisation conserve son ** rôle de validation ** sur les outils et les usages. En particulier sur les ** outils qui touchent le patrimoine ** (exemple : gestion du code source).",
-        " ** Fournissez ** aux Feature Teams les ** moyens ** d'étayer leurs choix.",
-        "Ne soyez ** pas dogmatiques ** et veillez à ** encourager l'expérimentation ** ."
+        "Veillez à ce que l'organisation conserve son **rôle de validation** sur les outils et les usages. En particulier sur les **outils qui touchent le patrimoine** (exemple : gestion du code source).",
+        "**Fournissez** aux Feature Teams les **moyens** d'étayer leurs choix.",
+        "Ne soyez **pas dogmatiques** et veillez à **encourager l'expérimentation**."
       ]
     },
     "en": {
       "title": "VALIDATION",
       "abstract": [
-        "The organization has a ** role of validation ** , without being dogmatic."
+        "The organization has a **role of validation** , without being dogmatic."
       ],
       "details": [
-        "Ensure that the organization retains its ** validation role ** on tools and uses. In particular on the ** tools that affect the heritage ** (example: management of the source code).",
-        " ** Provide ** Feature Teams with ** means ** to support their choices.",
-        "Do not be ** dogmatic ** and be sure to ** encourage experimentation ** ."
+        "Ensure that the organization retains its **validation role** on tools and uses. In particular on the **tools that affect the heritage** (example: management of the source code).",
+        " **Provide** Feature Teams with **means** to support their choices.",
+        "Do not be **dogmatic** and be sure to **encourage experimentation**."
       ]
     },
     "de": {
       "title": "VALIDIERUNG",
       "abstract": [
-        "Die Organisation hat die ** Validierungsfunktion ** , ohne dogmatisch zu sein."
+        "Die Organisation hat die **Validierungsfunktion** , ohne dogmatisch zu sein."
       ],
       "details": [
-        "Stellen Sie sicher, dass die Organisation ihre ** Validierungsrolle ** für Tools und Verwendungen beibehält. Insbesondere zu den ** Werkzeugen, die das Erbe betreffen ** (Beispiel: Verwaltung des Quellcodes).",
-        " ** Bieten ** Feature-Teams mit ** bedeutet ** , ihre Auswahl zu unterstützen.",
+        "Stellen Sie sicher, dass die Organisation ihre **Validierungsrolle** für Tools und Verwendungen beibehält. Insbesondere zu den **Werkzeugen, die das Erbe betreffen** (Beispiel: Verwaltung des Quellcodes).",
+        " **Bieten** Feature-Teams mit **bedeutet** , ihre Auswahl zu unterstützen.",
         "Sei nicht dogmatisch und versichere dich, dass du Experimente anregen kannst."
       ]
     },
     "es": {
       "title": "VALIDACIÓN",
       "abstract": [
-        "La organización tiene ** un rol de validación ** , sin ser dogmático."
+        "La organización tiene **un rol de validación** , sin ser dogmático."
       ],
       "details": [
-        "Asegúrese de que la organización conserve ** su función de validación en las herramientas y usos. En particular sobre las ** herramientas que afectan el patrimonio ** (ejemplo: gestión del código fuente).",
-        " ** Proporcione ** Equipos destacados con ** medios ** para respaldar sus elecciones.",
-        "No seas ** dogmático ** y asegúrate de ** estimular la experimentación ** ."
+        "Asegúrese de que la organización conserve **su función de validación en las herramientas y usos. En particular sobre las** herramientas que afectan el patrimonio ** (ejemplo: gestión del código fuente).",
+        " **Proporcione** Equipos destacados con **medios** para respaldar sus elecciones.",
+        "No seas **dogmático** y asegúrate de **estimular la experimentación**."
       ]
     }
   }

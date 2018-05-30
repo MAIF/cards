@@ -6,49 +6,49 @@
     "fr": {
       "title": "MICRO-SERVICES",
       "abstract": [
-        "Développez des services ** autonomes ** et ** faiblement couplés ** ."
+        "Développez des services **autonomes** et **faiblement couplés**."
       ],
       "details": [
-        "Le ** couplage faible ** doit être la norme.",
-        "Chaque micro-service dispose d'une ** interface clairement définie ** .",
-        "Cette ** interface ** détermine le ** couplage ** entre les ** micro-services ** .",
-        "Le ** Domain Driven Design ** permet, notamment avec les ** Bounded Contexts ** , d'anticiper au mieux cette problématique."
+        "Le **couplage faible** doit être la norme.",
+        "Chaque micro-service dispose d'une **interface clairement définie**.",
+        "Cette **interface** détermine le **couplage** entre les **micro-services**.",
+        "Le **Domain Driven Design** permet, notamment avec les **Bounded Contexts** , d'anticiper au mieux cette problématique."
       ]
     },
     "en": {
       "title": "MICRO-SERVICES",
       "abstract": [
-        "Develop ** stand-alone ** and ** weakly coupled ** services."
+        "Develop **stand-alone** and **weakly coupled** services."
       ],
       "details": [
-        " ** weak coupling ** must be the norm.",
-        "Each micro-service has a ** clearly defined interface ** .",
-        "This ** interface ** determines the ** link ** between the ** micro-services ** .",
-        " ** Domain Driven Design ** allows, especially with the ** Bounded Contexts ** , to anticipate this problem."
+        "**weak coupling** must be the norm.",
+        "Each micro-service has a **clearly defined interface**.",
+        "This **interface** determines the **link** between the **micro-services**.",
+        " **Domain Driven Design** allows, especially with the **Bounded Contexts** , to anticipate this problem."
       ]
     },
     "de": {
       "title": "MICRO-DIENSTE",
       "abstract": [
-        "Develop ** Stand-alone ** und ** schwach gekoppelte ** Dienste."
+        "Develop **Stand-alone** und **schwach gekoppelte** Dienste."
       ],
       "details": [
-        " ** schwache Kopplung ** muss die Norm sein.",
-        "Jeder Micro-Service hat eine ** klar definierte Schnittstelle ** .",
-        "Diese ** Schnittstelle ** bestimmt den ** Link ** zwischen den ** Micro-Services ** .",
-        " ** Domain Driven Design ** erlaubt, insbesondere mit den ** Bounded Contexts ** , dieses Problem vorherzusehen."
+        " **schwache Kopplung** muss die Norm sein.",
+        "Jeder Micro-Service hat eine **klar definierte Schnittstelle**.",
+        "Diese **Schnittstelle** bestimmt den **Link** zwischen den **Micro-Services**.",
+        " **Domain Driven Design** erlaubt, insbesondere mit den **Bounded Contexts** , dieses Problem vorherzusehen."
       ]
     },
     "es": {
       "title": "MICRO-SERVICIOS",
       "abstract": [
-        "Desarrollar servicios ** independientes ** y ** débilmente acoplados ** ."
+        "Desarrollar servicios **independientes** y **débilmente acoplados**."
       ],
       "details": [
-        " ** acoplamiento débil ** debe ser la norma.",
-        "Cada micro-servicio tiene ** una interfaz claramente definida ** .",
-        "Esta ** interfaz ** determina el ** enlace ** entre los ** micro servicios ** .",
-        " ** Domain Driven Design ** permite, especialmente con ** Contextos acotados ** , anticipar este problema."
+        " **acoplamiento débil** debe ser la norma.",
+        "Cada micro-servicio tiene **una interfaz claramente definida**.",
+        "Esta **interfaz** determina el **enlace** entre los **micro servicios**.",
+        " **Domain Driven Design** permite, especialmente con **Contextos acotados** , anticipar este problema."
       ]
     }
   }

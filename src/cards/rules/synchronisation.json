@@ -6,41 +6,41 @@
     "fr": {
       "title": "SYNCHRONISATION",
       "abstract": [
-        "La ** synchronisation totale ** du système doit être pensée dès sa ** conception ** ."
+        "La **synchronisation totale** du système doit être pensée dès sa **conception**."
       ],
       "details": [
-        "Si la ** synchronisation ** entre deux systèmes est assurée par un ** flux d'événements ** , la ** resynchronisation ** totale de ces systèmes doit être ** prévue dès la conception ** .",
-        "Un ** audit ** automatique de la ** synchronisation ** (exemple : par échantillons) permet de ** mesurer ** et ** détecter ** les éventuelles ** erreurs ** de synchronisation."
+        "Si la **synchronisation** entre deux systèmes est assurée par un **flux d'événements** , la **resynchronisation** totale de ces systèmes doit être **prévue dès la conception**.",
+        "Un **audit** automatique de la **synchronisation** (exemple : par échantillons) permet de **mesurer** et **détecter** les éventuelles **erreurs** de synchronisation."
       ]
     },
     "en": {
       "title": "SYNCHRONIZATION",
       "abstract": [
-        "The ** full synchronization ** of the system should be thought of as soon as it ** is designed ** ."
+        "The **full synchronization** of the system should be thought of as soon as it **is designed**."
       ],
       "details": [
-        "If the ** synchronization ** between two systems is ensured by a ** event flow ** , the total ** resynchronization ** of these systems must be ** planned at design time ** .",
-        "An automatic **  **  ** synchronization audit ** (example: by samples) allows to ** measure ** and ** detect ** any possible ** synchronization errors ** ."
+        "If the **synchronization** between two systems is ensured by a **event flow** , the total **resynchronization** of these systems must be **planned at design time**.",
+        "An automatic ****  **synchronization audit** (example: by samples) allows to **measure** and **detect** any possible **synchronization errors**."
       ]
     },
     "de": {
       "title": "STEUER",
       "abstract": [
-        "Die ** vollständige Synchronisation ** des Systems sollte berücksichtigt werden, sobald es ** entworfen wurde ** ."
+        "Die **vollständige Synchronisation** des Systems sollte berücksichtigt werden, sobald es **entworfen wurde**."
       ],
       "details": [
-        "Wenn die ** Synchronisation ** zwischen zwei Systemen durch einen ** Ereignisfluss ** sichergestellt wird, muss die ** Gesamtsynchronisation ** dieser Systeme ** zur Entwurfszeit ** geplant werden.",
-        "Ein automatisches **  **  ** Synchronisations-Audit ** (Beispiel: per Stichprobe) erlaubt es, ** mögliche ** Synchronisationsfehler ** zu messen ** und ** zu erkennen ** ."
+        "Wenn die **Synchronisation** zwischen zwei Systemen durch einen **Ereignisfluss** sichergestellt wird, muss die **Gesamtsynchronisation** dieser Systeme **zur Entwurfszeit** geplant werden.",
+        "Ein automatisches ****  **Synchronisations-Audit** (Beispiel: per Stichprobe) erlaubt es, **mögliche** Synchronisationsfehler **zu messen** und **zu erkennen**."
       ]
     },
     "es": {
       "title": "TIEMPO",
       "abstract": [
-        "La ** sincronización completa ** del sistema debe pensarse tan pronto ** esté diseñado ** ."
+        "La **sincronización completa** del sistema debe pensarse tan pronto **esté diseñado**."
       ],
       "details": [
-        "Si la ** sincronización ** entre dos sistemas está garantizada por un ** flujo de eventos ** , la ** resincronización ** total de estos sistemas debe ** planificarse en el momento del diseño ** .",
-        "Una **  **  ** auditoría de sincronización ** automática (ejemplo: por ejemplos) permite ** medir ** y ** detectar ** posibles ** errores de sincronización ** ."
+        "Si la **sincronización** entre dos sistemas está garantizada por un **flujo de eventos** , la **resincronización** total de estos sistemas debe **planificarse en el momento del diseño**.",
+        "Una ****  **auditoría de sincronización** automática (ejemplo: por ejemplos) permite **medir** y **detectar** posibles **errores de sincronización**."
       ]
     }
   }

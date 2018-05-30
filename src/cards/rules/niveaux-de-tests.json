@@ -6,49 +6,49 @@
     "fr": {
       "title": "NIVEAUX DE TESTS",
       "abstract": [
-        "Des ** tests à tous les niveaux ** : unitaires, intégration, fonctionnels, résilience, performance."
+        "Des **tests à tous les niveaux** : unitaires, intégration, fonctionnels, résilience, performance."
       ],
       "details": [
-        "Les tests d' ** intégration ** et ** fonctionnels ** sont les plus importants, ce sont eux qui ** garantissent ** le bon ** fonctionnement ** du ** produit ** .",
-        "Les tests ** unitaires ** sont adaptés au ** développement ** .",
-        "Les tests de ** performance ** permettent de mesurer la performance ** dans le temps ** .",
-        "Les tests de ** résilience ** permettent d'anticiper les ** pannes ** ."
+        "Les tests d' **intégration** et **fonctionnels** sont les plus importants, ce sont eux qui **garantissent** le bon **fonctionnement** du **produit**.",
+        "Les tests **unitaires** sont adaptés au **développement**.",
+        "Les tests de **performance** permettent de mesurer la performance **dans le temps**.",
+        "Les tests de **résilience** permettent d'anticiper les **pannes**."
       ]
     },
     "en": {
       "title": "TEST LEVELS",
       "abstract": [
-        " ** Tests at all levels ** : unit, integration, functional, resilience, performance."
+        "**Tests at all levels** : unit, integration, functional, resilience, performance."
       ],
       "details": [
-        "The ** integration ** and ** functional ** tests are the most important, ** they ** guarantee ** the ** effective ** operation ** .",
-        " ** unit ** tests are suitable for ** development ** .",
-        " ** performance ** tests measure performance ** over time ** .",
-        " ** resilience ** tests help to anticipate ** failures ** ."
+        "The **integration** and **functional** tests are the most important, **they** guarantee **the** effective **operation**.",
+        " **unit** tests are suitable for **development**.",
+        " **performance** tests measure performance **over time**.",
+        " **resilience** tests help to anticipate **failures**."
       ]
     },
     "de": {
       "title": "TESTSTUFEN",
       "abstract": [
-        " ** Tests auf allen Ebenen ** : Einheit, Integration, Funktionalität, Belastbarkeit, Leistung."
+        " **Tests auf allen Ebenen** : Einheit, Integration, Funktionalität, Belastbarkeit, Leistung."
       ],
       "details": [
-        "Die Tests ** Integration ** und ** Funktional ** sind die wichtigsten, ** sie ** garantieren ** den ** effektiven ** Betrieb ** .",
-        " ** Einheit ** -Tests sind für ** Entwicklung ** geeignet.",
-        " ** Leistung ** Tests messen die Leistung ** im Zeitverlauf ** .",
-        " ** Resilience ** -Tests helfen ** Fehler ** vorwegzunehmen."
+        "Die Tests **Integration** und **Funktional** sind die wichtigsten, **sie** garantieren **den** effektiven **Betrieb**.",
+        " **Einheit** -Tests sind für **Entwicklung** geeignet.",
+        " **Leistung** Tests messen die Leistung **im Zeitverlauf**.",
+        " **Resilience** -Tests helfen **Fehler** vorwegzunehmen."
       ]
     },
     "es": {
       "title": "NIVELES DE PRUEBA",
       "abstract": [
-        " ** Pruebas en todos los niveles ** : unidad, integración, funcional, resiliencia, rendimiento."
+        " **Pruebas en todos los niveles** : unidad, integración, funcional, resiliencia, rendimiento."
       ],
       "details": [
-        "Las pruebas de ** integración ** y ** funcional ** son las más importantes ** garantizan ** la ** operación ** efectiva ** .",
-        "Las pruebas de ** unidad ** son adecuadas para ** desarrollo ** .",
-        " ** las pruebas de ** rendimiento ** miden el rendimiento ** a lo largo del tiempo ** .",
-        " ** Las pruebas de ** resiliencia ayudan a anticipar ** fallas ** ."
+        "Las pruebas de **integración** y **funcional** son las más importantes **garantizan** la **operación** efectiva **.",
+        "Las pruebas de **unidad** son adecuadas para **desarrollo**.",
+        " **las pruebas de** rendimiento **miden el rendimiento** a lo largo del tiempo **.",
+        " **Las pruebas de** resiliencia ayudan a anticipar **fallas**."
       ]
     }
   }

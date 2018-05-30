@@ -6,45 +6,45 @@
     "fr": {
       "title": "SAAS",
       "abstract": [
-        "Étudiez systématiquement les solutions ** SaaS ** ."
+        "Étudiez systématiquement les solutions **SaaS**."
       ],
       "details": [
-        "Les solutions ** SaaS ** sont ** pérennes et économiques ** .",
-        "Dans certains cas, le ** SaaS ** permet d' ** accélérer ** la mise en oeuvre d'un ** MVP ** .",
-        "Pensez la vision ** économique à terme ** vis à vis des alternatives en terme de ** coût total ** ( ** TCO ** : ** T ** otal ** C ** ost of ** O ** wnership) et non uniquement en terme de coût de licence."
+        "Les solutions **SaaS** sont **pérennes et économiques**.",
+        "Dans certains cas, le **SaaS** permet d' **accélérer** la mise en oeuvre d'un **MVP**.",
+        "Pensez la vision **économique à terme** vis à vis des alternatives en terme de **coût total** (**TCO** : **T** otal **C** ost of **O** wnership) et non uniquement en terme de coût de licence."
       ]
     },
     "en": {
       "title": "SAAS",
       "abstract": [
-        "Systematically study ** SaaS ** solutions."
+        "Systematically study **SaaS** solutions."
       ],
       "details": [
-        " ** SaaS ** solutions are ** sustainable and cost-effective ** .",
-        "In some cases ** SaaS ** can ** speed up ** the implementation of ** MVP ** .",
-        "Think of the economic vision ** with respect to alternatives in terms of ** total cost ** ( ** TCO ** : ** T ** otal ** C ** ost of ** O ** wnership ) and not only in terms of license cost."
+        "**SaaS** solutions are **sustainable and cost-effective**.",
+        "In some cases **SaaS** can **speed up** the implementation of **MVP**.",
+        "Think of the economic vision **with respect to alternatives in terms of** total cost **(** TCO **:** T **otal** C **ost of** O ** wnership ) and not only in terms of license cost."
       ]
     },
     "de": {
       "title": "SAAS",
       "abstract": [
-        "Systematische Untersuchung von ** SaaS ** -Lösungen"
+        "Systematische Untersuchung von **SaaS** -Lösungen"
       ],
       "details": [
-        " ** SaaS ** -Lösungen sind ** nachhaltig und kosteneffektiv ** .",
-        "In einigen Fällen kann ** SaaS **  ** die Implementierung von ** MVP **  ** beschleunigen.",
-        "Denken Sie an die ökonomische Vision ** in Bezug auf die Alternativen in Bezug auf ** Gesamtkosten ** ( ** TCO ** : ** T ** otal ** C ** ost of ** O ** Wernship ) und nicht nur hinsichtlich der Lizenzkosten."
+        " **SaaS** -Lösungen sind **nachhaltig und kosteneffektiv**.",
+        "In einigen Fällen kann **SaaS**  **die Implementierung von** MVP **** beschleunigen.",
+        "Denken Sie an die ökonomische Vision **in Bezug auf die Alternativen in Bezug auf** Gesamtkosten **(** TCO **:** T **otal** C **ost of** O ** Wernship ) und nicht nur hinsichtlich der Lizenzkosten."
       ]
     },
     "es": {
       "title": "SAAS",
       "abstract": [
-        "Estudiar sistemáticamente las soluciones ** SaaS ** ."
+        "Estudiar sistemáticamente las soluciones **SaaS**."
       ],
       "details": [
-        " ** Las soluciones de SaaS ** son ** sostenibles y rentables ** .",
-        "En algunos casos, ** SaaS ** puede ** acelerar ** la implementación de ** MVP ** .",
-        "Piense en la visión económica ** con respecto a las alternativas en términos de ** costo total ** ( ** TCO ** : ** T ** otal ** C ** ost de ** O ** wnership ) y no solo en términos de costo de la licencia."
+        " **Las soluciones de SaaS** son **sostenibles y rentables**.",
+        "En algunos casos, **SaaS** puede **acelerar** la implementación de **MVP**.",
+        "Piense en la visión económica **con respecto a las alternativas en términos de** costo total **(** TCO **:** T **otal** C **ost de** O ** wnership ) y no solo en términos de costo de la licencia."
       ]
     }
   }

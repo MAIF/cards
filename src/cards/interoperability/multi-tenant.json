@@ -6,41 +6,41 @@
     "fr": {
       "title": "MULTI-TENANT",
       "abstract": [
-        "L’architecture doit être pensée ** multi-tenant ** ."
+        "L’architecture doit être pensée **multi-tenant**."
       ],
       "details": [
-        "Même si la marque blanche n'est pas envisagée à la base, mettez en place une architecture multi-tenant. Votre ** application ** initiale est le premier ** tenant ** .",
-        "Pensez la ** multi-instanciation fonctionnelle ** du système dès le départ."
+        "Même si la marque blanche n'est pas envisagée à la base, mettez en place une architecture multi-tenant. Votre **application** initiale est le premier **tenant**.",
+        "Pensez la **multi-instanciation fonctionnelle** du système dès le départ."
       ]
     },
     "en": {
       "title": "MULTI-TENANT",
       "abstract": [
-        "The architecture must be thought ** multi-tenant ** ."
+        "The architecture must be thought **multi-tenant**."
       ],
       "details": [
-        "Even if the white mark is not considered at the base, set up a multi-tenant architecture. Your ** initial ** application is the first ** holding ** .",
-        "Think of the ** multi-functional instantiation ** of the system right from the start."
+        "Even if the white mark is not considered at the base, set up a multi-tenant architecture. Your **initial** application is the first **holding**.",
+        "Think of the **multi-functional instantiation** of the system right from the start."
       ]
     },
     "de": {
       "title": "MULTI-MIETER",
       "abstract": [
-        "Die Architektur muss als ** Multi-Tenant ** betrachtet werden."
+        "Die Architektur muss als **Multi-Tenant** betrachtet werden."
       ],
       "details": [
-        "Auch wenn die weiße Markierung an der Basis nicht berücksichtigt wird, richten Sie eine Multi-Tenant-Architektur ein. Ihre ** ursprüngliche ** Anwendung ist die erste ** Halterung ** .",
-        "Denken Sie von Anfang an an die ** multifunktionale Instanziierung ** des Systems."
+        "Auch wenn die weiße Markierung an der Basis nicht berücksichtigt wird, richten Sie eine Multi-Tenant-Architektur ein. Ihre **ursprüngliche** Anwendung ist die erste **Halterung**.",
+        "Denken Sie von Anfang an an die **multifunktionale Instanziierung** des Systems."
       ]
     },
     "es": {
       "title": "MULTI-TENANT",
       "abstract": [
-        "La arquitectura debe ser pensada ** multi-tenant ** ."
+        "La arquitectura debe ser pensada **multi-tenant**."
       ],
       "details": [
-        "Incluso si la marca blanca no se considera en la base, configure una arquitectura multi-tenant. Su aplicación ** inicial ** es la primera ** celebración ** .",
-        "Piense en la ** instanciación multifuncional ** del sistema desde el principio."
+        "Incluso si la marca blanca no se considera en la base, configure una arquitectura multi-tenant. Su aplicación **inicial** es la primera **celebración**.",
+        "Piense en la **instanciación multifuncional** del sistema desde el principio."
       ]
     }
   }

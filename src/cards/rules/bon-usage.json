@@ -6,45 +6,45 @@
     "fr": {
       "title": "BON USAGE",
       "abstract": [
-        "Le ** bon outil ** pour le ** bon usage ** est une source d'économies."
+        "Le **bon outil** pour le **bon usage** est une source d'économies."
       ],
       "details": [
-        "Un ** mauvais outil ** imposé à tous est un ** risque ** . Le ** mauvais usage ** d'un bon outil peut avoir des ** conséquences ** très ** néfastes ** . Par exemple, les méthodes Agiles mal utilisées sont dangereuses.",
-        "Les ** outils ** doivent être ** remis en question ** .",
-        " ** Excel ** est souvent un choix ** rationnel ** mais ça n'est ** pas un outil à tout faire ** (CRM, ERP, Datamart, ...)"
+        "Un **mauvais outil** imposé à tous est un **risque**. Le **mauvais usage** d'un bon outil peut avoir des **conséquences** très **néfastes**. Par exemple, les méthodes Agiles mal utilisées sont dangereuses.",
+        "Les **outils** doivent être **remis en question**.",
+        "**Excel** est souvent un choix **rationnel** mais ça n'est **pas un outil à tout faire** (CRM, ERP, Datamart, ...)"
       ]
     },
     "en": {
       "title": "GOOD USE",
       "abstract": [
-        "The ** right tool ** for ** good use ** is a source of savings."
+        "The **right tool** for **good use** is a source of savings."
       ],
       "details": [
-        "A ** bad tool ** imposed on everyone is a ** risk ** . The ** misuse ** of a good tool can have ** very ** damaging ** consequences ** . For example, poorly used Agile methods are dangerous.",
-        " ** tools ** must be ** questioned ** .",
-        " ** Excel ** is often a rational choice ** but it is not ** a tool to do everything ** (CRM, ERP, Datamart, ...)"
+        "A **bad tool** imposed on everyone is a **risk**. The **misuse** of a good tool can have **very** damaging **consequences**. For example, poorly used Agile methods are dangerous.",
+        " **tools** must be **questioned**.",
+        " **Excel** is often a rational choice **but it is not** a tool to do everything ** (CRM, ERP, Datamart, ...)"
       ]
     },
     "de": {
       "title": "Guter Gebrauch",
       "abstract": [
-        "Das ** richtige Werkzeug ** für ** gute Nutzung ** ist eine Ersparnisquelle."
+        "Das **richtige Werkzeug** für **gute Nutzung** ist eine Ersparnisquelle."
       ],
       "details": [
-        "Ein ** schlechtes Werkzeug ** , das allen auferlegt wird, ist ein ** Risiko ** . Der ** Missbrauch ** eines guten Tools kann ** sehr ** schädliche Folgen haben ** . Zum Beispiel sind schlecht verwendete Agile-Methoden gefährlich.",
-        " ** Werkzeuge ** müssen ** befragt werden ** .",
-        " ** Excel ** ist oft eine vernünftige Wahl ** , aber es ist nicht ** ein Werkzeug, um alles zu tun ** (CRM, ERP, Datamart, ...)"
+        "Ein **schlechtes Werkzeug** , das allen auferlegt wird, ist ein **Risiko**. Der **Missbrauch** eines guten Tools kann **sehr** schädliche Folgen haben **. Zum Beispiel sind schlecht verwendete Agile-Methoden gefährlich.",
+        " **Werkzeuge** müssen **befragt werden**.",
+        " **Excel** ist oft eine vernünftige Wahl **, aber es ist nicht** ein Werkzeug, um alles zu tun ** (CRM, ERP, Datamart, ...)"
       ]
     },
     "es": {
       "title": "BUEN USO",
       "abstract": [
-        "La ** herramienta correcta ** para ** buen uso ** es una fuente de ahorro."
+        "La **herramienta correcta** para **buen uso** es una fuente de ahorro."
       ],
       "details": [
-        "Una ** mala herramienta ** impuesta a todos es un ** riesgo ** . El ** uso indebido ** de una buena herramienta puede tener consecuencias ** muy ** dañinas ** . Por ejemplo, los métodos ágiles mal utilizados son peligrosos.",
-        " ** herramientas ** debe ser ** cuestionado ** .",
-        " ** Excel ** a menudo es una opción racional ** pero no es ** una herramienta para hacer todo ** (CRM, ERP, Datamart, ...)"
+        "Una **mala herramienta** impuesta a todos es un **riesgo**. El **uso indebido** de una buena herramienta puede tener consecuencias **muy** dañinas **. Por ejemplo, los métodos ágiles mal utilizados son peligrosos.",
+        " **herramientas** debe ser **cuestionado**.",
+        " **Excel** a menudo es una opción racional **pero no es** una herramienta para hacer todo ** (CRM, ERP, Datamart, ...)"
       ]
     }
   }

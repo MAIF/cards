@@ -6,45 +6,45 @@
     "fr": {
       "title": "PERCEPTION",
       "abstract": [
-        "L’ ** expérience perçue ** par l’utilisateur est fondamentale.",
-        "L’ ** ergonomie ** n’est pas négociable."
+        "L’ **expérience perçue** par l’utilisateur est fondamentale.",
+        "L’ **ergonomie** n’est pas négociable."
       ],
       "details": [
-        "Ne négligez pas le travail des ** designers UX ** , il est fondamental dans le développement d'une application.",
-        "Intégrez le ** feedback ** de vos utilisateurs, celui-ci est essentiel."
+        "Ne négligez pas le travail des **designers UX** , il est fondamental dans le développement d'une application.",
+        "Intégrez le **feedback** de vos utilisateurs, celui-ci est essentiel."
       ]
     },
     "en": {
       "title": "PERCEPTION",
       "abstract": [
-        "The ** experience perceived ** by the user is fundamental.",
-        " ** ergonomics ** is not negotiable."
+        "The **experience perceived** by the user is fundamental.",
+        "**ergonomics** is not negotiable."
       ],
       "details": [
-        "Do not neglect the work of ** UX designers ** , it is fundamental in the development of an application.",
-        "Integrate the ** feedback ** of your users, this one is essential."
+        "Do not neglect the work of **UX designers** , it is fundamental in the development of an application.",
+        "Integrate the **feedback** of your users, this one is essential."
       ]
     },
     "de": {
       "title": "WAHRNEHMUNG",
       "abstract": [
         "Das vom Benutzer wahrgenommene ** Erlebnis ist grundlegend.",
-        " ** Ergonomie ** ist nicht verhandelbar."
+        " **Ergonomie** ist nicht verhandelbar."
       ],
       "details": [
-        "Vernachlässige nicht die Arbeit von ** UX Designern ** , es ist grundlegend in der Entwicklung einer Anwendung.",
-        "Integrieren Sie das ** Feedback ** Ihrer Benutzer, dieses ist wichtig."
+        "Vernachlässige nicht die Arbeit von **UX Designern** , es ist grundlegend in der Entwicklung einer Anwendung.",
+        "Integrieren Sie das **Feedback** Ihrer Benutzer, dieses ist wichtig."
       ]
     },
     "es": {
       "title": "PERCEPCIÓN",
       "abstract": [
-        "La ** experiencia percibida ** por el usuario es fundamental.",
-        " ** ergonomía ** no es negociable."
+        "La **experiencia percibida** por el usuario es fundamental.",
+        " **ergonomía** no es negociable."
       ],
       "details": [
-        "No descuides el trabajo de los ** diseñadores de UX ** , es fundamental en el desarrollo de una aplicación.",
-        "Integre el ** feedback ** de sus usuarios, este es esencial."
+        "No descuides el trabajo de los **diseñadores de UX** , es fundamental en el desarrollo de una aplicación.",
+        "Integre el **feedback** de sus usuarios, este es esencial."
       ]
     }
   }

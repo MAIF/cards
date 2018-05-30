@@ -6,45 +6,45 @@
     "fr": {
       "title": "API POUR TOUS",
       "abstract": [
-        "Des ** APIs pour tous les usages ** : internes, clients et partenaires, publics."
+        "Des **APIs pour tous les usages** : internes, clients et partenaires, publics."
       ],
       "details": [
-        "Ouvrez votre organisation à des nouveaux usages et nouveaux clients grâce aux ** APIs publiques ** .",
-        "Dans le cadre des ** partenariats ** commerciaux, ** clients ** comme ** fournisseurs ** , les APIs sont le format d'échange standard.",
-        "Les ** APIs ** ont également vocation à être utilisées pour les ** usages internes ** à l'organisation."
+        "Ouvrez votre organisation à des nouveaux usages et nouveaux clients grâce aux **APIs publiques**.",
+        "Dans le cadre des **partenariats** commerciaux, **clients** comme **fournisseurs** , les APIs sont le format d'échange standard.",
+        "Les **APIs** ont également vocation à être utilisées pour les **usages internes** à l'organisation."
       ]
     },
     "en": {
       "title": "API FOR ALL",
       "abstract": [
-        " ** APIs for all uses ** : internal, customers and partners, public."
+        "**APIs for all uses** : internal, customers and partners, public."
       ],
       "details": [
-        "Open your organization to new uses and new customers with ** Public APIs ** .",
-        "In ** commercial ** partnerships ** , ** customers ** as ** providers ** , APIs are the standard exchange format.",
-        " ** APIs ** are also intended to be used for ** internal uses ** of the organization."
+        "Open your organization to new uses and new customers with **Public APIs**.",
+        "In **commercial** partnerships **,** customers **as** providers ** , APIs are the standard exchange format.",
+        " **APIs** are also intended to be used for **internal uses** of the organization."
       ]
     },
     "de": {
       "title": "API für alle",
       "abstract": [
-        " ** APIs für alle Anwendungen ** : intern, Kunden und Partner, öffentlich."
+        " **APIs für alle Anwendungen** : intern, Kunden und Partner, öffentlich."
       ],
       "details": [
-        "Öffnen Sie Ihre Organisation für neue Anwendungen und neue Kunden mit ** Public APIs ** .",
-        "In ** kommerziellen ** Partnerschaften ** , ** Kunden ** als ** Provider ** sind APIs das Standardaustauschformat.",
-        " ** APIs ** sollen auch für ** interne Verwendungen ** der Organisation verwendet werden."
+        "Öffnen Sie Ihre Organisation für neue Anwendungen und neue Kunden mit **Public APIs**.",
+        "In **kommerziellen** Partnerschaften **,** Kunden **als** Provider ** sind APIs das Standardaustauschformat.",
+        " **APIs** sollen auch für **interne Verwendungen** der Organisation verwendet werden."
       ]
     },
     "es": {
       "title": "API PARA TODOS",
       "abstract": [
-        " ** API para todos los usos ** : interno, clientes y socios, público."
+        " **API para todos los usos** : interno, clientes y socios, público."
       ],
       "details": [
-        "Abra su organización para nuevos usos y nuevos clientes con ** Public APIs ** .",
-        "En ** sociedades ** comerciales ** , ** clientes ** como ** proveedores ** , las API son el formato de intercambio estándar.",
-        " ** Las API ** también están destinadas a ** usos internos ** de la organización."
+        "Abra su organización para nuevos usos y nuevos clientes con **Public APIs**.",
+        "En **sociedades** comerciales **,** clientes **como** proveedores ** , las API son el formato de intercambio estándar.",
+        " **Las API** también están destinadas a **usos internos** de la organización."
       ]
     }
   }
