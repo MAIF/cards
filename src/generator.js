@@ -160,12 +160,12 @@ function createCardFragment(language, card, rotate = false) {
 		<a class="any-card" href="/cards/${lang}/${card.category}/index.html">
 			<div class="row categ-card">
 				<div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-4  col-lg-offset-2 categ-left">
-					<div class="covercard covercard-${card.category}">
+					<div class="covercard covercard-${titleOf(lang, card.category)}">
 						<h3 class="covercard-title">${card.lang[lang].title}</h3>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
-					<div class="covercard covercard-${card.category}">
+					<div class="covercard covercard-${titleOf(lang, card.category)}">
 						<h3 class="covercard-title">${card.lang[lang].title}</h3>
 					</div>
 				</div>
@@ -181,7 +181,7 @@ function createCardFragment(language, card, rotate = false) {
 			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 ${rotate ? 'left' : 'categ-left'}">
 				<div class="cardfront cardfront-${card.category}-${card.golden ? 'golden' : 'normal'}">
         <div class="layer"></div>
-					<h3 class="cardfront-top-title">${card.category}</h3>
+					<h3 class="cardfront-top-title">${titleOf(lang, card.category)}</h3>
 					<h3 class="cardfront-title">[ ${card.lang[lang].title} ]</h3>
 					<div class="cardfront-abstract cardfront-abstract-${card.golden ? 'golden' : 'normal'}">
 						${abstract}
@@ -191,7 +191,7 @@ function createCardFragment(language, card, rotate = false) {
 			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 ${rotate ? 'right' : 'categ-right'}">
 				<div class="cardback cardback-${card.category}-${card.golden ? 'golden' : 'normal'}">
         <div class="layer"></div>
-					<h3 class="cardback-top-title">${card.category}</h3>
+					<h3 class="cardback-top-title">${titleOf(lang, card.category)}</h3>
 					<h3 class="cardback-title">[ ${card.lang[lang].title} ]</h3>
 					<div class="cardback-abstract cardback-abstract-${card.golden ? 'golden' : 'normal'}">
 						${details}
@@ -205,7 +205,7 @@ function createCardFragment(language, card, rotate = false) {
 
 function createCardPage(language, card) {
 	const lang = language.lang;
-	const template = basePage(language, card.title+' - #OSSbyMAIF' , `
+	const template = basePage(language, card.lang[lang].title + ' - #OSSbyMAIF' , `
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
