@@ -158,6 +158,13 @@ body .header {
   -webkit-user-select: none;
   user-select: none;
 }
+.menuLangs {
+  margin-top: 30px;
+}
+
+.menuLangs~li img{
+  vertical-align: baseline;
+}
 
 .maifLogo {
   display: flex;
