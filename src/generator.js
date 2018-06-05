@@ -160,12 +160,12 @@ function createCardFragment(language, card, rotate = false) {
 		<a class="any-card" href="/cards/${lang}/${card.category}/index.html">
 			<div class="row categ-card">
 				<div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-4  col-lg-offset-2 categ-left">
-					<div class="covercard covercard-${titleOf(lang, card.category)}">
+					<div class="covercard covercard-${card.category}">
 						<h3 class="covercard-title">${card.lang[lang].title}</h3>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 categ-right">
-					<div class="covercard covercard-${titleOf(lang, card.category)}">
+					<div class="covercard covercard-${card.category}">
 						<h3 class="covercard-title">${card.lang[lang].title}</h3>
 					</div>
 				</div>
@@ -343,10 +343,10 @@ function generateRootIndex() {
 			</ul-->
 			<script type="text/javascript">
 			  var langs = ${JSON.stringify(langs.map(l => l.lang))};
-				var userLang = (navigator.language || navigator.userLanguage).split('-')[0]; 
+				var userLang = (navigator.language || navigator.userLanguage).split('-')[0];
 				var lang = langs.filter(l => l === userLang)[0] || "fr";
 				window.location = "/cards/" + lang + "/index.html";
-			</script>		
+			</script>
 		</body>
 	</html>`;
 	touch(target + '/index.html', code);
@@ -370,4 +370,3 @@ function generateDistribution(language) {
 rmLastDistribution();
 generateRootIndex();
 langs.forEach(l => generateDistribution(l));
-
