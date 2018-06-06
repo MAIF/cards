@@ -5,9 +5,9 @@
 			</ul-->
 			<script type="text/javascript">
 			  var langs = ["fr","en","de","es","zh-CN","ja","ru","ar"];
-				var userLang = (navigator.language || navigator.userLanguage).split('-')[0]; 
+				var userLang = (navigator.language || navigator.userLanguage).split('-')[0];
 				var lang = langs.filter(l => l === userLang)[0] || "fr";
 				window.location = "/cards/" + lang + "/index.html";
-			</script>		
+			</script>
 		</body>
 	</html>
