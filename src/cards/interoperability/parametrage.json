@@ -10,19 +10,19 @@
       ],
       "details": [
         "**Langues, devises, règles métiers, profils de sécurité** doivent êtres simple à paramétrer.",
-        "Attention à l' **hyper-généricité** , elle est souvent inutile et **source de coût**.",
+        "Attention à l' **hyper-généricité**, elle est souvent inutile et **source de coût**.",
         "Le **paramétrage** doit être **évolutif** et rapide en fonction des besoins."
       ]
     },
     "en": {
-      "title": "SETTING",
+      "title": "CONFIGURATION",
       "abstract": [
-        "The systems must be **natively configurable**."
+        "Systems must be **natively configurable**."
       ],
       "details": [
-        " **Languages, currencies, business rules, security profiles** must be simple to set.",
-        "Beware of **hyper-genericity** , it is often useless and **cost source**.",
-        "The **setup** must be **scalable** and fast as needed."
+        "**Languages, currencies, business rules, security profiles** must be simple to configure.",
+        "Beware of **hyper-genericity**, it is often useless and **costly**.",
+        "The **configuration** must be **scalable** and fast depending on needs."
       ]
     },
     "de": {

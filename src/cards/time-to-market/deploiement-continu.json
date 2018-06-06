@@ -9,8 +9,8 @@
         "Le **déploiement en production** est un non-événement."
       ],
       "details": [
-        "Misez sur le **déploiement continu** afin d' **adapter le déploiement** en **production** aux contraintes et besoins **business** et non l'inverse.",
-        "Les **déploiements** à travers les environnements, jusqu'en **production** , doivent être **automatisés** et **fréquents**."
+        "Misez sur le **déploiement continu** afin d'**adapter le déploiement** en **production** aux contraintes et besoins **business** et non l'inverse.",
+        "Les **déploiements** à travers les environnements, jusqu'en **production**, doivent être **automatisés** et **fréquents**."
       ]
     },
     "en": {
@@ -19,8 +19,8 @@
         "**Deployment in production** is a non-event."
       ],
       "details": [
-        "Take advantage of **continuous deployment** to adapt **** production **to** business ** requirements and not the other way around.",
-        " **Deployments** across environments, up to **production** , must be **automated** and **frequent**."
+        "Take advantage of **continuous deployment** to **adapt deployment** in **production** to business constraints and requirements, and not the other way around.",
+        "**Deployments** across all environments, up to **production**, must be **automated** and **frequent**."
       ]
     },
     "de": {

@@ -6,23 +6,23 @@
     "fr": {
       "title": "KISS",
       "abstract": [
-        "**K** eep **I** t **S** imple and **S** tupid.",
+        "**K**eep **I**t **S**imple and **S**tupid.",
         "*Pourquoi faire compliqué quand on peut faire simple ?*"
       ],
       "details": [
-        " **Évitez l’over-engineering** , si une maquette \"papier\" ou un Google Form suffit pour éprouver votre concept, n'allez pas plus loin.",
+        "**Évitez l’over-engineering**, si une maquette \"papier\" ou un Google Form suffit pour éprouver votre concept, n'allez pas plus loin.",
         "Restez simple ! À la fois sur le plan technique et sur le plan fonctionnel."
       ]
     },
     "en": {
       "title": "KISS",
       "abstract": [
-        " **K** eep **I** t **S** imple and **S** tupid.",
-        "*Why make it complicated when it can be simple ?*"
+        "**K**eep **I**t **S**imple and **S**tupid.",
+        "*Why make it complicated when it can be simple?*"
       ],
       "details": [
-        " **Avoid over-engineering** , if a \"paper\" model or a Google Form is enough to test your concept, do not go further.",
-        "Stay simple! Both technically and functionally."
+        "**Avoid over-engineering**, if a \"paper\" model or a Google Form is enough to test your concept, do not go further.",
+        "Keep it simple! Both technically and functionally."
       ]
     },
     "de": {

@@ -9,20 +9,20 @@
         "La **qualité logicielle** est un **facteur clé**."
       ],
       "details": [
-        "Les **revues de code** sont **systématiques**. Elles sont effectuées par des membres de la Feature Team ou d'autres membres de l'organisation, dans le cadre de l' **amélioration continue**.",
+        "Les **revues de code** sont **systématiques**. Elles sont effectuées par des membres de la Feature Team ou d'autres membres de l'organisation, dans le cadre de l'**amélioration continue**.",
         "Ça **n'est pas vous qu'on audite mais votre code** : \"You are not your code !\".",
-        "La **qualimétrie** peut être en partie automatisée, mais rien ne vaut l' **\"oeil neuf\"**."
+        "La **qualimétrie** peut être en partie automatisée, mais rien ne vaut l'**\"oeil neuf\"**."
       ]
     },
     "en": {
       "title": "QUALITY",
       "abstract": [
-        "**software quality** is a **key factor**."
+        "**Software quality** is a **key factor**."
       ],
       "details": [
-        " **code reviews** are **systematic**. They are conducted by members of the Feature Team or other members of the organization, as part of **Continuous Improvement**.",
-        "That **is not you being audited but your code** : \"You are not your code!\".",
-        "The **qualimetry** can be partly automated, but nothing beats the **\"new eye\"**."
+        "**Code reviews** are **systematic**. They are conducted by members of the Feature Team or other members of the organization, as part of **Continuous Improvement**.",
+        "That **is not you being audited but your code**: \"You are not your code!\".",
+        "**Qualimetry** can be partly automated, but nothing beats the **\"fresh eye\"**."
       ]
     },
     "de": {

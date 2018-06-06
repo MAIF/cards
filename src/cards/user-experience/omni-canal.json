@@ -6,7 +6,7 @@
     "fr": {
       "title": "OMNI-CANAL",
       "abstract": [
-        "Adaptez-vous aux usages, l’ **omni-canal** est la norme."
+        "Adaptez-vous aux usages, l’**omni-canal** est la norme."
       ],
       "details": [
         "L'approche omni-canal permet d'offrir à l'utilisateur une **expérience unifiée** (exemple : Netflix).",
@@ -15,14 +15,14 @@
       ]
     },
     "en": {
-      "title": "OMNI-CANAL",
+      "title": "OMNI-CHANNEL",
       "abstract": [
-        "Adapt to uses, the **omni-channel** is the norm."
+        "Adapt to practices, **omni-channel** is the norm."
       ],
       "details": [
         "The omni-channel approach provides the user with a **unified experience** (example: Netflix).",
         "The different **channels** are **synchronized** and **coherent** (unlike batch processes).",
-        "All actors (clients, advisers) access the same information."
+        "All the actors (clients, advisers) access the same information."
       ]
     },
     "de": {

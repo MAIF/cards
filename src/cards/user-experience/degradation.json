@@ -10,17 +10,17 @@
       ],
       "details": [
         "En **cas de panne** d'un des sous-systèmes, **une version dégradée** du service doit être **envisagée** en premier lieu plutôt qu'une interruption.",
-        "Grâce aux **Circuit Breakers** , **isolez une panne** afin d' **éviter** son **impact** et sa **propagation** sur l'ensemble du **système**."
+        "Grâce aux **Circuit Breakers**, **isolez une panne** afin d'**éviter** son **impact** et sa **propagation** sur l'ensemble du **système**."
       ]
     },
     "en": {
       "title": "DEGRADATION",
       "abstract": [
-        " **Consider degradation** rather than service interruption in the event of a failure."
+        "**Consider degradation** rather than service interruption in the event of a failure."
       ],
       "details": [
-        "In **failure** of one of the subsystems, **a degraded** version of the service must **be considered** in the first place rather than an interruption.",
-        "With **Circuit Breakers** , **isolate a breakdown** to **avoid** its **impact** and **spread** over the entire **system**."
+        "In case of **failure** of one of the subsystems, **a degraded** version of the service must **be considered** in the first place rather than an interruption.",
+        "With the help of **Circuit Breakers**, **isolate a breakdown** to **avoid** its **impact** and **propagation** to the entire **system**."
       ]
     },
     "de": {

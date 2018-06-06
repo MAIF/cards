@@ -17,12 +17,12 @@
     "en": {
       "title": "REQUIREMENTS",
       "abstract": [
-        "Set **requirements** for **external systems and services** built into the platform."
+        "Set **requirements** for **external systems and services** integrated into the platform."
       ],
       "details": [
         "Require **external systems** to meet the same **requirements** as **internal systems**.",
         "External systems must publish **events** and allow **technical** monitoring.",
-        "In the case where the external systems data must be integrated, the **total** synchronization must be **possible**."
+        "In the case where the external systems data must be integrated, **total** synchronization have to be **possible**."
       ]
     },
     "de": {

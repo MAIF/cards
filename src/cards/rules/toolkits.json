@@ -6,21 +6,21 @@
     "fr": {
       "title": "TOOLKITS",
       "abstract": [
-        "Fournissez des **toolkits** , n’imposez pas de cadres stricts."
+        "Fournissez des **toolkits**, n’imposez pas de cadres stricts."
       ],
       "details": [
         "**Attention aux composants techniques maisons et transverses** ! Ils sont contraignants, coûteux et difficiles à maintenir.",
-        "Des **accélérateurs** , **toolkits** , **stacks techniques** peuvent être **mis en commun** , au **libre choix** des Feature Teams, en évitant une approche dogmatique."
+        "Des **accélérateurs**, **toolkits**, **stacks techniques** peuvent être **mis en commun**, au **libre choix** des Feature Teams, en évitant une approche dogmatique."
       ]
     },
     "en": {
       "title": "TOOLKITS",
       "abstract": [
-        "Provide **toolkits** , do not impose strict frameworks."
+        "Provide **toolkits**, do not impose strict frameworks."
       ],
       "details": [
-        " **Attention to the technical components houses and transverse** ! They are restrictive, expensive and difficult to maintain.",
-        " **accelerators** , **toolkits** , **technical stacks** can be **pooled** , **free** Feature Teams, avoiding a dogmatic approach."
+        "**Beware of transversal in-house technical components**! They are restrictive, expensive and difficult to maintain.",
+        "**Accelerators**, **toolkits**, **technical stacks** can be **pooled**, **at the choice** of the Feature Teams, avoiding a dogmatic approach."
       ]
     },
     "de": {

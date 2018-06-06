@@ -11,7 +11,7 @@
       "details": [
         "Un micro-service propose un **nombre raisonnable de fonctionnalités**.",
         "**N'hésitez pas à découper** un micro-service lorsque celui-ci commence à grossir.",
-        "Un service de taille raisonnable permet d' **envisager** sereinement la **réécriture** , si le besoin se présente."
+        "Un service de taille raisonnable permet d'**envisager** sereinement la **réécriture**, si le besoin se présente."
       ]
     },
     "en": {
@@ -21,8 +21,8 @@
       ],
       "details": [
         "A micro-service offers a **reasonable number of features**.",
-        " **Do not hesitate to cut** a micro-service when it begins to grow.",
-        "A service of reasonable size makes it possible to **consider** serenely the **rewriting** , if the need arises."
+        "**Do not hesitate to split** a micro-service when it begins to grow.",
+        "A service of reasonable size makes it possible to **consider** serenely the **rewriting**, if the need arises."
       ]
     },
     "de": {

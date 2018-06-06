@@ -12,19 +12,19 @@
         "Le **couplage faible** doit être la norme.",
         "Chaque micro-service dispose d'une **interface clairement définie**.",
         "Cette **interface** détermine le **couplage** entre les **micro-services**.",
-        "Le **Domain Driven Design** permet, notamment avec les **Bounded Contexts** , d'anticiper au mieux cette problématique."
+        "Le **Domain Driven Design** permet, notamment avec les **Bounded Contexts**, d'anticiper au mieux cette problématique."
       ]
     },
     "en": {
       "title": "MICRO-SERVICES",
       "abstract": [
-        "Develop **stand-alone** and **weakly coupled** services."
+        "Develop **stand-alone** and **loosely coupled** services."
       ],
       "details": [
-        "**weak coupling** must be the norm.",
+        "**Loose coupling** must be the norm.",
         "Each micro-service has a **clearly defined interface**.",
-        "This **interface** determines the **link** between the **micro-services**.",
-        " **Domain Driven Design** allows, especially with the **Bounded Contexts** , to anticipate this problem."
+        "This **interface** determines the **coupling** between **micro-services**.",
+        "**Domain Driven Design** helps, especially through **Bounded Contexts**, to anticipate this problem."
       ]
     },
     "de": {

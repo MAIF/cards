@@ -11,20 +11,20 @@
       ],
       "details": [
         "Les **solutions propriétaires** sont un **risque** pour l'organisation qui doit être capable de reprendre la maintenance si besoin.",
-        "Rares sont les outils propriétaires qui n'ont pas d' **alternatives Open Source**.",
+        "Rares sont les outils propriétaires qui n'ont pas d'**alternatives Open Source**.",
         "L'organisation **bénéficie** de la **Communauté Open Source** et peut lui **reverser ses contributions**."
       ]
     },
     "en": {
       "title": "OPEN SOURCE",
       "abstract": [
-        " **Make the most of Open Source**.",
-        "Alternative choices must be supported."
+        "**Opt for Open Source**.",
+        "Alternative choices must be explained."
       ],
       "details": [
-        "The **proprietary solutions** are a **risk** for the organization that must be able to resume maintenance if needed.",
-        "There are few proprietary tools that do not have **open source alternatives**.",
-        "The organization **benefits** from the **Open Source Community** and can **pay back its contributions**."
+        "**Proprietary solutions** are a **risk** for the organization which must be able to take over maintenance if needed.",
+        "Few are the proprietary tools that do not have **open source alternatives**.",
+        "The organization **benefits** from the **Open Source Community** and can **pay it back with its contributions**."
       ]
     },
     "de": {

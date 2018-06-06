@@ -9,7 +9,7 @@
         "Public, privé ou hybride, le **cloud** (**IaaS** ou **PaaS**) est la norme pour la production."
       ],
       "details": [
-        "Les services de type **PaaS** sont **à privilégier** , ils sont **simples** et passent rapidement à l'échelle.",
+        "Les services de type **PaaS** sont **à privilégier**, ils sont **simples** et passent rapidement à l'échelle.",
         "Les services **IaaS** permettent d'adresser les cas demandant une plus grande **souplesse** , mais ils demandent plus de travail opérationnel.",
         "Un cloud privé n'est pas un environnement de virtualisation traditionnel, il s'appuie sur du **commodity hardware**."
       ]
@@ -20,8 +20,8 @@
         "Public, private or hybrid, the **cloud** (**IaaS** or **PaaS**) is the standard for production."
       ],
       "details": [
-        "**PaaS** services are **preferred** , **simple** , and scale quickly.",
-        " **IaaS** services allow you to address cases requiring greater **flexibility** but require more operational work.",
+        "**PaaS** services are **preferred**, **simple**, and scale quickly.",
+        "**IaaS** services allow for greater **flexibility** but require more operational work.",
         "A private cloud is not a traditional virtualization environment, it relies on **commodity hardware**."
       ]
     },
@@ -31,7 +31,7 @@
         "Öffentlich, privat oder hybrid, die **Cloud** (**IaaS** oder **PaaS**) ist der Standard für die Produktion."
       ],
       "details": [
-        " **PaaS** -Dienste sind **bevorzugt** , **einfach** und skalieren schnell.",
+        " **PaaS** -Dienste sind **bevorzugt**, **einfach** und skalieren schnell.",
         " **IaaS** -Dienstleistungen ermöglichen es Ihnen, Fälle anzugehen, die eine größere **Flexibilität** erfordern, aber mehr operative Arbeit erfordern.",
         "Eine Private Cloud ist keine herkömmliche Virtualisierungsumgebung, sie beruht auf **Standardhardware**."
       ]
@@ -42,7 +42,7 @@
         "Público, privado o híbrido, **la nube** (**IaaS** o **PaaS**) es el estándar para la producción."
       ],
       "details": [
-        " **Los servicios de PaaS** son **preferidos** , **simples** y se escalan rápidamente.",
+        " **Los servicios de PaaS** son **preferidos**, **simples** y se escalan rápidamente.",
         "Los servicios **IaaS** le permiten abordar casos que requieren una mayor **flexibilidad** pero requieren más trabajo operativo.",
         "Una nube privada no es un entorno de virtualización tradicional, sino que se basa en **hardware básico**."
       ]

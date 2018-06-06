@@ -9,7 +9,7 @@
         "Des **tests à tous les niveaux** : unitaires, intégration, fonctionnels, résilience, performance."
       ],
       "details": [
-        "Les tests d' **intégration** et **fonctionnels** sont les plus importants, ce sont eux qui **garantissent** le bon **fonctionnement** du **produit**.",
+        "Les tests d'**intégration** et **fonctionnels** sont les plus importants, ce sont eux qui **garantissent** le bon **fonctionnement** du **produit**.",
         "Les tests **unitaires** sont adaptés au **développement**.",
         "Les tests de **performance** permettent de mesurer la performance **dans le temps**.",
         "Les tests de **résilience** permettent d'anticiper les **pannes**."
@@ -21,10 +21,10 @@
         "**Tests at all levels** : unit, integration, functional, resilience, performance."
       ],
       "details": [
-        "The **integration** and **functional** tests are the most important, **they** guarantee **the** effective **operation**.",
-        " **unit** tests are suitable for **development**.",
-        " **performance** tests measure performance **over time**.",
-        " **resilience** tests help to anticipate **failures**."
+        "**Integration** and **functional** tests are the most important ones, they **ensure** the correct **behavior** of the **product**.",
+        "**Unit** tests are suitable for **development**.",
+        "**Performance** tests measure performance **over time**.",
+        "**Resilience** tests help to anticipate **failures**."
       ]
     },
     "de": {

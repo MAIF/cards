@@ -17,12 +17,12 @@
     "en": {
       "title": "AUTOMATED TESTING",
       "abstract": [
-        "**automated testing** is a non-negotiable prerequisite for continuous deployment."
+        "**Automated testing** is a non-negotiable prerequisite for continuous deployment."
       ],
       "details": [
         "Automated **testing** ensures **quality** of the product **over time**.",
-        "It is a **prerequisite** to continuous deployment, it allows **** changes **and** frequent deployments **.",
-        "The **production rollout** becomes an **anecdotal** event!"
+        "It is a **prerequisite** to continuous deployment, it allows for **frequent changes and deployments**.",
+        "**Production rollout** becomes a **non-event**!"
       ]
     },
     "de": {

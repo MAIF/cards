@@ -17,12 +17,12 @@
     "en": {
       "title": "PRODUCTIVITY",
       "abstract": [
-        "Specify less, **expand more**."
+        "Less specification, **more development**."
       ],
       "details": [
-        "Limit your specifications to the bare essentials, **focus on the \"what\"** rather than the \"how\".",
-        "The product must be the most **self-documented** possible.",
-        "The documentation must be versioned in the same way as the code."
+        "Limit your specifications to the bare minimum, **focus on the \"what\"** rather than the \"how\".",
+        "The product must be **self-documented** as much as possible.",
+        "Documentation must be versioned in the same way the code is."
       ]
     },
     "de": {

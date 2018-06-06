@@ -16,11 +16,11 @@
     "en": {
       "title": "MULTI-TENANT",
       "abstract": [
-        "The architecture must be thought **multi-tenant**."
+        "The architecture must be designed as **multi-tenant**."
       ],
       "details": [
-        "Even if the white mark is not considered at the base, set up a multi-tenant architecture. Your **initial** application is the first **holding**.",
-        "Think of the **multi-functional instantiation** of the system right from the start."
+        "Even if white labelling is not considered at the beginning, set up a multi-tenant architecture. Your initial **application** is the first **tenant**.",
+        "Think of the **functional multi-instantiation** of the system right from the start."
       ]
     },
     "de": {

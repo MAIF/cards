@@ -9,20 +9,20 @@
         "Privilégiez un **message-broker simple** , robuste et performant à un \"tuyau intelligent\"."
       ],
       "details": [
-        "Les **ESB** ont montré leurs **limites** : la **maintenance évolutive** est **critique** , aussi bien d'un point de vue **technique** qu' **organisationnel**.",
-        "Les **messages brokers** comme **Kafka** offrent une solution **simple** , **durable** et **résiliente**.",
+        "Les **ESB** ont montré leurs **limites** : la **maintenance évolutive** est **critique**, aussi bien d'un point de vue **technique** qu'**organisationnel**.",
+        "Les **messages brokers** comme **Kafka** offrent une solution **simple**, **durable** et **résiliente**.",
         "Des **endpoints intelligents** et des **tuyaux simples** est une architecture qui fonctionne à l'échelle : c'est **Internet**."
       ]
     },
     "en": {
       "title": "MESSAGE BROKER",
       "abstract": [
-        "Privilege a **simple, robust and powerful** message-broker to a \"smart pipe\"."
+        "Prefer a **simple**, robust and powerful **message-broker** to a \"smart pipe\"."
       ],
       "details": [
-        "**ESB** showed **limits** : **scalable maintenance** is **critical** , both from a **technical** and **organizational** point of view.",
-        " **** Broker **messages like** Kafka **offer a simple** , **durable** and **resilient** solution.",
-        " **Smart endpoints** and **Simple pipes** is an architecture that works at scale: it's **Internet**."
+        "**ESB** showed their **limits**: **scalable maintenance** is **critical**, both from a **technical** and **organizational** standpoint.",
+        "**Message brokers** like **Kafka** offer a **simple**, **durable** and **resilient** solution.",
+        "**Smart endpoints** and **dumb pipes** is an architecture that works at scale: it's **Internet**."
       ]
     },
     "de": {

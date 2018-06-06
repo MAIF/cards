@@ -20,9 +20,9 @@
         "Create flexible and generic systems using **feature flipping**."
       ],
       "details": [
-        "**feature flipping** is about designing an app as a set of **features** that can be **enabled** or **disabled** hot, **production**.",
-        "In a **multi-tenant** application, feature flipping allows you to **customize** supporters.",
-        "Le feature flipping **simplifie l'A/B testing**."
+        "**Feature flipping** is about designing an app as a set of **features** that can be **enabled** or **disabled** live, in **production**.",
+        "In a **multi-tenant** application, feature flipping allows you to **customize** by tenant.",
+        "Feature flipping **simplifies A/B testing**."
       ]
     },
     "de": {
