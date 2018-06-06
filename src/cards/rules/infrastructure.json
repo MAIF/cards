@@ -18,7 +18,7 @@
         "Feature Teams do not manage the infrastructure, it is **provided and maintained by the organization**."
       ],
       "details": [
-        "Infrastructure issues are not within **Feature Teams**. Infrastructure must be **provided** and **maintained** by a **cross-functional** service."
+        "Infrastructure issues are not the responsability of the **Feature Teams**. Infrastructure must be **provided** and **maintained** by a **transversal** service."
       ]
     },
     "de": {

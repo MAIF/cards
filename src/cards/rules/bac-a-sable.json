@@ -16,11 +16,11 @@
     "en": {
       "title": "SANDBOX",
       "abstract": [
-        "Feature Teams provide a **sandboxed** environment."
+        "Feature Teams provide a **sandbox environment**."
       ],
       "details": [
-        "Feature Teams maintain a **sandbox** environment (current version and upcoming release) to allow other **teams to scale up**.",
-        "In **some non-nominal** cases, **features** may be **disabled** in the **development** environment."
+        "Feature Teams maintain a **sandbox environment** (current and upcoming versions) to allow other teams to develop **at scale**.",
+        "In **non-nominal cases**, **some features** may be **disabled** in the **development** environment."
       ]
     },
     "de": {

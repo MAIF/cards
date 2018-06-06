@@ -10,19 +10,19 @@
       ],
       "details": [
         "Les échanges entre applications doivent être **en premier lieu asynchrones**.",
-        "Les échanges asynchrones permettent **naturellement** le **couplage faible** , l' **isolation** et le **contrôle** des flux (**back-pressure**).",
+        "Les échanges asynchrones permettent **naturellement** le **couplage faible**, l' **isolation** et le **contrôle** des flux (**back-pressure**).",
         "La **communication synchrone** ne doit être envisagée **que lorsque l'action l'impose**."
       ]
     },
     "en": {
       "title": "ASYNC-FIRST",
       "abstract": [
-        "**asynchronous** processes favor **decoupling** and **scalability** in favor of **performance**."
+        "**Asynchronous** processes foster **decoupling** and **scalability** in favor of **performance**."
       ],
       "details": [
-        "Exchange between applications must be **asynchronous** first.",
-        "Asynchronous exchanges naturally **allow** weak **coupling,** isolation **and** flow control **(** back-pressure **).",
-        " **synchronous communication** should only be considered **when the action requires it**."
+        "Exchanges between applications must be **asynchronous** first.",
+        "Asynchronous exchanges **naturally** allow **loose coupling**, **isolation** and  flow **control** (**back-pressure**).",
+        "**Synchronous communication** should only be considered **when required**."
       ]
     },
     "de": {

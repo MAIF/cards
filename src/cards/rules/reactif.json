@@ -9,18 +9,18 @@
         "Le **Reactive Manifesto** ouvre la voie vers la conception d'architectures réactives."
       ],
       "details": [
-        "La programmation **réactive** se concentre sur le flux de données et la propagation du changement. Elle s'appuie sur le pattern \"**Observer** \" contrairement à l'approche \" **Iterator** \", plus classique.",
-        "Le Reactive Manifesto fixe des axes fondamentaux : **disponibilité** et rapidité, **résilience** aux pannes, **souplesse** , **élasticité** et **orientation messages**."
+        "La programmation **réactive** se concentre sur le flux de données et la propagation du changement. Elle s'appuie sur le pattern \"**Observer**\" contrairement à l'approche \"**Iterator**\", plus classique.",
+        "Le Reactive Manifesto fixe des axes fondamentaux : **disponibilité** et rapidité, **résilience** aux pannes, **souplesse**, **élasticité** et **orientation messages**."
       ]
     },
     "en": {
-      "title": "REAGENT",
+      "title": "REACTIVE",
       "abstract": [
         "The **Reactive Manifesto** opens the way towards the design of reactive architectures."
       ],
       "details": [
-        " **Responsive** programming focuses on the flow of data and the propagation of change. It is based on the pattern \" **Observer** \" contrary to the approach \" **Iterator** \", more traditional.",
-        "The Reactive Manifesto sets the fundamental axes: **availability** and speed, **resilience** to breakdowns, **flexibility** , **elasticity** and **message orientation**."
+        "**Responsive** programming focuses on the flow of data and the propagation of change. It is based on the \"**Observer**\" pattern, contrary to the more traditional \"**Iterator**\" approach.",
+        "The Reactive Manifesto sets some fundamental axis: **availability** and speed, **resilience** to failure, **flexibility**, **elasticity** and **message oriented**."
       ]
     },
     "de": {

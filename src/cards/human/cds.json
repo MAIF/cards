@@ -14,13 +14,13 @@
       ]
     },
     "en": {
-      "title": "CDS",
+      "title": "Service Center",
       "abstract": [
-        "The service centers are difficult to reconcile with the **collective commitment**."
+        "Service centers are difficult to reconcile with the **collective commitment**."
       ],
       "details": [
         "Feature Teams are built around principles that rely heavily on **collaboration** and **collective engagement**.",
-        "Service centers are moving towards the rationalization and consolidation of IT by business, which is contrary to this notion of collective commitment."
+        "Service centers tend towards rationalization and consolidation of IT by area of expertise, which is contrary to this notion of collective commitment."
       ]
     },
     "de": {

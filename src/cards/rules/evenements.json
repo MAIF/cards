@@ -10,17 +10,17 @@
       ],
       "details": [
         "Les **processus** fonctionnels **orientés \"événements\"** sont **naturellement** implémentés de manière **asynchrone**.",
-        "L' **orientation événements** permet de favoriser la mise en place d'approches telles que **C** ommand **Q** uery **R** esponsibility **S** egregation (**CQRS**) et **Event Sourcing**."
+        "L' **orientation événements** permet de favoriser la mise en place d'approches telles que **C**ommand **Q**uery **R**esponsibility **S**egregation (**CQRS**) et **Event Sourcing**."
       ]
     },
     "en": {
       "title": "EVENTS",
       "abstract": [
-        "The information system must be oriented **events**."
+        "The information system must be **event-driven**."
       ],
       "details": [
-        "The **** event-driven **functional** processes **are** naturally **** asynchronously ** implemented.",
-        "The **event orientation** allows to favor the implementation of approaches such as **C** ommand **Q** uery **R** esponsibility **S** egregation (**CQRS**) and **Event Sourcing**."
+        "The **event-driven** functional **processes** are **naturally** implemented in an **asynchronous** manner.",
+        "Being **event-driven** allows for approaches such as **C**ommand **Q**uery **R**esponsibility **S**egregation (**CQRS**) and **Event Sourcing**."
       ]
     },
     "de": {

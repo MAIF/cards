@@ -9,7 +9,7 @@
         "La plate-forme Big Data permet de **centraliser** et traiter les données de l’utilisateur pour servir au mieux son **parcours**."
       ],
       "details": [
-        "Centralisez les données du **Groupe Maif** , des **partenaires** et des **fournisseurs** dans une logique de **parcours**.",
+        "Centralisez les données du **Groupe Maif**, des **partenaires** et des **fournisseurs** dans une logique de **parcours**.",
         "La \"Data Preparation\" et les traitements permettent de **consolider** les données.",
         "Les équipes **Big Data collaborent** avec les Feature Teams pour assurer la **gouvernance** des données."
       ]
@@ -17,12 +17,12 @@
     "en": {
       "title": "BIG DATA",
       "abstract": [
-        "The Big Data platform allows you to centralize **and process user data to best serve your** journey **."
+        "The Big Data platform allows you to **centralize** and process the user's data to best serve him/her in his/her **journey**."
       ],
       "details": [
-        "Centralize **Maif Group** , **Partner** and **Vendor** data in a **pathway** logic.",
-        "\"Data Preparation\" and processing can **consolidate** the data.",
-        "**Big Data teams collaborate** with Feature Teams to ensure **data** governance."
+        "Centralize **Maif Group**, **Partner** and **Vendor** data in a **journey** logic.",
+        "\"Data Preparation\" and processing help to **consolidate** the data.",
+        "**Big Data teams collaborate** with Feature Teams to ensure data **governance**."
       ]
     },
     "de": {

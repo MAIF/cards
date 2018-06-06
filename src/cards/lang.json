@@ -18,9 +18,9 @@
     "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-united-kingdom2x.png",
     "menu": {
       "allCards": "All cards",
-      "card": "Map",
+      "card": "Card",
       "search": "search a card",
-      "cardsOf": "Category cards"
+      "cardsOf": "Cards of category"
     },
     "tooltips": {
       "newCard": "Draw a new card randomly",

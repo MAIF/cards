@@ -16,11 +16,11 @@
     "en": {
       "title": "DEVOPS",
       "abstract": [
-        " **DevOps** practices allow walls to fall between Build and Run."
+        " **DevOps** practices help to break walls between Build and Run."
       ],
       "details": [
-        "Adopt **DevOps** to converge **Dev** and **Ops** towards a common goal: **serve the organization**.",
-        " **The trades remain different** ! DevOps does not mean that the same person performs the tasks of Dev and Ops. **Developers** and **Operational** are required to **collaborate** in order to **benefit** from **** skills **and to improve** empathy **."
+        "Adopt **DevOps** to help **Dev** and **Ops** converge towards a common goal: **serve the organization**.",
+        " **Both jobs remain different** ! DevOps does not mean that the same person performs the tasks of Dev and Ops. **Developers** and **Ops** are required to **collaborate** in order to **benefit** from each other's **skills** and to improve **empathy**."
       ]
     },
     "de": {

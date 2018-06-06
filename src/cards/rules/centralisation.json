@@ -6,7 +6,7 @@
     "fr": {
       "title": "CENTRALISATION",
       "abstract": [
-        "La **configuration** des services est **centralisée** , leur **découverte** est assurée par un **annuaire**."
+        "La **configuration** des services est **centralisée**, leur **découverte** est assurée par un **annuaire**."
       ],
       "details": [
         "La **configuration** des **micro-services** est **centralisée** pour l'ensemble des **environnements**.",
@@ -17,18 +17,18 @@
     "en": {
       "title": "CENTRALIZATION",
       "abstract": [
-        "The **configuration** of the services is **centralized** , their **discovery** is ensured by a **directory**."
+        "Services **configuration** is **centralized**, their **discovery** is managed through a **directory**."
       ],
       "details": [
-        "The **configuration** of the **micro-services** is **centralized** for all **environments**.",
+        "**Micro-services configuration** is **centralized** for all **environments**.",
         "A central **directory** ensures **dynamic discovery** of **micro-services**.",
-        "The **** global **scalability** depends on this **directory**."
+        "The IS' global **scalability** depends on this **directory**."
       ]
     },
     "de": {
       "title": "ZENTRALISIERUNG",
       "abstract": [
-        "Die **Konfiguration** der Dienste ist **zentralisiert** , ihre **Entdeckung** wird durch ein **Verzeichnis** gewährleistet."
+        "Die **Konfiguration** der Dienste ist **zentralisiert**, ihre **Entdeckung** wird durch ein **Verzeichnis** gewährleistet."
       ],
       "details": [
         "Die **Konfiguration** der **Micro-Services** ist **zentralisiert** für alle **Umgebungen**.",
@@ -39,7 +39,7 @@
     "es": {
       "title": "CENTRALIZACION",
       "abstract": [
-        "La **configuración** de los servicios está **centralizada** , su **descubrimiento** está garantizada por un **directorio**."
+        "La **configuración** de los servicios está **centralizada**, su **descubrimiento** está garantizada por un **directorio**."
       ],
       "details": [
         "La **configuración** de los **micro-servicios** está **centralizada** para todos los **entornos**.",

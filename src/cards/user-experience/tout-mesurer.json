@@ -11,20 +11,20 @@
       ],
       "details": [
         "Pensez les métriques lors du **développement** de l'application. Les **logs** doivent avoir une dimension **métier autant que technique**.",
-        "Ne négligez pas les **métriques de performances** , elles  sont fondamentales.",
-        "La Feature Team assure l' **exploitation** : charge à elle de rendre l' **application exploitable**."
+        "Ne négligez pas les **métriques de performances**, elles  sont fondamentales.",
+        "La Feature Team assure l'**exploitation** : charge à elle de rendre l'**application exploitable**."
       ]
     },
     "en": {
-      "title": "ALL MEASURING",
+      "title": "MEASURING EVERYTHING",
       "abstract": [
         "Everything that can be measured must be.",
-        " **Without measure, everything is only opinion**."
+        "**Without measure, everything is only opinion**."
       ],
       "details": [
-        "Think of the metrics during the **development** of the application. **logs** must have a **business as well as technical** dimension.",
-        "Do not neglect the **performance metrics** , they are fundamental.",
-        "The Feature Team provides **operation** : it is responsible for making the **application usable**."
+        "Think of the metrics during the **development** of the application. **Logs** must have a **business as well as technical** dimension.",
+        "Do not neglect **performance metrics**, they are fundamental.",
+        "The Feature Team ensures **operation**: it is responsible for making the **application operable**."
       ]
     },
     "de": {

@@ -11,18 +11,18 @@
       "details": [
         "Le rythme d'évolution et de livraison du coeur de métier doit être **compatible avec l'agilité** des services qui le consomment.",
         "Le coeur de métier doit **exposer des services**.",
-        "Le coeur de métier doit adopter un principe **Event-Driven** , il rend compte des actes de gestion sous la forme d'événements."
+        "Le coeur de métier doit adopter un principe **Event-Driven**, il rend compte des actes de gestion sous la forme d'événements."
       ]
     },
     "en": {
       "title": "CORE BUSINESS",
       "abstract": [
-        "The **core business** should not be a hindrance to the construction of new services and applications."
+        "The **core business** should not hinder the construction of new services and applications."
       ],
       "details": [
-        "The pace of evolution and delivery of the core business must be **compatible with the agility** of the services that consume it.",
+        "The pace of evolution and delivery of the core business must be **compatible with the agility** of its consumer services.",
         "The core business must **expose services**.",
-        "The core business must adopt a **Event-Driven** principle, it reports management actions in the form of events."
+        "The core business must adopt an **Event-Driven** principle, it reports management actions in the form of events."
       ]
     },
     "de": {

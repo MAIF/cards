@@ -19,8 +19,8 @@
         "The **technical choices** are **made** and **assumed** by the **Feature Team**."
       ],
       "details": [
-        "The Feature Team must act **responsibly** to identify the choices that impact it exclusively and the choices that impact the organization.",
-        "The **choices** that **exceed the scope** of the Feature Team (eg, license, infrequent programming language) must be **validated** by the organization or by the peer convergence process ."
+        "The Feature Team must act **responsibly** to identify the choices that impact itself exclusively and the choices that impact the organization.",
+        "The **choices** that **exceed the scope** of the Feature Team (eg, license, infrequent programming language) must be **validated** by the organization or by peer convergence process ."
       ]
     },
     "de": {
