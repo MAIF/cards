@@ -1,13 +1,13 @@
 <html>
 		<body style="background-color: #333333;">
 			<!--ul>
-			<li><a href="/cards/fr/index.html">fr</a></li>,<li><a href="/cards/en/index.html">en</a></li>,<li><a href="/cards/de/index.html">de</a></li>,<li><a href="/cards/es/index.html">es</a></li>,<li><a href="/cards/zh-CN/index.html">zh-CN</a></li>,<li><a href="/cards/ja/index.html">ja</a></li>,<li><a href="/cards/ru/index.html">ru</a></li>,<li><a href="/cards/ar/index.html">ar</a></li>
+			<li><a href="/cards/fr/index.html">fr</a></li>,<li><a href="/cards/en/index.html">en</a></li>
 			</ul-->
 			<script type="text/javascript">
-			  var langs = ["fr","en","de","es","zh-CN","ja","ru","ar"];
+			  var langs = ["fr","en"];
 				var userLang = (navigator.language || navigator.userLanguage).split('-')[0];
 				var lang = langs.filter(l => l === userLang)[0] || "fr";
-				window.location = "/cards/" + lang + "/index.html";
+				window.location = "/cards/" + lang + "/all.html";
 			</script>
 		</body>
 	</html>
