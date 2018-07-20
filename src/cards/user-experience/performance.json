@@ -16,51 +16,11 @@
     "en": {
       "title": "PERFORMANCE",
       "abstract": [
-        "Bet on **efficient interfaces** for both internal and external uses."
+        "Use ** powerful interfaces ** for both internal and external uses."
       ],
       "details": [
-        "The interfaces are geared towards **efficiency**.",
-        "The **performance** of an interface **saves time**, increases users' **satisfaction** and therefore **reduce their frustration**."
-      ]
-    },
-    "de": {
-      "title": "PERFORMANCE",
-      "abstract": [
-        "Verwenden Sie **leistungsfähige Schnittstellen** für interne und externe Anwendungen."
-      ],
-      "details": [
-        "Die Schnittstellen sind auf **Effizienz** ausgerichtet.",
-        "Die **Leistung** einer Schnittstelle spart Zeit **, erhöht** die Benutzerzufriedenheit **und spart somit Frustration**."
-      ]
-    },
-    "es": {
-      "title": "ACTUACIÓN",
-      "abstract": [
-        "Utilice **potentes interfaces** para usos internos y externos."
-      ],
-      "details": [
-        "Las interfaces están orientadas a **eficiencia**.",
-        "El **rendimiento** de una interfaz ahorra tiempo **, aumenta la** satisfacción de los usuarios **y por lo tanto** guarda su frustración **."
-      ]
-    },
-    "ru": {
-      "title": "ПРЕДСТАВЛЕНИЕ",
-      "abstract": [
-        "Используйте ** мощные интерфейсы ** для внутреннего и внешнего использования."
-      ],
-      "details": [
-        "Интерфейсы ориентированы на ** эффективность **.",
-        "** производительность ** интерфейса экономит время **, увеличивает удовлетворенность пользователей ** и, следовательно, ** сохраняет их разочарование **."
-      ]
-    },
-    "ja": {
-      "title": "パフォーマンス",
-      "abstract": [
-        "内部と外部の両方の用途に**強力なインターフェース**を使用してください。"
-      ],
-      "details": [
-        "インターフェイスは**効率**に対応しています。",
-        "インターフェイスの**パフォーマンス**は時間を節約し**、ユーザーの満足度**を高めます。したがって、**は欲求不満を救います**。"
+        "The interfaces are geared towards ** efficiency **.",
+        "The ** performance ** of an interface saves time **, increases users' ** satisfaction ** and therefore ** saves their frustration **."
       ]
     },
     "ar": {
@@ -71,16 +31,6 @@
       "details": [
         "وتوجه واجهات نحو ** الكفاءة **.",
         "يعمل ** الأداء ** الخاص بواجهة على توفير الوقت ** ، ويزيد من ارتياح المستخدمين ** ** وبالتالي يوفر ** إحباطهم **."
-      ]
-    },
-    "zh-CN": {
-      "title": "性能",
-      "abstract": [
-        "内部和外部使用**强大的接口**。"
-      ],
-      "details": [
-        "接口适用于**效率**。",
-        "接口的**性能**可以节省时间**，提高用户**的满意度**，因此**可以节省他们的沮丧**。"
       ]
     }
   }

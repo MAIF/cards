@@ -17,56 +17,12 @@
     "en": {
       "title": "API FOR ALL",
       "abstract": [
-        "**APIs for all usages**: internal, customers and partners, public."
+        "** APIs for all uses **: internal, customers and partners, public."
       ],
       "details": [
-        "Expand your organization to new usages and new customers with **Public APIs**.",
-        "As part of **commercial** partnerships, whether with **customers** or **providers**, APIs are the standard exchange format.",
-        "**APIs** are also meant to be used **internally** inside the organization."
-      ]
-    },
-    "de": {
-      "title": "API für alle",
-      "abstract": [
-        " **APIs für alle Anwendungen** : intern, Kunden und Partner, öffentlich."
-      ],
-      "details": [
-        "Öffnen Sie Ihre Organisation für neue Anwendungen und neue Kunden mit **Public APIs**.",
-        "In **kommerziellen** Partnerschaften **,** Kunden **als** Provider ** sind APIs das Standardaustauschformat.",
-        " **APIs** sollen auch für **interne Verwendungen** der Organisation verwendet werden."
-      ]
-    },
-    "es": {
-      "title": "API PARA TODOS",
-      "abstract": [
-        " **API para todos los usos** : interno, clientes y socios, público."
-      ],
-      "details": [
-        "Abra su organización para nuevos usos y nuevos clientes con **Public APIs**.",
-        "En **sociedades** comerciales **,** clientes **como** proveedores ** , las API son el formato de intercambio estándar.",
-        " **Las API** también están destinadas a **usos internos** de la organización."
-      ]
-    },
-    "ru": {
-      "title": "API для всех",
-      "abstract": [
-        "** API для всех видов использования **: внутренние, клиенты и партнеры, публичные."
-      ],
-      "details": [
-        "Откройте свою организацию для новых пользователей и новых клиентов с ** Public API **.",
-        "В ** коммерческих ** партнерствах **, ** клиенты ** как ** провайдеры **, API являются стандартным обменным форматом.",
-        "** API ** также предназначены для использования ** для внутреннего использования ** организации."
-      ]
-    },
-    "ja": {
-      "title": "API FOR ALL",
-      "abstract": [
-        "**すべての用途のためのAPI **：社内、顧客およびパートナー、一般。"
-      ],
-      "details": [
-        "**公開API **を使用して、組織を新しい用途や新しい顧客に開放します。",
-        "**商用**パートナーシップ**、**顧客** **プロバイダー**では、APIは標準的な交換フォーマットです。",
-        "** API **は、組織の内部使用**にも使用されることを意図しています。"
+        "Open your organization to new uses and new customers with ** Public APIs **.",
+        "In ** commercial ** partnerships **, ** customers ** as ** providers **, APIs are the standard exchange format.",
+        "** APIs ** are also intended to be used for ** internal uses ** of the organization."
       ]
     },
     "ar": {
@@ -78,17 +34,6 @@
         "افتح مؤسستك لاستخدامات جديدة وعملاء جدد باستخدام ** Public APIs **.",
         "في ** الشراكات ** التجارية ** ، ** العملاء ** كموفرين ** ** ، APIs هي تنسيق تبادل قياسي.",
         "** الغرض من APIs ** هو استخدامه أيضًا في ** الاستخدامات الداخلية للمؤسسة."
-      ]
-    },
-    "zh-CN": {
-      "title": "API FOR ALL",
-      "abstract": [
-        "**所有用途的API **：内部，客户和合作伙伴，公共。"
-      ],
-      "details": [
-        "使用**公共API **将您的组织开放给新用户和新客户。",
-        "在**商业**合作**，**客户**作为**提供商**，API是标准交换格式。",
-        "** APIs **也打算用于组织的**内部使用**。"
       ]
     }
   }

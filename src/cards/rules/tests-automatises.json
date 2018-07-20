@@ -17,56 +17,12 @@
     "en": {
       "title": "AUTOMATED TESTING",
       "abstract": [
-        "**Automated testing** is a non-negotiable prerequisite for continuous deployment."
+        "** automated testing ** is a non-negotiable prerequisite for continuous deployment."
       ],
       "details": [
-        "Automated **testing** ensures **quality** of the product **over time**.",
-        "It is a **prerequisite** to continuous deployment, it allows for **frequent changes and deployments**.",
-        "**Production rollout** becomes a **non-event**!"
-      ]
-    },
-    "de": {
-      "title": "AUTOMATISIERTE TESTS",
-      "abstract": [
-        " **automatisiertes Testen** ist eine nicht verhandelbare Voraussetzung für die kontinuierliche Bereitstellung."
-      ],
-      "details": [
-        "Automatisierte **Tests** gewährleisten die **Qualität** des Produkts **im Laufe der Zeit**.",
-        "Es ist eine **Voraussetzung** für die kontinuierliche Bereitstellung, es **** Änderungen **und** häufige Bereitstellungen ** ermöglicht.",
-        "Der **Production Rollout** wird zu einem **anekdotischen** Event!"
-      ]
-    },
-    "es": {
-      "title": "PRUEBAS AUTOMATIZADAS",
-      "abstract": [
-        " **Pruebas automatizadas** es un requisito previo no negociable para la implementación continua."
-      ],
-      "details": [
-        " **Pruebas** automatizadas asegura **calidad** del producto **a lo largo del tiempo**.",
-        "Es **un prerrequisito** para la implementación continua, permite **** cambios **y** implementaciones frecuentes **.",
-        "¡El **lanzamiento de la producción** se convierte en un evento **anecdótico** !"
-      ]
-    },
-    "ru": {
-      "title": "АВТОМАТИЗАЦИЯ",
-      "abstract": [
-        "** автоматическое тестирование ** является необратимым предварительным условием для непрерывного развертывания."
-      ],
-      "details": [
-        "Автоматизированное ** тестирование ** гарантирует ** качество ** продукта ** со временем **.",
-        "Это ** предварительное условие ** для непрерывного развертывания, оно позволяет ** ** изменения ** и ** частое развертывание **.",
-        "** Производственный свиток ** становится ** анекдотическим ** событием!"
-      ]
-    },
-    "ja": {
-      "title": "自動テスト",
-      "abstract": [
-        "**自動テスト**は継続的な導入のための交渉可能な前提条件です。"
-      ],
-      "details": [
-        "自動**テスト** **時間の経過とともに**製品**の**品質**を保証します。",
-        "継続的な導入には**前提条件**があります。** **変更**および**頻繁な展開**が可能です。",
-        "**プロダクションの公開**は**逸話**イベントになります！"
+        "Automated ** testing ** ensures ** quality ** of the product ** over time **.",
+        "It is a ** prerequisite ** to continuous deployment, it allows ** ** changes ** and ** frequent deployments **.",
+        "The ** production rollout ** becomes an ** anecdotal ** event!"
       ]
     },
     "ar": {
@@ -78,17 +34,6 @@
         "يضمن الاختبار التلقائي ** ** ** جودة المنتج ** مع مرور الوقت **.",
         "هو ** شرط أساسي ** للنشر المستمر ، فهو يسمح ** ** التغييرات ** و ** النشر المتكرر **.",
         "يصبح طرح ** الإنتاج ** ** حدثًا كاذبًا **!"
-      ]
-    },
-    "zh-CN": {
-      "title": "自动测试",
-      "abstract": [
-        "**自动化测试**是持续部署的不可协商的先决条件。"
-      ],
-      "details": [
-        "自动**测试**确保产品**的质量**随着时间的推移**。",
-        "它是持续部署的**先决条件**，它允许** **更改**和**频繁部署**。",
-        "**生产推出**成为**轶事**事件！"
       ]
     }
   }

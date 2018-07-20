@@ -15,46 +15,10 @@
     "en": {
       "title": "CONTAINERS",
       "abstract": [
-        "**Containers** provide the flexibility needed for heterogeneous tooling."
+        "** Containers ** provide the flexibility needed for heterogeneous tooling."
       ],
       "details": [
-        "Containers provide the **flexibility** needed by Feature Teams to enable **heterogeneous tooling** in a **homogeneous context**."
-      ]
-    },
-    "de": {
-      "title": "CONTAINER",
-      "abstract": [
-        " **Container** bieten die Flexibilität, die für heterogene Werkzeuge benötigt wird."
-      ],
-      "details": [
-        "Container bieten die **Flexibilität** , die Feature Teams benötigen, um **heterogene Werkzeuge** in einem **homogenen Kontext** zu aktivieren."
-      ]
-    },
-    "es": {
-      "title": "ENVASES",
-      "abstract": [
-        " **Los contenedores** brindan la flexibilidad necesaria para herramientas heterogéneas."
-      ],
-      "details": [
-        "Los contenedores proporcionan la **flexibilidad** que necesitan los equipos de características para habilitar **herramientas heterogéneas** en **un contexto homogéneo**."
-      ]
-    },
-    "ru": {
-      "title": "КОНТЕЙНЕРЫ",
-      "abstract": [
-        "** Контейнеры ** обеспечивают гибкость, необходимую для гетерогенной оснастки."
-      ],
-      "details": [
-        "Контейнеры обеспечивают ** гибкость **, необходимую функциональным группам для включения ** гетерогенной оснастки ** в ** однородном контексте **."
-      ]
-    },
-    "ja": {
-      "title": "CONTAINERS",
-      "abstract": [
-        "**コンテナ**は異機種ツーリングに必要な柔軟性を提供します。"
-      ],
-      "details": [
-        "コンテナは**異質なツール**を**同種のコンテキスト**で可能にするためにフィーチャーチームが必要とする**柔軟性**を提供します。"
+        "Containers provide the ** flexibility ** needed by Feature Teams to enable ** heterogeneous tooling ** in a ** homogeneous context **."
       ]
     },
     "ar": {
@@ -64,15 +28,6 @@
       ],
       "details": [
         "توفر الحاويات المرونة ** التي تحتاجها فرق العمل لتمكن الأدوات غير المتجانسة ** في سياق متجانس **."
-      ]
-    },
-    "zh-CN": {
-      "title": "集装箱",
-      "abstract": [
-        "**容器**提供了异构工具所需的灵活性。"
-      ],
-      "details": [
-        "容器提供**特性团队所需的**灵活性**，以便在**均匀上下文**中启用**异构工具**。"
       ]
     }
   }

@@ -17,56 +17,12 @@
     "en": {
       "title": "CORE BUSINESS",
       "abstract": [
-        "The **core business** should not hinder the construction of new services and applications."
+        "The ** core business ** should not be a hindrance to the construction of new services and applications."
       ],
       "details": [
-        "The pace of evolution and delivery of the core business must be **compatible with the agility** of its consumer services.",
-        "The core business must **expose services**.",
-        "The core business must adopt an **Event-Driven** principle, it reports management actions in the form of events."
-      ]
-    },
-    "de": {
-      "title": "Herz des Geschäfts",
-      "abstract": [
-        "Das **Kerngeschäft** sollte den Aufbau neuer Dienste und Anwendungen nicht behindern."
-      ],
-      "details": [
-        "Das Tempo der Entwicklung und Lieferung des Kerngeschäfts muss **mit der Agilität** der Dienste, die es verbrauchen, vereinbar sein.",
-        "Das Kerngeschäft muss **Dienstleistungen anbieten**.",
-        "Das Kerngeschäft muss das **Event-Driven** -Prinzip übernehmen, es berichtet über Management-Aktionen in Form von Events."
-      ]
-    },
-    "es": {
-      "title": "CORAZÓN DE NEGOCIOS",
-      "abstract": [
-        "El **negocio principal** no debe ser un obstáculo para la construcción de nuevos servicios y aplicaciones."
-      ],
-      "details": [
-        "El ritmo de evolución y entrega del negocio central debe ser **compatible con la agilidad** de los servicios que lo consumen.",
-        "El negocio principal debe **exponer servicios**.",
-        "El negocio principal debe adoptar un principio **orientado al evento** , informa acciones de gestión en forma de eventos."
-      ]
-    },
-    "ru": {
-      "title": "СЕРДЦЕ БИЗНЕСА",
-      "abstract": [
-        "** Основной бизнес ** не должен быть помехой для строительства новых услуг и приложений."
-      ],
-      "details": [
-        "Темпы эволюции и доставки основного бизнеса должны быть ** совместимы с гибкостью ** услуг, которые его потребляют.",
-        "Основной бизнес должен ** предоставлять услуги **.",
-        "Основной бизнес должен принять принцип ** Event-Driven **, он сообщает о действиях руководства в форме событий."
-      ]
-    },
-    "ja": {
-      "title": "ビジネスの中心",
-      "abstract": [
-        "**コアビジネス**は、新しいサービスやアプリケーションの構築を妨げるものではありません。"
-      ],
-      "details": [
-        "コアビジネスの進化と配信のペースは、それを消費するサービスの俊敏性**と互換性がなければなりません。",
-        "コアビジネスは**サービス**を公開する必要があります。",
-        "コアビジネスは** Event-Driven **の原則を採用しなければならず、イベントの形で管理アクションを報告します。"
+        "The pace of evolution and delivery of the core business must be ** compatible with the agility ** of the services that consume it.",
+        "The core business must ** expose services **.",
+        "The core business must adopt a ** Event-Driven ** principle, it reports management actions in the form of events."
       ]
     },
     "ar": {
@@ -78,17 +34,6 @@
         "يجب أن تكون سرعة تطور وتسليم الأعمال الأساسية متوافقة مع خفة الحركة ** للخدمات التي تستهلكها.",
         "يجب أن تعرض الأعمال الأساسية ** الخدمات **.",
         "يجب أن تتبنى الأعمال الأساسية مبدأ ** مدفوعًا بالأحداث ** ، حيث تقوم بالإبلاغ عن إجراءات الإدارة في شكل أحداث."
-      ]
-    },
-    "zh-CN": {
-      "title": "业务之心",
-      "abstract": [
-        "**核心业务**不应成为新服务和应用构建的障碍。"
-      ],
-      "details": [
-        "核心业务的演进和交付速度必须与消费它的服务的灵活性**兼容。",
-        "核心业务必须**公开服务**。",
-        "核心业务必须采用**事件驱动**原则，以事件形式报告管理行为。"
       ]
     }
   }

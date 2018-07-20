@@ -26,5 +26,19 @@
       "newCard": "Draw a new card randomly",
       "help": "The card game of the design principles of the new digital products"
     }
+  },
+  {
+    "lang": "ar",
+    "icon": "https://cdn3.iconfinder.com/data/icons/142-mini-country-flags-16x16px/32/flag-saudi-arabia2x.png",
+    "menu": {
+      "allCards": "كل البطاقات",
+      "card": "خريطة",
+      "search": "ابحث عن الخريطة",
+      "cardsOf": "بطاقات الفئة"
+    },
+    "tooltips": {
+      "newCard": "ارسم بطاقة جديدة بشكل عشوائي",
+      "help": "لعبة بطاقة MAIF من مبادئ التصميم للمنتجات الرقمية الجديدة لمنصة الخدمة الخاصة بها"
+    }
   }
 ]

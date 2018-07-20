@@ -10,47 +10,17 @@
       ],
       "details": [
         "**Attention aux composants techniques maisons et transverses** ! Ils sont contraignants, coûteux et difficiles à maintenir.",
-        "Des **accélérateurs**, **toolkits**, **stacks techniques** peuvent être **mis en commun**, au **libre choix** des Feature Teams, en évitant une approche dogmatique."
+        "Des **accélérateurs**, **toolkits**, **stacks techniques**, **starters** peuvent être **mis en commun**, au **libre choix** des Equipes produit, en évitant une approche dogmatique."
       ]
     },
     "en": {
       "title": "TOOLKITS",
       "abstract": [
-        "Provide **toolkits**, do not impose strict frameworks."
+        "Provide ** toolkits **, do not impose strict frameworks."
       ],
       "details": [
-        "**Beware of transversal in-house technical components**! They are restrictive, expensive and difficult to maintain.",
-        "**Accelerators**, **toolkits**, **technical stacks** can be **pooled**, **at the choice** of the Feature Teams, avoiding a dogmatic approach."
-      ]
-    },
-    "de": {
-      "title": "Werkzeugkits",
-      "abstract": [
-        "Stellen Sie **Toolkits** zur Verfügung, stellen Sie keine strengen Frameworks auf."
-      ],
-      "details": [
-        " **Achtung auf die technischen Komponenten Häuser und Quer** ! Sie sind restriktiv, teuer und schwer zu warten.",
-        " **Beschleuniger** , **Toolkits** , **technische Stacks** können **zusammengefasst** , **frei** Feature-Teams sein, die einen dogmatischen Ansatz vermeiden."
-      ]
-    },
-    "es": {
-      "title": "KITS DE HERRAMIENTAS",
-      "abstract": [
-        "Proporcione **kits de herramienchtas** , no imponga marcos estrictos."
-      ],
-      "details": [
-        " **Atención a los componentes técnicos casas y transversal** ! Son restrictivos, caros y difíciles de mantener.",
-        " **aceleradores** , **juegos de herramientas** , **acumulaciones técnicas** pueden ser **agrupados** , **gratuitos** Equipos destacados, evitando un enfoque dogmático."
-      ]
-    },
-    "ru": {
-      "title": "ToolKits",
-      "abstract": [
-        "Предоставьте ** набор инструментов **, не налагайте строгие рамки."
-      ],
-      "details": [
-        "** Внимание к техническим компонентам домов и поперечным **! Они являются ограничительными, дорогими и сложными в обслуживании.",
-        "** ускорители **, ** набор инструментов **, ** технические стеки ** могут быть объединены **, ** бесплатно ** Команды функций, избегая догматического подхода."
+        "** Attention to the technical components houses and transverse **! They are restrictive, expensive and difficult to maintain.",
+        "** accelerators **, ** toolkits **, ** technical stacks ** can be ** pooled **, ** free ** Feature Teams, avoiding a dogmatic approach."
       ]
     },
     "ar": {
@@ -61,26 +31,6 @@
       "details": [
         "** الاهتمام بالمنازل الفنية والمساكن المستعرضة **! فهي مقيدة ومكلفة ومن الصعب صيانتها.",
         "** مسرعات ** ، ** مجموعة أدوات ** ، ** مداخن تقنية ** يمكن أن تكون مجمعة ** ، ** مجانية ** فرق مميزة ، تتجنب النهج العقائدي."
-      ]
-    },
-    "ja": {
-      "title": "ツールキット",
-      "abstract": [
-        "** toolkits **を提供し、厳格な枠組みを課してはいけません。"
-      ],
-      "details": [
-        "**テクニカルコンポーネントの住宅および横断への注意**！それらは制限的で、費用がかかり、維持するのが難しい。",
-        "**アクセラレータ**、**ツールキット**、**テクニカルスタック** **プール**、**無料**フィーチャーチーム、独断的なアプローチを避ける。"
-      ]
-    },
-    "zh-CN": {
-      "title": "工具包",
-      "abstract": [
-        "提供**工具包**，不要强加严格的框架。"
-      ],
-      "details": [
-        "**注意技术组件房屋和横向**！它们是限制性的，昂贵且难以维护。",
-        "**加速器**，**工具箱**，**技术堆栈**可以**汇集**，**免费**功能团队，避免教条式的方法。"
       ]
     }
   }

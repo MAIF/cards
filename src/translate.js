@@ -1,3 +1,4 @@
+const Translate = require('@google-cloud/translate');
 const fs = require('fs-extra');
 
 const translate = require('google-translate-api');
@@ -101,8 +102,8 @@ function translateRoot(lang) {
   
 }
 
-// translateCard('en', [...allCards]);
-// translateRoot('en');
+ translateCard('en', [...allCards]);
+ translateRoot('en');
 // translateCard('de', [...allCards]);
 // translateRoot('de');
 // translateCard('es', [...allCards]);

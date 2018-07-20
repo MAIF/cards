@@ -16,51 +16,11 @@
     "en": {
       "title": "DEGRADATION",
       "abstract": [
-        "**Consider degradation** rather than service interruption in the event of a failure."
+        "** Consider degradation ** rather than service interruption in the event of a failure."
       ],
       "details": [
-        "In case of **failure** of one of the subsystems, **a degraded** version of the service must **be considered** in the first place rather than an interruption.",
-        "With the help of **Circuit Breakers**, **isolate a breakdown** to **avoid** its **impact** and **propagation** to the entire **system**."
-      ]
-    },
-    "de": {
-      "title": "VERSCHLECHTERUNG",
-      "abstract": [
-        " **Berücksichtigen Sie die Verschlechterung** und nicht die Betriebsunterbrechung im Falle eines Fehlers."
-      ],
-      "details": [
-        "Bei **Ausfall** eines der Subsysteme **muss eine degradierte** Version des Services ** in erster Linie als eine Unterbrechung angesehen werden.",
-        "Mit **Circuit Breakers** , **Isolieren Sie eine Aufschlüsselung** bis **Vermeiden Sie** ihre **Auswirkung** und **Aufspreizung** über das gesamte **System**."
-      ]
-    },
-    "es": {
-      "title": "DETERIORO",
-      "abstract": [
-        " **Considere la degradación** en lugar de la interrupción del servicio en caso de falla."
-      ],
-      "details": [
-        "En **falla** de uno de los subsistemas, **una versión degradada** del servicio **debe considerarse** en primer lugar en lugar de una interrupción.",
-        "Con **Disyuntores** , **aísle un desglose** para **evitar** su **impacto** y **propagación** en todo el **sistema**."
-      ]
-    },
-    "ru": {
-      "title": "ИЗНОС",
-      "abstract": [
-        "** Учитывайте деградацию **, а не прерывание обслуживания в случае сбоя."
-      ],
-      "details": [
-        "В ** сбое ** одной из подсистем ** ненормальная ** версия службы должна ** считаться ** в первую очередь, а не прерыванием.",
-        "С ** Автоматическими выключателями **, ** изолируйте пробой **, чтобы ** избегать ** его ** удара ** и ** распространения ** по всей ** системе **."
-      ]
-    },
-    "ja": {
-      "title": "変質や劣化",
-      "abstract": [
-        "**障害が発生した場合のサービス中断ではなく、劣化**を考慮してください。"
-      ],
-      "details": [
-        "サブシステムのうちの1つの**失敗**では、**サービスの劣化**バージョンは**中断ではなく**最初に考慮されなければなりません**。",
-        "**サーキットブレーカ**を使用すると、** **システム**全体に**影響**と**スプレッド**を回避するために**故障を分離できます**。"
+        "In ** failure ** of one of the subsystems, ** a degraded ** version of the service must ** be considered ** in the first place rather than an interruption.",
+        "With ** Circuit Breakers **, ** isolate a breakdown ** to ** avoid ** its ** impact ** and ** spread ** over the entire ** system **."
       ]
     },
     "ar": {
@@ -71,16 +31,6 @@
       "details": [
         "في ** الفشل ** لواحد من الأنظمة الفرعية ، ** يجب اعتبار ** نسخة متدهورة من الخدمة ** في المقام الأول بدلاً من الانقطاع.",
         "مع ** قواطع دوائر ** ، ** عزل الانهيار ** إلى ** تجنب ** تأثيره ** و ** الانتشار ** على كامل ** النظام **."
-      ]
-    },
-    "zh-CN": {
-      "title": "退化",
-      "abstract": [
-        "**在发生故障时，请考虑降级**而不是服务中断。"
-      ],
-      "details": [
-        "在其中一个子系统的**失败**中，服务的降级**版本必须首先被认为是**，而不是中断。",
-        "使用**断路器**，**在整个**系统**上隔离故障**以避免**其**影响**和**传播**。"
       ]
     }
   }

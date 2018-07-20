@@ -16,51 +16,11 @@
     "en": {
       "title": "DEVOPS",
       "abstract": [
-        " **DevOps** practices help to break walls between Build and Run."
+        "** DevOps ** practices allow walls to fall between Build and Run."
       ],
       "details": [
-        "Adopt **DevOps** to help **Dev** and **Ops** converge towards a common goal: **serve the organization**.",
-        " **Both jobs remain different** ! DevOps does not mean that the same person performs the tasks of Dev and Ops. **Developers** and **Ops** are required to **collaborate** in order to **benefit** from each other's **skills** and to improve **empathy**."
-      ]
-    },
-    "de": {
-      "title": "DEVOPS",
-      "abstract": [
-        " **DevOps** -Praktiken ermöglichen es Wänden, zwischen Build und Run zu fallen."
-      ],
-      "details": [
-        "Adoptiere **DevOps** , um **Dev** und **Ops** zu einem gemeinsamen Ziel zusammenzuführen: **Diene der Organisation**.",
-        " **Die Trades bleiben anders** ! DevOps bedeutet nicht, dass dieselbe Person die Aufgaben von Dev und Ops ausführt. **Entwickler** und **Operational** müssen zusammenarbeiten **, um** von **** Skills **profitieren** und **Empathie** zu verbessern."
-      ]
-    },
-    "es": {
-      "title": "DEVOPS",
-      "abstract": [
-        "Las prácticas **DevOps** permiten que las paredes caigan entre Build y Run."
-      ],
-      "details": [
-        "Adoptar **DevOps** para converger **Dev** y **Ops** hacia un objetivo común: **servir a la organización**.",
-        " **¡Los intercambios siguen siendo diferentes** ! DevOps no significa que la misma persona realiza las tareas de Dev y Ops. **Los desarrolladores** y **Operativo** deben **colaborar** para **beneficiarse** de **** habilidades **y para mejorar** empatía **."
-      ]
-    },
-    "ru": {
-      "title": "DevOps",
-      "abstract": [
-        "** Методы DevOps ** позволяют стенам упасть между Build и Run."
-      ],
-      "details": [
-        "Принять ** DevOps ** для сближения ** Dev ** и ** Ops ** в направлении общей цели: ** служить организации **.",
-        "** Торги остаются разными **! DevOps не означает, что один и тот же человек выполняет задачи Dev и Ops. ** Разработчики ** и ** Операционные ** обязаны ** сотрудничать **, чтобы ** извлечь выгоду ** из ** ** навыков ** и улучшить ** эмпатию **."
-      ]
-    },
-    "ja": {
-      "title": "DEVOPS",
-      "abstract": [
-        "** DevOps **プラクティスでは、壁がBuildとRunの間に入ることができます。"
-      ],
-      "details": [
-        "共通の目標に向けて** Dev **と** Ops **を統合するには、** DevOps **を採用してください。",
-        "**取引は変わりません**！ DevOpsは、同じ人がDevとOpsのタスクを実行することを意味しません。 **開発者**と**運用**は** ** **スキル**から**を恩恵を受けるために**共同作業**を要求され、**共感**を改善する必要があります。"
+        "Adopt ** DevOps ** to converge ** Dev ** and ** Ops ** towards a common goal: ** serve the organization **.",
+        "** The trades remain different **! DevOps does not mean that the same person performs the tasks of Dev and Ops. ** Developers ** and ** Operational ** are required to ** collaborate ** in order to ** benefit ** from ** ** skills ** and to improve ** empathy **."
       ]
     },
     "ar": {
@@ -71,16 +31,6 @@
       "details": [
         "تعتمد ** DevOps ** على التقارب ** Dev ** و ** Ops ** نحو هدف مشترك: ** تخدم المنظمة **.",
         "** تبقى التداولات مختلفة **! لا يعني DevOps أن الشخص نفسه يقوم بمهام Dev و Ops. ** يجب على المطورين ** و ** التشغيلي ** ** ** أن يتعاونوا ** لكي يستفيدوا ** من ** ** ** ** من أجل تحسين ** التعاطف **."
-      ]
-    },
-    "zh-CN": {
-      "title": "DEVOPS",
-      "abstract": [
-        "** DevOps **的做法允许墙壁在构建和运行之间。"
-      ],
-      "details": [
-        "采用** DevOps **将** Dev **和** Ops **集中到一个共同目标：**为组织**服务。",
-        "**交易仍然不同**！ DevOps并不意味着同一个人执行Dev和Ops的任务。 **开发人员**和**运营**必须**合作**，以便从** **技能**中受益**并改善**同理心**。"
       ]
     }
   }

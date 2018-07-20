@@ -14,43 +14,13 @@
       ]
     },
     "en": {
-      "title": "COVERAGE",
+      "title": "BLANKET",
       "abstract": [
-        "**Coverage** is the primary unbiased indicator of test quality."
+        "** Cover ** is the primary objective indicator of test quality."
       ],
       "details": [
-        "The tests **code coverage** is a **good** metric of code quality.",
-        "It is a **necessary condition** but **not sufficient**, the coverage of a **bad** test strategy can be high without guarantee that the code is of good quality."
-      ]
-    },
-    "de": {
-      "title": "COVER",
-      "abstract": [
-        " **Cover** ist der primäre Zielindikator für die Testqualität."
-      ],
-      "details": [
-        "Die **Codeabdeckung** der Tests ist eine **gute** Metrik der Codequalität.",
-        "Dies ist eine **notwendige Bedingung**, aber **nicht ausreichend** , die Abdeckung einer **schlechten** Teststrategie kann hoch sein, ohne die gute Qualität des Codes zu garantieren."
-      ]
-    },
-    "es": {
-      "title": "CUBIERTA",
-      "abstract": [
-        " **Cover** es el principal indicador objetivo de la calidad de la prueba."
-      ],
-      "details": [
-        "La **cobertura del código** según las pruebas es una **buena** métrica de la calidad del código.",
-        "Esta es una **condición necesaria** pero **no suficiente**, la cobertura de una estrategia de prueba **incorrecta** puede ser alta sin garantizar la buena calidad del código."
-      ]
-    },
-    "ru": {
-      "title": "ПОКРОВ",
-      "abstract": [
-        "** Обложка ** является основным объективным показателем качества теста."
-      ],
-      "details": [
-        "** Кодирование ** в тестах является ** хорошим ** метрикой качества кода.",
-        "Это ** необходимое условие **, но ** недостаточно **, охват ** плохой тест-теста может быть высоким, не гарантируя хорошего качества кода."
+        "The ** code coverage ** by the tests is a ** good ** metric of code quality.",
+        "This is a ** necessary condition ** but ** not sufficient **, the coverage of a ** bad ** test strategy can be high without guaranteeing the good quality of the code."
       ]
     },
     "ar": {
@@ -71,16 +41,6 @@
       "details": [
         "テストによる**コードカバレッジ**は、コード品質の**良い**メトリックです。",
         "これは、**必要な条件です**しかし、**十分ではありません**、コードの良質を保証することなく、**悪い**テスト戦略の適用範囲が高くなります。"
-      ]
-    },
-    "zh-CN": {
-      "title": "COVER",
-      "abstract": [
-        "**封面**是测试质量的主要客观指标。"
-      ],
-      "details": [
-        "测试的**代码覆盖率**是代码质量的**良好**度量。",
-        "这是一个**必要条件**但是**不够**，**不良**测试策略的覆盖率可能很高，而不保证代码的高质量。"
       ]
     }
   }

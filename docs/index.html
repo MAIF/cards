@@ -1,10 +1,10 @@
 <html>
 		<body style="background-color: #333333;">
 			<!--ul>
-			<li><a href="/cards/fr/index.html">fr</a></li>,<li><a href="/cards/en/index.html">en</a></li>
+			<li><a href="/cards/fr/index.html">fr</a></li>,<li><a href="/cards/en/index.html">en</a></li>,<li><a href="/cards/ar/index.html">ar</a></li>
 			</ul-->
 			<script type="text/javascript">
-			  var langs = ["fr","en"];
+			  var langs = ["fr","en","ar"];
 				var userLang = (navigator.language || navigator.userLanguage).split('-')[0];
 				var lang = langs.filter(l => l === userLang)[0] || "fr";
 				window.location = "/cards/" + lang + "/all.html";
