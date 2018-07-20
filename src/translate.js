@@ -1,9 +1,6 @@
-const Translate = require('@google-cloud/translate'); // require('google-translate')('AIzaSyAdDBFXWwFc4j59PXXj2ePOtnLBPUp_Nnw') //(process.env.GOOGLE_TRANSLATE_KEY);
 const fs = require('fs-extra');
 
-const translate = new Translate({
-  projectId: process.env.GOOGLE_TRANSLATE_PROJECT
-});
+const translate = require('google-translate-api');
 
 const langs = require('./cards/lang.json');
 const categories = {
@@ -22,8 +19,8 @@ const allCards = [
 ];
 
 function translateOne(lang, text) {
-  return translate.translate(text, lang).then(r => {
-    return r[0]
+  return translate(text, {to: lang}).then(r => {
+      return r.text
   }); 
 }
 
