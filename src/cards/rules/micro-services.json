@@ -18,61 +18,13 @@
     "en": {
       "title": "MICRO-SERVICES",
       "abstract": [
-        "Develop **stand-alone** and **loosely coupled** services."
+        "Develop ** stand-alone ** and ** weakly coupled ** services."
       ],
       "details": [
-        "**Loose coupling** must be the norm.",
-        "Each micro-service has a **clearly defined interface**.",
-        "This **interface** determines the **coupling** between **micro-services**.",
-        "**Domain Driven Design** helps, especially through **Bounded Contexts**, to anticipate this problem."
-      ]
-    },
-    "de": {
-      "title": "MICRO-DIENSTE",
-      "abstract": [
-        "Develop **Stand-alone** und **schwach gekoppelte** Dienste."
-      ],
-      "details": [
-        " **schwache Kopplung** muss die Norm sein.",
-        "Jeder Micro-Service hat eine **klar definierte Schnittstelle**.",
-        "Diese **Schnittstelle** bestimmt den **Link** zwischen den **Micro-Services**.",
-        " **Domain Driven Design** erlaubt, insbesondere mit den **Bounded Contexts** , dieses Problem vorherzusehen."
-      ]
-    },
-    "es": {
-      "title": "MICRO-SERVICIOS",
-      "abstract": [
-        "Desarrollar servicios **independientes** y **débilmente acoplados**."
-      ],
-      "details": [
-        " **acoplamiento débil** debe ser la norma.",
-        "Cada micro-servicio tiene **una interfaz claramente definida**.",
-        "Esta **interfaz** determina el **enlace** entre los **micro servicios**.",
-        " **Domain Driven Design** permite, especialmente con **Contextos acotados** , anticipar este problema."
-      ]
-    },
-    "ru": {
-      "title": "MICRO-УСЛУГИ",
-      "abstract": [
-        "Разработка ** автономных ** и ** слабо связанных ** услуг."
-      ],
-      "details": [
-        "** слабая связь ** должна быть нормой.",
-        "Каждая микросервис имеет ** четко определенный интерфейс **.",
-        "Этот ** интерфейс ** определяет ** ссылку ** между ** микросервисами **.",
-        "** Domain Driven Design ** позволяет, особенно с ** Ограниченными контекстами **, предвидеть эту проблему."
-      ]
-    },
-    "ja": {
-      "title": "マイクロサービス",
-      "abstract": [
-        "**スタンドアロン**および**弱く結合した**サービスを開発する。"
-      ],
-      "details": [
-        "**弱いカップリング**は標準でなければなりません。",
-        "各マイクロサービスは**明確に定義されたインターフェース**を持っています。",
-        "この**インターフェース**は**マイクロサービス**間の**リンク**を決定します。",
-        "**ドメイン駆動設計**では、特に**有界コンテキスト**でこの問題を予期することができます。"
+        "** weak coupling ** must be the norm.",
+        "Each micro-service has a ** clearly defined interface **.",
+        "This ** interface ** determines the ** link ** between the ** micro-services **.",
+        "** Domain Driven Design ** allows, especially with the ** Bounded Contexts **, to anticipate this problem."
       ]
     },
     "ar": {
@@ -85,18 +37,6 @@
         "لكل خدمة مصغرة واجهة ** محددة بوضوح **.",
         "تحدد هذه الواجهة ** ** ** الرابط ** بين ** الخدمات المصغرة **.",
         "** يسمح لك Domained Designed ** ، خصوصًا مع ** Contrast Contexts ** ، بتوقع هذه المشكلة."
-      ]
-    },
-    "zh-CN": {
-      "title": "微服务",
-      "abstract": [
-        "开发**独立**和**弱耦合**服务。"
-      ],
-      "details": [
-        "**弱耦合**必须是标准。",
-        "每个微服务都有一个明确定义的界面**。",
-        "这个**接口**决定**微服务**之间的**链接**。",
-        "**域驱动设计**允许（尤其是**有界上下文**）预测此问题。"
       ]
     }
   }

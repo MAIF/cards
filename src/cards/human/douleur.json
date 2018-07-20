@@ -6,73 +6,25 @@
     "fr": {
       "title": "DOULEUR",
       "abstract": [
-        "Les **tâches pénibles** sont effectuées **par la Feature Team**.",
+        "Les **tâches pénibles** sont effectuées **par l'équipe produit**.",
         "L'automatisation en découle."
       ],
       "details": [
         "Dans une organisation traditionnelle, le **manque de compréhension** entre les équipes est généralement lié à la distance et au **manque de communication**.",
-        "Les **membres d'une Feature Team** sont **co-responsables** et **solidaires** faces à toutes les tâches.",
+        "Les **membres d'une équipe produit** sont **co-responsables** et **solidaires** faces à toutes les tâches.",
         "La **douleur** est un facteur clé de l' **amélioration continue**."
       ]
     },
     "en": {
       "title": "PAIN",
       "abstract": [
-        "**Painful tasks** are performed **by the Feature Team**.",
-        "Automation comes out of it."
+        "** heavy tasks ** are performed ** by the product team **.",
+        "Automation follows."
       ],
       "details": [
-        "In a traditional organization, a **lack of understanding** between teams is usually related to distance and **lack of communication**.",
-        "The **members of a Feature Team** are **co-responsible** and **united** facing up all tasks.",
-        " **Pain** is a key factor in **Continuous Improvement**."
-      ]
-    },
-    "de": {
-      "title": "PAIN",
-      "abstract": [
-        " **Schwierige Aufgaben** werden **vom Feature-Team** durchgeführt.",
-        "Die Automatisierung folgt."
-      ],
-      "details": [
-        "In einer traditionellen Organisation hängt **mangelndes Verständnis** zwischen Teams normalerweise mit Entfernung und ** mangelnder Kommunikation zusammen.",
-        "Die **Mitglieder eines Feature-Teams** sind **mitverantwortlich** und **solidarisch** für alle Aufgaben.",
-        " **Schmerz** ist ein Schlüsselfaktor für **Kontinuierliche Verbesserung**."
-      ]
-    },
-    "es": {
-      "title": "DOLOR",
-      "abstract": [
-        " **Las tareas difíciles** se realizan **por el equipo de características**.",
-        "La automatización sigue."
-      ],
-      "details": [
-        "En una organización tradicional, **la falta de comprensión** entre los equipos suele estar relacionada con la distancia y **la falta de comunicación**.",
-        "Los **miembros de un equipo de características** son **co-responsables** y **solidarios** para todas las tareas.",
-        " **Dolor** es un factor clave en **Mejora continua**."
-      ]
-    },
-    "ru": {
-      "title": "PAIN",
-      "abstract": [
-        "** Жесткие задания ** выполняются ** Группой разработчиков **.",
-        "Затем следует автоматизация."
-      ],
-      "details": [
-        "В традиционной организации ** отсутствие понимания ** между командами обычно связано с расстоянием и ** отсутствием связи **.",
-        "** Члены функциональной группы ** ** несут ответственность ** и ** солидарны ** для всех задач.",
-        "** Боли ** - ключевой фактор в ** Непрерывном улучшении **."
-      ]
-    },
-    "ja": {
-      "title": "痛み",
-      "abstract": [
-        "**フィーチャーチーム**によって厳しいタスク**が実行されます**。",
-        "オートメーションは続いています。"
-      ],
-      "details": [
-        "伝統的な組織では、**チーム間の理解の欠如**は、通常、距離やコミュニケーションの欠如**に関連しています。",
-        "フィーチャーチームの**メンバーは**すべてのタスクに対して**共同責任**と**固い**です。",
-        "**痛み**は、**継続的改善**の重要な要素です。"
+        "In a traditional organization, ** lack of understanding ** between teams is usually related to distance and ** lack of communication **.",
+        "The ** members of a product team ** are ** co-responsible ** and ** solidary ** for all tasks.",
+        "** Pain ** is a key factor in ** Continuous Improvement **."
       ]
     },
     "ar": {
@@ -85,18 +37,6 @@
         "في التنظيم التقليدي ، ** يرتبط الافتقار إلى الفهم ** بين الفرق عادة بالمسافة و ** عدم التواصل **.",
         "إن ** أعضاء فريق عمل الميزات ** هم ** المسؤولون ** و ** متضامنون ** لجميع المهام.",
         "** الألم ** هو عامل رئيسي في ** التحسين المستمر **."
-      ]
-    },
-    "zh-CN": {
-      "title": "PAIN",
-      "abstract": [
-        "**功能团队**执行艰巨的任务**。",
-        "自动化如下。"
-      ],
-      "details": [
-        "在传统组织中，**团队之间缺乏理解**通常与距离和**缺乏沟通有关**。",
-        "特色小组**的**成员**负责所有任务的**共同负责**和**联合**。",
-        "**疼痛**是**持续改善**的关键因素。"
       ]
     }
   }

@@ -18,61 +18,13 @@
     "en": {
       "title": "TEST LEVELS",
       "abstract": [
-        "**Tests at all levels** : unit, integration, functional, resilience, performance."
+        "** Tests at all levels **: unit, integration, functional, resilience, performance."
       ],
       "details": [
-        "**Integration** and **functional** tests are the most important ones, they **ensure** the correct **behavior** of the **product**.",
-        "**Unit** tests are suitable for **development**.",
-        "**Performance** tests measure performance **over time**.",
-        "**Resilience** tests help to anticipate **failures**."
-      ]
-    },
-    "de": {
-      "title": "TESTSTUFEN",
-      "abstract": [
-        " **Tests auf allen Ebenen** : Einheit, Integration, Funktionalität, Belastbarkeit, Leistung."
-      ],
-      "details": [
-        "Die Tests **Integration** und **Funktional** sind die wichtigsten, **sie** garantieren **den** effektiven **Betrieb**.",
-        " **Einheit** -Tests sind für **Entwicklung** geeignet.",
-        " **Leistung** Tests messen die Leistung **im Zeitverlauf**.",
-        " **Resilience** -Tests helfen **Fehler** vorwegzunehmen."
-      ]
-    },
-    "es": {
-      "title": "NIVELES DE PRUEBA",
-      "abstract": [
-        " **Pruebas en todos los niveles** : unidad, integración, funcional, resiliencia, rendimiento."
-      ],
-      "details": [
-        "Las pruebas de **integración** y **funcional** son las más importantes **garantizan** la **operación** efectiva **.",
-        "Las pruebas de **unidad** son adecuadas para **desarrollo**.",
-        " **las pruebas de** rendimiento **miden el rendimiento** a lo largo del tiempo **.",
-        " **Las pruebas de** resiliencia ayudan a anticipar **fallas**."
-      ]
-    },
-    "ru": {
-      "title": "УРОВНИ ТЕСТА",
-      "abstract": [
-        "** Тесты на всех уровнях **: единица, интеграция, функциональность, устойчивость, производительность."
-      ],
-      "details": [
-        "** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **",
-        "** ** тесты ** подходят для ** разработки **.",
-        "** выступление ** тест измерение работоспособность ** со временем **.",
-        "** Устойчивость ** тесты помогают прогнозировать ** сбои **."
-      ]
-    },
-    "ja": {
-      "title": "テストレベル",
-      "abstract": [
-        "**すべてのレベルでのテスト**：ユニット、統合、機能性、反発力、パフォーマンス"
-      ],
-      "details": [
-        "**統合**および**機能**テストは最も重要です** **保証** ** **効果的な**運用**",
-        "**ユニット**テストは**開発**に適しています。",
-        "**パフォーマンス**は時間の経過とともにパフォーマンスを測定します**。",
-        "**弾力性**テストは**失敗を予測するのに役立ちます**。"
+        "The ** integration ** and ** functional ** tests are the most important, ** they ** guarantee ** the ** effective ** operation **.",
+        "** unit ** tests are suitable for ** development **.",
+        "** performance ** tests measure performance ** over time **.",
+        "** resilience ** tests help to anticipate ** failures **."
       ]
     },
     "ar": {
@@ -85,18 +37,6 @@
         "** اختبارات ** وحدة ** مناسبة لتطوير ** **.",
         "** اختبارات الأداء ** تقيس الأداء ** مع مرور الوقت **.",
         "** تساعد اختبارات المرونة ** على توقع ** حالات الفشل **."
-      ]
-    },
-    "zh-CN": {
-      "title": "测试水平",
-      "abstract": [
-        "**所有级别的测试**：单元，集成，功能，弹性，性能。"
-      ],
-      "details": [
-        "**整合**和**功能**测试是最重要的，**它们**保证** **有效**操作**。",
-        "**单元**测试适用于**开发**。",
-        "**性能**测试**随着时间的推移衡量性能**。",
-        "**韧性**测试有助于预测**失败**。"
       ]
     }
   }

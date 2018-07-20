@@ -18,55 +18,11 @@
       "title": "KISS",
       "abstract": [
         "**K**eep **I**t **S**imple and **S**tupid.",
-        "*Why make it complicated when it can be simple?*"
+        "*Why make it complicated when it can be simple ?*"
       ],
       "details": [
-        "**Avoid over-engineering**, if a \"paper\" model or a Google Form is enough to test your concept, do not go further.",
-        "Keep it simple! Both technically and functionally."
-      ]
-    },
-    "de": {
-      "title": "KUSS",
-      "abstract": [
-        " ** Halten Sie es einfach und dumm.",
-        "* Warum kompliziert, wenn es einfach sein kann? *"
-      ],
-      "details": [
-        " **Vermeiden Sie zu viel Technik** , wenn ein \"Papier\" -Modell oder ein Google-Formular ausreicht, um Ihr Konzept zu testen, gehen Sie nicht weiter.",
-        "Bleib einfach! Sowohl technisch als auch funktional."
-      ]
-    },
-    "es": {
-      "title": "BESO",
-      "abstract": [
-        " ** Mantenlo simple y estúpido.",
-        "* ¿Por qué complicarse cuando puede ser simple? *"
-      ],
-      "details": [
-        " **Evite la sobreingeniería** , si un modelo de \"papel\" o un Formulario de Google es suficiente para probar su concepto, no vaya más allá.",
-        "¡Mantente simple! Tanto técnica como funcionalmente."
-      ]
-    },
-    "ru": {
-      "title": "ПОЦЕЛУЙ",
-      "abstract": [
-        "** K ** eep ** I ** t ** S ** imple и ** S ** tupid.",
-        "* Почему сложнее, когда это может быть просто? *"
-      ],
-      "details": [
-        " ** Избегайте чрезмерной инженерии **, если достаточно «бумажной» модели или формы Google для проверки вашей концепции, не ходите дальше.",
-        "Оставайтесь просто! Технически и функционально."
-      ]
-    },
-    "ja": {
-      "title": "キッス",
-      "abstract": [
-        "** K ** eep ** I ** t ** S ** impleと** S ** tupid。",
-        "*シンプルになると複雑になるのはなぜですか？*"
-      ],
-      "details": [
-        " **オーバーエンジニアリング**を避けてください。 \"ペーパー\"モデルやGoogleフォームがコンセプトをテストするのに十分であれば、さらに進まないでください。",
-        "シンプルに！技術的にも機能的にも。"
+        "** Avoid over-engineering **, if a \"paper\" model or a Google Form is enough to test your concept, do not go further.",
+        "Stay simple! Both technically and functionally."
       ]
     },
     "ar": {
@@ -78,17 +34,6 @@
       "details": [
         " ** تجنّب الإفراط في الهندسة ** ، إذا كان نموذج \"الورق\" أو نموذج Google كافٍ لاختبار مفهومك ، فلا تذهب إلى أبعد من ذلك.",
         "ابق بسيط! كلا من الناحية الفنية والوظيفية."
-      ]
-    },
-    "zh-CN": {
-      "title": "吻",
-      "abstract": [
-        "** K ** eep ** I ** t ** S **实现和** S ** tupid。",
-        "*为什么复杂的时候可以很简单？*"
-      ],
-      "details": [
-        " **避免过度工程化**，如果“纸张”模型或Google表单足以测试您的概念，请不要继续。",
-        "保持简单！在技​​术上和功能上都是如此。"
       ]
     }
   }

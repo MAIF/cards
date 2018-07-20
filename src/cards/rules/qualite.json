@@ -17,56 +17,12 @@
     "en": {
       "title": "QUALITY",
       "abstract": [
-        "**Software quality** is a **key factor**."
+        "** software quality ** is a ** key factor **."
       ],
       "details": [
-        "**Code reviews** are **systematic**. They are conducted by members of the Feature Team or other members of the organization, as part of **Continuous Improvement**.",
-        "That **is not you being audited but your code**: \"You are not your code!\".",
-        "**Qualimetry** can be partly automated, but nothing beats the **\"fresh eye\"**."
-      ]
-    },
-    "de": {
-      "title": "QUALITÄT",
-      "abstract": [
-        " **Softwarequalität** ist ein **Schlüsselfaktor**."
-      ],
-      "details": [
-        " **Code Reviews** sind **systematisch**. Sie werden von Mitgliedern des Feature Teams oder anderen Mitgliedern der Organisation im Rahmen von **Continuous Improvement** durchgeführt.",
-        "Das **ist nicht auditiert, aber dein Code** : \"Du bist nicht dein Code!\".",
-        "Die **Qualimetrie** kann teilweise automatisiert werden, aber nichts schlägt das **neue Auge**."
-      ]
-    },
-    "es": {
-      "title": "CALIDAD",
-      "abstract": [
-        " **la calidad del software** es un **factor clave**."
-      ],
-      "details": [
-        " **las revisiones de los códigos** son **sistemáticas**. Son dirigidos por miembros del Equipo de funciones u otros miembros de la organización, como parte de **Continuous Improvement**.",
-        "Eso **no está siendo auditado sino su código** : \"¡Usted no es su código!\".",
-        "El **qualimetry** puede ser parcialmente automatizado, pero nada supera al **\"nuevo ojo\"**."
-      ]
-    },
-    "ru": {
-      "title": "КАЧЕСТВО",
-      "abstract": [
-        "** качество программного обеспечения ** является ** ключевым фактором **."
-      ],
-      "details": [
-        "** обзоры кода ** являются ** систематическими **. Они проводятся членами функциональной группы или другими членами организации в рамках ** Постоянного совершенствования **.",
-        "Это ** вы не проверяетесь, а ваш код **: «Вы не ваш код!».",
-        "** qualimetry ** может быть частично автоматизирован, но ничто не сравнится с ** «новым глазом» **."
-      ]
-    },
-    "ja": {
-      "title": "QUALITY",
-      "abstract": [
-        "**ソフトウェア品質**は**重要な要素**です。"
-      ],
-      "details": [
-        "**コードレビュー**は**体系的**です。 **継続的改善**の一環として、フィーチャーチームのメンバーまたは組織の他のメンバーが実施します。",
-        "**あなたが監査されているのではなく、あなたのコード**： \"あなたはあなたのコードではありません！\"",
-        "**光度測定**は部分的に自動化できますが、** \"新しい目\" **に勝るものはありません**。"
+        "** code reviews ** are ** systematic **. They are conducted by members of the Feature Team or other members of the organization, as part of ** Continuous Improvement **.",
+        "That ** is not you being audited but your code **: \"You are not your code!\".",
+        "The ** qualimetry ** can be partly automated, but nothing beats the ** \"new eye\" **."
       ]
     },
     "ar": {
@@ -78,17 +34,6 @@
         "** مراجعات الكود ** هي ** منهجية **. يتم إجراؤها بواسطة أعضاء فريق الميزة أو أعضاء آخرين في المنظمة ، كجزء من ** التحسين المستمر **.",
         "هذا ** لا يتم تدقيقك لكن كودك **: \"أنت لست رمزك!\".",
         "** يمكن أن تكون * qualimetry ** مؤتمتة جزئيا ، ولكن لا شيء يتفوق على ** \"العين الجديدة\" **."
-      ]
-    },
-    "zh-CN": {
-      "title": "质量",
-      "abstract": [
-        "**软件质量**是**关键因素**。"
-      ],
-      "details": [
-        "**代码评论**是**系统**。作为**持续改进**的一部分，它们由特征小组的成员或组织的其他成员进行。",
-        "那**不是你被审计的，而是你的代码**：“你不是你的代码！”。",
-        "**质量**可以部分自动化，但没有什么比**“新眼睛”**。"
       ]
     }
   }

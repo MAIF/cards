@@ -9,64 +9,20 @@
         "Les mesures doivent être **centralisées** et **accessibles** à tous."
       ],
       "details": [
-        "Les **métriques** sont **accessibles** à tous avec différents niveaux de granularité : vue détaillée pour la Feature Team concernée, agrégations pour les autres membres de l'organisation.",
+        "Les **métriques** sont **accessibles** à tous avec différents niveaux de granularité : vue détaillée pour l'Equipe produit concernée, agrégations pour les autres membres de l'organisation.",
         "L'accès aux métriques **n'implique pas l'accès aux données unitaires**, celui-ci doit être contrôlé pour préserver la confidentialité.",
         "**Tous les environnements** sont concernés."
       ]
     },
     "en": {
-      "title": "METRICS",
-      "abstract": [
-        "Metrics must be **centralized** and **accessible** to all."
-      ],
-      "details": [
-        "**Metrics** are **accessible** to everyone with different levels of granularity: detailed view for the relevant Feature Team, aggregations for other members of the organization.",
-        "Access to metrics **does not imply access to data**, access must be controlled to maintain confidentiality.",
-        "**All environments** are concerned."
-      ]
-    },
-    "de": {
       "title": "METRIC",
       "abstract": [
-        "Maßnahmen müssen **zentralisiert** und **für alle zugänglich sein**."
+        "Measures must be ** centralized ** and ** accessible ** to all."
       ],
       "details": [
-        "Die **Messwerte** sind **für alle Benutzer mit unterschiedlichem Detaillierungsgrad** zugänglich: Detailansicht für das jeweilige Team-Feature, Aggregationen für andere Mitglieder des Unternehmens.",
-        "Der Zugriff auf **Metrik bedeutet nicht den Zugriff auf die Daten der Einheit** , sie muss kontrolliert werden, um die Vertraulichkeit zu wahren.",
-        " **Alle Umgebungen** sind betroffen."
-      ]
-    },
-    "es": {
-      "title": "METRICO",
-      "abstract": [
-        "Las medidas deben estar **centralizadas** y **accesibles** para todos."
-      ],
-      "details": [
-        "Las **métricas** son **accesibles** para todas las personas con diferentes niveles de granularidad: vista detallada de la función del equipo relevante, agregaciones para otros miembros de la organización.",
-        "El acceso a **las métricas no implica el acceso a los datos de la unidad** , debe controlarse para mantener la confidencialidad.",
-        " **Todos los entornos** están afectados."
-      ]
-    },
-    "ru": {
-      "title": "метрическая",
-      "abstract": [
-        "Меры должны быть ** централизованы ** и ** доступны ** всем."
-      ],
-      "details": [
-        "** ** ** ** доступны ** для всех с разным уровнем детализации: подробное представление для соответствующей функции команды, скопления для других членов организации.",
-        "Доступ к ** метрикам не подразумевает доступ к данным о единице **, он должен контролироваться для обеспечения конфиденциальности.",
-        "** Все среды ** затронуты."
-      ]
-    },
-    "ja": {
-      "title": "METRIC",
-      "abstract": [
-        "対策はすべて**に**中央**および**アクセス**する必要があります。"
-      ],
-      "details": [
-        "**指標**は、異なるレベルの細かさを持つすべての人に**アクセス可能**です。関連するチームフィーチャーの詳細ビュー、組織の他のメンバーの集計。",
-        "**指標へのアクセスはユニットデータ**へのアクセスを意味するものではなく、機密性を維持するように制御されなければなりません。",
-        "**すべての環境**が影響を受けます。"
+        "The ** metrics ** are ** accessible ** to everyone with different levels of granularity: detailed view for the relevant Feature Team, aggregations for other members of the organization.",
+        "Access to ** metrics does not imply access to unit data **, it must be controlled to maintain confidentiality.",
+        "** All environments ** are affected."
       ]
     },
     "ar": {
@@ -78,17 +34,6 @@
         "** ** ** ** ** يمكن الوصول ** إلى كل شخص بمستويات مختلفة من الدقة: عرض تفصيلي لميزة الفريق ذات الصلة ، وتجمعات لأعضاء آخرين في المنظمة.",
         "لا يعني الوصول إلى ** المقاييس الوصول إلى بيانات الوحدة ** ، بل يجب التحكم في الحفاظ على السرية.",
         "** تتأثر جميع البيئات **."
-      ]
-    },
-    "zh-CN": {
-      "title": "公制",
-      "abstract": [
-        "所有措施必须是**集中**和**可访问**。"
-      ],
-      "details": [
-        "**指标**对于具有不同粒度级别的所有人都是**可访问**：相关团队特征的详细视图，该组织其他成员的聚合。",
-        "访问**指标并不意味着访问单元数据**，必须对其进行控制以保持机密性。",
-        "**所有环境**都受到影响。"
       ]
     }
   }

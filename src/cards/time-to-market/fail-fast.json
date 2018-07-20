@@ -17,56 +17,12 @@
     "en": {
       "title": "FAIL-FAST",
       "abstract": [
-        "**Fail** fast to **learn** fast."
+        "** Fail ** fast is ** learn ** fast."
       ],
       "details": [
-        "**Quickly experience** the solution (a few weeks), collect **feedback** from your users and learn from your mistakes.",
-        "Do not be afraid to **change** everything.",
-        "Do not forget, **you will fail!** "
-      ]
-    },
-    "de": {
-      "title": "FAIL-SCHNELL",
-      "abstract": [
-        " **Fail** Fast ist **learn** schnell."
-      ],
-      "details": [
-        " **Erleben Sie schnell** die Lösung (ein paar Wochen), sammeln Sie **Feedback** von Ihren Benutzern und lernen Sie aus Ihren Fehlern.",
-        "Hab keine Angst, alles zu ändern **.",
-        "Vergiss nicht, **du wirst scheitern!** "
-      ]
-    },
-    "es": {
-      "title": "FALLAR RAPIDO",
-      "abstract": [
-        " **Fail** fast es **learn** fast."
-      ],
-      "details": [
-        " **Experimente rápidamente** la solución (unas semanas), reúna **comentarios** de sus usuarios y aprenda de sus errores.",
-        "No tengas miedo de cambiar todo **.",
-        "No lo olvides, **¡fallarás!** "
-      ]
-    },
-    "ru": {
-      "title": "СБОЙ-FAST",
-      "abstract": [
-        "** Fail ** fast ** ** ** быстро."
-      ],
-      "details": [
-        " ** Быстро испытать ** решение (несколько недель), собрать ** обратную связь ** от своих пользователей и узнать о своих ошибках.",
-        "Не бойтесь все менять **.",
-        "Не забывайте, ** вы потерпите неудачу! **"
-      ]
-    },
-    "ja": {
-      "title": "FAIL-FAST",
-      "abstract": [
-        "**失敗**速い**学習**高速です。"
-      ],
-      "details": [
-        " **すぐに**解決策（数週間）を経験し、ユーザーからフィードバック**を収集し、あなたの間違いから学ぶ。",
-        "すべてを変えることを恐れないでください**。",
-        "**あなたが失敗することを忘れないでください！**"
+        "** Quickly experience ** the solution (a few weeks), collect ** feedback ** from your users and learn from your mistakes.",
+        "Do not be afraid to change everything **.",
+        "Do not forget, ** you will fail! **"
       ]
     },
     "ar": {
@@ -78,17 +34,6 @@
         " ** تجربة سريعة ** الحل (بضعة أسابيع) ، وجمع ** ردود الفعل ** من المستخدمين لديك والتعلم من أخطائك.",
         "لا تخف من تغيير كل شيء **.",
         "لا تنس ، سوف تفشل! **"
-      ]
-    },
-    "zh-CN": {
-      "title": "快速失败",
-      "abstract": [
-        "**失败**快速** **快速。"
-      ],
-      "details": [
-        " **快速体验**解决方案（几周），收集来自用户的**反馈**并从错误中学习。",
-        "不要害怕改变一切**。",
-        "别忘了，**你会失败！**"
       ]
     }
   }

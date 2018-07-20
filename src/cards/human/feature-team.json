@@ -4,69 +4,25 @@
   "category": "human",
   "lang": {
     "fr": {
-      "title": "FEATURE TEAM",
+      "title": "EQUIPE PRODUIT",
       "abstract": [
         "L'équipe est organisée autour d'un **produit** ou d'un **service** rendu."
       ],
       "details": [
-        "Les équipes sont des **Feature Teams**, organisées autour d’un ensemble fonctionnel cohérent, et composées de l’ensemble des **compétences** nécessaires à cet ensemble.",
+        "Les équipes sont des **Equipes produit**, organisées autour d’un ensemble fonctionnel cohérent, et composées de l’ensemble des **compétences** nécessaires à cet ensemble.",
         "Par exemple : Expert Métier + Développeur Web + Développeur Java + Architecte + DBA + Opérationnel.",
-        "La **responsabilité** est **collective**, la Feature Team jouit du pouvoir nécessaire à cette responsabilité."
+        "La **responsabilité** est **collective**, l'Equipe produit jouit du pouvoir nécessaire à cette responsabilité."
       ]
     },
     "en": {
       "title": "FEATURE TEAM",
       "abstract": [
-        "The team is organized around a **product** or a provided **service**."
+        "The team is organized around a ** product ** or a ** service ** rendered."
       ],
       "details": [
-        "Teams are **Feature Teams**, organized around a coherent functional scope, and comprise all the **skills** necessary for this scope.",
-        "For example: Business Expert + Web Developer + Java Developer + Architect + DBA + Ops.",
-        "The **responsibility** is **collective**, the Feature Team has the necessary power for this responsibility."
-      ]
-    },
-    "de": {
-      "title": "FEATURE TEAM",
-      "abstract": [
-        "Das Team ist um ein **Produkt** oder einen **Service** herum organisiert."
-      ],
-      "details": [
-        "Teams sind **Feature Teams**, die um einen zusammenhängenden Funktionssatz herum organisiert sind und aus all den **Fertigkeiten** bestehen, die für diesen Satz notwendig sind.",
-        "Zum Beispiel: Business Expert + Webentwickler + Java Developer + Architect + DBA + Operational.",
-        "Die **Verantwortung** ist **kollektiv**, das Feature-Team hat die Macht, die für diese Verantwortung notwendig ist."
-      ]
-    },
-    "es": {
-      "title": "EQUIPO PRINCIPAL",
-      "abstract": [
-        "El equipo está organizado en torno a **productos** o **servicios prestados**."
-      ],
-      "details": [
-        "Los equipos son **Equipos destacados**, organizados en torno a un conjunto funcional coherente, y compuestos por todas las **habilidades** necesarias para este conjunto.",
-        "Por ejemplo: Business Expert + Web Developer + Java Developer + Architect + DBA + Operational.",
-        "La **responsabilidad** es **colectiva**, el Equipo de funciones tiene el poder necesario para esta responsabilidad."
-      ]
-    },
-    "ru": {
-      "title": "КОММЕНТАРИЙ FEATURE",
-      "abstract": [
-        "Команда организована вокруг ** продукта ** или ** услуги **, оказанной."
-      ],
-      "details": [
-        "Команды - ** Feature Feature **, организованные вокруг согласованного функционального набора и состоящие из всех ** навыков **, необходимых для этого набора.",
-        "Например: Business Expert + Web Developer + Java Developer + Architect + DBA + Operational.",
-        "** Ответственность ** является ** коллективной **, функциональная группа обладает полномочиями, необходимыми для этой ответственности."
-      ]
-    },
-    "ja": {
-      "title": "フィーチャーチーム",
-      "abstract": [
-        "チームは、**製品**または**サービス**の周りに編成されています。"
-      ],
-      "details": [
-        "チームはコヒーレントな機能セットを中心に構成された** Feature Teams **であり、このセットに必要なすべての**スキル**で構成されています。",
-        "たとえば、Business Expert + Web Developer + Java Developer + Architect + DBA + Operationalなどです。",
-        "**責任**は**集団**です。機能チームはこの責任のために必要な力を持っています。"
+        "Teams are ** Feature Teams **, organized around a coherent functional set, and composed of all the ** skills ** necessary for this set.",
+        "For example: Business Expert + Web Developer + Java Developer + Architect + DBA + Operational.",
+        "The ** responsibility ** is ** collective **, the Feature Team has the power necessary for this responsibility."
       ]
     },
     "ar": {
@@ -78,17 +34,6 @@
         "الفرق هي ** فرق عمل ** ، منظمة حول مجموعة وظيفية متماسكة ، وتتألف من جميع المهارات ** الضرورية لهذه المجموعة.",
         "على سبيل المثال: Business Expert + Web Developer + Java Developer + Architect + DBA + Operational.",
         "** المسؤولية ** هي ** جماعية ** ، يمتلك فريق الميزة القدرة اللازمة لهذه المسؤولية."
-      ]
-    },
-    "zh-CN": {
-      "title": "特色团队",
-      "abstract": [
-        "团队围绕**产品**或**服务**进行组织。"
-      ],
-      "details": [
-        "团队是**特征团队**，围绕一个连贯的功能集合进行组织，并由该集合所需的所有**技能**组成。",
-        "例如：业务专家+ Web开发人员+ Java开发人员+架构师+ DBA +运营。",
-        "**职责**是**集体**，特征团队有责任履行这项责任。"
       ]
     }
   }

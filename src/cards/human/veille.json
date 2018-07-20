@@ -15,58 +15,14 @@
       ]
     },
     "en": {
-      "title": "WATCH",
-      "abstract": [
-        "The organization must be a **watch apparatus** ",
-        "Watch is part of the job."
-      ],
-      "details": [
-        "The organization must be a **watch** apparatus by setting up plans like **continuous learning** or **corporate universities**.",
-        "Feel free to combine them with more **informal** ways such as: **Coding Dojos**, **Brown Bag Lunches**, **External** Conferences."
-      ]
-    },
-    "de": {
       "title": "EVE",
       "abstract": [
-        "Die Organisation muss eine **Schlafmaschine sein** ",
-        "Der Tag davor ist Teil des Jobs."
+        "The organization must be a ** sleep engine **",
+        "The day before is part of the job."
       ],
       "details": [
-        "Die Organisation muss eine **Tagespflege** -Maschine sein, indem sie Systeme wie **Weiterbildung** oder **Business-Universitäten** einrichtet.",
-        "Fühlen Sie sich frei, sie mit anderen **informellen** Möglichkeiten zu kombinieren, wie: **Coding Dojos**, **Brown Bag Lunchs**, **externe** Konferenzen."
-      ]
-    },
-    "es": {
-      "title": "EVE",
-      "abstract": [
-        "La organización debe ser un **motor de sueño** ",
-        "El día anterior es parte del trabajo."
-      ],
-      "details": [
-        "La organización debe ser un motor **de cuidado diurno** mediante el establecimiento de sistemas como **educación continua** o **universidades empresariales**.",
-        "Siéntase libre de combinarlos con otras formas **más informales como:** Codificación de Dojos **,** Almuerzos de Brown Bag **,** Conferencias ** Externas."
-      ]
-    },
-    "ru": {
-      "title": "ЕВА",
-      "abstract": [
-        "Организация должна быть ** двигателем сна **",
-        "Накануне это часть работы."
-      ],
-      "details": [
-        "Организация должна быть ** дневным движком **, создавая такие системы, как ** непрерывное образование ** или ** бизнес-университеты **.",
-        "Не стесняйтесь сочетать их с другими более неформальными ** способами, такими как: ** Кодирование Dojos **, ** Кофейные обеды **, ** Внешние ** Конференции."
-      ]
-    },
-    "ja": {
-      "title": "EVE",
-      "abstract": [
-        "組織は**スリープエンジンでなければなりません**",
-        "前日は仕事の一部です。"
-      ],
-      "details": [
-        "組織は**継続教育**または**ビジネス大学**のようなシステムをセットアップすることによって**デイケア**エンジンでなければなりません。",
-        "**コーディングDojos **、** Brown Bag Lunchs **、** External ** Conferencesなどの他のより多くの**非公式な**方法と自由に組み合わせてください。"
+        "The organization must be a ** day-care ** engine by setting up systems such as ** continuing education ** or ** business universities **.",
+        "Feel free to combine them with other more ** informal ** ways such as: ** Coding Dojos **, ** Brown Bag Lunchs **, ** External ** Conferences."
       ]
     },
     "ar": {
@@ -78,17 +34,6 @@
       "details": [
         "يجب أن تكون المؤسسة محرّكًا للعناية اليومية ** ** من خلال إنشاء أنظمة مثل ** التعليم المستمر ** أو ** جامعات الأعمال **.",
         "لا تتردد في الجمع بينها وبين الطرق الأخرى ** غير الرسمية ** مثل: ** Coding Dojos **، ** Brown Bag Lunchs **، ** External ** Conferences."
-      ]
-    },
-    "zh-CN": {
-      "title": "EVE",
-      "abstract": [
-        "该组织必须是**睡眠引擎**",
-        "前一天是工作的一部分。"
-      ],
-      "details": [
-        "该组织必须通过建立诸如**继续教育**或**商业大学**的系统来成为**日托**引擎。",
-        "随意将它们与其他更多**非正式**方式结合使用，例如：**编码Dojos **，**棕色袋子午餐**，**外部**会议。"
       ]
     }
   }

@@ -17,56 +17,12 @@
     "en": {
       "title": "PERCEPTION",
       "abstract": [
-        "The **experience perceived** by the user is fundamental.",
-        "**Ergonomics** is not negotiable."
+        "The ** experience perceived ** by the user is fundamental.",
+        "** ergonomics ** is not negotiable."
       ],
       "details": [
-        "Do not neglect the work of **UX designers**, it is fundamental in the development of an application.",
-        "Integrate the **feedback** of your users, it is essential."
-      ]
-    },
-    "de": {
-      "title": "WAHRNEHMUNG",
-      "abstract": [
-        "Das vom Benutzer wahrgenommene ** Erlebnis ist grundlegend.",
-        " **Ergonomie** ist nicht verhandelbar."
-      ],
-      "details": [
-        "Vernachlässige nicht die Arbeit von **UX Designern** , es ist grundlegend in der Entwicklung einer Anwendung.",
-        "Integrieren Sie das **Feedback** Ihrer Benutzer, dieses ist wichtig."
-      ]
-    },
-    "es": {
-      "title": "PERCEPCIÓN",
-      "abstract": [
-        "La **experiencia percibida** por el usuario es fundamental.",
-        " **ergonomía** no es negociable."
-      ],
-      "details": [
-        "No descuides el trabajo de los **diseñadores de UX** , es fundamental en el desarrollo de una aplicación.",
-        "Integre el **feedback** de sus usuarios, este es esencial."
-      ]
-    },
-    "ru": {
-      "title": "ВОСПРИЯТИЕ",
-      "abstract": [
-        "** Опыт, воспринимаемый пользователем, является основополагающим.",
-        "** эргономика ** не подлежит обсуждению."
-      ],
-      "details": [
-        "Не пренебрегайте работой ** дизайнеров UX **, это имеет фундаментальное значение при разработке приложения.",
-        "Интеграция ** отзывов ** ваших пользователей, это важно."
-      ]
-    },
-    "ja": {
-      "title": "知覚",
-      "abstract": [
-        "**ユーザが感じる**経験は基本的なものです。",
-        "**人間工学**は交渉可能ではありません。"
-      ],
-      "details": [
-        "** UXデザイナーの仕事を怠ってはいけません**、それはアプリケーション開発の基本です。",
-        "あなたのユーザーの**フィードバック**を統合しなさい、これは本質的です。"
+        "Do not neglect the work of ** UX designers **, it is fundamental in the development of an application.",
+        "Integrate the ** feedback ** of your users, this one is essential."
       ]
     },
     "ar": {
@@ -78,17 +34,6 @@
       "details": [
         "لا تهمل عمل ** المصممين UX ** ، إنه أمر أساسي في تطوير التطبيق.",
         "دمج ** ردود الفعل ** من المستخدمين ، وهذا واحد ضروري."
-      ]
-    },
-    "zh-CN": {
-      "title": "知觉",
-      "abstract": [
-        "用户觉得的**体验是根本。",
-        "**人体工程学**不可议付。"
-      ],
-      "details": [
-        "不要忽视** UX设计师的工作**，这是开发应用程序的基础。",
-        "整合用户的**反馈**，这是必不可少的。"
       ]
     }
   }

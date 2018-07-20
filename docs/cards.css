@@ -166,29 +166,6 @@ body .header {
   vertical-align: baseline;
 }
 
-.maifLogo {
-  display: flex;
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 0;
-  align-items: center;
-}
-
-.maifLogo .logo {
-  display: block;
-  width: 40px;
-  height: 40px;
-  background-color: white;
-}
-
-.maifLogo .logoGithub {
-  display: block;
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
-
 .toggleMenu .menu-input {
   display: block;
   width: 40px;
@@ -586,23 +563,9 @@ body .header {
   border-radius: 30px;
 }
 
-.maifLogo a[rel=license] {
-  /* margin-top: 10px; */
-  margin-right: 10px;
-}
+
 
 @media screen and (max-width: 640px) {
-  .maifLogo {
-    flex-direction: column-reverse;
-  }
-  .maifLogo a[rel=license] {
-    margin-top: 5px;
-    margin-right: inherit;
-  }
-  .maifLogo .logoGithub {
-    margin-right: inherit;
-    margin-top: 5px;
-  }
   .container-footer {
     margin-top: 150px;
   }

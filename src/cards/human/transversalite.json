@@ -6,67 +6,23 @@
     "fr": {
       "title": "TRANSVERSALITÉ",
       "abstract": [
-        "Les Feature Teams sont amenées à **communiquer** et à partager leurs **expériences** et **compétences**."
+        "Les Equipes produit sont amenées à **communiquer** et à partager leurs **expériences** et **compétences**."
       ],
       "details": [
-        "Ne créez pas de barrières entre les **Feature Teams**.",
-        "Mettez en place une **organisation** et l’ **agilité** nécessaire afin que les Feature Teams communiquent entre elles et partagent leurs compétences et expériences.",
+        "Ne créez pas de barrières entre les **Equipes produit**.",
+        "Mettez en place une **organisation** et l’ **agilité** nécessaire afin que les Equipes produit communiquent entre elles et partagent leurs compétences et expériences.",
         "L'organisation de la transversalité chez **Spotify** (Tribus, Chapters et Guildes) est un **exemple éloquent**."
       ]
     },
     "en": {
       "title": "TRANSVERSALITY",
       "abstract": [
-        "Feature Teams are expected to **communicate** and share their **experience** and **skills**."
+        "Feature Teams are expected to ** communicate ** and share their ** experience ** and ** skills **."
       ],
       "details": [
-        "Do not create barriers between **Feature Teams**.",
-        "Set up an **organization** and the required **agility** for Feature Teams to communicate with each other and share their skills and experiences.",
-        "The organization of transversality at **Spotify** (Tribes, Chapters and Guilds) is an **eloquent example**."
-      ]
-    },
-    "de": {
-      "title": "Transversalitätsbedingung",
-      "abstract": [
-        "Von den Feature Teams wird erwartet, dass sie **kommunizieren** und ihre **Erfahrung** und **Fähigkeiten** teilen."
-      ],
-      "details": [
-        "Schaffe keine Barrieren zwischen **Feature Teams**.",
-        "Richten Sie eine **Organisation** und die **Agilität** ein, die für Feature-Teams erforderlich ist, um miteinander zu kommunizieren und ihre Fähigkeiten und Erfahrungen zu teilen.",
-        "Die Organisation der Transversalität in **Spotify** (Stämme, Kapitel und Gilden) ist ein beredtes Beispiel."
-      ]
-    },
-    "es": {
-      "title": "TRANSVERSALIDAD",
-      "abstract": [
-        "Se espera que los equipos especiales **se comuniquen** y compartan sus **experiencias** y **habilidades**."
-      ],
-      "details": [
-        "No cree barreras entre **Equipos destacados**.",
-        "Configure una **organización** y la **agilidad** necesaria para que los equipos de características se comuniquen entre sí y compartan sus habilidades y experiencias.",
-        "La organización de la transversalidad en **Spotify** (Tribus, Capítulos y Gremios) es un ** ejemplo elocuente."
-      ]
-    },
-    "ru": {
-      "title": "Трансверсальности",
-      "abstract": [
-        "Ожидается, что группы функций ** будут общаться ** и поделиться своим ** опытом ** и ** навыками **."
-      ],
-      "details": [
-        "Не создавайте препятствий между ** Feature Groups **.",
-        "Настройте ** организацию ** и ** ловкость **, необходимую для функциональных групп, чтобы общаться друг с другом и делиться своими навыками и опытом.",
-        "Организация трансверсальности в ** Spotify ** (Tribes, Chapters and Guilds) является красноречивым примером."
-      ]
-    },
-    "ja": {
-      "title": "横断",
-      "abstract": [
-        "フィーチャーチームは**コミュニケーション**を期待し、**経験**と**スキル**を共有することが期待されます。"
-      ],
-      "details": [
-        "** Feature Teams **の間に障壁を作りません。",
-        "フィーチャーチームが互いにコミュニケーションを取り、スキルと経験を共有するために必要な**組織**と**アジリティ**を設定します。",
-        "** Spotify **（部族、章および組合）における横断の組織は、雄弁な例です**。"
+        "Do not create barriers between ** Feature Teams **.",
+        "Set up an ** organization ** and the ** agility ** needed for Feature Teams to communicate with each other and share their skills and experiences.",
+        "The organization of transversality at ** Spotify ** (Tribes, Chapters and Guilds) is an eloquent ** example."
       ]
     },
     "ar": {
@@ -78,17 +34,6 @@
         "لا تقم بإنشاء حواجز بين ** Feature Teams **.",
         "قم بإعداد ** مؤسسة ** و ** خفة الحركة ** اللازمة للفرق المميزة للتواصل مع بعضها البعض ومشاركة مهاراتهم وخبراتهم.",
         "تنظيم التبادلية في ** Spotify ** (القبائل ، الفصول والنقابات) هو مثال بليغ **."
-      ]
-    },
-    "zh-CN": {
-      "title": "横截",
-      "abstract": [
-        "功能团队希望**交流**并分享他们的**经验**和**技能**。"
-      ],
-      "details": [
-        "不要在** Feature Teams **之间创建障碍。",
-        "设立一个**组织**和功能团队需要的**敏捷性**以相互沟通并分享他们的技能和经验。",
-        "** Spotify **（部落，章节和公会）的横向组织是一个雄辩的例子。"
       ]
     }
   }

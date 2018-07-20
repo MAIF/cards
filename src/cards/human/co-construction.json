@@ -17,56 +17,12 @@
     "en": {
       "title": "CO-CONSTRUCTION",
       "abstract": [
-        "Break barriers between jobs, bet on objectives **convergence**."
+        "Break the barriers between trades, bet on the ** convergence ** goals."
       ],
       "details": [
-        "To break barriers between jobs, it is not enough to group people around a common product in a common place.",
-        "The **Agile Methodologies** can help to remove these barriers and ensure **objectives convergence**.",
-        "These practices are an integral part of the keys to success, the organization is responsible for it."
-      ]
-    },
-    "de": {
-      "title": "CO-KONSTRUKTION",
-      "abstract": [
-        "Brechen Sie die Barrieren zwischen den Trades, wetten Sie auf die **Konvergenz** -Ziele."
-      ],
-      "details": [
-        "Um die Barrieren zwischen den Gewerken zu überwinden, reicht es nicht aus, Menschen an einem gemeinsamen Ort um ein gemeinsames Produkt herum zu gruppieren.",
-        "Die **Agile Approaches** beseitigen diese Hindernisse, um eine Konvergenz der Ziele zu gewährleisten **.",
-        "Diese Praktiken sind ein wesentlicher Bestandteil der Schlüssel zum Erfolg, die Organisation ist der Garant."
-      ]
-    },
-    "es": {
-      "title": "CO-CONSTRUCCIÓN",
-      "abstract": [
-        "Rompe las barreras entre los intercambios, apuesta por los objetivos de **convergencia**."
-      ],
-      "details": [
-        "Para romper las barreras entre los intercambios, no es suficiente agrupar a las personas en torno a un producto común en un lugar común.",
-        "Los **Enfoques ágiles** eliminan estas barreras para asegurar **la convergencia de objetivos**.",
-        "Estas prácticas son una parte integral de las claves del éxito, la organización es el garante."
-      ]
-    },
-    "ru": {
-      "title": "СО-КОНСТРУКЦИЯ",
-      "abstract": [
-        "Преодолейте барьеры между сделками, сделайте ставку на цели ** конвергенции **."
-      ],
-      "details": [
-        "Чтобы преодолеть барьеры между сделками, недостаточно объединить людей вокруг общего продукта в общем месте.",
-        "** Гибкие подходы ** устраняют эти барьеры, чтобы обеспечить ** сближение целей **.",
-        "Эти методы являются неотъемлемой частью ключей к успеху, организация является гарантом."
-      ]
-    },
-    "ja": {
-      "title": "CO-CONSTRUCTION",
-      "abstract": [
-        "**コンバージェンス**の目標に賭けて、取引の間の障壁を取り除く。"
-      ],
-      "details": [
-        "トレード間の障壁を解消するために、一般的な製品を共通の場所でグループ化するだけでは不十分です。",
-        "**アジャイルアプローチ**は、目的のコンバージェンスを確実にするためにこれらの障壁を排除します**。",
-        "これらのプラクティスは成功への鍵の不可欠な部分です。組織は保証人です。"
+        "To break the barriers between trades, it is not enough to group people around a common product in a common place.",
+        "The ** Agile Approaches ** remove these barriers to ensure ** convergence of objectives **.",
+        "These practices are an integral part of the keys to success, the organization is the guarantor."
       ]
     },
     "ar": {
@@ -78,17 +34,6 @@
         "لكسر الحواجز بين الحرفين ، لا يكفي تجميع الناس حول منتج مشترك في مكان عام.",
         "تزيل ** المقارنات الرشيقة ** هذه الحواجز لضمان تقارب الأهداف **.",
         "هذه الممارسات هي جزء لا يتجزأ من مفاتيح النجاح ، والمؤسسة هي الضامن."
-      ]
-    },
-    "zh-CN": {
-      "title": "共建",
-      "abstract": [
-        "打破交易之间的障碍，押注**收敛**目标。"
-      ],
-      "details": [
-        "为了打破行业之间的障碍，仅仅在一个共同的地方将人们围绕共同的产品进行分组是不够的。",
-        "**敏捷方法**消除这些障碍，确保**目标的一致**。",
-        "这些做法是成功的关键的组成部分，该组织是保证人。"
       ]
     }
   }

@@ -18,61 +18,13 @@
     "en": {
       "title": "OPEN SOURCE",
       "abstract": [
-        "**Opt for Open Source**.",
-        "Alternative choices must be explained."
+        "** Make the most of Open Source **.",
+        "Alternative choices must be supported."
       ],
       "details": [
-        "**Proprietary solutions** are a **risk** for the organization which must be able to take over maintenance if needed.",
-        "Few are the proprietary tools that do not have **open source alternatives**.",
-        "The organization **benefits** from the **Open Source Community** and can **pay it back with its contributions**."
-      ]
-    },
-    "de": {
-      "title": "OPEN SOURCE",
-      "abstract": [
-        " **Machen Sie das Beste aus Open Source**.",
-        "Alternative Auswahlmöglichkeiten müssen unterstützt werden."
-      ],
-      "details": [
-        "Die **proprietären Lösungen** sind ein **Risiko** für die Organisation, die in der Lage sein muss, die Wartung bei Bedarf fortzusetzen.",
-        "Es gibt wenige proprietäre Tools, die keine **Open-Source-Alternativen** haben.",
-        "Die Organisation **profitiert** von der **Open Source Community** und kann **ihre Beiträge zurückzahlen**."
-      ]
-    },
-    "es": {
-      "title": "FUENTE ABIERTA",
-      "abstract": [
-        " **Aproveche al máximo el código abierto**.",
-        "Las opciones alternativas deben ser compatibles."
-      ],
-      "details": [
-        "Las **soluciones propietarias** son un **riesgo** para la organización que debe poder reanudar el mantenimiento si es necesario.",
-        "Hay pocas herramientas propietarias que no tienen **alternativas de código abierto**.",
-        "La organización **se beneficia** de **la Comunidad de Código Abierto** y puede **devolver sus contribuciones**."
-      ]
-    },
-    "ru": {
-      "title": "ОТКРЫТЫЙ ИСХОДНЫЙ КОД",
-      "abstract": [
-        "** Максимально используйте Open Source **.",
-        "Альтернативные варианты должны поддерживаться."
-      ],
-      "details": [
-        "** Запатентованные решения ** являются ** риском ** для организации, которая должна иметь возможность возобновить обслуживание, если это необходимо.",
-        "Существует несколько проприетарных инструментов, которые не имеют ** альтернатив с открытым исходным кодом **.",
-        "Организация ** извлекает выгоду ** из ** Сообщества с открытым исходным кодом ** и может ** выплатить свои взносы **."
-      ]
-    },
-    "ja": {
-      "title": "オープンソース",
-      "abstract": [
-        "**オープンソースを最大限に活用**。",
-        "代わりの選択肢をサポートする必要があります。"
-      ],
-      "details": [
-        "**プロプライエタリなソリューション**は、必要に応じてメンテナンスを再開できる必要がある組織の**リスク**です。",
-        "**オープンソースの代替手段を持たないプロプライエタリなツールはほとんどありません**。",
-        "組織**は**オープンソースコミュニティー**のメリット**を提供し、**は貢献することができます**。"
+        "The ** proprietary solutions ** are a ** risk ** for the organization that must be able to resume maintenance if needed.",
+        "There are few proprietary tools that do not have ** open source alternatives **.",
+        "The organization ** benefits ** from the ** Open Source Community ** and can ** pay back its contributions **."
       ]
     },
     "ar": {
@@ -85,18 +37,6 @@
         "تمثل ** الحلول الخاصة ** ** ** للمؤسسات التي يجب أن تكون قادرة على استئناف الصيانة إذا لزم الأمر.",
         "هناك عدد قليل من أدوات الملكية التي لا تحتوي على ** بدائل مفتوحة المصدر **.",
         "تستفيد المنظمة ** من ** مجتمع المصدر المفتوح ** ويمكن ** تسديد مساهماتها **."
-      ]
-    },
-    "zh-CN": {
-      "title": "开放源代码",
-      "abstract": [
-        "**充分利用开源**。",
-        "替代选择必须得到支持。"
-      ],
-      "details": [
-        "**专有解决方案**对于组织来说是**风险**，必要时必须能够恢复维护。",
-        "很少有专有工具没有**开源替代品**。",
-        "该组织**从**开源社区获益**，并可以**偿还其捐款**。"
       ]
     }
   }

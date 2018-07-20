@@ -64,14 +64,14 @@ function touch(path, content) {
 
 function createIndex(language, category, card) {
 	const lang = language.lang;
-	const template = basePage(language, "#OSSbyMAIF - The Rules", `
+	const template = basePage(language, "The Rules", `
 	<div class="hide">
 		${allCards.map(card => createCardFragment(language, card, true)).join('\n')}
 	</div>
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
-  			<h1 id="theTitle" style="cursor:pointer;"> #OSSbyMAIF - The Rules </h1>
+  			<h1 id="theTitle" style="cursor:pointer;"> The Rules </h1>
   		</div>
   	</div>
   </div>
@@ -84,11 +84,6 @@ function createIndex(language, category, card) {
 		$(function() {
 			var done = false;
 			function onclickrandom() {
-				if (window.ga && !done) {
-					ga('create', 'UA-112498312-1', 'auto');
-					done = true;
-				}
-				if (window.ga) window.ga('send', 'event', 'click', 'random-card');
 				var len = $('.complete-card').length;
 				var random = Math.floor( Math.random() * len ) + 1;
 				var html = $("<div />").append($('.complete-card').eq(random).clone()).html();
@@ -119,7 +114,7 @@ function createIndex(language, category, card) {
 function createAllCardsPage(language) {
 	const lang = language.lang;
 	const cards = allCards.map(card => createCardFragment(language, card));
-	const template = basePage(language, `#OSSbyMAIF - ${language.menu.allCards}`, `
+	const template = basePage(language, `${language.menu.allCards}`, `
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
@@ -137,7 +132,7 @@ function createAllCardsPage(language) {
 function createCategoryIndexPage(language, category) {
 	const lang = language.lang;
 	const cards = categories[category].map(card => createCardFragment(language, card));
-	const template = basePage(language, titleOf(lang, category) + ' - #OSSbyMAIF', `
+	const template = basePage(language, titleOf(lang, category), `
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
@@ -205,7 +200,7 @@ function createCardFragment(language, card, rotate = false) {
 
 function createCardPage(language, card) {
 	const lang = language.lang;
-	const template = basePage(language, card.lang[lang].title + ' - #OSSbyMAIF' , `
+	const template = basePage(language, card.lang[lang].title , `
   <div class="container-fluid">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
@@ -228,11 +223,9 @@ function basePage(language, title, content, search = true, reload = false) {
 			<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
 			<title>${title}</title>
 			<meta name="description" content="${title}" />
-			<meta property="og:url" content="https://maif.github.io/cards/" />
 			<meta property="og:type" content="article" />
 			<meta property="og:title" content="${title}" />
 			<meta property="og:description" content="${title}" />
-			<meta property="og:image" content="https://maif.github.io/cards/images/maif-black.png" />
 			<link rel="shortcut icon" type="image/padding-left" href="/cards/images/icon.png">
 			<link rel="apple-touch-icon" href="/cards/images/icon.png">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -244,18 +237,6 @@ function basePage(language, title, content, search = true, reload = false) {
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 			<script src="https://hammerjs.github.io/dist/hammer.js"></script>
 			<link rel="stylesheet" href="/cards/cards.css">
-      <script type="text/javascript" src="/cards/js/tarteaucitron/tarteaucitron.js"></script>
-      <script type="text/javascript">
-				tarteaucitron.init({
-					"hashtag": "#tarteaucitron", /* Ouverture automatique du panel avec le hashtag */
-					"highPrivacy": false, /* désactiver le consentement implicite (en naviguant) ? */
-					"orientation": "bottom", /* le bandeau doit être en haut (top) ou en bas (bottom) ? */
-					"adblocker": false, /* Afficher un message si un adblocker est détecté */
-					"showAlertSmall": false, /* afficher le petit bandeau en bas à droite ? */
-					"cookieslist": true, /* Afficher la liste des cookies installés ? */
-					"removeCredit": false /* supprimer le lien vers la source ? */
-				});
-      </script>
 		</head>
 		<body>
 			<nav>
@@ -274,29 +255,11 @@ function basePage(language, title, content, search = true, reload = false) {
 						${langs.map(l => `<li><img width="16" height="16" src="${l.icon}"/><a href="/cards/${l.lang}/index.html">${l.lang.toUpperCase()}</a></li>`).join('\n')}
 					</ul>
 				</div>
-				<div class="maifLogo">
-					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-						<img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
-					</a>
-					<a href="https://github.com/MAIF/cards">
-						<img class="logoGithub" alt="MAIF cards" src="/cards/images/GitHub-Mark-Light-64px.png" />
-					</a>
-					<a href="https://maif.github.io">
-						<img class="logo" alt="MAIF OSS" src="/cards/images/maif-black.png" />
-					</a>
-				</div>
 			</nav>
 			${reload ? `<span id="random-click" type="button" data-toggle="tooltip-random" title="" data-original-title="${language.tooltips.newCard}" data-placement="right"><i class="fas fa-sync fa-2x"></i></span>` : ''}
 			${!reload ? `<a id="home-click" href="/cards/${lang}/" title="home"><i class="fas fa-home fa-2x"></i></a>` : ''}
       <a href="#" data-toggle="tooltip" title="" data-original-title="${language.tooltips.help}" data-placement="right" id="info-click"><i class="fas fa-question fa-2x"></i></a>
 			${content}
-			<div class="container-fluid container-footer">
-				<div class="row">
-					<div class="footer">
-						<img src="/cards/images/header-home.svg" alt="décoration du bas de page">
-					</div>
-				</div>
-			</div>
 			<script>
 				$(function() {
 					$('.card-search').on('keyup', function(e) {
@@ -324,12 +287,7 @@ function basePage(language, title, content, search = true, reload = false) {
 					$('[data-toggle="tooltip"]').tooltip();
 					$('[data-toggle="tooltip-random"]').tooltip();
 				});
-      </script>
-      <script type="text/javascript">
-				tarteaucitron.user.analyticsUa = 'UA-112498312-1';
-				tarteaucitron.user.analyticsMore = function () {};
-				(tarteaucitron.job = tarteaucitron.job || []).push('analytics');
-			</script>
+      		</script>
 		</body>
 	</html>
 	`;
@@ -345,7 +303,7 @@ function generateRootIndex() {
 			  var langs = ${JSON.stringify(langs.map(l => l.lang))};
 				var userLang = (navigator.language || navigator.userLanguage).split('-')[0];
 				var lang = langs.filter(l => l === userLang)[0] || "fr";
-				window.location = "/cards/" + lang + "/index.html";
+				window.location = "/cards/" + lang + "/all.html";
 			</script>
 		</body>
 	</html>`;
@@ -356,7 +314,6 @@ function generateDistribution(language) {
 	try {
 		mkdirs(language.lang);
 		fs.copySync('./src/images', target + '/images');
-		fs.copySync('./src/js/tarteaucitron', target + '/js/tarteaucitron');
 		fs.copySync('./src/cards.css', target + '/cards.css');
 		createIndex(language);
 		createAllCardsPage(language);

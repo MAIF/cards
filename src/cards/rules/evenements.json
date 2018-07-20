@@ -16,51 +16,11 @@
     "en": {
       "title": "EVENTS",
       "abstract": [
-        "The information system must be **event-driven**."
+        "The information system must be oriented ** events **."
       ],
       "details": [
-        "The **event-driven** functional **processes** are **naturally** implemented in an **asynchronous** manner.",
-        "Being **event-driven** allows for approaches such as **C**ommand **Q**uery **R**esponsibility **S**egregation (**CQRS**) and **Event Sourcing**."
-      ]
-    },
-    "de": {
-      "title": "EVENTS",
-      "abstract": [
-        "Das Informationssystem muss **Ereignisse** orientiert sein."
-      ],
-      "details": [
-        "Die **** ereignisgesteuerten **funktionalen** Prozesse **sind** natürlich **** asynchron ** implementiert.",
-        "Die **Event Orientation** ermöglicht die Implementierung von Ansätzen wie **C** ommand **Q** sehr **R** Verantwortlichkeit **S** egregation (**CQRS**) und **Event Sourcing**."
-      ]
-    },
-    "es": {
-      "title": "EVENTOS",
-      "abstract": [
-        "El sistema de información debe estar orientado **eventos**."
-      ],
-      "details": [
-        "Los procesos ****  **de** procesos impulsados ​​por eventos **están** naturalmente **implementados de forma asincrónica**.",
-        "La **orientación del evento** permite favorecer la implementación de enfoques tales como **C** ommand **Q** uery **R** sponsibility **S** egregation (**CQRS**) y **Event Sourcing**."
-      ]
-    },
-    "ru": {
-      "title": "СОБЫТИЯ",
-      "abstract": [
-        "Информационная система должна быть ориентирована на ** события **."
-      ],
-      "details": [
-        "** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **",
-        "Ориентация ** ** позволяет поддерживать реализацию таких подходов, как ** C ** ommand ** Q ** uery ** R ** Ответственность ** S ** egregation (** CQRS ** ) и ** Event Sourcing **."
-      ]
-    },
-    "ja": {
-      "title": "EVENTS",
-      "abstract": [
-        "情報システムは、**イベント**を指向していなければなりません。"
-      ],
-      "details": [
-        "** **イベント駆動型**機能**プロセス**は**自然に** **非同期に**実装されています。",
-        "**イベントオリエンテーション**は、** C **と** Q ** uery ** R **の可能性** S ** egregation（** CQRS ** ）と** Event Sourcing **です。"
+        "The ** ** event-driven ** functional ** processes ** are ** naturally ** ** asynchronously ** implemented.",
+        "The ** event orientation ** allows to favor the implementation of approaches such as ** C ** ommand ** Q ** uery ** R ** esponsibility ** S ** egregation (** CQRS ** ) and ** Event Sourcing **."
       ]
     },
     "ar": {
@@ -71,16 +31,6 @@
       "details": [
         "** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **",
         "يسمح ** توجيه الحدث ** بتفضيل تنفيذ طرق مثل ** C ** ommand ** Q ** uery ** R ** esponsibility ** S ** egregation (** CQRS ** ) و ** Event Sourcing **."
-      ]
-    },
-    "zh-CN": {
-      "title": "活动",
-      "abstract": [
-        "信息系统必须面向**事件**。"
-      ],
-      "details": [
-        "** **事件驱动**功能**过程** **自然** **异步**实现。",
-        "**事件定向**允许有助于实施诸如** C ** ommand ** Q ** uery ** R **责任** ** S ** egregation（** CQRS ** ）和**事件采购**。"
       ]
     }
   }

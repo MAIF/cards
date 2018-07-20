@@ -12,67 +12,19 @@
       "details": [
         "Pensez les métriques lors du **développement** de l'application. Les **logs** doivent avoir une dimension **métier autant que technique**.",
         "Ne négligez pas les **métriques de performances**, elles  sont fondamentales.",
-        "La Feature Team assure l'**exploitation** : charge à elle de rendre l'**application exploitable**."
+        "L'équipe produit assure l'**exploitation** : charge à elle de rendre l'**application exploitable**."
       ]
     },
     "en": {
-      "title": "MEASURING EVERYTHING",
+      "title": "ALL MEASURING",
       "abstract": [
         "Everything that can be measured must be.",
-        "**Without measure, everything is only opinion**."
+        "** Without measure, everything is only opinion **."
       ],
       "details": [
-        "Think of the metrics during the **development** of the application. **Logs** must have a **business as well as technical** dimension.",
-        "Do not neglect **performance metrics**, they are fundamental.",
-        "The Feature Team ensures **operation**: it is responsible for making the **application operable**."
-      ]
-    },
-    "de": {
-      "title": "ALLE MESSUNGEN",
-      "abstract": [
-        "Alles was gemessen werden kann muss sein.",
-        " **Ohne Maß, alles ist nur Meinung**."
-      ],
-      "details": [
-        "Denken Sie an die Metriken während der **Entwicklung** der Anwendung. **Logs** müssen sowohl eine geschäftliche als auch eine technische ** Dimension aufweisen.",
-        "Vernachlässige nicht die **Leistungsmetriken** , sie sind fundamental.",
-        "Das Feature-Team stellt **Operation** zur Verfügung: Es ist dafür verantwortlich, **die** Anwendung nutzbar zu machen **."
-      ]
-    },
-    "es": {
-      "title": "TODA LA MEDIDA",
-      "abstract": [
-        "Todo lo que se puede medir debe ser.",
-        " **Sin medida, todo es solo opinión**."
-      ],
-      "details": [
-        "Piense en las métricas durante el **desarrollo** de la aplicación. **logs** debe tener una dimensión **comercial así como técnica**.",
-        "No descuides las **métricas de rendimiento** , son fundamentales.",
-        "El equipo de características proporciona **operación** : es responsable de hacer **la aplicación utilizable**."
-      ]
-    },
-    "ru": {
-      "title": "ВСЕ ИЗМЕРЕНИЕ",
-      "abstract": [
-        "Все, что можно измерить, должно быть.",
-        "** Без меры все это только мнение **."
-      ],
-      "details": [
-        "Подумайте о показателях во время ** разработки ** приложения. ** журналы ** должны иметь ** бизнес, а также технические ** измерения.",
-        "Не пренебрегайте характеристиками ** **, они фундаментальны.",
-        "Функциональная группа обеспечивает ** операцию **: она отвечает за использование ** приложения **."
-      ]
-    },
-    "ja": {
-      "title": "すべての測定",
-      "abstract": [
-        "測定可能なものはすべてなければなりません。",
-        "**措置なしでは、すべてが意見のみです**。"
-      ],
-      "details": [
-        "アプリケーションの**開発中の**メトリックを考えてみてください。 **ログ**には**ビジネスだけでなく、技術的な**ディメンションが必要です。",
-        "**パフォーマンス指標**を無視しないでください。これらは基本的なものです。",
-        "フィーチャーチームは**操作**を提供します：**アプリケーションを**使用可能にする責任があります。"
+        "Think of the metrics during the ** development ** of the application. ** logs ** must have a ** business as well as technical ** dimension.",
+        "Do not neglect the ** performance metrics **, they are fundamental.",
+        "The Feature Team provides ** operation **: it is responsible for making the ** application usable **."
       ]
     },
     "ar": {
@@ -85,18 +37,6 @@
         "فكر في المقاييس أثناء ** تطوير ** التطبيق. ** يجب أن يكون للسجل ** ** بالإضافة إلى البعد التقني **.",
         "لا تهمل مقاييس الأداء ** ، فهي أساسية.",
         "يوفر فريق الميزات ** عملية **: فهو مسؤول عن جعل ** التطبيق قابلاً للاستخدام **."
-      ]
-    },
-    "zh-CN": {
-      "title": "全部测量",
-      "abstract": [
-        "所有可以测量的东西都必须是。",
-        "**没有措施，一切都只是意见**。"
-      ],
-      "details": [
-        "考虑应用程序**开发期间的指标。 **日志**必须具有**业务以及技术**维度。",
-        "不要忽视**性能指标**，它们是根本性的。",
-        "功能团队提供**操作**：它负责使**应用程序可用**。"
       ]
     }
   }
