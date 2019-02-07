@@ -632,30 +632,236 @@ body .header {
 }
 
 @media print {
+  
+  * {
+    -webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
+    color-adjust: exact !important;                 /*Firefox*/
+  }
+
   .card .right, .card .left {
-      transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
   }
 
   a[href]:after {
     content: none !important;
   }
 
-  #tarteaucitronRoot,#info-click, #home-click {
+  #tarteaucitronRoot,#info-click, #home-click, h1, .footer, .title-header {
     display: none;
   }
 
   .maifLogo {
-      flex-direction: column;
+    /*display: none;*/
+    position: fixed;
+    /*right: 195px;
+    margin-top: 5px;
+    left: 50px;*/
+    left: -570px;
+    bottom: 80px;
+    flex-direction: row-reverse;
+    transform: scale(0.5);
+  }
+
+  .logo {
+    background-color: white !important;
+  }
+
+  .logoGithub {
+    width: 0px !important;
+  }
+
+  .covercard-title {
+    padding-top: 253px;
+    color: white !important;
+  }
+
+  .cardfront-top-title, .cardfront-title, .cardback-top-title, .cardback-title {
+    padding-top: 0px;
+    color: white !important;
+  }
+
+  .cardback-top-title, .cardback-title, .cardback-abstract>p, .cardback-abstract>p>strong, .cardback-abstract>strong {
+    color: white !important;
+  }
+
+  .cardfront-time-to-market-golden>.cardfront-abstract-golden strong, .cardfront-time-to-market-normal>.cardfront-abstract-normal strong {
+    color: rgb(0, 135, 145) !important;
+  }
+
+  .cardfront-user-experience-golden>.cardfront-abstract-golden strong, .cardfront-user-experience-normal>.cardfront-abstract-normal strong {
+    color: rgb(205, 128, 180) !important;
+  }
+  
+  .cardfront-human-golden>.cardfront-abstract-golden strong, .cardfront-human-normal>.cardfront-abstract-normal strong {
+    color: rgb(135, 157, 13) !important;
+  }
+  
+  .cardfront-interoperability-golden>.cardfront-abstract-golden strong, .cardfront-interoperability-normal>.cardfront-abstract-normal strong {
+    color: rgb(225, 136, 0) !important;
+  }
+  
+  .cardfront-rules-golden>.cardfront-abstract-golden strong, .cardfront-rules-normal>.cardfront-abstract-normal strong {
+    color: rgb(158, 179, 176) !important;
   }
 
   .cardfront-user-experience-normal,.cardback-user-experience-normal,.covercard-time-to-market,.cardfront-time-to-market-normal,.cardfront-user-experience-normal,.cardfront-human-normal,.cardfront-interoperability-normal,
   .cardfront-rules-normal,.cardfront-time-to-market-golden ,.cardfront-user-experience-golden,.cardfront-human-golden ,.cardfront-interoperability-golden,
   .cardfront-rules-golden,.covercard-time-to-market,.covercard-human ,.covercard-interoperability ,.covercard-rules ,.covercard-user-experience ,.cardback-time-to-market-normal,.cardback-user-experience-normal ,.cardback-human-normal ,.cardback-interoperability-normal ,.cardback-rules-normal ,.cardback-time-to-market-golden ,
   .cardback-user-experience-golden ,.cardback-human-golden ,.cardback-interoperability-golden ,.cardback-rules-golden   {
-    border: 1px solid black;
+    border: 1px solid #dedede;
     page-break-after: always;
     page-break-inside: avoid;
     float: none;
+  }
+
+  .cardfront-time-to-market-normal:before {
+    content: url('/cards/images/time-to-market-recto.png');
+    position: absolute;
+    z-index: -1;
+  }
+
+  .cardfront-user-experience-normal:before {
+    content: url('/cards/images/ux-recto.png');
+    position: absolute;
+    z-index: -1;
+  }
+
+  .cardfront-human-normal:before {
+    content: url('/cards/images/human-recto.png');
+    position: absolute;
+    z-index: -1;
+  }
+
+  .cardfront-interoperability-normal:before {
+    content: url('/cards/images/interop-recto.png');
+    position: absolute;
+    z-index: -1;
+  }
+
+  .cardfront-rules-normal:before {
+    content: url('/cards/images/neutre-recto.png');
+    position: absolute;
+    z-index: -1;
+  }
+
+  .cardfront-time-to-market-golden:before {
+    content: url('/cards/images/time-to-market-gold.png');
+    position: absolute;
+    z-index: -1;
+  }
+
+  .cardfront-user-experience-golden:before {
+    content: url('/cards/images/ux-gold.png');
+    position: absolute;
+    z-index: -1;
+  }
+
+  .cardfront-human-golden:before {
+    content: url('/cards/images/human-gold.png');
+    position: absolute;
+    z-index: -1;
+  }
+
+  .cardfront-interoperability-golden:before {
+    content: url('/cards/images/interop-gold.png');
+    position: absolute;
+    z-index: -1;
+  }
+
+  .cardfront-rules-golden:before {
+    content: url('/cards/images/neutre-gold.png');
+    position: absolute;
+    z-index: -1;
+  }
+
+  .cardback-time-to-market-normal:before {
+    content: url('/cards/images/time-to-market-verso.png');
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .cardback-user-experience-normal:before {
+    content: url('/cards/images/ux-verso.png');
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .cardback-human-normal:before {
+    content: url('/cards/images/human-verso.png');
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .cardback-interoperability-normal:before {
+    content: url('/cards/images/interop-verso.png');
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .cardback-rules-normal:before {
+    content: url('/cards/images/neutre-verso.png');
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .cardback-time-to-market-golden:before {
+    content: url('/cards/images/time-to-market-verso.png');
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .cardback-user-experience-golden:before {
+    content: url('/cards/images/ux-verso.png');
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .cardback-human-golden:before {
+    content: url('/cards/images/human-verso.png');
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .cardback-interoperability-golden:before {
+    content: url('/cards/images/interop-verso.png');
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .cardback-rules-golden:before {
+    content: url('/cards/images/neutre-verso.png');
+    position: absolute;
+    z-index: -1;
+  }
+
+  .covercard-time-to-market:before {
+    content: url('/cards/images/time-to-market-cover.png');
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .covercard-human:before {
+    content: url('/cards/images/human-cover.png');
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .covercard-interoperability:before {
+    content: url('/cards/images/interop-cover.png');
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .covercard-rules:before {
+    content: url('/cards/images/neutre-cover.png');
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .covercard-user-experience:before {
+    content: url('/cards/images/ux-cover.png');
+    position: absolute;
+    z-index: -1;
   }
 
   .categ-card {

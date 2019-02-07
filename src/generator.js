@@ -120,7 +120,7 @@ function createAllCardsPage(language) {
 	const lang = language.lang;
 	const cards = allCards.map(card => createCardFragment(language, card));
 	const template = basePage(language, `#OSSbyMAIF - ${language.menu.allCards}`, `
-  <div class="container-fluid">
+  <div class="container-fluid title-header">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
   			<h1> ${language.menu.allCards} </h1>
@@ -138,7 +138,7 @@ function createCategoryIndexPage(language, category) {
 	const lang = language.lang;
 	const cards = categories[category].map(card => createCardFragment(language, card));
 	const template = basePage(language, titleOf(lang, category) + ' - #OSSbyMAIF', `
-  <div class="container-fluid">
+  <div class="container-fluid title-header">
   	<div class="row header">
   		<div class="col-xs-6 col-xs-offset-3 text-center">
   			<h1> ${language.menu.cardsOf} "${titleOf(lang, category)}" </h1>
@@ -267,6 +267,10 @@ function basePage(language, title, content, search = true, reload = false) {
 					<ul class="menu">
 						<li class="li-allCards"><a href="/cards/${lang}/all.html">${language.menu.allCards}</a></li>
 						${Object.keys(categories).map(c => `<li><img width="16" height="16" src="${categoriesIcons[c]}" alt="Catégorie ${titleOf(lang, c).toLowerCase()}"/><a href="/cards/${lang}/${c}/index.html">${titleOf(lang, c).toLowerCase()}</a></li>`).join('\n')}
+						<li>
+							<img width="16" height="16" src="/cards/images/pdf.png" alt="PDF"/>
+							<a href="/cards/pdfs/cards-${lang}.pdf">pdf</a>
+						</li>
 						<li>
 							<input type="text" class="card-search form-control ${search ? '' : 'hide'}" placeholder="${language.menu.search}">
 						</li>
