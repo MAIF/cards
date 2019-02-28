@@ -12,6 +12,7 @@
     "ooops": "node src/oooops.js",
     "pdf": "yarn generator && node src/pdf.js",
     "pdf-gen": "node src/pdf.js",
+    "generate-all": "NO_LINKS=true node src/generator.js && node src/pdf.js && mv ./docs/pdfs ./pdfs && NO_LINKS=false node src/generator.js && mv ./pdfs ./docs/pdfs",
     "prettier": "prettier --write --single-quote --trailing-comma es5 --print-width 100 --tab-width 2 --jsx-bracket-same-line \"*.js\""
   },
   "dependencies": {
