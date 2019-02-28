@@ -638,6 +638,10 @@ body .header {
     color-adjust: exact !important;                 /*Firefox*/
   }
 
+  a {
+    pointer-events: none;
+  }
+
   .card .right, .card .left {
     transform: rotateZ(0deg);
   }
