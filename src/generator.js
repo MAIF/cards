@@ -7,6 +7,8 @@ const converter = new showdown.Converter();
 
 const langs = require('./cards/lang.json');
 
+const noGenerateLinks = (process.env.NO_LINKS || 'false') === 'true';
+
 const categories = {
   'time-to-market': require(`./cards/time-to-market/metadata.json`).cards.map(id => require(`./cards/time-to-market/${id}.json`)),
   'user-experience': require(`./cards/user-experience/metadata.json`).cards.map(id => require(`./cards/user-experience/${id}.json`)),
@@ -157,7 +159,7 @@ function createCardFragment(language, card, rotate = false) {
 	if (card.lang[lang].abstract.length === 0 && card.lang[lang].details.length === 0) {
     // tete de categorie
 		return `
-		<a class="any-card" href="/cards/${lang}/${card.category}/index.html">
+		${noGenerateLinks  ? '' : `<a class="any-card" href="/cards/${lang}/${card.category}/index.html">`}
 			<div class="row categ-card">
 				<div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-4  col-lg-offset-2 categ-left">
 					<div class="covercard covercard-${card.category}">
@@ -170,13 +172,13 @@ function createCardFragment(language, card, rotate = false) {
 					</div>
 				</div>
 			</div>
-		</a>
+		${noGenerateLinks  ? '' : `</a>`}
 		`;
 	}
 	const abstract = converter.makeHtml(card.lang[lang].abstract.join('\n\n'));
 	const details = converter.makeHtml(card.lang[lang].details.join('\n\n'));
 	return `
-	<a class="any-card complete-card container-fluid" href="/cards/${lang}/${card.category}/${card.id}.html" data-content="${(card.lang[lang].title + ' - ' + card.lang[lang].abstract + ' - ' + card.lang[lang].details).toLowerCase()}">
+	${noGenerateLinks  ? '' : `<a class="any-card complete-card container-fluid" href="/cards/${lang}/${card.category}/${card.id}.html" data-content="${(card.lang[lang].title + ' - ' + card.lang[lang].abstract + ' - ' + card.lang[lang].details).toLowerCase()}">`}
 		<div class="row card">
 			<div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1 col-lg-4 col-lg-offset-2 ${rotate ? 'left' : 'categ-left'}">
 				<div class="cardfront cardfront-${card.category}-${card.golden ? 'golden' : 'normal'}">
@@ -199,7 +201,7 @@ function createCardFragment(language, card, rotate = false) {
 				</div>
 			</div>
 		</div>
-	</a>
+	${noGenerateLinks  ? '' : `</a>`}
 	`;
 }
 

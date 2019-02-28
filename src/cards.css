@@ -632,6 +632,13 @@ body .header {
 }
 
 @media print {
+
+  html, body {
+    width: 85mm;
+    height: 115mm;
+    padding: 0;
+    margin: 0;
+  }
   
   * {
     -webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
@@ -660,10 +667,20 @@ body .header {
     /*right: 195px;
     margin-top: 5px;
     left: 50px;*/
-    left: -570px;
-    bottom: 80px;
+    left: -35mm;
+    bottom: -108mm;
     flex-direction: row-reverse;
     transform: scale(0.5);
+  }
+
+  .dddcard {
+    width: 75mm;
+    height: 105mm;
+  }
+
+  .dddcateg-card {
+    width: 75mm;
+    height: 105mm;
   }
 
   .logo {
