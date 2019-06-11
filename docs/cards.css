@@ -179,7 +179,6 @@ body .header {
   display: block;
   width: 40px;
   height: 40px;
-  background-color: white;
 }
 
 .maifLogo .logoGithub {
@@ -639,7 +638,7 @@ body .header {
     padding: 0;
     margin: 0;
   }
-  
+
   * {
     -webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
     color-adjust: exact !important;                 /*Firefox*/
@@ -712,15 +711,15 @@ body .header {
   .cardfront-user-experience-golden>.cardfront-abstract-golden strong, .cardfront-user-experience-normal>.cardfront-abstract-normal strong {
     color: rgb(205, 128, 180) !important;
   }
-  
+
   .cardfront-human-golden>.cardfront-abstract-golden strong, .cardfront-human-normal>.cardfront-abstract-normal strong {
     color: rgb(135, 157, 13) !important;
   }
-  
+
   .cardfront-interoperability-golden>.cardfront-abstract-golden strong, .cardfront-interoperability-normal>.cardfront-abstract-normal strong {
     color: rgb(225, 136, 0) !important;
   }
-  
+
   .cardfront-rules-golden>.cardfront-abstract-golden strong, .cardfront-rules-normal>.cardfront-abstract-normal strong {
     color: rgb(158, 179, 176) !important;
   }
@@ -800,55 +799,55 @@ body .header {
     position: absolute;
     z-index: -1;
   }
-  
+
   .cardback-user-experience-normal:before {
     content: url('/cards/images/ux-verso.png');
     position: absolute;
     z-index: -1;
   }
-  
+
   .cardback-human-normal:before {
     content: url('/cards/images/human-verso.png');
     position: absolute;
     z-index: -1;
   }
-  
+
   .cardback-interoperability-normal:before {
     content: url('/cards/images/interop-verso.png');
     position: absolute;
     z-index: -1;
   }
-  
+
   .cardback-rules-normal:before {
     content: url('/cards/images/neutre-verso.png');
     position: absolute;
     z-index: -1;
   }
-  
+
   .cardback-time-to-market-golden:before {
     content: url('/cards/images/time-to-market-verso.png');
     position: absolute;
     z-index: -1;
   }
-  
+
   .cardback-user-experience-golden:before {
     content: url('/cards/images/ux-verso.png');
     position: absolute;
     z-index: -1;
   }
-  
+
   .cardback-human-golden:before {
     content: url('/cards/images/human-verso.png');
     position: absolute;
     z-index: -1;
   }
-  
+
   .cardback-interoperability-golden:before {
     content: url('/cards/images/interop-verso.png');
     position: absolute;
     z-index: -1;
   }
-  
+
   .cardback-rules-golden:before {
     content: url('/cards/images/neutre-verso.png');
     position: absolute;
@@ -860,25 +859,25 @@ body .header {
     position: absolute;
     z-index: -1;
   }
-  
+
   .covercard-human:before {
     content: url('/cards/images/human-cover.png');
     position: absolute;
     z-index: -1;
   }
-  
+
   .covercard-interoperability:before {
     content: url('/cards/images/interop-cover.png');
     position: absolute;
     z-index: -1;
   }
-  
+
   .covercard-rules:before {
     content: url('/cards/images/neutre-cover.png');
     position: absolute;
     z-index: -1;
   }
-  
+
   .covercard-user-experience:before {
     content: url('/cards/images/ux-cover.png');
     position: absolute;
