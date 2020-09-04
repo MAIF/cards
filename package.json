@@ -23,6 +23,6 @@
     "nodemon": "1.18.9",
     "prettier": "1.11.1",
     "rimraf": "2.6.2",
-    "showdown": "1.8.6"
+    "showdown": "1.9.1"
   }
 }
