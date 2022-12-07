@@ -18,7 +18,7 @@
   "dependencies": {
     "@google-cloud/translate": "1.1.0",
     "chrome-headless-render-pdf": "1.8.0",
-    "express": "4.16.2",
+    "express": "4.17.3",
     "fs-extra": "5.0.0",
     "nodemon": "1.18.9",
     "prettier": "1.11.1",
